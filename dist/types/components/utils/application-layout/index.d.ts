@@ -1,1 +1,0 @@
-export { applicationLayoutService } from './service';

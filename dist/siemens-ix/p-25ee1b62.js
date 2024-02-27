@@ -1,2 +1,0 @@
-class t{hasCategory(){return this.category!==undefined}constructor(t,s){this.token=t;this.category=s}}var s;(function(t){t["EQUAL"]="Equal";t["NOT_EQUAL"]="Not equal"})(s||(s={}));export{t as I,s as L};
-//# sourceMappingURL=p-25ee1b62.js.map

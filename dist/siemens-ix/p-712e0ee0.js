@@ -1,2 +1,0 @@
-function n(t,r){if(!r){return null}return r.closest(t)||n(t,r.getRootNode().host)}function t(n){return n.assignedElements({flatten:true})}function r(n){if(!n){return false}return n.assignedElements({flatten:true}).length!==0}function e(n,t){if(!n){return null}if(n instanceof ShadowRoot){return e(n.host,t)}if(n instanceof HTMLElement){if(n.matches(t)){return n}else{return e(n.parentNode,t)}}return e(n.parentNode,t)}export{e as a,n as c,t as g,r as h};
-//# sourceMappingURL=p-712e0ee0.js.map
