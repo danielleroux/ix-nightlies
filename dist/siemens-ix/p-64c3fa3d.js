@@ -1,0 +1,2 @@
+function n(n){let l=null;let t=new Promise((n=>l=n));let e=null;const o=t=>{e=t;n===null||n===void 0?void 0:n(t);l()};o.current=e;o.waitForCurrent=async()=>{await t;return e};return o}export{n as m};
+//# sourceMappingURL=p-64c3fa3d.js.map

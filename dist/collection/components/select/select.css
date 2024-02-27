@@ -1,0 +1,225 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/* Dimensions */
+/* Font sizes */
+/* Line heights */
+/* Animation timings */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+:host {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  display: inline-block;
+  position: relative;
+  min-height: 2rem;
+  height: auto;
+  border-radius: var(--theme-input--border-radius);
+}
+:host *,
+:host *::after,
+:host *::before {
+  box-sizing: border-box;
+}
+:host ::-webkit-scrollbar-button {
+  display: none;
+}
+:host ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+:host ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-track--background);
+}
+:host ::-webkit-scrollbar-track:hover {
+  background: var(--theme-scrollbar-track--background--hover);
+}
+:host ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-thumb--background);
+}
+:host ::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-scrollbar-thumb--background--hover);
+}
+:host ::-webkit-scrollbar-corner {
+  display: none;
+}
+:host .d-none {
+  display: none;
+}
+:host .select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--theme-input--background);
+  border: var(--theme-input--border-thickness) solid var(--theme-input--border-color);
+  border-radius: var(--theme-input--border-radius);
+  padding: 0 0 0 0.5rem;
+  box-shadow: var(--theme-inset-shadow-1) !important;
+}
+:host .select:not(.disabled):not(:disabled) {
+  cursor: pointer;
+}
+:host .select:not(.disabled):not(:disabled):hover, :host .select:not(.disabled):not(:disabled):hover {
+  background-color: var(--theme-input--background--hover);
+  border-color: var(--theme-input--border-color--hover);
+}
+:host .select:focus-within {
+  background-color: var(--theme-input--background--focus);
+  border-color: var(--theme-input--border-color--focus);
+  outline: 1px solid #119fff;
+  outline-offset: var(--theme-input--focus--outline-offset);
+}
+:host .select.readonly {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0px;
+  border-bottom: var(--theme-input--border-thickness) solid var(--theme-color-weak-bdr);
+}
+:host .select.readonly, :host .select.readonly:hover, :host .select.readonly:active {
+  background-color: transparent !important;
+}
+:host .select.readonly:focus, :host .select.readonly:focus-within, :host .select.readonly:focus-visible {
+  outline: none;
+}
+:host .select.readonly input {
+  color: var(--theme-color-weak-text);
+}
+:host .select.readonly input:focus,
+:host .select.readonly input:focus-visible {
+  outline: none;
+}
+:host .hidden {
+  display: none !important;
+}
+:host .trigger {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+}
+:host .input-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+:host .input-container .chips {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  max-height: 3.5rem;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+:host .input-container .chips > ix-filter-chip {
+  margin: 0.1rem;
+}
+:host .input-container input {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smooting: grayscale;
+  font-family: Siemens Sans, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.429em;
+  color: var(--theme-color-std-text);
+  background: transparent;
+  height: 1.75rem;
+  width: 100%;
+}
+:host .input-container input, :host .input-container input:hover, :host .input-container input:focus-visible {
+  border: none;
+  outline: none;
+}
+:host .input-container input::-moz-placeholder {
+  color: var(--theme-input-select-icon--color);
+}
+:host .input-container input::placeholder {
+  color: var(--theme-input-select-icon--color);
+}
+:host .input-container input.hide-placeholder::-moz-placeholder {
+  opacity: 0;
+}
+:host .input-container input.hide-placeholder::placeholder {
+  opacity: 0;
+}
+:host .dropdown-visible {
+  --ix-icon-button-color: var(--theme-color-dynamic--hover);
+}
+:host .add-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+:host .select-list-header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  color: var(--theme-select-list-item-hint--color);
+  margin: 0 0.5rem 0 1rem;
+}

@@ -1,0 +1,119 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/* Dimensions */
+/* Font sizes */
+/* Line heights */
+/* Animation timings */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+:host {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  display: flex;
+  justify-content: flex-start;
+  height: 2.5rem;
+  align-items: center;
+  background-color: transparent;
+  overflow: hidden;
+}
+:host *,
+:host *::after,
+:host *::before {
+  box-sizing: border-box;
+}
+:host ::-webkit-scrollbar-button {
+  display: none;
+}
+:host ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+:host ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-track--background);
+}
+:host ::-webkit-scrollbar-track:hover {
+  background: var(--theme-scrollbar-track--background--hover);
+}
+:host ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-thumb--background);
+}
+:host ::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-scrollbar-thumb--background--hover);
+}
+:host ::-webkit-scrollbar-corner {
+  display: none;
+}
+:host .previous-button {
+  width: 3rem;
+  min-width: 0px;
+}
+:host .crumb-dropdown {
+  overflow: visible;
+}
+:host .remove-anchor::after {
+  display: none;
+}
+:host .more-text {
+  display: flex;
+}
+:host .more-text .more-text-ellipsis {
+  width: 1rem;
+  display: inline-block;
+  font-weight: 700;
+}
+:host .more-text ix-icon {
+  padding-top: 2px;
+}
+:host nav,
+:host ol,
+:host .crumb-items {
+  display: contents;
+}

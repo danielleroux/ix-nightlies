@@ -1,0 +1,2 @@
+const t=t=>{const e=t/16;return`${e}rem`};const e=t=>{if(isNaN(t)||t===null||t===undefined){return""}let e="";const u=[{unit:"q",value:Math.pow(10,15)},{unit:"t",value:Math.pow(10,12)},{unit:"B",value:Math.pow(10,9)},{unit:"M",value:Math.pow(10,6)},{unit:"K",value:Math.pow(10,3)}];u.some((u=>{let a=Math.abs(t);if(a>=u.value){a/=u.value;t=Math.round(a*10)/10;e=u.unit;return true}return false}));return t+e};export{t as a,e as c};
+//# sourceMappingURL=p-360b158e.js.map

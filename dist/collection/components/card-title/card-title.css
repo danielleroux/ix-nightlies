@@ -1,0 +1,30 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/* Dimensions */
+/* Font sizes */
+/* Line heights */
+/* Animation timings */
+:host {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  width: 100%;
+}
+:host .title-actions {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 0.25rem;
+  margin-left: auto;
+  margin-right: 0px;
+}

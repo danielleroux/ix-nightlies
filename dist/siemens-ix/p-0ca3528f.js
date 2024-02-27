@@ -1,0 +1,2 @@
+import"./p-46a6cd9d.js";import{b as t}from"./p-6e6efb4c.js";async function c(c){const o=document.createElement("ix-application-switch-modal");o.config=c;const i=await t({content:o,size:"840",closeOnBackdropClick:true});const a=i.htmlElement.querySelector("ix-application-switch-modal");return t=>{a.config=t}}export{c as s};
+//# sourceMappingURL=p-0ca3528f.js.map

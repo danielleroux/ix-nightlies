@@ -1,0 +1,1 @@
+export { IxComponent } from './component';

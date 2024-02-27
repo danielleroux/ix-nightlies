@@ -1,0 +1,135 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+:host {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0 1rem 0 0.625rem;
+  color: var(--theme-app-header--color);
+  background-color: var(--theme-app-header--background);
+  border-bottom: var(--theme-app-header--border-width) solid var(--theme-app-header--border-color);
+  z-index: var(--theme-z-index-fixed);
+}
+:host *,
+:host *::after,
+:host *::before {
+  box-sizing: border-box;
+}
+:host ::-webkit-scrollbar-button {
+  display: none;
+}
+:host ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+:host ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-track--background);
+}
+:host ::-webkit-scrollbar-track:hover {
+  background: var(--theme-scrollbar-track--background--hover);
+}
+:host ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-thumb--background);
+}
+:host ::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-scrollbar-thumb--background--hover);
+}
+:host ::-webkit-scrollbar-corner {
+  display: none;
+}
+:host .app-switch {
+  margin-right: 1rem;
+}
+:host .name {
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  max-width: 50%;
+  margin-left: 1.5rem;
+  margin-right: 2.5rem;
+  color: var(--theme-app-header--color);
+}
+:host .logo {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  line-height: 0rem;
+  color: var(--theme-app-header-logo--color);
+  margin-left: 0.375rem;
+}
+:host .content {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 0px;
+}
+:host .dropdown {
+  overflow: visible;
+}
+:host .dropdown-content {
+  padding: 1rem;
+}
+:host .context-menu {
+  display: none;
+}
+:host .context-menu.context-menu-visible {
+  display: block;
+}
+@media only screen and (max-width: 48em) {
+  :host .logo {
+    display: none;
+  }
+}
+:host ::slotted(ix-avatar) {
+  margin-left: 1rem;
+}
+
+:host(.breakpoint-sm) {
+  padding-left: 0.5rem;
+}
+:host(.breakpoint-sm) .logo {
+  margin-left: 0.5rem;
+}

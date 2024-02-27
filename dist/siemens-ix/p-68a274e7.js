@@ -1,0 +1,2 @@
+const n={sm:"(max-width: 48em)",md:"(min-width: 48.0625em) and (max-width: 80em)",lg:"(min-width: 80.0625em)"};const d=d=>{if(typeof window!=="undefined"&&window.matchMedia){const e=n[d];return window.matchMedia(e).matches}return false};export{d as m};
+//# sourceMappingURL=p-68a274e7.js.map

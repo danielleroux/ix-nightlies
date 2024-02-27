@@ -1,0 +1,2 @@
+class s{constructor(){this.listeners=[];this.listenersOncer=[];this.on=s=>{this.listeners.push(s);return{dispose:()=>this.off(s)}};this.once=s=>{this.listenersOncer.push(s)};this.off=s=>{const t=this.listeners.indexOf(s);if(t>-1){this.listeners.splice(t,1)}};this.emit=s=>{this.listeners.forEach((t=>t(s)));if(this.listenersOncer.length>0){const t=this.listenersOncer;this.listenersOncer=[];t.forEach((t=>t(s)))}};this.pipe=s=>this.on((t=>s.emit(t)))}}export{s as T};
+//# sourceMappingURL=p-c4749812.js.map

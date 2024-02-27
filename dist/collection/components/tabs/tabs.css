@@ -1,0 +1,139 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/* Dimensions */
+/* Font sizes */
+/* Line heights */
+/* Animation timings */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+:host {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  width: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+:host *,
+:host *::after,
+:host *::before {
+  box-sizing: border-box;
+}
+:host ::-webkit-scrollbar-button {
+  display: none;
+}
+:host ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+:host ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-track--background);
+}
+:host ::-webkit-scrollbar-track:hover {
+  background: var(--theme-scrollbar-track--background--hover);
+}
+:host ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--theme-scrollbar-thumb--background);
+}
+:host ::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-scrollbar-thumb--background--hover);
+}
+:host ::-webkit-scrollbar-corner {
+  display: none;
+}
+:host .tab-items {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+:host .tab-items .items-content {
+  display: flex;
+  align-items: center;
+}
+:host .arrow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+  border-radius: 4px;
+  color: var(--theme-btn-invisible-primary--color);
+  background-color: var(--theme-btn-invisible-primary--background);
+  z-index: 2;
+}
+:host .arrow:hover {
+  color: var(--theme-btn-invisible-primary--color--hover);
+  background-color: var(--theme-btn-invisible-primary--background--hover);
+}
+:host .arrow:active {
+  color: var(--theme-btn-invisible-primary--color--active);
+  background-color: var(--theme-btn-invisible-primary--background--active);
+}
+:host .arrow.right {
+  left: auto;
+  right: 0;
+}
+:host .overflow-shadow {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  pointer-events: all;
+}
+:host .overflow-shadow.shadow-left {
+  -webkit-mask-image: linear-gradient(90deg, transparent 0px, black 45px);
+          mask-image: linear-gradient(90deg, transparent 0px, black 45px);
+}
+:host .overflow-shadow.shadow-right {
+  -webkit-mask-image: linear-gradient(90deg, black calc(100% - 45px), transparent 100%);
+          mask-image: linear-gradient(90deg, black calc(100% - 45px), transparent 100%);
+}
+:host .overflow-shadow.shadow-both {
+  -webkit-mask-image: linear-gradient(90deg, transparent 0px, black 45px, black calc(100% - 45px), transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0px, black 45px, black calc(100% - 45px), transparent 100%);
+}
