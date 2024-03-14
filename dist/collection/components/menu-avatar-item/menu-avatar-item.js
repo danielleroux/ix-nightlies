@@ -19,7 +19,7 @@ export class MenuAvatarItem {
         return this.dropdownItemRef.waitForCurrent();
     }
     render() {
-        return (h("ix-dropdown-item", { key: 'c6f72909f3511d9434e4bf0cddac029b4db47b11', ref: this.dropdownItemRef, icon: this.icon, label: this.label, onClick: (e) => this.itemClick.emit(e) }));
+        return (h("ix-dropdown-item", { key: '19c0f4f0f90748af24ff82abd9a16f1e2bdcbe65', ref: this.dropdownItemRef, icon: this.icon, label: this.label, onClick: (e) => this.itemClick.emit(e) }));
     }
     static get is() { return "ix-menu-avatar-item"; }
     static get encapsulation() { return "shadow"; }

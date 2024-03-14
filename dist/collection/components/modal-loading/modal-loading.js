@@ -12,7 +12,7 @@ import { h, Host } from "@stencil/core";
  */
 export class ModalLoading {
     render() {
-        return (h(Host, { key: '80c2129a12f6f9e3791ef200fc023be50e462123' }, h("ix-spinner", { key: '219e4c39e89e9280794db9feea031cb92154cb15', variant: "primary" }), h("span", { key: '5f652d8ee2de0438f635938564264380a0ad7e0d', class: 'loading-text' }, h("slot", { key: 'c780d132e75994f7d12088e2e1d273cc02fc7de0' }))));
+        return (h(Host, { key: '2930b0986034ef25c350284fad67347ab5d13c4d' }, h("ix-spinner", { key: '5ac3bd8f71406e3adda36a3af14ab98cac5f5b79', variant: "primary" }), h("span", { key: 'af819b28bde6dc5d55cbe233e94381c34a5732c8', class: 'loading-text' }, h("slot", { key: 'cb174a3367f4195370aa45dfca1ca409bde1745d' }))));
     }
     static get is() { return "ix-modal-loading"; }
     static get encapsulation() { return "shadow"; }

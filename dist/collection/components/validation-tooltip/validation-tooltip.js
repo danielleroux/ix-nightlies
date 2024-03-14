@@ -135,13 +135,13 @@ export class ValidationTooltip {
     }
     render() {
         var _a, _b;
-        return (h(Host, { key: '2adabc09b27adab332a05e06f95f778e635db7cf' }, h("slot", { key: '9737aa1f46813f88404c5a80eaf0b8e1c6b166c4' }), h("div", { key: '6be2cd8f7c24bd7c3ddc42218ca0b70d3c56dc0a', role: "tooltip", style: {
+        return (h(Host, { key: '09acc075c79e78bd80c821c43e4ba3954286371f' }, h("slot", { key: '06849b20a8a01c653156a8626cab3643e8eb4da4' }), h("div", { key: '5ec83ac8901fdb886c0ef5887edb6e886a4ab821', role: "tooltip", style: {
                 display: 'none',
                 position: 'fixed',
                 top: '0',
                 left: '0',
                 transform: `translate(${Math.round(((_a = this.tooltipPosition) === null || _a === void 0 ? void 0 : _a.x) || 0)}px,${Math.round(((_b = this.tooltipPosition) === null || _b === void 0 ? void 0 : _b.y) || 0)}px)`,
-            }, class: "validation-tooltip text-default" }, this.message, h("slot", { key: '228c539e4447ce9a4c89ffe584f9b712ccaa1924', name: "tooltip-message" }), h("div", { key: 'cdbaf18c6c2033b9b03e33b4e5826309f504df14', id: "arrow" }))));
+            }, class: "validation-tooltip text-default" }, this.message, h("slot", { key: '020159ed64776f77bda8d1565d2051bfc78952cd', name: "tooltip-message" }), h("div", { key: 'cda6cabdcfa6d46300ebb093e0fe399c49b3e6cb', id: "arrow" }))));
     }
     static get is() { return "ix-validation-tooltip"; }
     static get encapsulation() { return "shadow"; }

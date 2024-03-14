@@ -692,7 +692,7 @@ const Tree = class {
         this.hyperlist = new Hyperlist(this.hostElement, config);
     }
     render() {
-        return (index.h(index.Host, { key: '5e3f0e8bbd14073590ed9ae548fa51abb50bd52b' }, index.h("slot", { key: '9e05d42472878f4791cce2033271e1918d40c38f' })));
+        return (index.h(index.Host, { key: '9337ac3642e090f58688500e66686c0f9764da0c' }, index.h("slot", { key: '10d5c6adb776298b2ec9da74b654749790f102dd' })));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {

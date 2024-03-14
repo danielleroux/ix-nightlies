@@ -12,7 +12,7 @@ import { h, Host } from "@stencil/core";
  */
 export class Row {
     render() {
-        return (h(Host, { key: 'ae640297aa02dba7d4ca3f43f929ba9149889a3d' }, h("slot", { key: '38c1e1ee0c51c93c79e1f1a8e8c6a95e08760f24' })));
+        return (h(Host, { key: 'aa93d80e297d1f8c34dca11a6f17248e9120c48c' }, h("slot", { key: 'b70150e7f97c5a6559e5c39c6c19065971a1aca9' })));
     }
     static get is() { return "ix-row"; }
     static get encapsulation() { return "shadow"; }

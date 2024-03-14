@@ -308,7 +308,7 @@ export class DateDropdown {
                     "references": {
                         "DateDropdownOption": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-dropdown/date-dropdown.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-dropdown/date-dropdown.tsx",
                             "id": "src/components/date-dropdown/date-dropdown.tsx::DateDropdownOption"
                         }
                     }
@@ -422,7 +422,7 @@ export class DateDropdown {
                     "references": {
                         "DateRangeChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-dropdown/date-dropdown.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-dropdown/date-dropdown.tsx",
                             "id": "src/components/date-dropdown/date-dropdown.tsx::DateRangeChangeEvent"
                         }
                     }
@@ -442,7 +442,7 @@ export class DateDropdown {
                         },
                         "DateRangeChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-dropdown/date-dropdown.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-dropdown/date-dropdown.tsx",
                             "id": "src/components/date-dropdown/date-dropdown.tsx::DateRangeChangeEvent"
                         }
                     },

@@ -491,7 +491,7 @@ export class DatetimePicker {
                     "references": {
                         "DateTimeDateChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/datetime-picker/datetime-picker.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/datetime-picker/datetime-picker.tsx",
                             "id": "src/components/datetime-picker/datetime-picker.tsx::DateTimeDateChangeEvent"
                         }
                     }
@@ -515,7 +515,7 @@ export class DatetimePicker {
                     "references": {
                         "DateTimeSelectEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/datetime-picker/datetime-picker.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/datetime-picker/datetime-picker.tsx",
                             "id": "src/components/datetime-picker/datetime-picker.tsx::DateTimeSelectEvent"
                         }
                     }

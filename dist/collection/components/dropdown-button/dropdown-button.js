@@ -63,7 +63,7 @@ export class DropdownButton {
                     "references": {
                         "DropdownButtonVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/dropdown-button/dropdown-button.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/dropdown-button/dropdown-button.tsx",
                             "id": "src/components/dropdown-button/dropdown-button.tsx::DropdownButtonVariant"
                         }
                     }

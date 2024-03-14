@@ -15,16 +15,16 @@ export class TreeItem {
     }
     render() {
         var _a, _b, _c;
-        return (h(Host, { key: 'ba0c464b633cb3ca1ed0c5690245c1a69612e7fb', class: {
+        return (h(Host, { key: '72c298e696aaee44b442f49ceb11a3144a09c168', class: {
                 selected: (_a = this.context) === null || _a === void 0 ? void 0 : _a.isSelected,
-            } }, h("div", { key: 'b94962dfd5d8be52ae6dab6b209d7f235dc2fc97', class: "icon-toggle-container", onClick: (e) => {
+            } }, h("div", { key: '4788be140916a10ba790ca794fe73ff622e62c02', class: "icon-toggle-container", onClick: (e) => {
                 e.preventDefault();
                 this.toggle.emit();
             } }, this.hasChildren ? (h("ix-icon", { name: 'chevron-right', size: "16", class: {
                 ['icon-toggle-down']: (_b = this.context) === null || _b === void 0 ? void 0 : _b.isExpanded,
-            }, color: `color-${((_c = this.context) === null || _c === void 0 ? void 0 : _c.isExpanded) ? 'primary' : 'std-text'}` })) : null), h("div", { key: 'ec90acd5573bbb23978666fc9e43e4c107d35ce1', class: "tree-node-container", onClick: () => {
+            }, color: `color-${((_c = this.context) === null || _c === void 0 ? void 0 : _c.isExpanded) ? 'primary' : 'std-text'}` })) : null), h("div", { key: '2a3ea8e297cfcd16229ec6a8591d7037992fbc44', class: "tree-node-container", onClick: () => {
                 this.itemClick.emit();
-            } }, this.text, h("slot", { key: 'd70e947ceceeb7ecef901da3bc48ba58f898d419' }))));
+            } }, this.text, h("slot", { key: '7bacf0d5cd6e90f188c6f1d8548de2f0a9d82ecb' }))));
     }
     static get is() { return "ix-tree-item"; }
     static get encapsulation() { return "shadow"; }

@@ -220,13 +220,13 @@ const Tabs = /*@__PURE__*/ proxyCustomElement(class Tabs extends HTMLElement {
         });
     }
     render() {
-        return (h(Host, { key: '44c009492a3faabd3dc4266f6a4070037f590caa' }, h("div", { key: 'c002c0b7c606bf6dd37738f2c8b233ed0556ae24', class: "arrow", "data-arrow-left": true, onClick: () => this.move(this.scrollAmount, true) }, h("ix-icon", { key: '30291a5baf33ad74ca4d4cdd52aa3de6fdaac6f5', name: 'chevron-left-small' })), h("div", { key: 'fd0842c04c463afb21e29bfb64a32189550204f0', class: {
+        return (h(Host, { key: '5df5d68f3d3174eda6397446963ac84a14902a49' }, h("div", { key: '37841c92138c98e083a400aacaf9bb8ca6c01a25', class: "arrow", "data-arrow-left": true, onClick: () => this.move(this.scrollAmount, true) }, h("ix-icon", { key: '9c961427261506c6555a61735e21a39295ce009d', name: 'chevron-left-small' })), h("div", { key: '843ea9a3a7544d1cc52730e80405e82b9f42b49a', class: {
                 'tab-items': true,
                 'overflow-shadow': true,
                 'shadow-left': this.showPreviousArrow(),
                 'shadow-right': this.showNextArrow(),
                 'shadow-both': this.showNextArrow() && this.showPreviousArrow(),
-            } }, h("div", { key: 'b62dda398149a5eef215992b4a9ce5e297fa803f', class: "items-content" }, h("slot", { key: '0383abae773ba6f7f5b4ebd9e76b4a20c9a18732' }))), h("div", { key: '7ef4269bac60f31a97ae5affa4574bbab4ba2726', class: "arrow right", "data-arrow-right": true, onClick: () => this.move(-this.scrollAmount, true) }, h("ix-icon", { key: '9071de44d99c4650f6ad432b40ca6592e4fa9045', name: 'chevron-right-small' }))));
+            } }, h("div", { key: '4d224ea654a4dc578d6d9ee7a5b0b09ca7908360', class: "items-content" }, h("slot", { key: 'b30e106aaf1e06eb530e80ffe66e7cf57a04d845' }))), h("div", { key: '498533a75ad99e556ca6020d11b14e9cef7bf688', class: "arrow right", "data-arrow-right": true, onClick: () => this.move(-this.scrollAmount, true) }, h("ix-icon", { key: '72156ff0ccb92387c23aeb3c43ac07ef94b0a17b', name: 'chevron-right-small' }))));
     }
     get hostElement() { return this; }
     static get style() { return IxTabsStyle0; }

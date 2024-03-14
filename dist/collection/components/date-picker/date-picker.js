@@ -816,7 +816,7 @@ export class DatePicker {
                     "references": {
                         "DateChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-picker/date-picker.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-picker/date-picker.tsx",
                             "id": "src/components/date-picker/date-picker.tsx::DateChangeEvent"
                         }
                     }
@@ -840,7 +840,7 @@ export class DatePicker {
                     "references": {
                         "DateChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-picker/date-picker.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-picker/date-picker.tsx",
                             "id": "src/components/date-picker/date-picker.tsx::DateChangeEvent"
                         }
                     }
@@ -864,7 +864,7 @@ export class DatePicker {
                     "references": {
                         "DateChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-picker/date-picker.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-picker/date-picker.tsx",
                             "id": "src/components/date-picker/date-picker.tsx::DateChangeEvent"
                         }
                     }

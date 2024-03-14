@@ -94,7 +94,7 @@ export class Col {
                     "references": {
                         "ColumnSize": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/col/col.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/col/col.tsx",
                             "id": "src/components/col/col.tsx::ColumnSize"
                         }
                     }
@@ -117,7 +117,7 @@ export class Col {
                     "references": {
                         "ColumnSize": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/col/col.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/col/col.tsx",
                             "id": "src/components/col/col.tsx::ColumnSize"
                         }
                     }
@@ -140,7 +140,7 @@ export class Col {
                     "references": {
                         "ColumnSize": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/col/col.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/col/col.tsx",
                             "id": "src/components/col/col.tsx::ColumnSize"
                         }
                     }
@@ -163,7 +163,7 @@ export class Col {
                     "references": {
                         "ColumnSize": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/col/col.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/col/col.tsx",
                             "id": "src/components/col/col.tsx::ColumnSize"
                         }
                     }

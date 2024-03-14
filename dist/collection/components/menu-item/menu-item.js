@@ -74,13 +74,13 @@ export class MenuItem {
                 slot: 'bottom',
             };
         }
-        return (h(Host, Object.assign({ key: 'cf7c3ee73c7ff53d9825bc64460a72a876c46f03', class: {
+        return (h(Host, Object.assign({ key: 'ccfb89a1d40730adfcdc3afe2067abb436fcbbeb', class: {
                 disabled: this.disabled,
                 'home-tab': this.home,
                 'bottom-tab': this.bottom,
                 active: this.active,
                 'tab-nested': this.isHostedInsideCategory,
-            } }, extendedAttributes), h("button", { key: 'd79e9ab5097e712949a65e59e08426166dfa4091', class: "tab", title: this.title, tabIndex: this.disabled ? -1 : 0, role: "listitem" }, (this.icon || this.tabIcon) && (h("ix-icon", { class: 'tab-icon', name: (_a = this.icon) !== null && _a !== void 0 ? _a : this.tabIcon })), this.notifications ? (h("div", { class: "notification" }, h("div", { class: "pill" }, this.notifications))) : null, h("span", { key: 'edbdefc1edd5b572c49d2f74e184a466989500e6', class: "tab-text text-default" }, h("slot", { key: 'f3d75d13c9b68b69e7731f9c947c423e304a76d6' })))));
+            } }, extendedAttributes), h("button", { key: '0d3a28e71c173f4373eb166a675cacd0982a159a', class: "tab", title: this.title, tabIndex: this.disabled ? -1 : 0, role: "listitem" }, (this.icon || this.tabIcon) && (h("ix-icon", { class: 'tab-icon', name: (_a = this.icon) !== null && _a !== void 0 ? _a : this.tabIcon })), this.notifications ? (h("div", { class: "notification" }, h("div", { class: "pill" }, this.notifications))) : null, h("span", { key: '142f75cc33d765e172a73bd109736f71d0859f54', class: "tab-text text-default" }, h("slot", { key: '302d2eb2bce613f1d6d19498dee73ebcb0448510' })))));
     }
     static get is() { return "ix-menu-item"; }
     static get encapsulation() { return "shadow"; }

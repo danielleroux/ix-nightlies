@@ -51,10 +51,10 @@ const IxTypography = /*@__PURE__*/ proxyCustomElement(class IxTypography extends
         }
         if (this.textColor) {
             style = {
-                color: `var(--theme-color-${this.color}-text)`,
+                color: `var(--theme-color-${this.textColor}-text)`,
             };
         }
-        return (h(Host, { key: '5cd439405dd73273b8ae61c910dabbbbce42e3f8', class: typographyClass, style: style }, h("slot", { key: 'c6e6b842a915995847564e953cd17a8bd4972c9e' })));
+        return (h(Host, { key: 'a33ba3db2813bf5e41e8480195f5c540a70c7bb1', class: typographyClass, style: style }, h("slot", { key: '8a4320ebdf3ead5430eaa49ddaa4991ac76df931' })));
     }
     static get style() { return IxTypographyStyle0; }
 }, [1, "ix-typography", {

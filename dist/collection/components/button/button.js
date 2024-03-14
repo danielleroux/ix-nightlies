@@ -78,7 +78,7 @@ export class Button {
                     "references": {
                         "ButtonVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/button/button.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/button/button.tsx",
                             "id": "src/components/button/button.tsx::ButtonVariant"
                         }
                     }

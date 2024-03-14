@@ -113,7 +113,7 @@ export class CardAccordion {
                     "references": {
                         "CardAccordionExpandChangeEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/card-accordion/card-accordion.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/card-accordion/card-accordion.tsx",
                             "id": "src/components/card-accordion/card-accordion.tsx::CardAccordionExpandChangeEvent"
                         }
                     }

@@ -36,7 +36,7 @@ export class SelectItem {
         }));
     }
     render() {
-        return (h(Host, { key: 'c56aa1ee5e174f9de7905bcaef381e0a8fd212a2' }, h("ix-dropdown-item", { key: '00ec7a1e52a6b17cf94ce702239fef06df0cb936', class: {
+        return (h(Host, { key: 'b30ceeb56ba68db74669450d37fb83167d556ff8' }, h("ix-dropdown-item", { key: 'ab9d09708121712d84c0ec60ece92cf1dc111e23', class: {
                 'select-item-checked': this.selected,
             }, checked: this.selected, label: this.label ? this.label : this.value, onItemClick: (e) => this.onItemClick(e) })));
     }

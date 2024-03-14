@@ -62,9 +62,9 @@ export class ToggleButton {
                 'aria-pressed': a11yBoolean(this.pressed),
             },
         };
-        return (h(Host, { key: 'f8633f71b51df3509bc679922b432bd5c530d580', class: {
+        return (h(Host, { key: 'ba236c1d808bd8755b6e1856b96771029e5d1ade', class: {
                 disabled: this.disabled || this.loading,
-            } }, h(BaseButton, Object.assign({ key: '005a4497d2d37783c6dcf2824c471b56515396ed' }, baseButtonProps), h("slot", { key: '9cafada091aa59fd6b447a2821f58ebd504875cd' }))));
+            } }, h(BaseButton, Object.assign({ key: '07eb09beb216cb83410434f1392f2de846a2b86c' }, baseButtonProps), h("slot", { key: '43871212872a6dd8a040c2db6fa5026e4018e731' }))));
     }
     static get is() { return "ix-toggle-button"; }
     static get encapsulation() { return "shadow"; }

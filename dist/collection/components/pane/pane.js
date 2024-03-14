@@ -581,7 +581,7 @@ export class Pane {
                     "references": {
                         "Composition": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/pane/pane.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/pane/pane.tsx",
                             "id": "src/components/pane/pane.tsx::Composition"
                         }
                     }
@@ -684,7 +684,7 @@ export class Pane {
                     "references": {
                         "ExpandedChangedEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/pane/pane.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/pane/pane.tsx",
                             "id": "src/components/pane/pane.tsx::ExpandedChangedEvent"
                         }
                     }
@@ -705,7 +705,7 @@ export class Pane {
                     "references": {
                         "VariantChangedEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/pane/pane.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/pane/pane.tsx",
                             "id": "src/components/pane/pane.tsx::VariantChangedEvent"
                         }
                     }
@@ -726,7 +726,7 @@ export class Pane {
                     "references": {
                         "BorderlessChangedEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/pane/pane.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/pane/pane.tsx",
                             "id": "src/components/pane/pane.tsx::BorderlessChangedEvent"
                         }
                     }
@@ -750,7 +750,7 @@ export class Pane {
                     "references": {
                         "HideOnCollapseChangedEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/pane/pane.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/pane/pane.tsx",
                             "id": "src/components/pane/pane.tsx::HideOnCollapseChangedEvent"
                         }
                     }
@@ -774,7 +774,7 @@ export class Pane {
                     "references": {
                         "SlotChangedEvent": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/pane/pane.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/pane/pane.tsx",
                             "id": "src/components/pane/pane.tsx::SlotChangedEvent"
                         }
                     }

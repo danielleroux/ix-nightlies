@@ -118,7 +118,7 @@ export class PushCard {
                     "references": {
                         "PushCardVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/push-card/push-card.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/push-card/push-card.tsx",
                             "id": "src/components/push-card/push-card.tsx::PushCardVariant"
                         }
                     }

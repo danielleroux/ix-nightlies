@@ -39,7 +39,7 @@ class IxSelectItemLabelChangeEvent extends CustomEvent {
     }
 }
 
-const selectItemCss = ":host{display:block;position:relative}:host>ix-dropdown-item{width:100%}:host .select-item-checked{background-color:var(--theme-select-list-item--background--selected);--ix-dropdown-item-checked-color:var(--theme-color-std-text)}:host(.d-none){display:none}";
+const selectItemCss = ":host{display:block;position:relative}:host>ix-dropdown-item{width:100%}:host ix-dropdown-item{color:var(--theme-color-std-text)}:host .select-item-checked{background-color:var(--theme-select-list-item--background--selected);--ix-dropdown-item-checked-color:var(--theme-color-std-text)}:host(.d-none){display:none}";
 const IxSelectItemStyle0 = selectItemCss;
 
 const SelectItem = class {
@@ -72,7 +72,7 @@ const SelectItem = class {
         }));
     }
     render() {
-        return (h(Host, { key: 'c56aa1ee5e174f9de7905bcaef381e0a8fd212a2' }, h("ix-dropdown-item", { key: '00ec7a1e52a6b17cf94ce702239fef06df0cb936', class: {
+        return (h(Host, { key: 'b30ceeb56ba68db74669450d37fb83167d556ff8' }, h("ix-dropdown-item", { key: 'ab9d09708121712d84c0ec60ece92cf1dc111e23', class: {
                 'select-item-checked': this.selected,
             }, checked: this.selected, label: this.label ? this.label : this.value, onItemClick: (e) => this.onItemClick(e) })));
     }

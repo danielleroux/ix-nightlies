@@ -41,10 +41,10 @@ export class IxTypography {
         }
         if (this.textColor) {
             style = {
-                color: `var(--theme-color-${this.color}-text)`,
+                color: `var(--theme-color-${this.textColor}-text)`,
             };
         }
-        return (h(Host, { key: '5cd439405dd73273b8ae61c910dabbbbce42e3f8', class: typographyClass, style: style }, h("slot", { key: 'c6e6b842a915995847564e953cd17a8bd4972c9e' })));
+        return (h(Host, { key: 'a33ba3db2813bf5e41e8480195f5c540a70c7bb1', class: typographyClass, style: style }, h("slot", { key: '8a4320ebdf3ead5430eaa49ddaa4991ac76df931' })));
     }
     static get is() { return "ix-typography"; }
     static get encapsulation() { return "shadow"; }
@@ -69,7 +69,7 @@ export class IxTypography {
                     "references": {
                         "TypographyVariants": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/typography/typography.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/typography/typography.tsx",
                             "id": "src/components/typography/typography.tsx::TypographyVariants"
                         }
                     }
@@ -98,7 +98,7 @@ export class IxTypography {
                     "references": {
                         "TypographyFormat": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/typography/typography.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/typography/typography.tsx",
                             "id": "src/components/typography/typography.tsx::TypographyFormat"
                         }
                     }
@@ -121,7 +121,7 @@ export class IxTypography {
                     "references": {
                         "TypographyColors": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/typography/typography.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/typography/typography.tsx",
                             "id": "src/components/typography/typography.tsx::TypographyColors"
                         }
                     }
@@ -147,7 +147,7 @@ export class IxTypography {
                     "references": {
                         "TypographyColors": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/typography/typography.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/typography/typography.tsx",
                             "id": "src/components/typography/typography.tsx::TypographyColors"
                         }
                     }
@@ -188,7 +188,7 @@ export class IxTypography {
                     "references": {
                         "TextDecoration": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/typography/typography.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/typography/typography.tsx",
                             "id": "src/components/typography/typography.tsx::TextDecoration"
                         }
                     }

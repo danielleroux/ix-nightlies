@@ -62,7 +62,7 @@ export class SplitButton {
                     "references": {
                         "SplitButtonVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/split-button/split-button.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/split-button/split-button.tsx",
                             "id": "src/components/split-button/split-button.tsx::SplitButtonVariant"
                         }
                     }

@@ -313,7 +313,7 @@ const Select = /*@__PURE__*/ proxyCustomElement(class Select extends HTMLElement
     }
     render() {
         var _a, _b, _c;
-        return (h(Host, { key: '2a59659f35973f2297d3b34cb0ae84c3e5d80c04' }, h("div", { key: 'cca889f2ba4c3db6e74a65fd21d9ca7428e9dc52', class: {
+        return (h(Host, { key: '642c38b7dad9c65ae0d4657f196a6da939975fcb' }, h("div", { key: '9aa58505ad684d6f69ce493ac9ad826128e4e2ab', class: {
                 select: true,
                 disabled: this.disabled,
                 readonly: this.readonly,
@@ -321,13 +321,13 @@ const Select = /*@__PURE__*/ proxyCustomElement(class Select extends HTMLElement
                 this.dropdownAnchor = ref;
                 if (!this.editable)
                     this.dropdownWrapperRef = ref;
-            } }, h("div", { key: '98ca1de8783cd95db76d969bade2aa2078c8224f', class: "input-container" }, h("div", { key: '4d4ac31033855345467e355f168a5ce7e47ce8c6', class: "chips" }, this.isMultipleMode
+            } }, h("div", { key: '300d5e259d4bb3c65a888e1f0842897e06f1a160', class: "input-container" }, h("div", { key: 'd59a18d4b7f988ce950074b0bb3127c2c285c882', class: "chips" }, this.isMultipleMode
             ? (_a = this.selectedItems) === null || _a === void 0 ? void 0 : _a.map((item) => (h("ix-filter-chip", { disabled: this.disabled || this.readonly, key: item.value, onCloseClick: (e) => {
                     e.preventDefault();
                     e.stopPropagation();
                     this.itemClick(item.value);
                 } }, item.label)))
-            : '', h("div", { key: 'd50bab808cbf2bd146c39052f7f008f94ad93f70', class: "trigger" }, h("input", { key: '1b91bbc00aed4ec69543d3e4c3fe1eff00c87c90', autocomplete: "off", "data-testid": "input", disabled: this.disabled, readOnly: this.readonly, type: "text", class: {
+            : '', h("div", { key: 'fafd86131a6ecfb882c5f93787b44c4a699c0db1', class: "trigger" }, h("input", { key: '1bf6fa1ee03af5ce7069f62d6529234b72d40467', autocomplete: "off", "data-testid": "input", disabled: this.disabled, readOnly: this.readonly, type: "text", class: {
                 'allow-clear': this.allowClear && !!((_b = this.selectedLabels) === null || _b === void 0 ? void 0 : _b.length),
             }, placeholder: this.placeholderValue(), value: this.inputValue, ref: (ref) => (this.inputRef = ref), onBlur: (e) => this.onInputBlur(e), onFocus: () => {
                 this.navigationItem = undefined;
@@ -339,16 +339,16 @@ const Select = /*@__PURE__*/ proxyCustomElement(class Select extends HTMLElement
             } })) : null, this.disabled || this.readonly ? null : (h("ix-icon-button", { "data-select-dropdown": true, class: { 'dropdown-visible': this.dropdownShow }, icon: "chevron-down-small", ghost: true, ref: (ref) => {
                 if (this.editable)
                     this.dropdownWrapperRef = ref;
-            } })))))), h("ix-dropdown", { key: '3feb553427991c96b45b49aecce64de203846902', ref: (ref) => (this.dropdownRef = ref), show: this.dropdownShow, closeBehavior: this.isMultipleMode ? 'outside' : 'both', class: {
+            } })))))), h("ix-dropdown", { key: 'f94abb77ed948d1e14d706a923bf5e93cb56b38b', ref: (ref) => (this.dropdownRef = ref), show: this.dropdownShow, closeBehavior: this.isMultipleMode ? 'outside' : 'both', class: {
                 'd-none': this.disabled || this.readonly,
             }, anchor: this.dropdownAnchor, trigger: this.dropdownWrapperRef, onShowChanged: (e) => this.dropdownVisibilityChanged(e), placement: "bottom-start", overwriteDropdownStyle: async () => {
                 return {
                     minWidth: `${this.hostElement.clientWidth}px`,
                 };
-            } }, h("div", { key: '3c07355d8c3ebcc3a5f180ac8acf57297f9768ac', class: {
+            } }, h("div", { key: '4f1a7d56af3ba09f7853d0268617217dece7a244', class: {
                 'select-list-header': true,
                 hidden: this.hideListHeader || this.isDropdownEmpty,
-            }, title: this.i18nSelectListHeader }, this.i18nSelectListHeader), h("slot", { key: '2bb33255f9a58b647d0897e8ff1b38fa6aba888b' }), h("div", { key: '2e9bcf50f2a45e292103e4a201d421ad904becd2', ref: (ref) => (this.addItemRef = ref), class: "d-contents" }), this.isAddItemVisible() ? (h("ix-dropdown-item", { "data-testid": "add-item", icon: 'plus', class: {
+            }, title: this.i18nSelectListHeader }, this.i18nSelectListHeader), h("slot", { key: '9bf10627950728629c29b60523c5cb86d5e0a914' }), h("div", { key: '528f5e388adc3c5c248e6a1d5485ae4e8ffcbfa9', ref: (ref) => (this.addItemRef = ref), class: "d-contents" }), this.isAddItemVisible() ? (h("ix-dropdown-item", { "data-testid": "add-item", icon: 'plus', class: {
                 'add-item': true,
             }, label: this.inputFilterText, onItemClick: (e) => {
                 e.preventDefault();

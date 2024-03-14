@@ -87,7 +87,7 @@ const Upload = class {
         this.filesToUpload = obj;
     }
     render() {
-        return (index.h(index.Host, { key: 'c13c30ad2fa2a251ad872d7b0461f625798a3d2a' }, index.h("div", { key: '572bf6899630cdc1fdff1518750415270792a368', class: {
+        return (index.h(index.Host, { key: '362c68193c0f82826d5b2f3ae86e07a1bd2e8155' }, index.h("div", { key: '9acf5a7acd3a0cb8597a6895c9ce89fef4e9f42c', class: {
                 'file-upload-area': true,
                 'file-over': this.state !== uploadFileState.UploadFileState.LOADING && this.isFileOver,
                 checking: this.state === uploadFileState.UploadFileState.LOADING,
@@ -97,9 +97,9 @@ const Upload = class {
                 if (this.state !== uploadFileState.UploadFileState.LOADING) {
                     this.fileDropped(e);
                 }
-            }, onDragOver: (e) => this.fileOver(e), onDragLeave: () => this.fileLeave(), draggable: !this.disabled }, this.renderUploadState(), index.h("div", { key: '5c48357676e704f0e285e510059593c526ca47fc' }, index.h("input", { key: '5ed9faca22b46db4962c64ff3822c59d3e44cf95', multiple: this.multiple, type: "file", class: "upload-browser", id: "upload-browser", onChange: (e) => {
+            }, onDragOver: (e) => this.fileOver(e), onDragLeave: () => this.fileLeave(), draggable: !this.disabled }, this.renderUploadState(), index.h("div", { key: '73e8538a327abc73dd98041c673d5f601becb0e8' }, index.h("input", { key: '8414ead2fc82eaa40487112fd690e7131ccab26e', multiple: this.multiple, type: "file", class: "upload-browser", id: "upload-browser", onChange: (e) => {
                 this.fileChangeEvent(e);
-            }, accept: this.accept }), index.h("ix-button", { key: '6e5bcfec5d982c8674e6bf38bbf1e0d805b1af0f', tabindex: "-1", outline: true, onClick: () => this.inputElement.click(), disabled: this.disabled || this.state === uploadFileState.UploadFileState.LOADING }, this.i18nUploadFile)))));
+            }, accept: this.accept }), index.h("ix-button", { key: 'e23cf6d640662faefbf6f16691abaf2672d01800', tabindex: "-1", outline: true, onClick: () => this.inputElement.click(), disabled: this.disabled || this.state === uploadFileState.UploadFileState.LOADING }, this.i18nUploadFile)))));
     }
     get hostElement() { return index.getElement(this); }
 };

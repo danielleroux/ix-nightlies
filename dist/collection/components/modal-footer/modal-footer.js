@@ -12,7 +12,7 @@ import { h, Host } from "@stencil/core";
  */
 export class ModalFooter {
     render() {
-        return (h(Host, { key: '62e35b423b00c0ad75954e735188dce705f7ff3e' }, h("slot", { key: '29a2a22875ae6197dab3c056329125dcefe70032' })));
+        return (h(Host, { key: 'ca4b647d4a7c7e3b09a2970b69dc507dcb711f08' }, h("slot", { key: '188f082b6716d3af472413f240434c5a987471b7' })));
     }
     static get is() { return "ix-modal-footer"; }
     static get encapsulation() { return "shadow"; }

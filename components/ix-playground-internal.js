@@ -9,7 +9,7 @@ const PlaygroundInternal = /*@__PURE__*/ proxyCustomElement(class PlaygroundInte
         this.__registerHost();
     }
     render() {
-        return h(Host, { key: '3915db9ac2de375515704818abb979e9aef1dbb7' });
+        return h(Host, { key: '18c81394ca3a46d8c0d9e226b29c9b284f664f1c' });
     }
     static get style() { return IxPlaygroundInternalStyle0; }
 }, [2, "ix-playground-internal"]);

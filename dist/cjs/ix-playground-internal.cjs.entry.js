@@ -12,7 +12,7 @@ const PlaygroundInternal = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return index.h(index.Host, { key: '3915db9ac2de375515704818abb979e9aef1dbb7' });
+        return index.h(index.Host, { key: '18c81394ca3a46d8c0d9e226b29c9b284f664f1c' });
     }
 };
 PlaygroundInternal.style = IxPlaygroundInternalStyle0;

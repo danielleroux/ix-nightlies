@@ -236,6 +236,9 @@ const Dropdown = class {
         return this.checkForSubmenuAnchor(el);
     }
     async checkForSubmenuAnchor(element) {
+        if (!element) {
+            return null;
+        }
         if (hasDropdownItemWrapperImplemented(element)) {
             const dropdownItem = await element.getDropdownItemElement();
             dropdownItem.isSubMenu = true;
@@ -278,7 +281,6 @@ const Dropdown = class {
                 : this.resolveElement(this.trigger));
             if (this.anchorElement) {
                 this.applyDropdownPosition();
-                // await this.checkForSubmenuAnchor();
             }
         }
     }
@@ -374,7 +376,7 @@ const Dropdown = class {
         this.applyDropdownPosition();
     }
     render() {
-        return (h(Host, { key: '01a39d73f0427606652393f7344e740bd9ee4a98', "data-ix-dropdown": this.localUId, ref: (ref) => (this.dropdownRef = ref), class: {
+        return (h(Host, { key: '704bc3d7987061a7b9835263d45ee11f753ba71b', "data-ix-dropdown": this.localUId, ref: (ref) => (this.dropdownRef = ref), class: {
                 'dropdown-menu': true,
                 show: this.show,
                 overflow: true,
@@ -382,7 +384,7 @@ const Dropdown = class {
                 margin: '0',
                 minWidth: '0px',
                 position: this.positioningStrategy,
-            }, role: "list", onClick: (event) => this.onDropdownClick(event) }, h("div", { key: 'd87f8961f4319f6748685479ccaed5b450868b57', style: { display: 'contents' } }, this.header && h("div", { class: "dropdown-header" }, this.header), h("slot", { key: '274f8d9f89f4b4d92d5d32a32fbbc485964d0e3b' }))));
+            }, role: "list", onClick: (event) => this.onDropdownClick(event) }, h("div", { key: '5e0c4a15d72372573f992b86774d52bfa64c72c8', style: { display: 'contents' } }, this.header && h("div", { class: "dropdown-header" }, this.header), h("slot", { key: 'f182bef9568ab69d49a5fb2d2fbccfdd05041c80' }))));
     }
     get hostElement() { return getElement(this); }
     static get watchers() { return {

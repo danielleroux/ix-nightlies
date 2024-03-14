@@ -237,7 +237,7 @@ export class TabItem {
                     "references": {
                         "TabClickDetail": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/tab-item/tab-item.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/tab-item/tab-item.tsx",
                             "id": "src/components/tab-item/tab-item.tsx::TabClickDetail"
                         }
                     }

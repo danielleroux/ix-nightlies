@@ -71,15 +71,15 @@ export class Blind {
     render() {
         return (h(Host, { key: 'fa737e290302d9121790574a4a88738a0be492a6', class: {
                 [`blind-${this.variant}`]: true,
-            } }, h("div", { key: 'a30152172426864588f8482a8f94f437948c74a4', class: 'blind-header-wrapper' }, h("div", { key: '8ee1a8aa21ff58cb88514fd5e428481b99e10728', class: 'blind-header-content' }, h("ix-icon", { key: '97117ee8008ea0b69e64f2c4a0149ce3b3897f44', class: "collapse-icon", name: 'chevron-right-small', color: this.variant === 'insight' || this.variant === 'outline'
-                ? 'color-primary'
-                : `color-${this.variant}--contrast`, ref: (ref) => (this.chevronRef = ref) }), h("div", { key: 'dbe488db7c5a77b5b09927698395a1f18674308a', class: "blind-header-title", id: `ix-blind-header-title-${this.blindId}` }, this.label !== undefined ? (h(Fragment, null, this.icon && (h("ix-icon", { class: "blind-header-title-icon", name: this.icon, color: this.variant === 'insight' || this.variant === 'outline'
-                ? 'color-std-text'
-                : `color-${this.variant}--contrast` })), h("div", { class: 'blind-header-title-row' }, h("div", { class: "blind-header-title-col" }, h("ix-typography", { title: this.label, format: "label-lg", bold: true }, h("div", { class: "blind-header-title-label", title: this.label }, this.label))), this.sublabel && (h("div", { class: "blind-header-title-col" }, h("ix-typography", { title: this.sublabel }, h("div", { class: "blind-header-title-sublabel" }, this.sublabel))))), h("div", { class: "header-actions" }, h("slot", { name: "header-actions" })))) : null)), h("button", { key: '841d6430b672ee5a325803d69a86794620526cc6', class: {
+            } }, h("div", { key: 'a30152172426864588f8482a8f94f437948c74a4', class: 'blind-header-wrapper' }, h("button", { key: '2d4c31d29ae45a44cb4da28d4671eec4e4293ffe', class: {
                 'blind-header': true,
                 [`blind-${this.variant}`]: true,
                 closed: this.collapsed,
-            }, type: "button", "aria-labelledby": `ix-blind-header-title-${this.blindId}`, "aria-controls": `ix-blind-content-section-${this.blindId}`, "aria-expanded": a11yBoolean(!this.collapsed), onClick: () => this.onHeaderClick() }, h("slot", { key: '96c40a71ba13b7b46d7b3148e2d76f6f69878eb6', name: "custom-header" }))), h("section", { key: '8702342c9b1a0c7bf81e753cdc9b88b76addacb3', id: `ix-blind-content-section-${this.blindId}`, "aria-labelledby": `ix-blind-header-title-${this.blindId}` }, h("div", { key: 'a362c9a6be61160391054fa0cbcb558c0e275a7f', class: {
+            }, type: "button", "aria-labelledby": `ix-blind-header-title-${this.blindId}`, "aria-controls": `ix-blind-content-section-${this.blindId}`, "aria-expanded": a11yBoolean(!this.collapsed), onClick: () => this.onHeaderClick() }, h("slot", { key: '6b43c8e46273edbe85478df6417d0e4814bb96d8', name: "custom-header" })), h("div", { key: 'a8365629f6a68d360959bd5d12cbb56989c1584a', class: 'blind-header-content' }, h("ix-icon", { key: '3f326906e7318a857ca360c3cdbc1e05d7f10d3d', class: "collapse-icon", name: 'chevron-right-small', color: this.variant === 'insight' || this.variant === 'outline'
+                ? 'color-primary'
+                : `color-${this.variant}--contrast`, ref: (ref) => (this.chevronRef = ref) }), h("div", { key: '3fd27a4637f4ce37a0d430b2c7b0a0f12fa12539', class: "blind-header-title", id: `ix-blind-header-title-${this.blindId}` }, this.label !== undefined ? (h(Fragment, null, this.icon && (h("ix-icon", { class: "blind-header-title-icon", name: this.icon, color: this.variant === 'insight' || this.variant === 'outline'
+                ? 'color-std-text'
+                : `color-${this.variant}--contrast` })), h("div", { class: 'blind-header-title-row' }, h("div", { class: "blind-header-title-col" }, h("ix-typography", { title: this.label, format: "label-lg", bold: true }, h("div", { class: "blind-header-title-label", title: this.label }, this.label))), this.sublabel && (h("div", { class: "blind-header-title-col" }, h("ix-typography", { title: this.sublabel }, h("div", { class: "blind-header-title-sublabel" }, this.sublabel))))), h("div", { class: "header-actions" }, h("slot", { name: "header-actions" })))) : null))), h("section", { key: '8702342c9b1a0c7bf81e753cdc9b88b76addacb3', id: `ix-blind-content-section-${this.blindId}`, "aria-labelledby": `ix-blind-header-title-${this.blindId}` }, h("div", { key: 'a362c9a6be61160391054fa0cbcb558c0e275a7f', class: {
                 'blind-content': true,
                 hide: this.collapsed,
             } }, !this.collapsed ? h("slot", null) : null))));
@@ -182,7 +182,7 @@ export class Blind {
                     "references": {
                         "BlindVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/blind/blind.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/blind/blind.tsx",
                             "id": "src/components/blind/blind.tsx::BlindVariant"
                         }
                     }

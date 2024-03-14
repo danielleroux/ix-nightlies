@@ -4,7 +4,7 @@ import { d as defineCustomElement$3 } from './icon-button.js';
 import { d as defineCustomElement$2 } from './spinner.js';
 import { d as defineCustomElement$1 } from './typography.js';
 
-const modalHeaderCss = ":host{display:flex;padding:2px 16px 16px 10px;align-items:center;align-self:stretch}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .modal-close{margin-left:auto;margin-right:-20px}:host .modal-icon{margin-right:1rem}";
+const modalHeaderCss = ":host{display:flex;padding:0.5rem;align-items:center;align-self:stretch}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .modal-close{margin-left:auto;margin-right:-1rem}:host .modal-icon{margin-right:1rem}";
 const IxModalHeaderStyle0 = modalHeaderCss;
 
 const ModalHeader = /*@__PURE__*/ proxyCustomElement(class ModalHeader extends HTMLElement {
@@ -39,7 +39,7 @@ const ModalHeader = /*@__PURE__*/ proxyCustomElement(class ModalHeader extends H
         this.parentDialog.dismissModal();
     }
     render() {
-        return (h(Host, { key: '93f0022e034724d55e1ef5d158e26c3c52f187ea' }, this.icon ? (h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, h("ix-typography", { key: 'da388b084f8a380c731a45ae72d9b40fce7b2ef5', variant: 'default-title' }, h("slot", { key: '425ec3dd532be2169aa3782e01e923c0518646bb' })), !this.hideClose ? (h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
+        return (h(Host, { key: '6acc4a0a566d2b681ccabf3b1bc1b8a09da23926' }, this.icon ? (h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, h("ix-typography", { key: '1bcbb5e77ec381b904efa5d18315a35da9fb5964', variant: 'default-title' }, h("slot", { key: '12f1f41c559b4ba64c69e5039d425ee17019254a' })), !this.hideClose ? (h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
     }
     get hostElement() { return this; }
     static get watchers() { return {

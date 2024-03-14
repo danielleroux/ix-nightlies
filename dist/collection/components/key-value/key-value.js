@@ -82,7 +82,7 @@ export class KeyValue {
                     "references": {
                         "KeyValueLabelPosition": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/key-value/key-value.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/key-value/key-value.tsx",
                             "id": "src/components/key-value/key-value.tsx::KeyValueLabelPosition"
                         }
                     }

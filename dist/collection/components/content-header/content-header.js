@@ -40,7 +40,7 @@ export class ContentHeader {
                     "references": {
                         "ContentHeaderVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/content-header/content-header.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/content-header/content-header.tsx",
                             "id": "src/components/content-header/content-header.tsx::ContentHeaderVariant"
                         }
                     }

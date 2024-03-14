@@ -61,9 +61,9 @@ const ToggleButton = class {
                 'aria-pressed': a11y.a11yBoolean(this.pressed),
             },
         };
-        return (index.h(index.Host, { key: 'f8633f71b51df3509bc679922b432bd5c530d580', class: {
+        return (index.h(index.Host, { key: 'ba236c1d808bd8755b6e1856b96771029e5d1ade', class: {
                 disabled: this.disabled || this.loading,
-            } }, index.h(baseButton.BaseButton, Object.assign({ key: '005a4497d2d37783c6dcf2824c471b56515396ed' }, baseButtonProps), index.h("slot", { key: '9cafada091aa59fd6b447a2821f58ebd504875cd' }))));
+            } }, index.h(baseButton.BaseButton, Object.assign({ key: '07eb09beb216cb83410434f1392f2de846a2b86c' }, baseButtonProps), index.h("slot", { key: '43871212872a6dd8a040c2db6fa5026e4018e731' }))));
     }
     static get watchers() { return {
         "variant": ["onVariantChange"],

@@ -7,7 +7,7 @@
     "url": "https://github.com/siemens/ix",
     "directory": "packages/core"
   },
-  "version": "2.1.0",
+  "version": "2.1.2-beta.0",
   "license": "MIT",
   "description": "Siemens iX Web Components",
   "main": "dist/index.cjs.js",
@@ -94,6 +94,7 @@
     "test:ct": "playwright test --config playwright-ct.config.ts --reporter list",
     "visual-regression": "playwright test",
     "host-root": "http-server ./ -a 127.0.0.1 -p 8080 -c-1",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "pkg": "pnpm pack"
   }
 }

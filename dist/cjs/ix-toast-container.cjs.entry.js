@@ -78,7 +78,7 @@ const ToastContainer = class {
         };
     }
     render() {
-        return (index.h(index.Host, { key: '60af7515a7ed4f464d8d7b3e38ab5552c27f3af6', class: {
+        return (index.h(index.Host, { key: '8b6a120ba78872f0cbc86f006613dcdc1dd263e0', class: {
                 'toast-container--bottom-right': this.position === 'bottom-right',
                 'toast-container--top-right': this.position === 'top-right',
             } }));

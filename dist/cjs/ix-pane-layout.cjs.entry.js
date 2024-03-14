@@ -229,7 +229,7 @@ const Panes = class {
         return pane ? pane.floating : false;
     }
     render() {
-        return (index.h(index.Host, { key: 'd0c4c123e23837ab5f557bc21269defbed5e7221' }, !this.isMobile ? (this.layout == 'full-vertical' ? (index.h("div", { class: "side-panes-wrapper" }, index.h("div", { class: {
+        return (index.h(index.Host, { key: '56fd9ab50a41ec59e245578a8d87f4c144a669df' }, !this.isMobile ? (this.layout == 'full-vertical' ? (index.h("div", { class: "side-panes-wrapper" }, index.h("div", { class: {
                 row: true,
                 'padding-left': this.hasPadding('left'),
                 'padding-right': this.hasPadding('right'),

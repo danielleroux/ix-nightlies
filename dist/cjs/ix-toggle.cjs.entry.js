@@ -28,9 +28,9 @@ const Toggle = class {
         this.checkedChange.emit(this.checked);
     }
     render() {
-        return (index.h(index.Host, { key: 'ffc42b6828208dcf6483abfda90ae88dd43ee408', class: {
+        return (index.h(index.Host, { key: '47551ac764885becdf8b0679b04050692867c99c', class: {
                 disabled: this.disabled,
-            }, onClick: () => this.onCheckedChange(!this.checked) }, index.h("input", { key: '35954eafdb6301bb6e7063a8978f2bfcc7076de0', disabled: this.disabled, indeterminate: this.indeterminate, checked: this.checked, role: "switch", tabindex: 0, type: "checkbox", "aria-checked": a11y.a11yBoolean(this.checked), onChange: (event) => this.onCheckedChange(event.target.checked) }), index.h("label", { key: '0aed058713bc742c3408accee2e3551313a1ad31', class: "switch", tabIndex: -1 }, index.h("span", { key: '62fbfca9e3adb625006e981f4ae655d2989d9aef', class: "slider" })), !this.hideText ? (index.h(index.Fragment, null, !this.indeterminate ? (index.h("span", { class: 'toggle-text', "aria-hidden": a11y.a11yBoolean(true) }, this.checked ? this.textOn : this.textOff)) : (index.h("span", { class: 'toggle-text', "aria-hidden": a11y.a11yBoolean(true) }, this.textIndeterminate)))) : null));
+            }, onClick: () => this.onCheckedChange(!this.checked) }, index.h("input", { key: '2f8ceac3b78c9496f6bed179cb7b05310616f3ba', disabled: this.disabled, indeterminate: this.indeterminate, checked: this.checked, role: "switch", tabindex: 0, type: "checkbox", "aria-checked": a11y.a11yBoolean(this.checked), onChange: (event) => this.onCheckedChange(event.target.checked) }), index.h("label", { key: '11f165b726d672b8bd24b411deb0f9ccfeee5054', class: "switch", tabIndex: -1 }, index.h("span", { key: 'a2b95f492b930d283df35f61db9e4375fd20d2d6', class: "slider" })), !this.hideText ? (index.h(index.Fragment, null, !this.indeterminate ? (index.h("span", { class: 'toggle-text', "aria-hidden": a11y.a11yBoolean(true) }, this.checked ? this.textOn : this.textOff)) : (index.h("span", { class: 'toggle-text', "aria-hidden": a11y.a11yBoolean(true) }, this.textIndeterminate)))) : null));
     }
     get hostElement() { return index.getElement(this); }
 };

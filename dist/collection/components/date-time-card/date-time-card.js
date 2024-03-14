@@ -92,7 +92,7 @@ export class DateTimeCard {
                     "references": {
                         "DateTimeCardCorners": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/date-time-card/date-time-card.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/date-time-card/date-time-card.tsx",
                             "id": "src/components/date-time-card/date-time-card.tsx::DateTimeCardCorners"
                         }
                     }

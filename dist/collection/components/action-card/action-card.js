@@ -44,7 +44,7 @@ export class IxActionCard {
                     "references": {
                         "ActionCardVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/action-card/action-card.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/action-card/action-card.tsx",
                             "id": "src/components/action-card/action-card.tsx::ActionCardVariant"
                         }
                     }

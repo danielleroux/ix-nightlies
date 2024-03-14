@@ -5,7 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-59fe9b91.js');
 const shadowDom = require('./shadow-dom-73f9d553.js');
 
-const modalContentCss = ":host{display:block;position:relative;overflow:auto;padding:0.125rem 0.625rem 0.125rem 0.625rem}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}";
+const modalContentCss = ":host{display:block;position:relative;overflow:auto;padding:0.25rem 0.75rem}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}";
 const IxModalContentStyle0 = modalContentCss;
 
 const ModalContent = class {
@@ -13,12 +13,12 @@ const ModalContent = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return (index.h(index.Host, { key: '7d65ee586b3d78c89cc6f6a90689eaa1d98f4ec2' }, index.h("slot", { key: 'a2cb0a30400cf62e782a0fbb9e2926f4127ace4f' })));
+        return (index.h(index.Host, { key: 'b36a65aae830091d79a14c6ff3eae20cb6a188ce' }, index.h("slot", { key: '9c2e696a169ec08f58a831086d29264426e03cc9' })));
     }
 };
 ModalContent.style = IxModalContentStyle0;
 
-const modalHeaderCss = ":host{display:flex;padding:2px 16px 16px 10px;align-items:center;align-self:stretch}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .modal-close{margin-left:auto;margin-right:-20px}:host .modal-icon{margin-right:1rem}";
+const modalHeaderCss = ":host{display:flex;padding:0.5rem;align-items:center;align-self:stretch}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .modal-close{margin-left:auto;margin-right:-1rem}:host .modal-icon{margin-right:1rem}";
 const IxModalHeaderStyle0 = modalHeaderCss;
 
 const ModalHeader = class {
@@ -51,7 +51,7 @@ const ModalHeader = class {
         this.parentDialog.dismissModal();
     }
     render() {
-        return (index.h(index.Host, { key: '93f0022e034724d55e1ef5d158e26c3c52f187ea' }, this.icon ? (index.h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, index.h("ix-typography", { key: 'da388b084f8a380c731a45ae72d9b40fce7b2ef5', variant: 'default-title' }, index.h("slot", { key: '425ec3dd532be2169aa3782e01e923c0518646bb' })), !this.hideClose ? (index.h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
+        return (index.h(index.Host, { key: '6acc4a0a566d2b681ccabf3b1bc1b8a09da23926' }, this.icon ? (index.h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, index.h("ix-typography", { key: '1bcbb5e77ec381b904efa5d18315a35da9fb5964', variant: 'default-title' }, index.h("slot", { key: '12f1f41c559b4ba64c69e5039d425ee17019254a' })), !this.hideClose ? (index.h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {

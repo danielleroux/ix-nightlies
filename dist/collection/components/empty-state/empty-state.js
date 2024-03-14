@@ -44,7 +44,7 @@ export class EmptyState {
                     "references": {
                         "EmptyStateLayout": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/empty-state/empty-state.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/empty-state/empty-state.tsx",
                             "id": "src/components/empty-state/empty-state.tsx::EmptyStateLayout"
                         }
                     }

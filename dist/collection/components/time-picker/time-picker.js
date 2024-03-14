@@ -182,7 +182,7 @@ export class TimePicker {
                     "references": {
                         "TimePickerCorners": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/time-picker/time-picker.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/time-picker/time-picker.tsx",
                             "id": "src/components/time-picker/time-picker.tsx::TimePickerCorners"
                         }
                     }

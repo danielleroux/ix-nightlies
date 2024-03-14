@@ -114,7 +114,7 @@ export class IconButton {
                     "references": {
                         "IconButtonVariant": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/icon-button/icon-button.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/icon-button/icon-button.tsx",
                             "id": "src/components/icon-button/icon-button.tsx::IconButtonVariant"
                         }
                     }

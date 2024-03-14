@@ -1690,10 +1690,11 @@
   flex-direction: row;
   position: absolute;
   height: 100%;
-  min-height: 22.75rem;
+  min-height: -moz-min-content;
+  min-height: min-content;
   z-index: var(--theme-z-index-sticky);
   width: auto;
-  bottom: 0px;
+  bottom: 0;
 }
 :host *,
 :host *::after,
@@ -1730,16 +1731,22 @@
   overflow-y: auto;
   pointer-events: all;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: inherit;
 }
 :host .tabs::-webkit-scrollbar {
   display: none;
+}
+:host .show-scrollbar {
+  scrollbar-width: inherit;
+}
+:host .show-scrollbar::-webkit-scrollbar {
+  display: inherit;
 }
 :host .tabs-shadow-container {
   overflow: hidden;
   display: block;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 0.75rem;
 }
 :host .tabs--shadow {
   opacity: 0;
@@ -1752,11 +1759,11 @@
   transition: opacity var(--theme-default-time);
 }
 :host .tabs--shadow-top {
-  top: 0px;
+  top: 0;
   background: linear-gradient(var(--theme-color-shadow-1), transparent);
 }
 :host .tabs--shadow-bottom {
-  bottom: 0px;
+  bottom: 0;
   background: linear-gradient(transparent, var(--theme-color-shadow-1));
 }
 :host .tabs--shadow--show {
@@ -1834,14 +1841,14 @@
 :host(.breakpoint-sm) .menu:not(.expanded) {
   width: 0;
 }
-:host(.breakpoint-sm) .menu {
-  padding-top: 0.5rem;
+:host(.breakpoint-sm) .show-scrollbar {
+  padding-top: 1rem;
 }
 :host(.breakpoint-sm) .menu .burger-menu {
   display: none;
 }
 :host(.breakpoint-sm) .menu-overlay {
-  left: 0px;
+  left: 0;
   width: 100vw;
 }
 

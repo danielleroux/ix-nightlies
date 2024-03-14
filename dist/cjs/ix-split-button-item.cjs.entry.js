@@ -21,7 +21,7 @@ const SplitButtonItem = class {
         return this.wrapperRef.waitForCurrent();
     }
     render() {
-        return (index.h(index.Host, { key: 'f25e1e6cb9b54071058b126718b0892bec07e9dc' }, index.h("ix-dropdown-item", { key: '0dd8665d736ab6d19e694de3eb72f32c4222d100', ref: this.wrapperRef, suppressChecked: true, icon: this.icon, label: this.label, onItemClick: (e) => {
+        return (index.h(index.Host, { key: 'd9978d4e7c37309d508c6f469d1a1c54cac432bc' }, index.h("ix-dropdown-item", { key: '501fd4ca885036ae75dff7cc66c948ac582ab59d', ref: this.wrapperRef, suppressChecked: true, icon: this.icon, label: this.label, onItemClick: (e) => {
                 e.preventDefault();
                 e.stopPropagation();
             }, onClick: (e) => this.itemClick.emit(e) })));

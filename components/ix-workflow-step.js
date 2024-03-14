@@ -70,18 +70,18 @@ const WorkflowStep = /*@__PURE__*/ proxyCustomElement(class WorkflowStep extends
     }
     render() {
         const icons = !this.customIconSlot ? (h(Fragment, null, h("ix-icon", { color: "color-1", name: this.iconName === 'warning' ? 'triangle-filled' : 'circle-filled', class: "absolute", size: "24" }), h("ix-icon", { color: this.iconColor, name: this.iconName, class: "absolute", size: "24" }))) : null;
-        return (h(Host, { key: 'e6da26c63019f1efd788ac0e6d64e8c669f711b3', onClick: () => this.onStepClick() }, h("div", { key: '607ad21e42070abc412fd4a5313e207f7908d765', tabIndex: 0, class: {
+        return (h(Host, { key: 'bc87a5498fe280e6157cc6e8a105789e6358dc7e', onClick: () => this.onStepClick() }, h("div", { key: '5fb95991d58129ec22be82d6768b87af9eac3d6c', tabIndex: 0, class: {
                 step: true,
                 selected: this.selected,
                 vertical: this.vertical,
                 disabled: this.disabled,
                 clickable: this.clickable && !this.disabled,
-            } }, h("div", { key: 'a55397363ac7fdb3579751903e98e4840314a2c7', class: "wrapper" }, h("div", { key: 'b4044cabf368cdb5632727baf1a9040a2ba59296', class: {
+            } }, h("div", { key: '36e744a6079240a8c721c2625520b4abd3885c1c', class: "wrapper" }, h("div", { key: 'dd439c15b12ee98bb0b5ba0be8f73d972d4af59f', class: {
                 line: true,
                 selected: this.selected,
                 [this.status]: true,
                 [this.position]: true,
-            } }), h("div", { key: 'da4cbb5b0755dea7c8ff4c45676a5c7da33e0caf', class: "iconWrapper" }, icons, h("slot", { key: '3059dcda912a1fd2d7225dd7c97cf6c7f640b875', name: "custom-icon" }))), h("div", { key: '316a8dbb4b5e8845cca3635b3f2c1bb5ef3ebefd', class: "text" }, h("slot", { key: '9cc1127aa169fb7096b671720160da4a3ab7efc7' })))));
+            } }), h("div", { key: '8b2677456ac5d81d7e74106a1363530e3250844f', class: "iconWrapper" }, icons, h("slot", { key: 'ebbb4e6e83ac88f042ac57d256122c0a420da309', name: "custom-icon" }))), h("div", { key: '4c8d97b6ccb718422ab37eebf9983890974f00a7', class: "text" }, h("slot", { key: '4debbc426be167bc397f3bd09eb63bf2f081e277' })))));
     }
     get hostElement() { return this; }
     static get watchers() { return {

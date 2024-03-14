@@ -69,7 +69,7 @@ const WorkflowSteps = /*@__PURE__*/ proxyCustomElement(class WorkflowSteps exten
         this.updateSteps();
     }
     render() {
-        return (h(Host, { key: '0df56c84cde310027e181c8fd5d8c9dd4f5c9451' }, h("div", { key: '2f82dfc3689d431ac06586f673895b9c36799847', class: { steps: true, vertical: this.vertical } }, h("slot", { key: 'c22421b7917f1d61bc2624979bee8b8804cc8aa3' }))));
+        return (h(Host, { key: '5f78e87029a37e70a97bbb09f61b0749e7c137c2' }, h("div", { key: 'ff1ce2dca97b243b9895baad94615e380cc3b00f', class: { steps: true, vertical: this.vertical } }, h("slot", { key: '99711cedbb1939adc813d6b360b3d83404cac421' }))));
     }
     get hostElement() { return this; }
     static get style() { return IxWorkflowStepsStyle0; }

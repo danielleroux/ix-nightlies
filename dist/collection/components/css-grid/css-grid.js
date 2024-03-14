@@ -103,7 +103,7 @@ export class CssGrid {
                         },
                         "CssGridTemplateType": {
                             "location": "local",
-                            "path": "/Users/daniel/dev/oss/playground/daniellerouxix/packages/core/src/components/css-grid/css-grid.tsx",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/css-grid/css-grid.tsx",
                             "id": "src/components/css-grid/css-grid.tsx::CssGridTemplateType"
                         }
                     }
