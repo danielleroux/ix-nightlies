@@ -1,0 +1,45 @@
+{
+  "name": "@siemens/ix-angular",
+  "homepage": "https://ix.siemens.io",
+  "bugs": "https://github.com/siemens/ix/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siemens/ix",
+    "directory": "packages/angular"
+  },
+  "version": "2.1.2-beta.0",
+  "description": "Siemens iX for Angular",
+  "license": "MIT",
+  "dependencies": {
+    "@siemens/ix": "~2.1.2-beta.0",
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=13.4.0",
+    "@angular/forms": ">=13.4.0",
+    "@siemens/ix-icons": "^2.0.0"
+  },
+  "publishConfig": {
+    "directory": "dist"
+  },
+  "module": "fesm2015/siemens-ix-angular.mjs",
+  "es2020": "fesm2020/siemens-ix-angular.mjs",
+  "esm2020": "esm2020/siemens-ix-angular.mjs",
+  "fesm2020": "fesm2020/siemens-ix-angular.mjs",
+  "fesm2015": "fesm2015/siemens-ix-angular.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/siemens-ix-angular.mjs",
+      "es2020": "./fesm2020/siemens-ix-angular.mjs",
+      "es2015": "./fesm2015/siemens-ix-angular.mjs",
+      "node": "./fesm2015/siemens-ix-angular.mjs",
+      "default": "./fesm2020/siemens-ix-angular.mjs"
+    }
+  },
+  "sideEffects": false
+}
