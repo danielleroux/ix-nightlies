@@ -12,7 +12,7 @@ const ModalFooter = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return (index.h(index.Host, { key: 'ca4b647d4a7c7e3b09a2970b69dc507dcb711f08' }, index.h("slot", { key: '188f082b6716d3af472413f240434c5a987471b7' })));
+        return (index.h(index.Host, { key: '979bb97e3f19345c9fd001574570059a166c6dc0' }, index.h("slot", { key: 'c7c17474eacc35fc407f38b0ae9d9fac7871e228' })));
     }
 };
 ModalFooter.style = IxModalFooterStyle0;

@@ -42,14 +42,14 @@ const MapNavigationOverlay = class {
     }
     render() {
         var _a, _b, _c;
-        return (h(Host, { key: '9a3e2f31b59a6829c87dd6422a5426c0aee2951b' }, h("div", { key: 'c2053424c657e0642b0e7e33bf5009b70151a2f4', class: "overlay-header" }, h("div", { key: 'beab8496e3e0531bf8722b4c778b6e130291a13d', class: {
+        return (h(Host, { key: 'e032148cd238a6e03703b12098550b0af3d59116' }, h("div", { key: '99a192f95c70611b60bdb0dc6ea2626e77c04603', class: "overlay-header" }, h("div", { key: '805208183f5c68841625778424618609a681bb2d', class: {
                 'color-indicator': true,
                 'd-none': ((_a = this.iconColor) !== null && _a !== void 0 ? _a : this.color) === undefined,
             }, style: {
                 'background-color': ((_b = this.iconColor) !== null && _b !== void 0 ? _b : this.color)
                     ? `var(--theme-${(_c = this.iconColor) !== null && _c !== void 0 ? _c : this.color})`
                     : '',
-            } }), h("div", { key: '876d41acfceb40657e724482451588ccbfb06dd6', class: "overlay-header-content" }, h("ix-icon", { key: 'bfbdd91447f23b64f2d0a22a16b450016e9c86ce', size: "32", name: this.icon }), h("span", { key: '9be99e0ff37cc9023b2a66bc6be3a1af12a5a585', class: "overlay-header-title", title: this.name }, this.name)), h("ix-icon-button", { key: '57aed7319da3e3687ef7582849b9a35051d5e3eb', class: "overlay-close", ghost: true, icon: 'close', size: "24", onClick: () => this.closeOverlay() })), h("slot", { key: '8075187346f7e126505bd3defc79a6b4640da7cc' })));
+            } }), h("div", { key: '657730e6f7ee8de1dc6f81832e203dc08ff4fc4c', class: "overlay-header-content" }, h("ix-icon", { key: 'aa4b879448b68d7a98c663c1a1687886ec1ff319', size: "32", name: this.icon }), h("span", { key: '54c28bb988123955edb26f656af30a808b75e5d3', class: "overlay-header-title", title: this.name }, this.name)), h("ix-icon-button", { key: '86975e3e49b5f691c05631fa6b0726987cd136d4', class: "overlay-close", ghost: true, icon: 'close', size: "24", onClick: () => this.closeOverlay() })), h("slot", { key: 'fa0eb00b9acfe52af042b580c69b8cd444b35acc' })));
     }
     get hostElement() { return getElement(this); }
 };

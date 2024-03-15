@@ -375,19 +375,19 @@ const CategoryFilter = class {
     }
     render() {
         var _a;
-        return (h(Host, { key: 'ff8f35254d719a554f582dbad8997f7e4d6bf431' }, h("form", { key: '944b24fb6296fc8dfdcb3ac2dd1a1508c681ee6c', ref: (el) => (this.formElement = el) }, h("div", { key: 'a56bd235da22554a3cd9c4b0c86545ba0f408ac3', "read-only": this.readonly, class: {
+        return (h(Host, { key: 'bb1895ca71c8872520aa91537892b08bc44e8799' }, h("form", { key: '724c3f8b7344ff2a8d6dbc978328c1c40e9f4c86', ref: (el) => (this.formElement = el) }, h("div", { key: 'ce61f09afc88a407e8af9ab5de8d70df614c99c7', "read-only": this.readonly, class: {
                 'input-container': true,
                 disabled: this.disabled,
                 focus: this.hasFocus,
                 readonly: this.readonly,
                 'no-icon': this.hideIcon,
-            } }, h("ix-icon", { key: '07c42a0cc02e6ff7c8846addc59a9c473c993c97', color: this.getIconColor(), class: { 'd-none': this.hideIcon }, name: this.icon, size: "16" }), h("div", { key: '3a8f5cef5a49a7075f725ac209d16e6d9c8f03b0', class: "token-container" }, h("ul", { key: '50a8aa2fc77f5423b33922a2358a33de6dc80514', class: "list-unstyled" }, this.filterTokens.map((value, index) => (h("li", { key: value.toString(), class: {
+            } }, h("ix-icon", { key: 'c051a2ba705082c534c441997138d0a7681d9483', color: this.getIconColor(), class: { 'd-none': this.hideIcon }, name: this.icon, size: "16" }), h("div", { key: '11adfdb0d008ff35dbe1022bc8cdac5b04024cdf', class: "token-container" }, h("ul", { key: 'c9a892b1ac2757c9117eaf957548624184af0f83', class: "list-unstyled" }, this.filterTokens.map((value, index) => (h("li", { key: value.toString(), class: {
                 animate__animated: true,
                 animate__fadein: true,
             } }, h("ix-filter-chip", { disabled: this.disabled, readonly: this.readonly, onClick: (e) => e.stopPropagation(), onCloseClick: () => this.removeToken(index) }, this.getFilterChipLabel(value))))), this.categories === undefined ? ('') : (h("li", { class: {
                 'category-preview': true,
                 'd-none': this.category === undefined,
-            } }, (_a = this.categories[this.category]) === null || _a === void 0 ? void 0 : _a.label)), h("input", { key: '2980bcf4313e8163bc5ae521f152081641d0744d', class: {
+            } }, (_a = this.categories[this.category]) === null || _a === void 0 ? void 0 : _a.label)), h("input", { key: '9b8af2d470dbd7c9fe6d7d34717c7678317bed4b', class: {
                 'text-input': true,
                 'hide-placeholder': this.readonly ||
                     this.disabled ||

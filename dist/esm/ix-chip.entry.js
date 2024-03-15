@@ -35,11 +35,11 @@ const Chip = class {
                 [this.outline ? 'borderColor' : 'backgroundColor']: this.background,
             };
         }
-        return (h(Host, { key: '3e588faae52b42310628ebc15aa3077000a1472b', tabIndex: "-1", title: this.el.textContent, style: this.variant === 'custom'
+        return (h(Host, { key: '04ad48738af21d85310e4b6e81b509ff748740fe', tabIndex: "-1", title: this.el.textContent, style: this.variant === 'custom'
                 ? {
                     '--ix-icon-button-color': (_b = this.chipColor) !== null && _b !== void 0 ? _b : this.color,
                 }
-                : {} }, h("div", { key: '74de055f087c03d1dae868c9b4e87dfd384c913a', style: Object.assign({}, customStyle), class: {
+                : {} }, h("div", { key: 'fcb2c6a534fee6a075505632524db05ea6214611', style: Object.assign({}, customStyle), class: {
                 container: true,
                 outline: this.outline,
                 inactive: isInactive,
@@ -53,10 +53,10 @@ const Chip = class {
                 custom: this.variant === 'custom',
                 closable: this.closable,
                 icon: !!this.icon,
-            } }, h("ix-icon", { key: '7ba32fadaa20fe15ad08df0597455259537b5be7', class: {
+            } }, h("ix-icon", { key: '8177db5d16f03117e3397a99c4f364bff48b063b', class: {
                 'with-icon': true,
                 hidden: !this.icon,
-            }, name: this.icon, size: '24' }), h("span", { key: '0cb6855897a94a1c10068235e18a0b5e7a8e3a3f', class: "slot-container" }, h("slot", { key: '95a0e66db38f6a2c47615b05b0149184669e5546' })), isInactive === false && this.closable ? this.getCloseButton() : null)));
+            }, name: this.icon, size: '24' }), h("span", { key: 'f1f0f6b22b92951ce0b1b5c81b1071ad4a3c6165', class: "slot-container" }, h("slot", { key: '59087cf16d54288ef6dc324520f0f43b84108166' })), isInactive === false && this.closable ? this.getCloseButton() : null)));
     }
     get el() { return getElement(this); }
 };

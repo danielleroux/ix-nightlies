@@ -13,12 +13,12 @@ const LayoutGrid = /*@__PURE__*/ proxyCustomElement(class LayoutGrid extends HTM
         this.columns = 12;
     }
     render() {
-        return (h(Host, { key: '89d8863758f2044ad0d68491e852c5c23270ac77', class: {
+        return (h(Host, { key: 'd3f673eeface55a4cd571acda477794c8735c5e4', class: {
                 'no-margin': this.noMargin,
             }, style: {
                 '--ix-layout-grid-columns': `${this.columns}`,
                 '--ix-layout-grid-gutter': `${this.gap}px`,
-            } }, h("slot", { key: '3b84d5e1a028c22943acbb845aedae43c2c33fb3' })));
+            } }, h("slot", { key: 'e70ea397035d14b0eefc589150d1106983599cec' })));
     }
     static get style() { return IxLayoutGridStyle0; }
 }, [1, "ix-layout-grid", {

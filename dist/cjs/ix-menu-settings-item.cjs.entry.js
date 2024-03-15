@@ -21,7 +21,7 @@ const MenuSettingsItem = class {
         });
     }
     render() {
-        return (index.h(index.Host, { key: '16ae09324b5ce5e94886e7738cfee131ed8c711c' }, index.h("slot", { key: 'fc064333e928f4b54a4ea9d3f0849ad27964a72d' })));
+        return (index.h(index.Host, { key: '0de6c5999b525136525b9319c4c77b609637e589' }, index.h("slot", { key: 'c9fb0334e733956a9d93d5599e8f13c84feed30a' })));
     }
     static get watchers() { return {
         "label": ["watchLabel"]

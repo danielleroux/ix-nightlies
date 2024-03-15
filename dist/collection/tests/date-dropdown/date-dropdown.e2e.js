@@ -17,5 +17,27 @@ regressionTest.describe('date dropdown', () => {
         await expect(dropdown).toHaveClass(/show/);
         await expect(page).toHaveScreenshot();
     });
+    regressionTest('range options', async ({ page }) => {
+        await page.goto('date-dropdown/range-options');
+        const dateDropdown = page.locator('ix-date-dropdown');
+        dateDropdown.evaluate((dateDropdown) => {
+            dateDropdown.dateRangeId = 'last-7';
+        });
+        await dateDropdown.click();
+        const dropdown = dateDropdown.locator('ix-dropdown[data-date-dropdown]');
+        await expect(dropdown).toHaveClass(/show/);
+        await expect(page).toHaveScreenshot();
+    });
+    regressionTest('range options - custom', async ({ page }) => {
+        await page.goto('date-dropdown/range-options');
+        const dateDropdown = page.locator('ix-date-dropdown');
+        dateDropdown.evaluate((dateDropdown) => {
+            dateDropdown.dateRangeId = 'custom';
+        });
+        await dateDropdown.click();
+        const dropdown = dateDropdown.locator('ix-dropdown[data-date-dropdown]');
+        await expect(dropdown).toHaveClass(/show/);
+        await expect(page).toHaveScreenshot();
+    });
 });
 //# sourceMappingURL=date-dropdown.e2e.js.map

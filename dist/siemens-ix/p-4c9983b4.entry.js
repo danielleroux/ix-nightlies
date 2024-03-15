@@ -1,0 +1,2 @@
+import{r,h as e,H as o}from"./p-3b388d55.js";const t=":host{display:block;position:relative;width:100%;border-bottom:0.0625rem solid var(--theme-color-x-weak-bdr);margin:0.25rem 0px}";const s=t;const a=class{constructor(e){r(this,e)}render(){return e(o,{key:"77aba5256230ceae62d44788f8b3c5e882fe5e80"})}};a.style=s;export{a as ix_divider};
+//# sourceMappingURL=p-4c9983b4.entry.js.map

@@ -13,7 +13,7 @@ const KeyValueList = class {
         this.striped = undefined;
     }
     render() {
-        return (index.h(index.Host, { key: '46642ccf687b608a8db31936f492e56c6e360cb7', class: { keyValueList: true, 'keyValueList--striped': this.striped } }, index.h("slot", { key: '9888ad2f28136d0f354e1d14087fbcdd4d65c946' })));
+        return (index.h(index.Host, { key: '8d21b4ebf885e1ca21fddb7c6dc94b7d46940f95', class: { keyValueList: true, 'keyValueList--striped': this.striped } }, index.h("slot", { key: '782c4a007ea866740087f022bf7c6661aa8eea5a' })));
     }
 };
 KeyValueList.style = IxKeyValueListStyle0;

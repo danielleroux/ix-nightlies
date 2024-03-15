@@ -68,13 +68,13 @@ const MenuItem = class {
                 slot: 'bottom',
             };
         }
-        return (h(Host, Object.assign({ key: 'ccfb89a1d40730adfcdc3afe2067abb436fcbbeb', class: {
+        return (h(Host, Object.assign({ key: 'da2c5ba8459f0a0473c249eb37303a49d980c5ef', class: {
                 disabled: this.disabled,
                 'home-tab': this.home,
                 'bottom-tab': this.bottom,
                 active: this.active,
                 'tab-nested': this.isHostedInsideCategory,
-            } }, extendedAttributes), h("button", { key: '0d3a28e71c173f4373eb166a675cacd0982a159a', class: "tab", title: this.title, tabIndex: this.disabled ? -1 : 0, role: "listitem" }, (this.icon || this.tabIcon) && (h("ix-icon", { class: 'tab-icon', name: (_a = this.icon) !== null && _a !== void 0 ? _a : this.tabIcon })), this.notifications ? (h("div", { class: "notification" }, h("div", { class: "pill" }, this.notifications))) : null, h("span", { key: '142f75cc33d765e172a73bd109736f71d0859f54', class: "tab-text text-default" }, h("slot", { key: '302d2eb2bce613f1d6d19498dee73ebcb0448510' })))));
+            } }, extendedAttributes), h("button", { key: '3a0650544cbd13512438699730ff9dfc13978cc3', class: "tab", title: this.title, tabIndex: this.disabled ? -1 : 0, role: "listitem" }, (this.icon || this.tabIcon) && (h("ix-icon", { class: 'tab-icon', name: (_a = this.icon) !== null && _a !== void 0 ? _a : this.tabIcon })), this.notifications ? (h("div", { class: "notification" }, h("div", { class: "pill" }, this.notifications))) : null, h("span", { key: 'e66eb57545254f24212e3bb99e0efedb49ede1c4', class: "tab-text text-default" }, h("slot", { key: '80127ff0f7fb6ffe2a3318e4ced668c4646262c1' })))));
     }
     get hostElement() { return getElement(this); }
     static get watchers() { return {

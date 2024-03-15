@@ -33,7 +33,7 @@ const TabItem = class {
         };
     }
     render() {
-        return (index.h(index.Host, { key: '62eea432a4d9c19db812f736ec3d08e03d411b48', class: this.tabItemClasses({
+        return (index.h(index.Host, { key: '77688f6b83f53ba0de891d2ed529c7b82941930a', class: this.tabItemClasses({
                 selected: this.selected,
                 disabled: this.disabled,
                 small: this.small,
@@ -48,12 +48,12 @@ const TabItem = class {
                 if (clientEvent.defaultPrevented) {
                     event.stopPropagation();
                 }
-            } }, index.h("div", { key: '31f7dd998cfe6b2f72a57a4738d87d70b4e13383', class: {
+            } }, index.h("div", { key: 'd1790baee81972038f8a09c0e7a0ee3124e828a6', class: {
                 circle: this.rounded,
                 text: !this.rounded,
                 selected: this.selected,
                 disabled: this.disabled,
-            } }, index.h("slot", { key: '591b96b26a84f459d81d46645aa1db78748725bb' })), index.h("div", { key: '70ddcd21e4f76f4549e6c830640acdb7e33e3150', class: {
+            } }, index.h("slot", { key: '7dcd5bcd496e9955b45f00b570fb935a0e9a8969' })), index.h("div", { key: '435deec3155b879b5f8a397124bf9a198283c2bd', class: {
                 counter: true,
                 selected: this.selected,
                 hidden: !(this.rounded && this.counter !== undefined),
@@ -281,13 +281,13 @@ const Tabs = class {
         });
     }
     render() {
-        return (index.h(index.Host, { key: '5df5d68f3d3174eda6397446963ac84a14902a49' }, index.h("div", { key: '37841c92138c98e083a400aacaf9bb8ca6c01a25', class: "arrow", "data-arrow-left": true, onClick: () => this.move(this.scrollAmount, true) }, index.h("ix-icon", { key: '9c961427261506c6555a61735e21a39295ce009d', name: 'chevron-left-small' })), index.h("div", { key: '843ea9a3a7544d1cc52730e80405e82b9f42b49a', class: {
+        return (index.h(index.Host, { key: 'f98d2ee11257c6e5879f25404379e8be5a535d31' }, index.h("div", { key: 'a1230a4cac929390e9415fcfe25362c029a0e22a', class: "arrow", "data-arrow-left": true, onClick: () => this.move(this.scrollAmount, true) }, index.h("ix-icon", { key: 'f34a2391bd3bd96c11251df77b379958be1411bf', name: 'chevron-left-small' })), index.h("div", { key: '66ce38113880297fac297678a05d6abf3d01a28e', class: {
                 'tab-items': true,
                 'overflow-shadow': true,
                 'shadow-left': this.showPreviousArrow(),
                 'shadow-right': this.showNextArrow(),
                 'shadow-both': this.showNextArrow() && this.showPreviousArrow(),
-            } }, index.h("div", { key: '4d224ea654a4dc578d6d9ee7a5b0b09ca7908360', class: "items-content" }, index.h("slot", { key: 'b30e106aaf1e06eb530e80ffe66e7cf57a04d845' }))), index.h("div", { key: '498533a75ad99e556ca6020d11b14e9cef7bf688', class: "arrow right", "data-arrow-right": true, onClick: () => this.move(-this.scrollAmount, true) }, index.h("ix-icon", { key: '72156ff0ccb92387c23aeb3c43ac07ef94b0a17b', name: 'chevron-right-small' }))));
+            } }, index.h("div", { key: '7f11e3d666b5a80a7faef2a0bf80b6a00e14c3e8', class: "items-content" }, index.h("slot", { key: '5e5d4c50d3c0fa30527f02a32dab998ad2d7aa5b' }))), index.h("div", { key: 'fbcfce76ec9d1fb48beb35ba7e62a7cc4cac7946', class: "arrow right", "data-arrow-right": true, onClick: () => this.move(-this.scrollAmount, true) }, index.h("ix-icon", { key: '7f7a80642127bff14a1c182468bec101152218ae', name: 'chevron-right-small' }))));
     }
     get hostElement() { return index.getElement(this); }
 };

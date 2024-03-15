@@ -8,7 +8,7 @@ const PlaygroundInternal = class {
         registerInstance(this, hostRef);
     }
     render() {
-        return h(Host, { key: '18c81394ca3a46d8c0d9e226b29c9b284f664f1c' });
+        return h(Host, { key: '2c7023915b61491ec4626431974c787778741459' });
     }
 };
 PlaygroundInternal.style = IxPlaygroundInternalStyle0;

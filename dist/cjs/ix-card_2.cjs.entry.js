@@ -31,7 +31,7 @@ const CardContent = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return (index.h(index.Host, { key: 'ee46815485376b646616fe68d59f5057438e91f5' }, index.h("slot", { key: '4fe9415fb686a5700a81ce5a9584ceebd441d67d' })));
+        return (index.h(index.Host, { key: '7351d9d0c2ac7e3bb3ff04f7327876f3c118eede' }, index.h("slot", { key: 'ae6747bb0d3204fcb78bb26d763a04a090424fc5' })));
     }
 };
 CardContent.style = IxCardContentStyle0;

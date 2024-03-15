@@ -113,7 +113,7 @@ const TimePicker = class {
             },
         ];
         timepickerInformation = timepickerInformation.filter((item) => !item.hidden);
-        return (index.h(index.Host, { key: '0d12688a996f942f3677fb42eb2e03adc043e8fd' }, index.h("ix-date-time-card", { key: '5409847c27d8f5e39bcccc755b81127ad625a2f9', standaloneAppearance: this.standaloneAppearance, corners: this.corners }, index.h("div", { key: 'a9aeee356d8a240cfec0113ffcc5fcfc18fb6f5d', class: "header", slot: "header" }, index.h("ix-typography", { key: '24eee442d20dc1e5c7ef309e20104f4076029b2a', variant: "default-title" }, this.textTime || 'Time')), index.h("div", { key: '0125ffbdab047f9244c3df14365f87694efbe8c0', class: "clock" }, timepickerInformation.map((descriptor, index$1) => (index.h("div", { class: "flex" }, index.h("div", { class: { columns: true, hidden: descriptor.hidden } }, index.h("ix-icon-button", { size: "16", onClick: () => (this._time = this._time.plus({
+        return (index.h(index.Host, { key: 'c09337ff6d0366929f77fe9bbdd89eb43bcc71ea' }, index.h("ix-date-time-card", { key: '80c29872490f5968979a802b92113377ec9df678', standaloneAppearance: this.standaloneAppearance, corners: this.corners }, index.h("div", { key: '35981c4cde62451368ee30fc4bcc19f894939cda', class: "header", slot: "header" }, index.h("ix-typography", { key: 'cd88a3f06e8907419acc45cd71d9954b7365096c', variant: "default-title" }, this.textTime || 'Time')), index.h("div", { key: 'fd5d74523fd649fedac87ac0887fb643fd9795ce', class: "clock" }, timepickerInformation.map((descriptor, index$1) => (index.h("div", { class: "flex" }, index.h("div", { class: { columns: true, hidden: descriptor.hidden } }, index.h("ix-icon-button", { size: "16", onClick: () => (this._time = this._time.plus({
                 [descriptor.unit]: 1,
             })), ghost: true, icon: "chevron-up", variant: "primary", class: "arrows" }), index.h("input", { class: "form-control", name: descriptor.unit, type: "number", placeholder: descriptor.placeholder, value: this._formattedTime
                 ? this._formattedTime[descriptor.unit]
@@ -133,11 +133,11 @@ const TimePicker = class {
             })), ghost: true, icon: "chevron-down", variant: "primary", class: "arrows" })), index$1 !== timepickerInformation.length - 1 && (index.h("div", { class: {
                 'column-seperator': true,
                 hidden: descriptor.hidden,
-            } }, ":"))))), index.h("div", { key: '62554ab71c93c34c73a7d780d510676f4c0dee36', class: {
+            } }, ":"))))), index.h("div", { key: '819d9ce8cdfc94e7c4a1d2f7190587f052a9d246', class: {
                 columns: true,
                 'default-space': true,
                 hidden: this._timeRef === undefined,
-            } }, index.h("ix-icon-button", { key: 'c0f1734a51bc44ae8ff98c3f16843a3a6420dcaa', size: "16", onClick: () => this.changeTimeReference(), ghost: true, icon: "chevron-up", variant: "primary", class: "arrows" }), index.h("div", { key: 'c01c49b66efda970fb800134e2bc949d9f7f6c9b', class: "time-reference" }, this._timeRef), index.h("ix-icon-button", { key: '83c58978b8442e6b87ea88897a75419882509d5c', size: "16", onClick: () => this.changeTimeReference(), ghost: true, icon: "chevron-down", variant: "primary", class: "arrows" }))), index.h("div", { key: '2d00b5a7fde2f34f31621f5ad03441ac05978931', class: { button: true, hidden: !this.standaloneAppearance } }, index.h("ix-button", { key: '88464d3ff7ebc64bd5d8c6933fcc5013c0870706', onClick: () => {
+            } }, index.h("ix-icon-button", { key: '6ec3654d6a81bb2420695dd3292677395bd6adc2', size: "16", onClick: () => this.changeTimeReference(), ghost: true, icon: "chevron-up", variant: "primary", class: "arrows" }), index.h("div", { key: '09b1dd7076112d4dc5168a968ed0ebebaa67e69f', class: "time-reference" }, this._timeRef), index.h("ix-icon-button", { key: 'ff24cdad6df286cc2da51958c2b51fe43f1e4fea', size: "16", onClick: () => this.changeTimeReference(), ghost: true, icon: "chevron-down", variant: "primary", class: "arrows" }))), index.h("div", { key: '82602709c4107324d9498426cb30959fe81bacc4', class: { button: true, hidden: !this.standaloneAppearance } }, index.h("ix-button", { key: '64da9baed02906baad694bbe066bc355197d293e', onClick: () => {
                 this.timeSelect.emit(this._time.toFormat(this.format));
                 this.done.emit(this._time.toFormat(this.format));
             } }, this.textSelectTime)))));

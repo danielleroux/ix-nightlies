@@ -189,9 +189,9 @@ const Tooltip = class {
         const tooltipContentClass = {
             'tooltip-content': true,
         };
-        return (h(Host, { key: '2dd43058c4f8ff073e4a253703be8e3930961453', class: {
+        return (h(Host, { key: 'c297ba0961f7dc7ad8823f4f9a5022cb10ed7a77', class: {
                 visible: this.visible,
-            }, role: "tooltip" }, h("div", { key: '332c94b629631484d4bd0087b1c6b757e3240d46', class: 'tooltip-title' }, h("slot", { key: 'f787f67c6a64ca35896618eb64eabc5233394beb', name: "title-icon" }), h("ix-typography", { key: 'cb543ead890e6fb0746506b6233f56ef319c59df', variant: "default-title" }, this.titleContent, h("slot", { key: '544d764da0015b417ae7667324c3b50b476ccf20', name: "title-content" }))), h("div", { key: '07648cb88299de0c3e618d3dd239d610a5559989', class: tooltipContentClass }, h("slot", { key: 'b75fcbf727c33b133430ffbe9167bb21c145c8a9' })), h("div", { key: '0486814bc106f8e3a0cea28d5384c90c2cea8a2c', class: "arrow" })));
+            }, role: "tooltip" }, h("div", { key: '21bf5211c142329a9475ef37fb5d2b5f5e4f5f19', class: 'tooltip-title' }, h("slot", { key: '8e4b3e91a0a161efa871a717a3d4871cb08224d2', name: "title-icon" }), h("ix-typography", { key: '7715a464de0154206a72f3a9ed97247eb5e4954c', variant: "default-title" }, this.titleContent, h("slot", { key: '16cc59a0d2a7aa11ab584be7738084b811d2320d', name: "title-content" }))), h("div", { key: '4390c36d7d326a7a0ffd8e0a7f2308c6bdacd02b', class: tooltipContentClass }, h("slot", { key: 'b21343921ee51073ad3c7e26f1ace94f46ec29e3' })), h("div", { key: '4e578ce3e101c8b479a7c334a81dafde3dc105a5', class: "arrow" })));
     }
     get hostElement() { return getElement(this); }
 };

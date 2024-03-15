@@ -9,7 +9,7 @@ const DropdownHeader = class {
         this.label = undefined;
     }
     render() {
-        return (h(Host, { key: '9b48e23d908cf0cc9f47822f9e25adacc878165d' }, h("ix-typography", { key: 'd89842c74ad80c00e696b0ca5d5a02d4eb646c3c', class: 'category-text', variant: 'default-title' }, this.label)));
+        return (h(Host, { key: 'fa3daed3c42026d56472617e8011daf26a6a0143' }, h("ix-typography", { key: 'd5b713244e69d78221498344e435c0fe08c06b26', class: 'category-text', variant: 'default-title' }, this.label)));
     }
 };
 DropdownHeader.style = IxDropdownHeaderStyle0;

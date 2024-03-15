@@ -13,7 +13,7 @@ const CssGridItem = /*@__PURE__*/ proxyCustomElement(class CssGridItem extends H
     render() {
         const style = {};
         style['grid-area'] = this.itemName;
-        return (h(Host, { key: '2f048d51f62508a7f07bca1537a3d5b132a456ca', style: style }, h("slot", { key: '9e1ba33a62542da9789e19bfca6fa9c4a31ee692' })));
+        return (h(Host, { key: 'e5f4a0cda7624d07672ff6892f55ab8d7d8faf8d', style: style }, h("slot", { key: '962c12dd575e9f5d81b51259ad973616ae200515' })));
     }
     static get style() { return IxCssGridItemStyle0; }
 }, [1, "ix-css-grid-item", {

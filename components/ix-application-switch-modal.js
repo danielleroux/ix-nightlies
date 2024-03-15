@@ -47,7 +47,7 @@ const ApplicationSwitchModal = /*@__PURE__*/ proxyCustomElement(class Applicatio
     }
     render() {
         var _a, _b, _c, _d;
-        return (h(Host, { key: '5d6291e4a6172e0cff21c7871e41e4859c6c6e0f' }, h("ix-modal-header", { key: '8b20c113bdfcbe1ba507d424382c36391d197171', icon: "apps" }, ((_a = this.config) === null || _a === void 0 ? void 0 : _a.i18nAppSwitch) || 'Switch to application'), h("ix-modal-content", { key: '4f919cdf34694c21948af2a3a5b2044a05a2b883', class: "content" }, h("div", { key: '0daf620107484d477b06fc98f4aee721e87bbd53', class: "content-apps" }, (!this.config || ((_b = this.config) === null || _b === void 0 ? void 0 : _b.apps.length) === 0) && (h("div", { class: "loading" }, h("ix-spinner", { size: "medium", variant: "primary" }), h("span", null, ((_c = this.config) === null || _c === void 0 ? void 0 : _c.i18nLoadingApps) ||
+        return (h(Host, { key: 'df1550915fff21de5c0a40acdf24a096a5105d2b' }, h("ix-modal-header", { key: '217d8f2bb79e07c411db00b633648beeb72149f0', icon: "apps" }, ((_a = this.config) === null || _a === void 0 ? void 0 : _a.i18nAppSwitch) || 'Switch to application'), h("ix-modal-content", { key: '0f1001891265ff7d9cd5826ba91479cf8a487ef6', class: "content" }, h("div", { key: '47d718ff45970bd5bba3641f8785899df9e26e50', class: "content-apps" }, (!this.config || ((_b = this.config) === null || _b === void 0 ? void 0 : _b.apps.length) === 0) && (h("div", { class: "loading" }, h("ix-spinner", { size: "medium", variant: "primary" }), h("span", null, ((_c = this.config) === null || _c === void 0 ? void 0 : _c.i18nLoadingApps) ||
             'Loading available applications...'))), (_d = this.config) === null || _d === void 0 ? void 0 :
             _d.apps.map((appEntry) => {
                 var _a;

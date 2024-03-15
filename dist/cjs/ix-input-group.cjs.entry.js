@@ -119,7 +119,7 @@ const InputGroup = class {
         return width;
     }
     render() {
-        return (index.h(index.Host, { key: 'e6da076846905dfc765c61e7013f5d3661a32845' }, index.h("div", { key: '74b8fdf8c0dec9b87fc687036ffb2b3c9856c8c1', class: "group group-start" }, index.h("slot", { key: 'e807551ee9bf366867bb5c3177759155cbb27c84', name: "input-start" })), index.h("slot", { key: '9072e4cfd9bb3beeff731b1ce67c02a32ed51f7b' }), index.h("div", { key: '84484ed6357e0aa40515480d409f5fcbf59fa1f8', class: "group group-end" }, index.h("slot", { key: '34d4fcbf02cf62b1922e20d403d1a52a145f1cd9', name: "input-end" }))));
+        return (index.h(index.Host, { key: '6c305a387eab52c23cff873efb217835cb6552fa' }, index.h("div", { key: 'db0c738d7a46099408b419a27bc00b8417d3c365', class: "group group-start" }, index.h("slot", { key: '63c34ce0364cb706b008d50ccf0f56e6fd79dd98', name: "input-start" })), index.h("slot", { key: '1aac71bae49371f2974dac8f2e9b88df12fd57cb' }), index.h("div", { key: '552f38ecce4f5db61b108f3a1f8badc52fe546ea', class: "group group-end" }, index.h("slot", { key: 'e4074cd35b74ec82b7413f11e2c21a8896def99e', name: "input-end" }))));
     }
     get hostElement() { return index.getElement(this); }
 };

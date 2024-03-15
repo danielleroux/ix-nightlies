@@ -60,9 +60,9 @@ const ToggleButton = /*@__PURE__*/ proxyCustomElement(class ToggleButton extends
                 'aria-pressed': a11yBoolean(this.pressed),
             },
         };
-        return (h(Host, { key: 'ba236c1d808bd8755b6e1856b96771029e5d1ade', class: {
+        return (h(Host, { key: 'dfcef75c0ea69b53af7afc1df02915a869b6ef3b', class: {
                 disabled: this.disabled || this.loading,
-            } }, h(BaseButton, Object.assign({ key: '07eb09beb216cb83410434f1392f2de846a2b86c' }, baseButtonProps), h("slot", { key: '43871212872a6dd8a040c2db6fa5026e4018e731' }))));
+            } }, h(BaseButton, Object.assign({ key: 'ea0fbe743f0c3371fb71925be47fc566e5dee37d' }, baseButtonProps), h("slot", { key: '2e6d2c6169978fc567974220437f2a7aa05c62ac' }))));
     }
     static get watchers() { return {
         "variant": ["onVariantChange"],

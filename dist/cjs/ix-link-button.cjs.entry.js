@@ -15,13 +15,13 @@ const LinkButton = class {
         this.target = '_self';
     }
     render() {
-        return (index.h(index.Host, { key: 'be5764812e9610f5799856b27aa4517469d9a24f' }, index.h("a", { key: '864f226d9eccd8385f926b37688326fba5fa890b', title: this.url, tabindex: "0", class: {
+        return (index.h(index.Host, { key: '69b094c49b4c40844709067d3d330cbd9e439a54' }, index.h("a", { key: 'd480bd3a4956928b36cacb1737b9f15bef4e6db4', title: this.url, tabindex: "0", class: {
                 'link-button': true,
                 disabled: this.disabled,
-            }, href: this.disabled ? undefined : this.url, target: this.target }, index.h("ix-icon", { key: 'fd946d77b3a0d4da995751311ba6346f82d1cc98', class: "icon", name: 'chevron-right-small', size: "16" }), index.h("div", { key: '35a530a3752f37229fa656de6ee20154d5ef4e03', class: {
+            }, href: this.disabled ? undefined : this.url, target: this.target }, index.h("ix-icon", { key: 'f38cdc216ef27ad121605adf41d4b9dfee0ad21c', class: "icon", name: 'chevron-right-small', size: "16" }), index.h("div", { key: 'bd9aecd23fbffe8af71f3c9648552781ac350df2', class: {
                 link: true,
                 disabled: this.disabled,
-            } }, index.h("slot", { key: 'f117649997d227f1b33b813a9c5a8aad03cd5789' })))));
+            } }, index.h("slot", { key: 'a122841a7a121b168198300e574df0f4319fd040' })))));
     }
 };
 LinkButton.style = IxLinkButtonStyle0;

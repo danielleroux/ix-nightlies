@@ -75,10 +75,10 @@ const BasicNavigation = /*@__PURE__*/ proxyCustomElement(class BasicNavigation e
         (_a = this.modeDisposable) === null || _a === void 0 ? void 0 : _a.dispose();
     }
     render() {
-        return (h(Host, { key: '3e6b368ef4a4c3bdd39aa1e80488d2e7e1d9123c', "data-role": "", class: {
+        return (h(Host, { key: '35083d5a514a69bc03be9de1a1c2641d9ed187ad', "data-role": "", class: {
                 'hide-header': this.hideHeader,
                 [`breakpoint-${this.breakpoint}`]: true,
-            } }, !this.hideHeader ? (h("ix-application-header", { name: this.applicationName }, h("slot", { name: "logo", slot: "logo" }))) : null, h("div", { key: '811974c45d6dc7a132b6ed7377185b73c82b673e', class: "navigation-content" }, h("slot", { key: '3f5d0dc41d204ff8e291dda99a4567e01cfd4755', name: "menu" }), h("div", { key: 'f187a0a7d16b362875296227a28a8df5a99cf94c', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: 'd18cd7a7ea3c2dc289b07a3d3e0a27e19844ba10' })))));
+            } }, !this.hideHeader ? (h("ix-application-header", { name: this.applicationName }, h("slot", { name: "logo", slot: "logo" }))) : null, h("div", { key: 'e9ff6a0ea8655afccc66259da206632e035b52a2', class: "navigation-content" }, h("slot", { key: '0809719c5650e73c7d801dbd588dacfe4e24e8cb', name: "menu" }), h("div", { key: '3a56100cd7300c1b7b6e8076b7f5dd5f2c5ae3f4', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: '8b14107e0aeee94534cfdf6cd1cf971f1dadb814' })))));
     }
     get hostElement() { return this; }
     static get watchers() { return {

@@ -18,16 +18,16 @@ const TreeItem = class {
     }
     render() {
         var _a, _b, _c;
-        return (index.h(index.Host, { key: '72c298e696aaee44b442f49ceb11a3144a09c168', class: {
+        return (index.h(index.Host, { key: 'c40a13c3395d6f3a785e7f17ed8887d0f54642c6', class: {
                 selected: (_a = this.context) === null || _a === void 0 ? void 0 : _a.isSelected,
-            } }, index.h("div", { key: '4788be140916a10ba790ca794fe73ff622e62c02', class: "icon-toggle-container", onClick: (e) => {
+            } }, index.h("div", { key: '47264231c4f5b919b4f4480a409b4b2047c46fc0', class: "icon-toggle-container", onClick: (e) => {
                 e.preventDefault();
                 this.toggle.emit();
             } }, this.hasChildren ? (index.h("ix-icon", { name: 'chevron-right', size: "16", class: {
                 ['icon-toggle-down']: (_b = this.context) === null || _b === void 0 ? void 0 : _b.isExpanded,
-            }, color: `color-${((_c = this.context) === null || _c === void 0 ? void 0 : _c.isExpanded) ? 'primary' : 'std-text'}` })) : null), index.h("div", { key: '2a3ea8e297cfcd16229ec6a8591d7037992fbc44', class: "tree-node-container", onClick: () => {
+            }, color: `color-${((_c = this.context) === null || _c === void 0 ? void 0 : _c.isExpanded) ? 'primary' : 'std-text'}` })) : null), index.h("div", { key: '5ab2e0dc8ac4b4aa5a6b6851b70980d7e04d02ea', class: "tree-node-container", onClick: () => {
                 this.itemClick.emit();
-            } }, this.text, index.h("slot", { key: '7bacf0d5cd6e90f188c6f1d8548de2f0a9d82ecb' }))));
+            } }, this.text, index.h("slot", { key: '93f195d06fb13641e330028d460e2a077736c5be' }))));
     }
 };
 TreeItem.style = IxTreeItemStyle0;

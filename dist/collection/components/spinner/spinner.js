@@ -14,7 +14,7 @@ export class Spinner {
         this.hideTrack = false;
     }
     render() {
-        return (h(Host, { key: 'e8527197e048fee4e68b49510a6f4e15cdaee1c4', class: {
+        return (h(Host, { key: 'fce135db438427cf948004c96dcee4c044cd1a98', class: {
                 primary: this.variant === 'primary',
                 'xx-small': this.size === 'xx-small',
                 'x-small': this.size === 'x-small',

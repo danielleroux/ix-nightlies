@@ -403,46 +403,46 @@ const Menu = /*@__PURE__*/ proxyCustomElement(class Menu extends HTMLElement {
     }
     render() {
         var _a;
-        return (h(Host, { key: '57ed22e20f5555a24082927f659fb3350e379714', class: {
+        return (h(Host, { key: 'e3390dbde8a79b02db176cd53cfc9b6a6eb0ccbd', class: {
                 expanded: this.expand,
                 [`breakpoint-${this.breakpoint}`]: true,
-            }, slot: "menu" }, h("aside", { key: 'd841238a2da091b1337399c6bc307a7ba14bd6c4', class: {
+            }, slot: "menu" }, h("aside", { key: '3252deae90210285f9e1d39afbc7c31ad31bd936', class: {
                 menu: true,
                 expanded: this.expand,
             }, onClick: () => {
                 this.resetActiveTab();
-            } }, h("div", { key: '66f09da3dc5bf343086847bcbdb43f3ad967d5f9', class: { 'menu-buttons': this.breakpoint != 'sm' } }, h("ix-burger-menu", { key: 'bd5312117ab2e20daf8d6ea2caa699251b607e92', onClick: async () => this.toggleMenu(), expanded: this.expand, ixAriaLabel: this.i18nExpandSidebar, pinned: this.showPinned, class: {
+            } }, h("div", { key: '279144a3230c31acf10e28ed1616900577ab735a', class: { 'menu-buttons': this.breakpoint != 'sm' } }, h("ix-burger-menu", { key: '5755b29d522d54989ccae911645be889569b3281', onClick: async () => this.toggleMenu(), expanded: this.expand, ixAriaLabel: this.i18nExpandSidebar, pinned: this.showPinned, class: {
                 'burger-menu': true,
             } }), this.breakpoint === 'sm' &&
-            this.applicationLayoutContext.appSwitchConfig && (h("ix-icon-button", { onClick: () => showAppSwitch(this.applicationLayoutContext.appSwitchConfig), icon: "apps", ghost: true, class: "app-switch" }))), h("div", { key: '29ba7536d7dd3edf4c2e801290a7c60ef54c1648', id: "menu-tabs", style: {
+            this.applicationLayoutContext.appSwitchConfig && (h("ix-icon-button", { onClick: () => showAppSwitch(this.applicationLayoutContext.appSwitchConfig), icon: "apps", ghost: true, class: "app-switch" }))), h("div", { key: '14ef64bc805a19192c6004c77130b734ebd90809', id: "menu-tabs", style: {
                 display: 'contents',
-            }, onClick: (e) => this.onMenuItemsClick(e) }, h("div", { key: '450298f43c12031f665e2484f8165ba9e74b6b76', class: "tabs-shadow-container" }, h("div", { key: 'b312cfc3b00ce0ff1b4206be12496ab39356c759', class: {
+            }, onClick: (e) => this.onMenuItemsClick(e) }, h("div", { key: '924354b6cf64fe8a8c687aa2e724a6a9188a49ad', class: "tabs-shadow-container" }, h("div", { key: 'c9335df438902140716736331c3c903b956c5e48', class: {
                 'tabs--shadow': true,
                 'tabs--shadow-top': true,
                 'tabs--shadow--show': this.itemsScrollShadowTop,
-            } }), h("div", { key: '9ce301d9ce4555effdaab3c56c7d28e14a5c2953', class: {
+            } }), h("div", { key: '5ac87d48659bad904d98e08410653d2a41bcb5bc', class: {
                 tabs: true,
                 'show-scrollbar': this.expand,
-            }, onScroll: () => this.handleOverflowIndicator() }, h("div", { key: '27ec220cb3ff2966207672ed4662c901fc9f82cb', class: "menu-avatar" }, h("slot", { key: '167d12d3a43c7506ffe68596992ac7fc87cc4186', name: "ix-menu-avatar" })), h("slot", { key: 'fe500ae0cacc669d1b3c03ef7d16defba5875e57', name: "home" }), this.breakpoint !== 'sm' || !this.isHiddenFromViewport() ? (h("slot", null)) : null), h("div", { key: 'fedcb402f5110a02abe79634824e52d1502e09fc', class: {
+            }, onScroll: () => this.handleOverflowIndicator() }, h("div", { key: 'dac993f433c3b8830b2566bb2f8d38d2adf2c9cd', class: "menu-avatar" }, h("slot", { key: '3964b31e2bf4d2ccc79dbe5cfd78252452867349', name: "ix-menu-avatar" })), h("slot", { key: '7a8ccbd26621fc9de3e9740b5b8dd7470276664d', name: "home" }), this.breakpoint !== 'sm' || !this.isHiddenFromViewport() ? (h("slot", null)) : null), h("div", { key: 'bcda1ddcc660dbf739dd9117f343bddf55711435', class: {
                 'tabs--shadow': true,
                 'tabs--shadow-bottom': true,
                 'tabs--shadow--show': this.itemsScrollShadowBottom,
-            } }))), h("div", { key: '57b6e359fbdc1b3d3f5d68ae6507628ae220b95f', class: "bottom-tab-divider" }), this.settings ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "settings", class: {
+            } }))), h("div", { key: '5584b89bf6007576ab6de1333343194668383d51', class: "bottom-tab-divider" }), this.settings ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "settings", class: {
                 'internal-tab': true,
                 'bottom-tab': true,
                 active: this.showSettings,
-            }, icon: 'cogwheel', onClick: async () => this.toggleSettings(!this.showSettings) }, this.i18nSettings)) : null, h("div", { key: '34b38c13d3964f2bed9514b09778643f05f2b2b5', onClick: (e) => this.onMenuItemsClick(e) }, h("slot", { key: '8455d70e542f745f251b43bcacca750ecb8870bf', name: "bottom" })), h("div", { key: '97714b2646dc697a2345dc2bdf6ef12f207d79ab', id: "popover-area" }), this.about ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "aboutAndLegal", class: {
+            }, icon: 'cogwheel', onClick: async () => this.toggleSettings(!this.showSettings) }, this.i18nSettings)) : null, h("div", { key: '94f0772dc8a1be3556e0f326e5628ce8db9f6bb9', onClick: (e) => this.onMenuItemsClick(e) }, h("slot", { key: '7a2f19ebc72ab15dfd0c952d79b2cc69aa910727', name: "bottom" })), h("div", { key: '9472bdf5399ec2bee3db4805b58801c0fce97959', id: "popover-area" }), this.about ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "aboutAndLegal", class: {
                 'internal-tab': true,
                 'bottom-tab': true,
                 active: this.showAbout,
-            }, icon: 'info', onClick: async () => this.toggleAbout(!this.showAbout) }, this.i18nLegal)) : null, this.enableToggleTheme ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "toggleTheme", onClick: () => themeSwitcher.toggleMode(), class: "internal-tab bottom-tab", icon: 'light-dark' }, this.i18nToggleTheme)) : null, this.enableMapExpand || ((_a = this.applicationLayoutContext) === null || _a === void 0 ? void 0 : _a.sidebar) ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "menu-collapse", onClick: () => this.sidebarToggle(), class: "internal-tab bottom-tab", icon: `${this.getCollapseIcon()}` }, this.getCollapseText())) : null), h("div", { key: '7ef91f2c64302cea55ab264088f18b77a4c04965', class: {
+            }, icon: 'info', onClick: async () => this.toggleAbout(!this.showAbout) }, this.i18nLegal)) : null, this.enableToggleTheme ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "toggleTheme", onClick: () => themeSwitcher.toggleMode(), class: "internal-tab bottom-tab", icon: 'light-dark' }, this.i18nToggleTheme)) : null, this.enableMapExpand || ((_a = this.applicationLayoutContext) === null || _a === void 0 ? void 0 : _a.sidebar) ? (h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "menu-collapse", onClick: () => this.sidebarToggle(), class: "internal-tab bottom-tab", icon: `${this.getCollapseIcon()}` }, this.getCollapseText())) : null), h("div", { key: '8d45ec496515fa07e7712a938e3af2c9cd342217', class: {
                 'menu-overlay': true,
                 visible: this.isOverlayVisible(),
                 expanded: this.expand,
             }, onTransitionEnd: () => {
                 this.isTransitionDisabled = true;
                 this.checkTransition();
-            } }, h("div", { key: 'cb0713613fa1c00f1d86e4010f5279f168462c45', class: 'menu-overlay-container' }, this.showSettings ? h("slot", { name: "ix-menu-settings" }) : null), h("div", { key: '131513ae327f585ac96a2413494b9082fdaf112a', class: 'menu-overlay-container' }, this.showAbout ? h("slot", { name: "ix-menu-about" }) : null))));
+            } }, h("div", { key: 'a05f175986d54b8c5d75b3a87da4607351cb97a0', class: 'menu-overlay-container' }, this.showSettings ? h("slot", { name: "ix-menu-settings" }) : null), h("div", { key: '588ae93a2ce717e71086e689c8f09e8c988fa570', class: 'menu-overlay-container' }, this.showAbout ? h("slot", { name: "ix-menu-about" }) : null))));
     }
     get hostElement() { return this; }
     static get watchers() { return {

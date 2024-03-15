@@ -54,20 +54,20 @@ const ExpandingSearch = /*@__PURE__*/ proxyCustomElement(class ExpandingSearch e
         this.valueChange.emit(this.value);
     }
     render() {
-        return (h(Host, { key: 'd354ef216d5dc5f80ce2a7a4a7ab9130afe94c0e', class: {
+        return (h(Host, { key: '4c4ad028a6843aa48f111eab03289f05093ff0c4', class: {
                 expanded: this.expanded,
                 'right-position': this.expanded,
                 fullWidth: this.fullWidth,
-            } }, h("ix-icon-button", { key: '960286296bba24fa10228927d446f23c542e3404', size: this.expanded ? '16' : '24', icon: this.icon, ghost: true, variant: "primary", "data-testid": "button", onClick: () => this.expandInput(), tabindex: this.expanded ? -1 : 0, color: this.hasFocus ? 'input-search-icon--color--focus' : undefined, class: {
+            } }, h("ix-icon-button", { key: 'c919f410191cb51957c1d00938cfde61193ebdd5', size: this.expanded ? '16' : '24', icon: this.icon, ghost: true, variant: "primary", "data-testid": "button", onClick: () => this.expandInput(), tabindex: this.expanded ? -1 : 0, color: this.hasFocus ? 'input-search-icon--color--focus' : undefined, class: {
                 'btn-search': true,
                 'btn-search--expanded': this.expanded,
-            } }), h("div", { key: '08c1c9975d18d21a1a2f0331ac72fd44e5ed1fb2', class: {
+            } }), h("div", { key: 'e3c42bb3f8940113d4da24d8d235240fce59fa91', class: {
                 expanded: this.expanded,
                 fullWidth: this.fullWidth,
                 collapsed: !this.expanded,
                 'disable-pointer': !this.expanded,
                 'input-container': true,
-            }, "data-testid": "input-wrapper" }, h("input", { key: 'f2bafc86d72957c20343fbde76664c70ad1a4dc6', class: {
+            }, "data-testid": "input-wrapper" }, h("input", { key: 'ec9dabd6711e59f9675b3c961abdae17ea0da703', class: {
                 'form-control': true,
                 input: this.expanded,
                 'disable-pointer': !this.expanded,

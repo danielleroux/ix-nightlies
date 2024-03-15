@@ -407,7 +407,7 @@ const Pane = class {
         }
     }
     render() {
-        return (index.h(index.Host, { key: 'dcfd2ad6f43b2a38d9a9006a0b4ae81713fe8f85', class: {
+        return (index.h(index.Host, { key: '1704a13dbb106afcd4f84ce82b9511bf3ef3de20', class: {
                 'inline-color': !this.floating,
                 'mobile-overlay': this.expanded && this.isMobile,
                 'top-expanded': this.expanded && this.isMobileTop && this.isMobile,
@@ -432,28 +432,28 @@ const Pane = class {
                 'box-shadow': this.floating,
                 'aria-expanded': this.expanded,
                 'not-visible': this.hideOnCollapse && !this.expanded,
-            } }, index.h("aside", { key: 'baf35c3d485501ed02cbaa256414b609fe8e3bb4', class: {
+            } }, index.h("aside", { key: '936922a6c519bf2fbf7f5584fbb01e50c82c9422', class: {
                 'top-bottom-pane': this.isBottomTopPane && !this.isMobile,
                 'left-right-pane': this.isLeftRightPane && !this.isMobile,
                 'mobile-pane': this.isMobile,
                 expanded: this.expanded,
-            } }, index.h("div", { key: 'ea1a9f69a3b5e854fb008498c721289b40a6ef08', id: "title-div", class: {
+            } }, index.h("div", { key: '5064e26b9c5b3770c6c5e4d37c9fc7cc0e166821', id: "title-div", class: {
                 title: !this.isMobile && !this.hideOnCollapse && !this.showContent,
                 'title-finished': !this.isMobile && !this.hideOnCollapse && this.showContent,
                 'title-expanded': !this.isMobile && !this.hideOnCollapse && this.expanded,
                 'title-hide-on-collapse': !this.isMobile && this.hideOnCollapse,
                 'title-mobile': this.isMobile,
                 'header-gap': !this.isMobile && !this.hideOnCollapse,
-            } }, index.h("ix-icon-button", { key: 'dd0e96827adb6aca47cf37c29a176518295b4e2e', class: "title-icon", size: "24", icon: this.expanded
+            } }, index.h("ix-icon-button", { key: '7ccba907c951d00bada385fc264d251e1adb402b', class: "title-icon", size: "24", icon: this.expanded
                 ? this.isMobile || this.hideOnCollapse
                     ? 'close'
                     : this.expandIcon
                 : this.minimizeIcon, ghost: true, onClick: () => {
                 this.expanded = !this.expanded;
-            }, "aria-controls": this.composition + 'ToggleButton' }), index.h("span", { key: '505a1c739875d56efe54e541090e5f830ca58c0b', class: {
+            }, "aria-controls": this.composition + 'ToggleButton' }), index.h("span", { key: '5b4406bf16ddd92d8888d49c4a18b1d857ea8f61', class: {
                 'title-text': true,
                 rotate: !this.expanded && !this.isMobile && this.isLeftRightPane,
-            } }, this.icon ? (index.h("ix-icon", { size: "24", name: this.icon })) : null, index.h("div", { key: '7c24ad3f13dd01c196625573c5ecae39d26367fa', class: "title-text-overflow" }, index.h("ix-typography", { key: '31376f418257fdeb93d32948c8166cabc29f4a39', format: "h4" }, this.heading)))), index.h("div", { key: '95402763b829936c555a26f80e3538dd1f6d542b', class: "side-pane-content", hidden: !this.showContent }, index.h("slot", { key: '840ffb14d5b70ac9c615f1e12ca8fbf05e0bc3d4' })))));
+            } }, this.icon ? (index.h("ix-icon", { size: "24", name: this.icon })) : null, index.h("div", { key: 'daefc0b1860d28ce81e52eeb884eec679416a54f', class: "title-text-overflow" }, index.h("ix-typography", { key: '8a4deef3b02fbef4b918f98dd8d12fac4f29ee29', format: "h4" }, this.heading)))), index.h("div", { key: '7188486819256d46e21b298f898661e91fce44de', class: "side-pane-content", hidden: !this.showContent }, index.h("slot", { key: '45eb450896e2b6ec2833913a52094cc4cd3a1a41' })))));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {

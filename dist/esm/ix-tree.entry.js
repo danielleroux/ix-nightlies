@@ -688,7 +688,7 @@ const Tree = class {
         this.hyperlist = new Hyperlist(this.hostElement, config);
     }
     render() {
-        return (h(Host, { key: '9337ac3642e090f58688500e66686c0f9764da0c' }, h("slot", { key: '10d5c6adb776298b2ec9da74b654749790f102dd' })));
+        return (h(Host, { key: 'fa198f954c529db834099df3f599ecaf65223365' }, h("slot", { key: '54e63253af180cdd5e1c2c5048bf495475db36de' })));
     }
     get hostElement() { return getElement(this); }
     static get watchers() { return {

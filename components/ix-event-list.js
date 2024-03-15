@@ -103,11 +103,11 @@ const EventList = /*@__PURE__*/ proxyCustomElement(class EventList extends HTMLE
         });
     }
     render() {
-        return (h(Host, { key: '6bc5d62a320af1a618b976d7a745dd1da08d5e0b', class: {
+        return (h(Host, { key: '89be0fbb595cea7d39e50feedb367108c2a206bb', class: {
                 'item-size-s': this.itemHeight === 'S',
                 'item-size-l': this.itemHeight === 'L',
                 compact: this.compact,
-            } }, h("ul", { key: 'ae28f0ca948651a677b6eff296043d9fe68f84f6' }, h("slot", { key: '3e5aaa7d87e8c72a2e83a8b086060ec86ab4fa30' }))));
+            } }, h("ul", { key: '1e14d4602a221795448e7216c0952b29af06c522' }, h("slot", { key: '5c55793caf21fb2f76f7019b7813a75b9746b180' }))));
     }
     get hostElement() { return this; }
     static get watchers() { return {

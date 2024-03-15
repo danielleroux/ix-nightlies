@@ -73,7 +73,7 @@ export class IconToggleButton {
             extraClasses: Object.assign({ 'icon-button': true }, this.getIconSizeClass()),
         };
         console.log(baseButtonProps, this.disabled, this.loading);
-        return (h(Host, { key: '0c195dca24a6e0ec78e2165ffa5c8d7c89484935', class: Object.assign(Object.assign({}, this.getIconSizeClass()), { disabled: this.disabled || this.loading }) }, h(BaseIconButton, Object.assign({ key: 'd97b5d763eaee5f22ca8752480e441fc6ae9a444' }, baseButtonProps))));
+        return (h(Host, { key: '86f8d6e28705fe03d3a918e8452f62b18fc1ee01', class: Object.assign(Object.assign({}, this.getIconSizeClass()), { disabled: this.disabled || this.loading }) }, h(BaseIconButton, Object.assign({ key: '5e4379a3bbb5fe48603b520a268d51b9703540f8' }, baseButtonProps))));
     }
     static get is() { return "ix-icon-toggle-button"; }
     static get encapsulation() { return "shadow"; }

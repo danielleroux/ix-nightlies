@@ -34,11 +34,11 @@ const DropdownButton = /*@__PURE__*/ proxyCustomElement(class DropdownButton ext
             } }));
     }
     render() {
-        return (h(Host, { key: '8930487c4b37d245f7fb9828c5028136e50ac81b', class: {
+        return (h(Host, { key: '4a18eaa51a9defa9a50aa2d4008176640d94fd5a', class: {
                 disabled: this.disabled,
             }, ref: (ref) => {
                 this.dropdownAnchor = ref;
-            } }, h("div", { key: 'ea5caa3aac82f89ece0f569345f10b8afe995e44', class: "dropdown-button" }, this.label ? (h("ix-button", { variant: this.variant, outline: this.outline, ghost: this.ghost, disabled: this.disabled, alignment: "start" }, h("div", { class: 'content' }, this.icon ? (h("ix-icon", { name: this.icon, size: "24", class: 'dropdown-icon' })) : null, h("div", { class: 'button-label' }, this.label), h("ix-icon", { name: 'chevron-down-small', size: "24" })))) : (h("div", null, h("ix-icon-button", { icon: this.icon, variant: this.variant, outline: this.outline, ghost: this.ghost, disabled: this.disabled }), this.getTriangle()))), h("ix-dropdown", { key: '744ebec47c4658921d5a57f0165f6a7c95ed32e8', class: "dropdown", trigger: this.dropdownAnchor, placement: this.placement, closeBehavior: this.closeBehavior }, h("slot", { key: '438133ed750034c6a94cab0921c06cdf74c7b79e' }))));
+            } }, h("div", { key: '2e967b92d073f88609f31d90cafd6b5455930560', class: "dropdown-button" }, this.label ? (h("ix-button", { variant: this.variant, outline: this.outline, ghost: this.ghost, disabled: this.disabled, alignment: "start" }, h("div", { class: 'content' }, this.icon ? (h("ix-icon", { name: this.icon, size: "24", class: 'dropdown-icon' })) : null, h("div", { class: 'button-label' }, this.label), h("ix-icon", { name: 'chevron-down-small', size: "24" })))) : (h("div", null, h("ix-icon-button", { icon: this.icon, variant: this.variant, outline: this.outline, ghost: this.ghost, disabled: this.disabled }), this.getTriangle()))), h("ix-dropdown", { key: '1477ef9b47c696f1ab705f0973b6ba20228975b2', class: "dropdown", trigger: this.dropdownAnchor, placement: this.placement, closeBehavior: this.closeBehavior }, h("slot", { key: '137db0e0b45d8e5f370346620782007c3b28f7f7' }))));
     }
     get hostElement() { return this; }
     static get style() { return IxDropdownButtonStyle0; }

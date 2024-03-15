@@ -51,11 +51,11 @@ export class Toast {
             animationPlayState: this.touched ? 'paused' : 'running',
         };
         progressBarClass.push('toast-progress-bar--animated');
-        return (h(Host, { key: '7692448b4bbda3ba73fc23b13fcb25a4a6d67a05', class: "animate__animated animate__fadeIn" }, h("div", { key: 'fd4decfcdf52323be94dcd163f13e239c2c82b68', class: "toast-body", onPointerLeave: () => {
+        return (h(Host, { key: '064ab233924479a92456900e282fe87e98ff2074', class: "animate__animated animate__fadeIn" }, h("div", { key: 'e66b0034a2d43eb475d79127eda95d7af81dc77c', class: "toast-body", onPointerLeave: () => {
                 this.touched = false;
             }, onPointerEnter: () => {
                 this.touched = true;
-            } }, this.type || this.icon ? (h("div", { class: "toast-icon" }, this.getIcon())) : null, h("div", { key: '5463178efd7be1430fc621c9460ca9370d33327d', class: "toast-content" }, this.toastTitle ? (h("div", { class: "toast-title" }, this.toastTitle)) : null, h("div", { key: 'bda35d6203126a07ce204e63103225c3d11fdef8', class: "toast-message" }, h("slot", { key: '8e5663ee3fa2b6370e6b4389ba5cb6b8fd4adb4f' }))), h("div", { key: '2b4b7d88f6b58bb75ea665d4fffa4a668d6a8da2', class: "toast-close" }, h("ix-icon-button", { key: '6a65d9c8a4458b73d210546883524c94be46c636', icon: 'close', size: "24", ghost: true, onClick: () => this.closeToast.emit() }))), this.autoClose ? (h("div", { class: progressBarClass.join(' '), style: progressBarStyle, onAnimationEnd: () => {
+            } }, this.type || this.icon ? (h("div", { class: "toast-icon" }, this.getIcon())) : null, h("div", { key: '122302506aff7076b6e5d6df66e4409ca86fde31', class: "toast-content" }, this.toastTitle ? (h("div", { class: "toast-title" }, this.toastTitle)) : null, h("div", { key: '22f349d326b604cd7c5734ebd09280a1263423e4', class: "toast-message" }, h("slot", { key: '78e822dd9ac08ab00b2b789dd95a7fd9ef0ddf70' }))), h("div", { key: 'f67bf3768af2d77c5619cced98976d9f92a57a68', class: "toast-close" }, h("ix-icon-button", { key: '81fceaa64577ab118ff9c59efc3098bec235a7b3', icon: 'close', size: "24", ghost: true, onClick: () => this.closeToast.emit() }))), this.autoClose ? (h("div", { class: progressBarClass.join(' '), style: progressBarStyle, onAnimationEnd: () => {
                 this.close();
             }, onTransitionEnd: () => {
                 if (this.progress === 0) {

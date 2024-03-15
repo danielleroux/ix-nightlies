@@ -16,7 +16,7 @@ const FilterChip = class {
         this.closeClick.emit();
     }
     render() {
-        return (h(Host, { key: '828da5a62ec5accc6b74cff38e4bfcf51de94c98', class: { disabled: this.disabled, readonly: this.readonly }, title: this.el.textContent }, h("div", { key: '8aba552ef0dee8349ab558d77db21a2c22f76f8f', class: "slot-container" }, h("slot", { key: 'a81343d2a06faf7bd6c5ca2522d40af99ee589ca' })), !this.disabled && !this.readonly ? (h("ix-icon-button", { ghost: true, oval: true, icon: 'close-small', size: "16", tabindex: this.disabled ? -1 : 0, variant: "primary", disabled: this.disabled, onClick: (e) => this.onCloseClick(e) })) : null));
+        return (h(Host, { key: '10df51e34656ed3b7b18e9f2a07a59c18784a3d1', class: { disabled: this.disabled, readonly: this.readonly }, title: this.el.textContent }, h("div", { key: '5a94912e2c22cbddb984b28ba0126f31c1e20165', class: "slot-container" }, h("slot", { key: '0fdc94729908b9c3a040667318dcc18d300e4176' })), !this.disabled && !this.readonly ? (h("ix-icon-button", { ghost: true, oval: true, icon: 'close-small', size: "16", tabindex: this.disabled ? -1 : 0, variant: "primary", disabled: this.disabled, onClick: (e) => this.onCloseClick(e) })) : null));
     }
     get el() { return getElement(this); }
 };
@@ -72,7 +72,7 @@ const SelectItem = class {
         }));
     }
     render() {
-        return (h(Host, { key: 'b30ceeb56ba68db74669450d37fb83167d556ff8' }, h("ix-dropdown-item", { key: 'ab9d09708121712d84c0ec60ece92cf1dc111e23', class: {
+        return (h(Host, { key: '3d43f9c4cc86b5820ebe0fe15c3ccd2a6a4f0f95' }, h("ix-dropdown-item", { key: 'a169c7bf3533f5203ad557b6ef52edd6ddf9c547', class: {
                 'select-item-checked': this.selected,
             }, checked: this.selected, label: this.label ? this.label : this.value, onItemClick: (e) => this.onItemClick(e) })));
     }

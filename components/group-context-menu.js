@@ -38,7 +38,7 @@ const GroupContextMenu = /*@__PURE__*/ proxyCustomElement(class GroupContextMenu
         this.configureDropdown(dropdownElement, triggerElement);
     }
     render() {
-        return (h(Host, { key: '7b561df4adbe4906b1f4dbc4c50fab9788ec30c9' }, h("ix-icon-button", { key: '602b724690fb58e3261710002ef95fff2ef28c25', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: '0d42add312838be530623029430bc1007ba08a5a', onSlotchange: () => this.onSlotChange() })));
+        return (h(Host, { key: 'f709297153c95aae9ae99750d6eef9bb93b6e93b' }, h("ix-icon-button", { key: 'da299782cd2d0fbf3da4ffebedbd69f3a5f24bf9', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: '8557ba5e78f8098a9defdf3f966e83046522c2ae', onSlotchange: () => this.onSlotChange() })));
     }
     get hostElement() { return this; }
     static get style() { return IxGroupContextMenuStyle0; }

@@ -8,7 +8,7 @@ const ModalLoading = class {
         registerInstance(this, hostRef);
     }
     render() {
-        return (h(Host, { key: '2930b0986034ef25c350284fad67347ab5d13c4d' }, h("ix-spinner", { key: '5ac3bd8f71406e3adda36a3af14ab98cac5f5b79', variant: "primary" }), h("span", { key: 'af819b28bde6dc5d55cbe233e94381c34a5732c8', class: 'loading-text' }, h("slot", { key: 'cb174a3367f4195370aa45dfca1ca409bde1745d' }))));
+        return (h(Host, { key: '10d32ee56938d12d5300cc8bccb401a4492ddb85' }, h("ix-spinner", { key: 'bfaed4c8523b6b59556c2898ecb4044c795b1bbd', variant: "primary" }), h("span", { key: '45f219a3c36c2cc67eda65d58a4564ca6163a2ef', class: 'loading-text' }, h("slot", { key: '364c7ff091ca2409a15dd65acebb268ac0971117' }))));
     }
 };
 ModalLoading.style = IxModalLoadingStyle0;

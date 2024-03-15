@@ -20,16 +20,16 @@ const MenuAboutNews = class {
         this.expanded = false;
     }
     render() {
-        return (index.h(index.Host, { key: '898cc2c7a58c5f72409315bbf6a76712d6f68107', class: {
+        return (index.h(index.Host, { key: '68c7b89c941490a9f993ff438f467b85728c2ec9', class: {
                 expanded: this.expanded,
                 show: !this.show,
-            } }, index.h("div", { key: 'ba59ad360a74c8292333cef460451fea2958ef55', class: "banner-container" }, index.h("ix-icon", { key: 'c793669e809f38c806a85fe3ad65c7b540a1a083', color: "color-inv-contrast-text", name: 'shout', size: "32" }), index.h("svg", { key: '2be02100b53ce3b0821b471b0caf1709e055e596', viewBox: "0 0 48 56", xmlns: "http://www.w3.org/2000/svg" }, index.h("polygon", { key: '85707c452b6daafc049c0e402acb25ca3a6f4e8a', points: "0 0 48 0 48 56 24 48 0 56" }))), index.h("div", { key: '79718e6e4beb576c30bcbeda44b6cd9bed4b0a0f', class: "cui-popover-news-header" }, index.h("ix-typography", { key: '90ab8d14cbf596760fe9460f35e769d66edde38b', variant: "default-title-single" }, this.label)), index.h("ix-icon-button", { key: '5b539527337b9fd8d6bb10b4997ad6d50fa33339', size: "24", icon: 'close-small', ghost: true, onClick: () => {
+            } }, index.h("div", { key: 'a283d2f9dec7a45df431e66fb78acc253809445d', class: "banner-container" }, index.h("ix-icon", { key: '44719bde7dd4cc7c25c5b533505015c438f59d69', color: "color-inv-contrast-text", name: 'shout', size: "32" }), index.h("svg", { key: '0b7609be92104e596fe316d3184f48edd4ce1759', viewBox: "0 0 48 56", xmlns: "http://www.w3.org/2000/svg" }, index.h("polygon", { key: 'c8bf079e3fc6c3e5ec466fdb4897629dd05aeda5', points: "0 0 48 0 48 56 24 48 0 56" }))), index.h("div", { key: 'f536fbadf821b348be5ba8dfea2a81aff3c35a15', class: "cui-popover-news-header" }, index.h("ix-typography", { key: '5dbeea3eb20c7a75b58ae63742b873d1fb0d8d4b', variant: "default-title-single" }, this.label)), index.h("ix-icon-button", { key: '1f1d87f8bfab4360b9038e054b5d843add2e96aa', size: "24", icon: 'close-small', ghost: true, onClick: () => {
                 this.show = false;
                 this.closePopover.emit();
-            } }), index.h("div", { key: 'd3c397f5ececa4f330089070e23ad04799fb3f11', class: "slot-container" }, index.h("slot", { key: '359fb32ce27b4c1cde5f993a9f7f4c686a47ea27' })), this.aboutItemLabel ? (index.h("div", { class: "cui-popover-news-footer" }, index.h("ix-button", { variant: "primary", onClick: (e) => {
+            } }), index.h("div", { key: '78c8f326074a31c9e907b1ec7027145a3695a49b', class: "slot-container" }, index.h("slot", { key: '6064820e78272bb071f0972e9340f3a9ab7d9871' })), this.aboutItemLabel ? (index.h("div", { class: "cui-popover-news-footer" }, index.h("ix-button", { variant: "primary", onClick: (e) => {
                 this.show = false;
                 this.showMore.emit(e);
-            } }, this.i18nShowMore))) : null, index.h("div", { key: '89fa2c2b881f0df4e998435ffc207d2439368cac', id: "arrow" })));
+            } }, this.i18nShowMore))) : null, index.h("div", { key: 'e0f23aa73e83a1a4f7731b4dec5e738d6c1ebbf3', id: "arrow" })));
     }
 };
 MenuAboutNews.style = IxMenuAboutNewsStyle0;

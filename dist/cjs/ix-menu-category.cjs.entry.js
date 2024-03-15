@@ -122,16 +122,16 @@ const MenuCategory = class {
         }
     }
     render() {
-        return (index.h(index.Host, { key: '9223fe391bba5c17350b31f1ff83b563cb9edd48', class: {
+        return (index.h(index.Host, { key: '7dcf0a3ab61e12650f3236d2d01905088dd46476', class: {
                 expanded: this.showItems,
-            } }, index.h("ix-menu-item", { key: '5e5dd9b0ad8f4027663ad32ec92167202b5431b7', class: 'category-parent', active: this.isNestedItemActive(), notifications: this.notifications, icon: this.icon, onClick: (e) => this.onCategoryClicked(e) }, index.h("div", { key: 'bff799f0d1b5ee2744bf90a7377296c7b764c878', class: "category" }, index.h("div", { key: 'd8cead5e316bde70c44d6a7bea2ea6b528e5aceb', class: "category-text" }, this.label), index.h("ix-icon", { key: 'a3c324aaf22d05599d96ddb6b18cdc6bac7f83c8', name: 'chevron-down-small', class: {
+            } }, index.h("ix-menu-item", { key: 'd7525b4d1577beddef2a9bc46102c5c27056f7a8', class: 'category-parent', active: this.isNestedItemActive(), notifications: this.notifications, icon: this.icon, onClick: (e) => this.onCategoryClicked(e) }, index.h("div", { key: '45f42d78aea804389d18b71aa497d595d0d28d2f', class: "category" }, index.h("div", { key: '328e734eff35051e741d5f300cef62d89b2d8357', class: "category-text" }, this.label), index.h("ix-icon", { key: 'a020ca032255c4e0cab6eaf21a999f778d44f89e', name: 'chevron-down-small', class: {
                 'category-chevron': true,
                 'category-chevron--open': this.showItems,
-            } }))), index.h("div", { key: 'b6954876e6d15fba763825b3e2813b115d48101b', ref: (ref) => (this.menuItemsContainer = ref), class: {
+            } }))), index.h("div", { key: 'cb9f873594624636c51f5cdb88117c8609ca0660', ref: (ref) => (this.menuItemsContainer = ref), class: {
                 'menu-items': true,
                 'menu-items--expanded': this.showItems,
                 'menu-items--collapsed': !this.showItems,
-            } }, this.showItems ? index.h("slot", null) : null), index.h("ix-dropdown", { key: 'f3dad9385ad05c40f1b5e8e6b2395ea6ae3ad42f', closeBehavior: 'both', show: this.showDropdown, onShowChanged: ({ detail: dropdownShown }) => {
+            } }, this.showItems ? index.h("slot", null) : null), index.h("ix-dropdown", { key: '44e23c289ee58d8e6a64c4eae043b5d21e7acccf', closeBehavior: 'both', show: this.showDropdown, onShowChanged: ({ detail: dropdownShown }) => {
                 this.showDropdown = dropdownShown;
             }, class: 'category-dropdown', anchor: this.hostElement, placement: "right-start", offset: {
                 mainAxis: 3,
@@ -141,7 +141,7 @@ const MenuCategory = class {
                         this.showDropdown = false;
                     }
                 }
-            } }, index.h("ix-dropdown-item", { key: '7b0b9836c178b196416565872d00e5071c11a6e3', class: 'category-dropdown-header' }, index.h("ix-typography", { key: 'e920c1397d39a398e30c770da93fb5c2c54c449f', variant: "default-title-single", color: "std" }, this.label)), index.h("ix-divider", { key: '305c10ad37d22d64b73feb8cb7423ad9f4bf134c' }), index.h("slot", { key: '1e727521095f394299b14e2921f53d0f67e033c7' }))));
+            } }, index.h("ix-dropdown-item", { key: 'a991462ed69a30c6c9d8535d88a0642203663c9a', class: 'category-dropdown-header' }, index.h("ix-typography", { key: 'a9947afa5cfb6c9415a3eae5c0daf762fd91843a', variant: "default-title-single", color: "std" }, this.label)), index.h("ix-divider", { key: '2ff0ae7813b7ff6a32e0b6aae13b2bb3dca95d77' }), index.h("slot", { key: '4c9f7e1cac69cbd8e0c305eb9f60ea9a64e69b0d' }))));
     }
     get hostElement() { return index.getElement(this); }
 };

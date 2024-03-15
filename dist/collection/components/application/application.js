@@ -93,12 +93,12 @@ export class Application {
         });
     }
     render() {
-        return (h(Host, { key: '5611ad541df7672a749f3042f7accf1bc0f4fea3', "data-role": "", class: {
+        return (h(Host, { key: 'c617c1c5634cc4e151ad45bfec3be602619df7bb', "data-role": "", class: {
                 [`breakpoint-${this.breakpoint}`]: true,
-            } }, h("slot", { key: 'b8600e40c99555bae7055b6a4894df57a7d49026', name: "application-header" }), h("div", { key: 'ad71a6e9d05034a173b16075b4343b5244c40e98', class: "application" }, h("slot", { key: '6ae1d4a193cc858529efbb0a06421ecf5437224a', name: "menu" }), h("aside", { key: '06a2517aae4b8e0edc4ede14f03b87e9960a39a3', class: {
+            } }, h("slot", { key: '7dd298629e5d825957cc5caf15be3726e0487374', name: "application-header" }), h("div", { key: '41da1f0707c6f6723e33a50f4c45cda28bed9e77', class: "application" }, h("slot", { key: '7d2b838c6193af2fc357befb1c15cd6870d85841', name: "menu" }), h("aside", { key: '73ce757bc32176170b51cf95013b13f5594c0eb2', class: {
                 'application-sidebar': true,
                 slotted: this.applicationSidebarSlotted,
-            }, onClick: () => this.onContentClick() }, h("slot", { key: '77d253b74578d2392718dcb26ed16c52a60e93ae', name: "application-sidebar", onSlotchange: () => (this.applicationSidebarSlotted = hasSlottedElements(this.applicationSidebarSlot)) })), h("main", { key: '34861c56227c6adce9503099d2b1a7a66bfbafa6', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: '55b324f84d53c0a8a2a49cdcf49b940131ec7ea9' })))));
+            }, onClick: () => this.onContentClick() }, h("slot", { key: '8361978e6d5cdccae60544290253175e27e00b54', name: "application-sidebar", onSlotchange: () => (this.applicationSidebarSlotted = hasSlottedElements(this.applicationSidebarSlot)) })), h("main", { key: 'cbce05cd33d05f8f6a4e7cf7e7f8582e560da0d6', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: 'd3a7f19add2a6cf2f976c9be1b8688fa5e997e48' })))));
     }
     static get is() { return "ix-application"; }
     static get encapsulation() { return "shadow"; }

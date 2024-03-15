@@ -9,7 +9,7 @@ const ModalContent = class {
         registerInstance(this, hostRef);
     }
     render() {
-        return (h(Host, { key: 'b36a65aae830091d79a14c6ff3eae20cb6a188ce' }, h("slot", { key: '9c2e696a169ec08f58a831086d29264426e03cc9' })));
+        return (h(Host, { key: 'e1593ee1d306bc61b5eb123cab15766b13674196' }, h("slot", { key: '75a6728212575e1a265f39ff1a9efdcffb580838' })));
     }
 };
 ModalContent.style = IxModalContentStyle0;
@@ -47,7 +47,7 @@ const ModalHeader = class {
         this.parentDialog.dismissModal();
     }
     render() {
-        return (h(Host, { key: '6acc4a0a566d2b681ccabf3b1bc1b8a09da23926' }, this.icon ? (h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, h("ix-typography", { key: '1bcbb5e77ec381b904efa5d18315a35da9fb5964', variant: 'default-title' }, h("slot", { key: '12f1f41c559b4ba64c69e5039d425ee17019254a' })), !this.hideClose ? (h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
+        return (h(Host, { key: 'd3f46f15cd465239341a377050b5bde8b3893420' }, this.icon ? (h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, h("ix-typography", { key: '2663a8905b71b41dc346af59eaa51dde2507d575', variant: 'default-title' }, h("slot", { key: '73417fa4fb984e6dbf097d76cea3ec5894e24603' })), !this.hideClose ? (h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
     }
     get hostElement() { return getElement(this); }
     static get watchers() { return {

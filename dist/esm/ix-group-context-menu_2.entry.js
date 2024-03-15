@@ -34,7 +34,7 @@ const GroupContextMenu = class {
         this.configureDropdown(dropdownElement, triggerElement);
     }
     render() {
-        return (h(Host, { key: '7b561df4adbe4906b1f4dbc4c50fab9788ec30c9' }, h("ix-icon-button", { key: '602b724690fb58e3261710002ef95fff2ef28c25', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: '0d42add312838be530623029430bc1007ba08a5a', onSlotchange: () => this.onSlotChange() })));
+        return (h(Host, { key: 'f709297153c95aae9ae99750d6eef9bb93b6e93b' }, h("ix-icon-button", { key: 'da299782cd2d0fbf3da4ffebedbd69f3a5f24bf9', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: '8557ba5e78f8098a9defdf3f966e83046522c2ae', onSlotchange: () => this.onSlotChange() })));
     }
     get hostElement() { return getElement(this); }
 };
@@ -62,10 +62,10 @@ const GroupItem = class {
         this.selectedChanged.emit(this.hostElement);
     }
     render() {
-        return (h(Host, { key: '7cfbff33c26c7dbd32d0d3616b115bf876026beb', class: {
+        return (h(Host, { key: '510249c40eb513c0cad7ad186f94311e86b99c1c', class: {
                 selected: this.selected && !this.suppressSelection,
                 'suppress-selection': this.suppressSelection,
-            } }, h("button", { key: 'e6c9e6094dd24a417f49f18aceb32b6504f83f6b', tabindex: this.focusable ? 0 : -1 }, h("div", { key: '9c736883c42fc5d39f36f9fbb6c39d01624ba8ed', class: "group-entry-selection-indicator" }), this.icon ? h("ix-icon", { size: "16", name: this.icon }) : null, this.text ? (h("span", { class: "group-entry-text" }, h("span", { title: this.text }, this.text))) : null, this.secondaryText ? (h("span", { class: "group-entry-text-secondary" }, h("span", { title: this.secondaryText }, this.secondaryText))) : null, h("slot", { key: '770f048023b4ecca5302d7d11162ed4670e8db16' }))));
+            } }, h("button", { key: '58314b961969fc828b490a251eb3fc991b332356', tabindex: this.focusable ? 0 : -1 }, h("div", { key: '3b643550562e7368c87e4b6443a51902f63da7d5', class: "group-entry-selection-indicator" }), this.icon ? h("ix-icon", { size: "16", name: this.icon }) : null, this.text ? (h("span", { class: "group-entry-text" }, h("span", { title: this.text }, this.text))) : null, this.secondaryText ? (h("span", { class: "group-entry-text-secondary" }, h("span", { title: this.secondaryText }, this.secondaryText))) : null, h("slot", { key: '1314f12170969fd85675165af10b1bff1048f8a5' }))));
     }
     get hostElement() { return getElement(this); }
 };

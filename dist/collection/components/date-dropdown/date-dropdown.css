@@ -82,6 +82,9 @@
     border-right: var(--theme-x-weak-bdr-2);
   }
 }
+:host ix-button {
+  width: 100%;
+}
 :host .max-height {
   max-height: -moz-max-content;
   max-height: max-content;

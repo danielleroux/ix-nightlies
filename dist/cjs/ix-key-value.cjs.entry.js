@@ -16,7 +16,7 @@ const KeyValue = class {
         this.value = undefined;
     }
     render() {
-        return (index.h(index.Host, { key: '8223aa74048180df2c252d63f590902aa8a16562', class: `keyValue keyValue--${this.labelPosition === 'top' ? 'column' : 'row'}` }, this.icon && (index.h("ix-icon", { name: this.icon, size: "24", class: "keyValue__icon" })), index.h("div", { key: '1f9edfe06188514b7dcb56b008ac563773219aac', class: "keyValue__content" }, index.h("div", { key: '9c1fcf4cc1b9013866283d77074349a7e9669194', class: "content__label" }, this.label), index.h("div", { key: '0748ee055c661f1c3652941e1e76c5e94c1f53ad', class: {
+        return (index.h(index.Host, { key: '88dcec3572f18783faddef7e3ac8a66aef01ed1b', class: `keyValue keyValue--${this.labelPosition === 'top' ? 'column' : 'row'}` }, this.icon && (index.h("ix-icon", { name: this.icon, size: "24", class: "keyValue__icon" })), index.h("div", { key: '133fd9fa5e7fc3af3e181425045073c43c47049d', class: "keyValue__content" }, index.h("div", { key: '569cb9031c047421118d8847ec0c84dc8aeee469', class: "content__label" }, this.label), index.h("div", { key: 'a082de0c7b9a820d3ab86ef06f7be7425343a67a', class: {
                 content__value: true,
                 'has-customValue': this.value === undefined,
             } }, this.value !== undefined ? (this.value) : (index.h("slot", { name: "custom-value" }))))));

@@ -17,7 +17,7 @@ const BurgerMenu = class {
         this.pinned = false;
     }
     render() {
-        return (index.h(index.Host, { key: '4e7e34d73d70225b42dfdab7529786e9a86a1931', class: {
+        return (index.h(index.Host, { key: 'abeece1a04e139ac724db7f84642d98e04184997', class: {
                 expanded: this.expanded,
             } }, this.pinned ? (index.h("ix-icon-button", { icon: `double-chevron-${this.expanded ? 'left' : 'right'}`, ghost: true })) : (index.h("button", { class: Object.assign(Object.assign({}, baseButton.getButtonClasses('secondary', false, true, true, false, false, false)), { 'burger-menu-button': true }), type: "button", "aria-label": this.ixAriaLabel ? this.ixAriaLabel : null, "aria-pressed": a11y.a11yBoolean(this.expanded) }, index.h("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: "24", height: "24" }, index.h("rect", { class: "line line-1", x: "2", y: "5", width: "20", height: "2" }), index.h("rect", { class: "line line-2", x: "2", y: "11", width: "13", height: "2" }), index.h("rect", { class: "line line-3", x: "2", y: "17", width: "20", height: "2" }))))));
     }

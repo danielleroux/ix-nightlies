@@ -27,13 +27,13 @@ const Pill = class {
                 [this.outline ? 'borderColor' : 'backgroundColor']: this.background,
             };
         }
-        return (index.h(index.Host, { key: '2ce9fa41b76ef3d892a6de9651afb665fef99a1c', style: this.variant === 'custom'
+        return (index.h(index.Host, { key: '564411b5f68232e91613cd49b790f8ccff034868', style: this.variant === 'custom'
                 ? {
                     '--ix-icon-button-color': (_b = this.pillColor) !== null && _b !== void 0 ? _b : this.color,
                 }
                 : {}, title: this.el.textContent, class: {
                 'align-left': this.alignLeft,
-            } }, index.h("div", { key: '0c2d4b8b67cca0767f4d7b6943f7ccecf5429c92', style: Object.assign({}, customStyle), class: {
+            } }, index.h("div", { key: '249644ab34859bf451ed47e64fc51e7858a0ab06', style: Object.assign({}, customStyle), class: {
                 container: true,
                 outline: this.outline,
                 inactive: false,
@@ -47,10 +47,10 @@ const Pill = class {
                 custom: this.variant === 'custom',
                 closable: false,
                 icon: !!this.icon,
-            } }, index.h("ix-icon", { key: '9689514bdab45a2b84ae2e388e64c84047ecf2e0', class: {
+            } }, index.h("ix-icon", { key: 'f5eeee5bc7b218055775ac7f3dbae95cf697d810', class: {
                 'with-icon': true,
                 hidden: this.icon === undefined || this.icon === '',
-            }, name: this.icon, size: '16' }), index.h("span", { key: '7f51e2bc7a4e97ad01a47897685888243866e8ba', class: "slot-container" }, index.h("slot", { key: 'cf713b90d8123740791f99b5630ac202a4cee2b6' })))));
+            }, name: this.icon, size: '16' }), index.h("span", { key: '14644dee7a8aae4b0f9fd3dd0a6fe51dc8586da6', class: "slot-container" }, index.h("slot", { key: '33553ee2ba967003bad9f7c52e78d2c383df1c08' })))));
     }
     get el() { return index.getElement(this); }
 };

@@ -29,7 +29,7 @@ const MenuAbout = /*@__PURE__*/ proxyCustomElement(class MenuAbout extends HTMLE
         forceUpdate(this.el);
     }
     render() {
-        return h(MenuTabs, { key: '343e449dbffb9310e41ee4665f073353f35bcc2f', context: this });
+        return h(MenuTabs, { key: '5795ddcf3b8bdf0d48587e91a7d4551543424917', context: this });
     }
     get el() { return this; }
     static get watchers() { return {

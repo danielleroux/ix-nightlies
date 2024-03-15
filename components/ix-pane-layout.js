@@ -226,7 +226,7 @@ const Panes = /*@__PURE__*/ proxyCustomElement(class Panes extends HTMLElement {
         return pane ? pane.floating : false;
     }
     render() {
-        return (h(Host, { key: '56fd9ab50a41ec59e245578a8d87f4c144a669df' }, !this.isMobile ? (this.layout == 'full-vertical' ? (h("div", { class: "side-panes-wrapper" }, h("div", { class: {
+        return (h(Host, { key: 'a912976c2f78c0b4e7d88c52d543e1474e53e802' }, !this.isMobile ? (this.layout == 'full-vertical' ? (h("div", { class: "side-panes-wrapper" }, h("div", { class: {
                 row: true,
                 'padding-left': this.hasPadding('left'),
                 'padding-right': this.hasPadding('right'),

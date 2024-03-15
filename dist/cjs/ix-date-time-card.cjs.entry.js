@@ -26,7 +26,7 @@ const DateTimeCard = class {
         };
     }
     render() {
-        return (index.h(index.Host, { key: 'be249cc33523ab05fcea91c285a828d42803530c' }, index.h("div", { key: '3a4389a7bf5e5ec46622ddae68a14d121a1cad97', class: this.cardClasses() }, index.h("div", { key: '711acb2cd8a3a78046bc800e7c6ead60a0ad1b1f', class: "header" }, index.h("slot", { key: '72dd5f1b4c27869449729395a2dd9fe73b81d2b8', name: "header" })), index.h("div", { key: 'cc763fd99e776b0e8fa4b5615d92c51a556e0ee8', class: "separator" }), index.h("div", { key: '3654550d4f9fa01bbd79d0c8666116ed645ae495', class: "content" }, index.h("slot", { key: 'b2e03f699d22bedc7a586ec2f1be3bce3497d82f' })))));
+        return (index.h(index.Host, { key: 'f8ed1e43427e1723f5015a550c2cc9a110bee2b2' }, index.h("div", { key: 'f29905676e209d12e851fb8991e60d28cf7153bb', class: this.cardClasses() }, index.h("div", { key: '4e34b58cb52dddd372fda6713bdd41d612612f96', class: "header" }, index.h("slot", { key: 'c31d602a45866159181c20a3674cd18c5679052f', name: "header" })), index.h("div", { key: '5d86be7a1b70d75246bf07cda2898bc3ee768ca5', class: "separator" }), index.h("div", { key: '3d3e38bff5d56f06e88ef654e6f621ee3ffc8b9c', class: "content" }, index.h("slot", { key: 'c8a3b2a6ef2f7260ee0a8a16f5ee8c5eda1d9db6' })))));
     }
 };
 DateTimeCard.style = IxDateTimeCardStyle0;

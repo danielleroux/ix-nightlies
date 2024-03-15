@@ -17,12 +17,12 @@ const Content = class {
         return this.hostElement.shadowRoot.querySelector('.content-header slot');
     }
     render() {
-        return (index.h(index.Host, { key: 'ef69e746551d1799ac549a40d5bf993e20b947e8' }, index.h("div", { key: 'd5f0f5ef0dd67769ac59d4efa17e746bd2af3d8f', class: {
+        return (index.h(index.Host, { key: '85ecfecc47910592c3e5633e8f21ca6e2bf98b68' }, index.h("div", { key: '5856277dbd6d05054a0c0083ae8ba9496e127cf5', class: {
                 'content-header': true,
                 slotted: this.isContentHeaderSlotted,
-            } }, index.h("slot", { key: '2a7a54ca49a946ba2043d48e93311095aa5a1696', name: "header", onSlotchange: () => {
+            } }, index.h("slot", { key: 'b5989ea440740b99deef634be6b30cb5b443d18b', name: "header", onSlotchange: () => {
                 this.isContentHeaderSlotted = shadowDom.hasSlottedElements(this.contentHeaderSlot);
-            } })), index.h("div", { key: '43bfdf4ae39781a58ca3b6f4d9981841d37ff347', class: "content" }, index.h("slot", { key: '88d53f6d9c324182af7e8e0c341910ff5fd04cb1' }))));
+            } })), index.h("div", { key: 'b4eea60b710cd2a2cf188c2125a91a33b4fca82f', class: "content" }, index.h("slot", { key: 'b739a3016884b29e41b1975b76121511c9f35f2a' }))));
     }
     get hostElement() { return index.getElement(this); }
 };

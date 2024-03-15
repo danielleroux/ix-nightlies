@@ -11,7 +11,7 @@ const FlipTileContent = /*@__PURE__*/ proxyCustomElement(class FlipTileContent e
         this.contentVisible = false;
     }
     render() {
-        return h(Host, { key: '861c12c524efa42bdcf52922898ceb4fd367ffb0' }, this.contentVisible ? h("slot", null) : null);
+        return h(Host, { key: 'e92abcbb8b1cfdeb739ee4933f6ed66a6c2a7dc5' }, this.contentVisible ? h("slot", null) : null);
     }
     static get style() { return IxFlipTileContentStyle0; }
 }, [1, "ix-flip-tile-content", {

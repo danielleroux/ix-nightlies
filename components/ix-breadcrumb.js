@@ -74,7 +74,7 @@ const Breadcrumb = /*@__PURE__*/ proxyCustomElement(class Breadcrumb extends HTM
     render() {
         var _a, _b, _c, _d;
         const a11y = a11yHostAttributes(this.hostElement);
-        return (h(Host, { key: '3a5d431706ed4ef549411908c3155fb3101c5909' }, h("ix-dropdown", { key: '6b0646e46f9e2e47f763a2fd88a2b58273fa4c01', id: this.previousDropdownId, "aria-label": this.ariaLabelPreviousButton, trigger: ((_a = this.items) === null || _a === void 0 ? void 0 : _a.length) > this.visibleItemCount
+        return (h(Host, { key: 'd4a7d70b996b0e613a05a53896aedcaf786cb05b' }, h("ix-dropdown", { key: '545dd5b645297725ef8b58c2619ebff9cdc0b0c1', id: this.previousDropdownId, "aria-label": this.ariaLabelPreviousButton, trigger: ((_a = this.items) === null || _a === void 0 ? void 0 : _a.length) > this.visibleItemCount
                 ? this.previousButtonRef
                 : null, onShowChanged: ({ detail }) => {
                 this.isPreviousDropdownExpanded = detail;
@@ -91,7 +91,7 @@ const Breadcrumb = /*@__PURE__*/ proxyCustomElement(class Breadcrumb extends HTM
             return (h("ix-dropdown-item", { label: label, onClick: () => {
                     this.onItemClick(label);
                 }, onItemClick: (event) => event.stopPropagation() }));
-        })), ((_b = this.items) === null || _b === void 0 ? void 0 : _b.length) > this.visibleItemCount ? (h("ix-breadcrumb-item", { id: this.previousButtonId, ref: (ref) => (this.previousButtonRef = ref), label: "...", tabIndex: 1, onItemClick: (event) => event.stopPropagation(), "aria-describedby": this.previousDropdownId, "aria-controls": this.previousDropdownId, "aria-expanded": a11yBoolean(this.isPreviousDropdownExpanded), class: 'previous-button' })) : null, h("nav", { key: '8951ec43c5cc5a3241344f0a2dbf8cceee266f61', class: "crumb-items", "aria-label": (_c = a11y['aria-label']) !== null && _c !== void 0 ? _c : 'breadcrumbs' }, h("ol", { key: '9d53557b3fcad33cd0f85f1009cf1cd517d2c6a8' }, h("slot", { key: '24b98536fb99e10cfc33947130e572b52bd42218' }))), h("ix-dropdown", { key: '1a00f517f4a8837401e4873f30ba044d84f2fb74', trigger: this.nextButtonRef }, (_d = this.nextItems) === null || _d === void 0 ? void 0 : _d.map((item) => (h("ix-dropdown-item", { label: item, onClick: (e) => {
+        })), ((_b = this.items) === null || _b === void 0 ? void 0 : _b.length) > this.visibleItemCount ? (h("ix-breadcrumb-item", { id: this.previousButtonId, ref: (ref) => (this.previousButtonRef = ref), label: "...", tabIndex: 1, onItemClick: (event) => event.stopPropagation(), "aria-describedby": this.previousDropdownId, "aria-controls": this.previousDropdownId, "aria-expanded": a11yBoolean(this.isPreviousDropdownExpanded), class: 'previous-button' })) : null, h("nav", { key: 'e3e3162f385bd64ddde0671c3bb6fe084ca32714', class: "crumb-items", "aria-label": (_c = a11y['aria-label']) !== null && _c !== void 0 ? _c : 'breadcrumbs' }, h("ol", { key: 'ba7a37c3a9124efa24ea6ac3ddfe5a146d6cc5a1' }, h("slot", { key: 'b4b30cf5e41c4583ea6fbbdb372f79d167f859c9' }))), h("ix-dropdown", { key: 'aa20745609c9110ebed70439c26bf214f3386710', trigger: this.nextButtonRef }, (_d = this.nextItems) === null || _d === void 0 ? void 0 : _d.map((item) => (h("ix-dropdown-item", { label: item, onClick: (e) => {
                 this.nextClick.emit({
                     event: e,
                     item,

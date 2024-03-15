@@ -8,7 +8,7 @@ const DropdownQuickActions = class {
         registerInstance(this, hostRef);
     }
     render() {
-        return (h(Host, { key: '6fc1f482e9e43fd2e70535c7f2bb7786fc59e305' }, h("slot", { key: 'd8a06e975f6498b7735159e09a29e8d715a1ff99' })));
+        return (h(Host, { key: '4276b052d998fa436597a67bc7df4b5f4dac79e7' }, h("slot", { key: 'fe99c816c933c10d45fdb93acfadf23938ffa1ae' })));
     }
 };
 DropdownQuickActions.style = IxDropdownQuickActionsStyle0;

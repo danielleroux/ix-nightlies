@@ -20,17 +20,17 @@ export class Tile {
         this.hasFooterSlot = !!this.hostElement.querySelector('[slot="footer"]');
     }
     render() {
-        return (h(Host, { key: '587f23ee7bc91720ff10966d105782f473f00e44', class: {
+        return (h(Host, { key: 'c18f9b86f07ad9ce056d22c0ebcdce4ce0a4195f', class: {
                 'tile-small': this.size === 'small',
                 'tile-medium': this.size === 'medium',
                 'tile-big': this.size === 'big',
-            } }, h("div", { key: 'e3ae9e61a6cb4d525ecf53230537aabd64ecec3e', class: {
+            } }, h("div", { key: '34808bb57f813224b7f0f4bb289de56aef170864', class: {
                 'tile-header': true,
                 'has-content': this.hasHeaderSlot,
-            } }, h("slot", { key: 'd2e3c5dc465a65eb8c84f89bd7cb340d5dea3823', name: "header", onSlotchange: () => this.handleHeaderSlotChange() })), h("div", { key: '937ec531e8e203620c1fa8de94981bae8c4f9256', class: "tile-subheader" }, h("slot", { key: 'e6b7dd7fe7e4dbd68f692603a9658f86905fb70a', name: "subheader" })), h("div", { key: 'f745c7d22fff7f1869342cdc369328019b9320db', class: "tile-content" }, h("slot", { key: '198f6fa1a032a026849e1290458a5d0cb9e12de0' })), h("div", { key: 'add52ae52734cfb7c53709fe0bdc2aacd2432c79', class: {
+            } }, h("slot", { key: 'a5755136d26d7ca1c1fb087cd16ceadffbcad9bc', name: "header", onSlotchange: () => this.handleHeaderSlotChange() })), h("div", { key: '6082482ecbfc4a332b85451aa1661df7ff8a5425', class: "tile-subheader" }, h("slot", { key: 'bd43456069f9f0117f66194a2be6ae2913325abc', name: "subheader" })), h("div", { key: '3c37eb01ade7f131f33204c7f1f927a3b1341c03', class: "tile-content" }, h("slot", { key: '7e359cb0720e7ce0eefba2e3d25f5cf31f92fc49' })), h("div", { key: 'df1ae76b5b7d5df128b5baac00171f8906c01301', class: {
                 'tile-footer': true,
                 'has-content': this.hasFooterSlot,
-            } }, h("slot", { key: 'ecab235d46944a82f6c6589cb1c360be79e18fa5', name: "footer", onSlotchange: () => this.handleFooterSlotChange() }))));
+            } }, h("slot", { key: 'cd340f4ab95913bd6bc4d6d40ee4c6712992f964', name: "footer", onSlotchange: () => this.handleFooterSlotChange() }))));
     }
     static get is() { return "ix-tile"; }
     static get encapsulation() { return "shadow"; }

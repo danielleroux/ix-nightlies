@@ -56,26 +56,26 @@ const FlipTile = class {
         }, 2 * this.ANIMATION_DURATION);
     }
     render() {
-        return (h(Host, { key: 'ce09b1e9ed6bed31afff8feb5331bae2fd9c4206', style: {
+        return (h(Host, { key: 'f48c8fa439a5b38b06fbda02e4185aa4195dcba5', style: {
                 height: `${this.height}${this.height === 'auto' ? '' : 'rem'}`,
                 'min-height': `${this.height}${this.height === 'auto' ? '' : 'rem'}`,
                 'max-height': `${this.height}${this.height === 'auto' ? '' : 'rem'}`,
                 width: `${this.width}${this.width === 'auto' ? '' : 'rem'}`,
                 'min-width': `${this.width}${this.width === 'auto' ? '' : 'rem'}`,
                 'max-width': `${this.width}${this.width === 'auto' ? '' : 'rem'}`,
-            } }, h("div", { key: '7b05701a4d284b7bf5df7506d05740ceeeee7721', class: {
+            } }, h("div", { key: 'fc676886cdf565c7cc121640b37c579eb1ea2f64', class: {
                 'flip-tile-container': true,
                 info: this.state === FlipTileState.Info,
                 warning: this.state === FlipTileState.Warning,
                 alarm: this.state === FlipTileState.Alarm,
                 primary: this.state === FlipTileState.Primary,
                 'flip-animation-active': this.isFlipAnimationActive,
-            } }, h("div", { key: 'ce614d5f1fc065d74b6918cfa3f4f3299700ac4b', class: "flip-tile-header" }, h("div", { key: '0c21600adb7f402fe9930813148f924e87143bfe', class: "header-slot-container text-l-title" }, h("slot", { key: '7eca17dff980859c83891d7f2b90192e21dc25ec', name: "header" })), h("ix-icon-button", { key: '8940db181c5db54ccba409fd42d57f08a7dd665b', icon: 'eye', variant: "primary", ghost: true, onClick: () => this.toggleIndex() })), h("div", { key: 'c449e4aabde02243da7b5ab6b68ebd128708b929', class: "content-container" }, h("slot", { key: '7931ffd8b5428c865f5da4481d6641addd11928d' })), h("div", { key: '71061185c12c66f664b05775cf1c204bbfd273dc', class: {
+            } }, h("div", { key: '036a5f9b336796232c649a0c1718601ccd5c46b5', class: "flip-tile-header" }, h("div", { key: '3eb347f451cf27f614f855eee99f8562fc4aa785', class: "header-slot-container text-l-title" }, h("slot", { key: '563785f622191f0692f3790f3a908125e30e7276', name: "header" })), h("ix-icon-button", { key: '9a52873d2890f187d3a2c940688bbd000e676233', icon: 'eye', variant: "primary", ghost: true, onClick: () => this.toggleIndex() })), h("div", { key: '0efc4537aa97d3b79459141678dc180a140bd658', class: "content-container" }, h("slot", { key: '1c7035e6e29731a2f192a37f1d86985c3c219220' })), h("div", { key: '2d1f20e35490d7f87b1d70cb9783268c5f1dc270', class: {
                 footer: true,
                 'contrast-light': this.state === FlipTileState.Warning,
                 'contrast-dark': this.state === FlipTileState.Info ||
                     this.state === FlipTileState.Alarm,
-            } }, h("slot", { key: 'b4ce29eae8a575c65a0d4fbb323f52ef6edff62d', name: "footer" })))));
+            } }, h("slot", { key: '074e8bcae63f134dab5623df0682c754e3212159', name: "footer" })))));
     }
     get hostElement() { return getElement(this); }
 };

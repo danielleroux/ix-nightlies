@@ -69,7 +69,7 @@ export class IconButton {
             type: this.type,
             extraClasses: this.getIconSizeClass(),
         };
-        return (h(Host, { key: '7da24896eae7dce5de64057e70c6d996681d60b7', class: Object.assign(Object.assign({}, this.getIconSizeClass()), { disabled: this.disabled || this.loading }) }, h(BaseIconButton, Object.assign({ key: '067f21e0afca8fb01ea374d60fe51560ec203228' }, baseButtonProps))));
+        return (h(Host, { key: '2990b79a4d4b413e844a3c2ab4b0a4604464eeeb', class: Object.assign(Object.assign({}, this.getIconSizeClass()), { disabled: this.disabled || this.loading }) }, h(BaseIconButton, Object.assign({ key: 'a2983c635bf15e0d7a866d17309be343d78e9aa6' }, baseButtonProps))));
     }
     static get is() { return "ix-icon-button"; }
     static get encapsulation() { return "shadow"; }

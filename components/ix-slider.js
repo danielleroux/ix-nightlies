@@ -122,12 +122,12 @@ const Slider = /*@__PURE__*/ proxyCustomElement(class Slider extends HTMLElement
             traceStart = valueInPercentage;
             traceEnd = traceReferenceInPercentage;
         }
-        return (h(Host, { key: '8c85501e96b06c0978e105a3c385ff0824c65a8f', class: {
+        return (h(Host, { key: 'fc1ccd48aeefe6a53f7299db447b5c5e6fb6b13d', class: {
                 disabled: this.disabled,
                 error: !!this.error,
-            }, onPointerDown: () => setTimeout(() => (this.showTooltip = true)) }, h("div", { key: 'd55ef7538ee1c4ddc5cbce9084f942100e3c973d', class: "slider" }, h("div", { key: 'ca12a0723b0413045b159fb0ff7c0e86492ec7dd', class: "track" }, h("div", { key: '14ac930b5473b74eb429723fee183c92c3fafdfb', class: "thumb", style: {
+            }, onPointerDown: () => setTimeout(() => (this.showTooltip = true)) }, h("div", { key: '4e3d3b0d5e1b2a2882ce0073336e4cd13ac1a4b8', class: "slider" }, h("div", { key: 'f8457c6d8efad8d172abe49f9037cb71f9ba226f', class: "track" }, h("div", { key: 'cf141d91936a74657f8788f5f7c688e37ebf7a16', class: "thumb", style: {
                 left: `calc(${valueInPercentage} * 100% - 8px)`,
-            } }), h("div", { key: '3e44ab3c48f5d3225a2bef007c33f1637daed6a1', class: "ticks" }, this.marker
+            } }), h("div", { key: 'b54ae34bda82b7f0277ae361c5139845830dc85d', class: "ticks" }, this.marker
             ? this.marker.map((markerValue) => {
                 if (markerValue > this.max || markerValue < this.min) {
                     return;
@@ -140,7 +140,7 @@ const Slider = /*@__PURE__*/ proxyCustomElement(class Slider extends HTMLElement
                         '--tick-value': `${left}`,
                     } }));
             })
-            : null)), h("input", Object.assign({ key: '723d37e2970d33e4707b3f6749d87e24a4abaf82', id: "slider", type: "range", list: this.marker ? 'markers' : undefined, step: this.step, min: this.min, max: this.max, value: this.rangeInput, tabindex: this.disabled ? -1 : 0, onInput: (event) => this.onInput(event), style: {
+            : null)), h("input", Object.assign({ key: '219884ecfc35a76f0722782af2607c64b19a57aa', id: "slider", type: "range", list: this.marker ? 'markers' : undefined, step: this.step, min: this.min, max: this.max, value: this.rangeInput, tabindex: this.disabled ? -1 : 0, onInput: (event) => this.onInput(event), style: {
                 '--value': `${valueInPercentage}`,
                 '--trace-reference': `${traceReferenceInPercentage}`,
                 '--trace-start': `${traceStart}`,
@@ -151,9 +151,9 @@ const Slider = /*@__PURE__*/ proxyCustomElement(class Slider extends HTMLElement
                 this.showTooltip = true;
             }, onBlur: () => {
                 this.showTooltip = false;
-            }, role: "slider", "aria-valuenow": this.rangeInput, "aria-valuemin": this.min, "aria-valuemax": this.max }, this.a11yAttributes)), h("ix-tooltip", { key: '24fda111d2fb0582b41a43f621534984cfa0b851', class: {
+            }, role: "slider", "aria-valuenow": this.rangeInput, "aria-valuemin": this.min, "aria-valuemax": this.max }, this.a11yAttributes)), h("ix-tooltip", { key: '387dc09d28b3c45f08470ba651c659e8c528a44d', class: {
                 'hide-tooltip': !this.showTooltip,
-            }, animationFrame: true }, this.rangeInput)), h("div", { key: '3f048b282a1b5bce1a30710eaaeaa4a14d19ee32', class: "label" }, h("div", { key: '08e62143c2ea733010a59031e7eb2fa261b47de6', class: "label-start" }, h("slot", { key: 'e2902262ac37d93cd57b08230697735c5fdd95ed', name: "label-start" })), h("div", { key: 'fe84bba24a5a9673f4b4d86a6463381b84ef5069', class: "label-end" }, h("slot", { key: '9bfb718f207f3efac2c3d45f424264d45c293065', name: "label-end" }))), this.error ? (h("ix-typography", { class: 'label-error', color: "alarm" }, this.error)) : null));
+            }, animationFrame: true }, this.rangeInput)), h("div", { key: 'f8fdb048411a622870b4b0698c7124f7e175dedf', class: "label" }, h("div", { key: '2bbb6c7418953b907b1ef604a8d775c1e69d6626', class: "label-start" }, h("slot", { key: 'ce4a5aedbfafe7b5b71d47421bae0ab385548920', name: "label-start" })), h("div", { key: '98b40f2b68164592307f7f9817c913dffcb08139', class: "label-end" }, h("slot", { key: 'bcd3497745bf949da88cd373ecf8cd3f74488ffe', name: "label-end" }))), this.error ? (h("ix-typography", { class: 'label-error', color: "alarm" }, this.error)) : null));
     }
     get hostElement() { return this; }
     static get watchers() { return {

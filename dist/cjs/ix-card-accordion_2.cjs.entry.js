@@ -73,7 +73,7 @@ const CardHeader = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return (index.h(index.Host, { key: '0d6fb3a5e4d91a6ca36e670dd6840a430fd5bf80' }, index.h("slot", { key: '18f10b373eace5c4cf7102a8a5eca93402f67884' }), index.h("div", { key: '19bacf432aef00963c20c3f54abe458717df03c8', class: "title-actions" }, index.h("slot", { key: 'bd52f42b05e873163be38840453d9564e17b03a9', name: "title-actions" }))));
+        return (index.h(index.Host, { key: 'becda7afe606335391887cbf616a679a79ca23f8' }, index.h("slot", { key: '81d4200983e9288ae910d6e9bbf4ec8f107ed4b9' }), index.h("div", { key: 'e5894f17b9fdc84e70631bd03751d613f8e9ecf0', class: "title-actions" }, index.h("slot", { key: '30b969a1a99f9b411f6bfcee4ea5fcfc4c1f73b7', name: "title-actions" }))));
     }
 };
 CardHeader.style = IxCardTitleStyle0;

@@ -26,9 +26,9 @@ export class Toggle {
         this.checkedChange.emit(this.checked);
     }
     render() {
-        return (h(Host, { key: '47551ac764885becdf8b0679b04050692867c99c', class: {
+        return (h(Host, { key: '4ba9c673e94ffceedf28fbf04a7d136720db55f4', class: {
                 disabled: this.disabled,
-            }, onClick: () => this.onCheckedChange(!this.checked) }, h("input", { key: '2f8ceac3b78c9496f6bed179cb7b05310616f3ba', disabled: this.disabled, indeterminate: this.indeterminate, checked: this.checked, role: "switch", tabindex: 0, type: "checkbox", "aria-checked": a11yBoolean(this.checked), onChange: (event) => this.onCheckedChange(event.target.checked) }), h("label", { key: '11f165b726d672b8bd24b411deb0f9ccfeee5054', class: "switch", tabIndex: -1 }, h("span", { key: 'a2b95f492b930d283df35f61db9e4375fd20d2d6', class: "slider" })), !this.hideText ? (h(Fragment, null, !this.indeterminate ? (h("span", { class: 'toggle-text', "aria-hidden": a11yBoolean(true) }, this.checked ? this.textOn : this.textOff)) : (h("span", { class: 'toggle-text', "aria-hidden": a11yBoolean(true) }, this.textIndeterminate)))) : null));
+            }, onClick: () => this.onCheckedChange(!this.checked) }, h("input", { key: '38b9f9e4577c54c1f930e93db5958f828e5fe789', disabled: this.disabled, indeterminate: this.indeterminate, checked: this.checked, role: "switch", tabindex: 0, type: "checkbox", "aria-checked": a11yBoolean(this.checked), onChange: (event) => this.onCheckedChange(event.target.checked) }), h("label", { key: '0ec0fa498dde12fc557ab02fc785ef291a803dcd', class: "switch", tabIndex: -1 }, h("span", { key: '8101166f958219372a1ea6e509233b63c0d05ede', class: "slider" })), !this.hideText ? (h(Fragment, null, !this.indeterminate ? (h("span", { class: 'toggle-text', "aria-hidden": a11yBoolean(true) }, this.checked ? this.textOn : this.textOff)) : (h("span", { class: 'toggle-text', "aria-hidden": a11yBoolean(true) }, this.textIndeterminate)))) : null));
     }
     static get is() { return "ix-toggle"; }
     static get encapsulation() { return "shadow"; }

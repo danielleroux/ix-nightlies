@@ -31,7 +31,7 @@ export class TabItem {
         };
     }
     render() {
-        return (h(Host, { key: '62eea432a4d9c19db812f736ec3d08e03d411b48', class: this.tabItemClasses({
+        return (h(Host, { key: '77688f6b83f53ba0de891d2ed529c7b82941930a', class: this.tabItemClasses({
                 selected: this.selected,
                 disabled: this.disabled,
                 small: this.small,
@@ -46,12 +46,12 @@ export class TabItem {
                 if (clientEvent.defaultPrevented) {
                     event.stopPropagation();
                 }
-            } }, h("div", { key: '31f7dd998cfe6b2f72a57a4738d87d70b4e13383', class: {
+            } }, h("div", { key: 'd1790baee81972038f8a09c0e7a0ee3124e828a6', class: {
                 circle: this.rounded,
                 text: !this.rounded,
                 selected: this.selected,
                 disabled: this.disabled,
-            } }, h("slot", { key: '591b96b26a84f459d81d46645aa1db78748725bb' })), h("div", { key: '70ddcd21e4f76f4549e6c830640acdb7e33e3150', class: {
+            } }, h("slot", { key: '7dcd5bcd496e9955b45f00b570fb935a0e9a8969' })), h("div", { key: '435deec3155b879b5f8a397124bf9a198283c2bd', class: {
                 counter: true,
                 selected: this.selected,
                 hidden: !(this.rounded && this.counter !== undefined),

@@ -86,7 +86,7 @@ export class Drawer {
         this.onShowChanged(this.show);
     }
     render() {
-        return (h(Host, { key: '91fc9415b70a8ee79f85dcf40fef3ccb9cbb20c9', class: {
+        return (h(Host, { key: 'e62222323c1b4c58abef1702618873c3856405de', class: {
                 'drawer-container': true,
                 toggle: this.show,
                 'full-height': this.fullHeight,
@@ -95,7 +95,7 @@ export class Drawer {
                 width: this.width === 'auto' ? this.width : `${this.width}rem`,
                 'min-width': `${this.minWidth}rem`,
                 'max-width': `${this.maxWidth}rem`,
-            }, ref: (el) => (this.divElement = el), "data-testid": "container", id: "div-container" }, h("div", { key: 'b773ea537ab6410433b6af3f7d57f96070a8f462', class: "header" }, h("div", { key: 'd032e1d8af587f872f61aaae3630aa0b03a99993', class: "header-content" }, h("slot", { key: '8d1c3b9819ed60666dff64386bd87d60d880bb13', name: "header" })), h("ix-icon-button", { key: 'b73baa2dea5c23cab77fc05e9506faf0424135c6', class: "close-button", icon: 'close', size: "24", ghost: true, onClick: () => this.onCloseClicked(), "data-testid": "close-button" })), h("div", { key: '8b838c388ca39c900245896b5912ed769b63bae6', class: "content" }, h("slot", { key: '08ba8b51e00558a0063430d32d300e347b09a310' }))));
+            }, ref: (el) => (this.divElement = el), "data-testid": "container", id: "div-container" }, h("div", { key: 'add6dc645923e78ea4aab5a5119900ffb77f84e2', class: "header" }, h("div", { key: 'e173f66d20de86d73957e68ba58049d9fd5694f2', class: "header-content" }, h("slot", { key: '8c3fcccd355f8648ef1bd2367c764d3360805ffb', name: "header" })), h("ix-icon-button", { key: '4ca6c7513df414120a6f7f4164cb8cfed84992fe', class: "close-button", icon: 'close', size: "24", ghost: true, onClick: () => this.onCloseClicked(), "data-testid": "close-button" })), h("div", { key: '95fb535fc3fe56ff7731d00d849fd4d93b61d31a', class: "content" }, h("slot", { key: '44f5d0a2b5d4c876c67c4db047653d63550e5ac2' }))));
     }
     static get is() { return "ix-drawer"; }
     static get encapsulation() { return "shadow"; }

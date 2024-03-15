@@ -71,7 +71,7 @@ const IconButton = class {
             type: this.type,
             extraClasses: this.getIconSizeClass(),
         };
-        return (index.h(index.Host, { key: '7da24896eae7dce5de64057e70c6d996681d60b7', class: Object.assign(Object.assign({}, this.getIconSizeClass()), { disabled: this.disabled || this.loading }) }, index.h(baseIconButton.BaseIconButton, Object.assign({ key: '067f21e0afca8fb01ea374d60fe51560ec203228' }, baseButtonProps))));
+        return (index.h(index.Host, { key: '2990b79a4d4b413e844a3c2ab4b0a4604464eeeb', class: Object.assign(Object.assign({}, this.getIconSizeClass()), { disabled: this.disabled || this.loading }) }, index.h(baseIconButton.BaseIconButton, Object.assign({ key: 'a2983c635bf15e0d7a866d17309be343d78e9aa6' }, baseButtonProps))));
     }
     get hostElement() { return index.getElement(this); }
 };
@@ -88,7 +88,7 @@ const Spinner = class {
         this.hideTrack = false;
     }
     render() {
-        return (index.h(index.Host, { key: 'e8527197e048fee4e68b49510a6f4e15cdaee1c4', class: {
+        return (index.h(index.Host, { key: 'fce135db438427cf948004c96dcee4c044cd1a98', class: {
                 primary: this.variant === 'primary',
                 'xx-small': this.size === 'xx-small',
                 'x-small': this.size === 'x-small',

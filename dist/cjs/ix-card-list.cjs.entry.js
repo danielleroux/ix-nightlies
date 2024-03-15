@@ -141,16 +141,16 @@ const CardList = class {
         }
     }
     render() {
-        return (index.h(index.Host, { key: 'c328d27069ea738a47d5887b8fc92026eb41ed41' }, index.h(CardListTitle, { key: '846c7c0a11d45da394795bec62a345daa1c44cf0', isCollapsed: this.collapse, label: this.label, showAllLabel: this.i18nShowAll, showAllCounter: this.showAllCount === undefined
+        return (index.h(index.Host, { key: 'f64f7bbef5fef7491fd79ff4a8925d30d69fc452' }, index.h(CardListTitle, { key: '7e0d6992d039649ed38115d0434f1192231c6ee5', isCollapsed: this.collapse, label: this.label, showAllLabel: this.i18nShowAll, showAllCounter: this.showAllCount === undefined
                 ? this.numberOfAllChildElements
-                : this.showAllCount, onClick: () => this.onCardListVisibilityToggle(), onShowAllClick: (e) => this.onShowAllClick(e) }), index.h("div", { key: '56889ca9212e46c12653179c8a981b2e43277231', class: {
+                : this.showAllCount, onClick: () => this.onCardListVisibilityToggle(), onShowAllClick: (e) => this.onShowAllClick(e) }), index.h("div", { key: '3e586bcc0ce83077ca1f63a999d0c34580eb66c9', class: {
                 CardList__Overflow: true,
-            }, style: this.computeMaskLayer() }, index.h("div", { key: '9befdceda0ca5ba093f170e3e0e4e58ddbd06113', class: {
+            }, style: this.computeMaskLayer() }, index.h("div", { key: '2575c1d6679112d96e48e8c120b2d62c24cc8629', class: {
                 CardList__Content: true,
                 CardList__Content__Collapsed: this.collapse,
                 CardList__Style__Flexbox__Scroll: this.listStyle === 'stack',
                 CardList__Style__Infinite__Scroll: this.listStyle === 'scroll',
-            }, onScroll: () => this.onCardListScroll() }, index.h("slot", { key: '36c242f6e1400a7e0258b005b5a558db5c9fe210', onSlotchange: () => this.changeVisibilityOfSlotChildren() }), this.isShowMoreCardVisible() ? (index.h("ix-card", { class: {
+            }, onScroll: () => this.onCardListScroll() }, index.h("slot", { key: '55f3065336c58ee56dbe24e959f81406173a6589', onSlotchange: () => this.changeVisibilityOfSlotChildren() }), this.isShowMoreCardVisible() ? (index.h("ix-card", { class: {
                 Show__All__Card: true,
             }, onClick: (event) => this.showMoreCardClick.emit({
                 nativeEvent: event,

@@ -35,7 +35,7 @@ export class ApplicationSidebar {
         anime(animation);
     }
     render() {
-        return (h(Host, { key: '3c17bcc10e4e795c42d0627dc6e8158b2a651b54', slot: "application-sidebar", class: {
+        return (h(Host, { key: 'f91894976e33362b3d92be367a22d8be0c8a6c1f', slot: "application-sidebar", class: {
                 visible: this.visible,
             } }, this.visible ? h("slot", null) : null));
     }

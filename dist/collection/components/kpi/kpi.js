@@ -33,13 +33,13 @@ export class Kpi {
         return tooltip;
     }
     render() {
-        return (h(Host, { key: 'bb752421257c97da16f70dc2f5d7973a33c3dcd7', title: this.getTooltipText(), tabindex: "1", class: {
+        return (h(Host, { key: 'dfc10eb1b32999417bfcfe2b13318733468c2b8d', title: this.getTooltipText(), tabindex: "1", class: {
                 stacked: this.orientation === 'vertical',
-            } }, h("div", { key: 'a7dae46c852e7866c613c8c05778fd6581d85229', class: {
+            } }, h("div", { key: '42ae8899123702f27d437b1002d19ecca635c827', class: {
                 'kpi-container': true,
                 alarm: this.state === 'alarm',
                 warning: this.state === 'warning',
-            } }, h("span", { key: 'bda2cd5de4a8e72578dfa5283d31c54f5bb19f00', class: "kpi-label" }, this.getStateIcon(), h("span", { key: 'fb6002f8bf537e6471fe5e6d896e108458a886dd', class: "kpi-label-text" }, this.label)), h("span", { key: '5f9ed5b99777bcd4d9c7a0e9e145622544563649', class: "kpi-value-container" }, h("span", { key: '66e40756bf8412b0f4995adedb70581158695b55', class: "kpi-value" }, this.value), this.unit ? h("span", { class: "kpi-unit" }, this.unit) : ''))));
+            } }, h("span", { key: '97fd8b58beb66d4071a0a00247d73909bb15ac9c', class: "kpi-label" }, this.getStateIcon(), h("span", { key: 'c94f2356c26f267f42427b8dd854dd50a5aaa075', class: "kpi-label-text" }, this.label)), h("span", { key: 'dd33de51b6d73d1fd53715bcfa0b90d4b09fa0e0', class: "kpi-value-container" }, h("span", { key: 'b6172821e5cec47954289a183f37284f9c9c4032', class: "kpi-value" }, this.value), this.unit ? h("span", { class: "kpi-unit" }, this.unit) : ''))));
     }
     static get is() { return "ix-kpi"; }
     static get encapsulation() { return "shadow"; }

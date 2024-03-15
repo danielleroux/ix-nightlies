@@ -12,7 +12,7 @@ import { h, Host } from "@stencil/core";
  */
 export class Divider {
     render() {
-        return h(Host, { key: 'a12f752ef0fa741ad16068b425293e9ba39d21c8' });
+        return h(Host, { key: '77aba5256230ceae62d44788f8b3c5e882fe5e80' });
     }
     static get is() { return "ix-divider"; }
     static get encapsulation() { return "shadow"; }

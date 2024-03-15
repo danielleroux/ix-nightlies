@@ -13,7 +13,7 @@ const FormField = class {
     }
     componentWillLoad() { }
     render() {
-        return (h(Host, { key: '6b94db9e2ce60a80ccf1f64463fabcf6c432ad70' }, this.label ? (h("label", { htmlFor: this.inputElement.id }, this.label)) : null, h("slot", { key: '7dd324c00fa1fddd947739ec7f4e3a77a10ceaf8' })));
+        return (h(Host, { key: '84f5465600ed945caa31926c700957a4e1b7e43e' }, this.label ? (h("label", { htmlFor: this.inputElement.id }, this.label)) : null, h("slot", { key: 'c57485ac6285e411275e9e7fafeb6aa3b3e96ee3' })));
     }
     get hostElement() { return getElement(this); }
 };

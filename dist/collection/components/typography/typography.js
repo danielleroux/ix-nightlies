@@ -44,7 +44,7 @@ export class IxTypography {
                 color: `var(--theme-color-${this.textColor}-text)`,
             };
         }
-        return (h(Host, { key: 'a33ba3db2813bf5e41e8480195f5c540a70c7bb1', class: typographyClass, style: style }, h("slot", { key: '8a4320ebdf3ead5430eaa49ddaa4991ac76df931' })));
+        return (h(Host, { key: 'e39b379997d1e278e600c69fcfcce98e80d5cb2c', class: typographyClass, style: style }, h("slot", { key: '25d5d4bdd1bc16158a7bea5ee137bac6e3ce3882' })));
     }
     static get is() { return "ix-typography"; }
     static get encapsulation() { return "shadow"; }

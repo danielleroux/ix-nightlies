@@ -35,15 +35,15 @@ const DropdownItem = class {
             this.icon !== undefined);
     }
     render() {
-        return (index.h(index.Host, { key: 'd0961e924032ae68a9413214e4d1ab295c938507', class: {
+        return (index.h(index.Host, { key: '3882c42ff856b85402ec8fbcd366832993a2d50b', class: {
                 hover: this.hover,
                 'icon-only': this.isIconOnly(),
                 disabled: this.disabled,
                 submenu: this.isSubMenu,
-            }, role: "listitem" }, index.h("button", { key: '798221fee0673bad5791f7823a0316217890d744', type: "button", tabIndex: 0, class: {
+            }, role: "listitem" }, index.h("button", { key: '18957e0107f55aed30e6cecfa6bfbe02c456a850', type: "button", tabIndex: 0, class: {
                 'dropdown-item': true,
                 'no-checked-field': this.suppressChecked,
-            }, onClick: () => this.emitItemClick() }, !this.suppressChecked ? (index.h("div", { class: "dropdown-item-checked" }, this.checked ? (index.h("ix-icon", { class: "checkmark", name: 'single-check', size: "16" })) : null)) : null, this.icon ? (index.h("ix-icon", { class: "dropdown-item-icon", name: this.icon })) : null, index.h("div", { key: '590a12e0a50264cb5367a94c23d2641f4adc2b82', class: "dropdown-item-text" }, this.label, index.h("slot", { key: 'dcbeb64fc42ff9ef4a21e2dbec9eb843e09f658c' })), this.isSubMenu ? (index.h("ix-icon", { name: 'chevron-right-small', class: 'submenu-icon' })) : null)));
+            }, onClick: () => this.emitItemClick() }, !this.suppressChecked ? (index.h("div", { class: "dropdown-item-checked" }, this.checked ? (index.h("ix-icon", { class: "checkmark", name: 'single-check', size: "16" })) : null)) : null, this.icon ? (index.h("ix-icon", { class: "dropdown-item-icon", name: this.icon })) : null, index.h("div", { key: '94d506721e5e4b776e447bdfc678bce32811081c', class: "dropdown-item-text" }, this.label, index.h("slot", { key: 'ca6d981217740a41bce4bf024ed1f4c1bed2d915' })), this.isSubMenu ? (index.h("ix-icon", { name: 'chevron-right-small', class: 'submenu-icon' })) : null)));
     }
     get hostElement() { return index.getElement(this); }
 };

@@ -44,7 +44,7 @@ const MessageBar = class {
         this.closedChange.emit();
     }
     render() {
-        return (index.h(index.Host, { key: 'ca73e69d0c8addab542f0099cc542614c74b62ae' }, index.h("div", { key: '350e657cb03ffbbced7d3f99da0b0b6dd929958d', class: { 'message-container': true, [this.type]: true }, role: "alert", ref: (el) => (this.divElement = el) }, index.h("ix-icon", { key: '6b178d58d5c20d4b705b24ac500e796f523ef476', color: this.color, name: this.icon }), index.h("div", { key: 'b9b6fe4ed918cfbdbf054e327d3959872b8c4f4d', class: "message-content" }, index.h("slot", { key: 'eb9c046232706c29995f7a3050e96008780a3de0' })), this.dismissible ? (index.h("ix-icon-button", { icon: 'close', size: "24", ghost: true, onClick: () => {
+        return (index.h(index.Host, { key: 'e1350add30f2d87705fc16b1e6f7a6ea2b603dd5' }, index.h("div", { key: 'b77fe18adb2fafc06747cde826ddd9a0d3cc2272', class: { 'message-container': true, [this.type]: true }, role: "alert", ref: (el) => (this.divElement = el) }, index.h("ix-icon", { key: 'df61bfb940d43f774189a42d52816dcbd6f0531a', color: this.color, name: this.icon }), index.h("div", { key: '20e182ace70357fe23c3d2c2f55244549293ecdd', class: "message-content" }, index.h("slot", { key: 'cf2149772aa7be336a3c53b956a992b9ceffcc58' })), this.dismissible ? (index.h("ix-icon-button", { icon: 'close', size: "24", ghost: true, onClick: () => {
                 this.closeAlert(this.divElement);
             }, "data-testid": "close-btn" })) : (''))));
     }

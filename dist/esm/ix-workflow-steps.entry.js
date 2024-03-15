@@ -67,7 +67,7 @@ const WorkflowSteps = class {
         this.updateSteps();
     }
     render() {
-        return (h(Host, { key: '5f78e87029a37e70a97bbb09f61b0749e7c137c2' }, h("div", { key: 'ff1ce2dca97b243b9895baad94615e380cc3b00f', class: { steps: true, vertical: this.vertical } }, h("slot", { key: '99711cedbb1939adc813d6b360b3d83404cac421' }))));
+        return (h(Host, { key: 'f142d00b7e556dc24442861edded53c090d3a2bb' }, h("div", { key: 'c5681d900c92023bff93b1d102fb5002da1d7a04', class: { steps: true, vertical: this.vertical } }, h("slot", { key: '866edb3dbeba5853bb4fdf1b764ff6f689002b5e' }))));
     }
     get hostElement() { return getElement(this); }
 };

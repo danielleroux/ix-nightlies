@@ -509,7 +509,7 @@ const DatePicker = class {
         return rows;
     }
     render() {
-        return (index.h(index.Host, { key: '2c5ad0c39f7cf3d7aa3f011b07ac702dda92feec' }, index.h("ix-date-time-card", { key: '0b5ae54b95fe9413e0371fda97ee969d86545e88', corners: this.corners, standaloneAppearance: this.standaloneAppearance }, index.h("div", { key: 'c478e154a404d446e08f92b976a8d0a0a609478b', class: "header", slot: "header" }, index.h("ix-icon-button", { key: 'bf132d6fe6b30dbbb20fabdff58f87dcfbfe968c', onClick: () => this.changeToAdjacentMonth(-1), ghost: true, icon: "chevron-left", variant: "primary", class: "arrows" }), index.h("div", { key: 'c0d285050b60f64a03e1e45d74a7d126ae641f47', class: "selector" }, index.h("ix-button", { key: '0018693b7e6b499e6ba6e11f4249b09655aadace', ghost: true, ref: (ref) => (this.dropdownButtonRef = ref) }, index.h("span", { key: '2a3b593d336151ac8a827317e8c5803f7b100f77', class: "fontSize capitalize" }, this.monthNames[this.selectedMonth], " ", this.selectedYear)), index.h("ix-dropdown", { key: '48f2c219caeaad751520d8a13da2ba8bbe159964', class: "dropdown", trigger: this.dropdownButtonRef, placement: "bottom-start" }, index.h("div", { key: '04cff2f94fc1334ef85dfb9ff6216b8ad408ea60', class: "wrapper" }, index.h("div", { key: '0f7e2f3461291f4fba9bfb20ff9c7be741a91185', class: "overflow", onScroll: () => this.infiniteScrollYears(), ref: (ref) => (this.yearContainerRef = ref) }, this.renderYears()), index.h("div", { key: '7822b1929014167197d57d03514a9c95859d1e60', class: "overflow" }, this.monthNames.map((month, index$1) => (index.h("div", { key: month, ref: (ref) => {
+        return (index.h(index.Host, { key: '5b6747c0dbf6528e3bf90742097d2e0209142fd5' }, index.h("ix-date-time-card", { key: 'd332e24012edeb64548ded39f0ce2a3e8f8e7870', corners: this.corners, standaloneAppearance: this.standaloneAppearance }, index.h("div", { key: '50ed2f6798cc2958d0f84f68d254f36fb5082d62', class: "header", slot: "header" }, index.h("ix-icon-button", { key: '619533c4c94783d4507e1497fde743ea3c7550d3', onClick: () => this.changeToAdjacentMonth(-1), ghost: true, icon: "chevron-left", variant: "primary", class: "arrows" }), index.h("div", { key: '3148bd3bd051fc93328b44d1d7a7e16065dba634', class: "selector" }, index.h("ix-button", { key: 'b09d8cc88e2062b161777104e44fa8f9498b8b20', ghost: true, ref: (ref) => (this.dropdownButtonRef = ref) }, index.h("span", { key: 'c3370f2ac962a70d669b164e7a6bd7459de4b6f2', class: "fontSize capitalize" }, this.monthNames[this.selectedMonth], " ", this.selectedYear)), index.h("ix-dropdown", { key: 'd6133ae1820335323ae2babe9b588ac3d16b4b4e', class: "dropdown", trigger: this.dropdownButtonRef, placement: "bottom-start" }, index.h("div", { key: '8a58e9cfa6fb6e6900ca788316241a0dc8010803', class: "wrapper" }, index.h("div", { key: '26107292f53cdb1a7ed5c62d4ea59a21b8df5851', class: "overflow", onScroll: () => this.infiniteScrollYears(), ref: (ref) => (this.yearContainerRef = ref) }, this.renderYears()), index.h("div", { key: '34e699c477a19b235bdf7046129e282f29d8fb61', class: "overflow" }, this.monthNames.map((month, index$1) => (index.h("div", { key: month, ref: (ref) => {
                 if (month === this.monthNames[0]) {
                     this.firstMonthRef = ref;
                 }
@@ -523,12 +523,12 @@ const DatePicker = class {
                 hidden: this.tempYear !== this.selectedYear ||
                     this.tempMonth !== index$1,
                 checkPosition: true,
-            }, name: "single-check", size: "16" }), index.h("div", null, index.h("span", { class: "capitalize monthMargin" }, `${month} ${this.tempYear}`))))))))), index.h("ix-icon-button", { key: 'f5c953e74f7439cd70066cc9b6787d9b9fbeaa5d', onClick: () => this.changeToAdjacentMonth(1), ghost: true, icon: "chevron-right", variant: "primary", class: "arrows" })), index.h("div", { key: 'd7f3fc09add9a2fc9e8a064a6aafb3ac32d92a2c', class: "grid" }, index.h("div", { key: 'e58f89a1f9a1a4a2558f82f9d6b0b6b4966a008d', class: "calendar-item week-day" }), this.dayNames.map((name) => (index.h("div", { key: name, class: "calendar-item week-day" }, name.slice(0, 3)))), this.calendar.map((week) => {
+            }, name: "single-check", size: "16" }), index.h("div", null, index.h("span", { class: "capitalize monthMargin" }, `${month} ${this.tempYear}`))))))))), index.h("ix-icon-button", { key: '34c2a37167375cde6225edc49a8c7b914d1d7588', onClick: () => this.changeToAdjacentMonth(1), ghost: true, icon: "chevron-right", variant: "primary", class: "arrows" })), index.h("div", { key: 'd1df9bdbd51a3fc776ffd1b47074f411070f9863', class: "grid" }, index.h("div", { key: 'e303bb7a4b7526396cc4026385e6a501671ac008', class: "calendar-item week-day" }), this.dayNames.map((name) => (index.h("div", { key: name, class: "calendar-item week-day" }, name.slice(0, 3)))), this.calendar.map((week) => {
             return (index.h(index.Fragment, null, index.h("div", { class: "calendar-item week-number" }, week.weekNumber), week.dayNumbers.map((day) => (index.h("div", { key: day, id: `day-cell-${day}`, "date-calender-day": true, class: this.getDayClasses(day), onClick: () => this.selectDay(day), onKeyUp: (e) => e.key === 'Enter' && this.selectDay(day), tabIndex: day === this.focusedDay ? 0 : -1, onFocus: () => this.onDayFocus(), onBlur: () => this.onDayBlur() }, day)))));
-        })), index.h("div", { key: '1bf25be4a2a5872bf374130155efaddc35c55f23', class: {
+        })), index.h("div", { key: '58b7b297f63253238dd66d70bc8cf6420df0c449', class: {
                 button: true,
                 hidden: !this.range || !this.standaloneAppearance,
-            } }, index.h("ix-button", { key: '38fcb3335664b6c2a4c10d6379e0717cffae163d', onClick: () => this.onDone() }, this.textSelectDate || this.i18nDone)))));
+            } }, index.h("ix-button", { key: 'df9f68bcb06ffbb1b9ed0439336eaf5361b606de', onClick: () => this.onDone() }, this.textSelectDate || this.i18nDone)))));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {
@@ -553,12 +553,12 @@ const LayoutGrid = class {
         this.columns = 12;
     }
     render() {
-        return (index.h(index.Host, { key: '89d8863758f2044ad0d68491e852c5c23270ac77', class: {
+        return (index.h(index.Host, { key: 'd3f673eeface55a4cd571acda477794c8735c5e4', class: {
                 'no-margin': this.noMargin,
             }, style: {
                 '--ix-layout-grid-columns': `${this.columns}`,
                 '--ix-layout-grid-gutter': `${this.gap}px`,
-            } }, index.h("slot", { key: '3b84d5e1a028c22943acbb845aedae43c2c33fb3' })));
+            } }, index.h("slot", { key: 'e70ea397035d14b0eefc589150d1106983599cec' })));
     }
 };
 LayoutGrid.style = IxLayoutGridStyle0;
@@ -571,7 +571,7 @@ const Row = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return (index.h(index.Host, { key: 'aa93d80e297d1f8c34dca11a6f17248e9120c48c' }, index.h("slot", { key: 'b70150e7f97c5a6559e5c39c6c19065971a1aca9' })));
+        return (index.h(index.Host, { key: '2770cfaea562d4645313f6a45760f6a815008845' }, index.h("slot", { key: '6eeb8750c92b167909e7f0031decf80aef40662c' })));
     }
 };
 Row.style = IxRowStyle0;
