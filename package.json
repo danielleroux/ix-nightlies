@@ -7,11 +7,11 @@
     "url": "https://github.com/siemens/ix",
     "directory": "packages/angular"
   },
-  "version": "2.1.2-beta.0",
+  "version": "2.1.2",
   "description": "Siemens iX for Angular",
   "license": "MIT",
   "dependencies": {
-    "@siemens/ix": "~2.1.2-beta.0",
+    "@siemens/ix": "~2.1.2",
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
