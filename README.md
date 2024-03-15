@@ -10,7 +10,7 @@ This repository includes the build artifacts for the following packages:
 
 ## How can i use this snapshot/nightly builds?
 
-You can use npm's feature to install packages directly from GitHub URLs. This can be achieved by adding the GitHub URL to the `npm install` command.you can use npm's feature to install packages directly from GitHub URLs. This can be achieved by adding the GitHub URL to the `npm install` command.
+You can use npm's feature to install packages directly from GitHub URLs. This can be achieved by adding the GitHub URL to the `npm install` command.
 
 ### Example for `@siemens/ix`
 
