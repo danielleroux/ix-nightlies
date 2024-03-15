@@ -60,8 +60,7 @@
   position: fixed;
   width: 20rem;
   height: auto;
-  background-color: var(--theme-color-1);
-  border: var(--theme-weak-bdr-1);
+  background-color: var(--theme-color-2);
   border-radius: 0.25rem;
   padding: 1rem;
   left: 3.4rem;
@@ -139,9 +138,7 @@
   position: absolute;
   width: 0.5rem;
   height: 0.5rem;
-  background-color: var(--theme-color-1);
-  border-left: var(--theme-weak-bdr-1);
-  border-bottom: var(--theme-weak-bdr-1);
+  background-color: var(--theme-color-2);
   transform: translateX(calc(var(--margin) * -1 - 0.8rem)) rotateZ(45deg);
 }
 
