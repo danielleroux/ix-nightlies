@@ -137,17 +137,17 @@ export class Modal {
         this.ariaAttributes = a11yHostAttributes(this.hostElement);
     }
     render() {
-        return (h(Host, { key: '567694260986bea7c1ba8b63f00f5035b03b8961', class: {
+        return (h(Host, { key: '6ea977c2709606682fe0faf8ef50cbba4479ba5b', class: {
                 visible: this.modalVisible,
                 'no-backdrop': this.backdrop === false,
                 'align-center': this.centered,
-            } }, h("div", { key: '8a6149cbd64c7007e0492df375242d6fc8e54f0b', class: "dialog-backdrop" }, h("dialog", { key: '4ef88c174fc5066d2075929aa770fe17f68a5bec', "aria-modal": a11yBoolean(true), "aria-describedby": this.ariaAttributes['aria-describedby'], "aria-labelledby": this.ariaAttributes['aria-labelledby'], class: {
+            } }, h("div", { key: 'e8dfd773a94149ec9ab2706ce66a5a319c327342', class: "dialog-backdrop" }, h("dialog", { key: '25b8bc33d33a72b7e90701c16014b9ba85c4c275', "aria-modal": a11yBoolean(true), "aria-describedby": this.ariaAttributes['aria-describedby'], "aria-labelledby": this.ariaAttributes['aria-labelledby'], class: {
                 modal: true,
                 [`modal-size-${this.size}`]: true,
             }, onClose: () => this.dismissModal(), onClick: (event) => this.onModalClick(event), onCancel: (e) => {
                 e.preventDefault();
                 this.dismissModal();
-            } }, h("slot", { key: '08d753b7ec1679b13fa4052a302d873efbdf381c' })))));
+            } }, h("slot", { key: '3c576f2a30af4cc916bfa7e91eeb0c3aae5abfdf' })))));
     }
     static get is() { return "ix-modal"; }
     static get encapsulation() { return "shadow"; }

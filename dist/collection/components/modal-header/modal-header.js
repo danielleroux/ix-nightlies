@@ -39,7 +39,7 @@ export class ModalHeader {
         this.parentDialog.dismissModal();
     }
     render() {
-        return (h(Host, { key: 'ae262d966e9e69c5c7558190f61928b4c109643f' }, this.icon ? (h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, h("ix-typography", { key: '4ff8195c0b582e37527d793e1e32615cb190e0a5', variant: 'default-title' }, h("slot", { key: '10f9506941a2f34631520d7209612c3cf07dd431' })), !this.hideClose ? (h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
+        return (h(Host, { key: 'd3f46f15cd465239341a377050b5bde8b3893420' }, this.icon ? (h("ix-icon", { class: 'modal-icon', name: this.icon, color: this.iconColor })) : null, h("ix-typography", { key: '2663a8905b71b41dc346af59eaa51dde2507d575', variant: 'default-title' }, h("slot", { key: '73417fa4fb984e6dbf097d76cea3ec5894e24603' })), !this.hideClose ? (h("ix-icon-button", { onClick: (event) => this.onCloseClick(event), ghost: true, icon: "close", class: 'modal-close' })) : null));
     }
     static get is() { return "ix-modal-header"; }
     static get encapsulation() { return "shadow"; }

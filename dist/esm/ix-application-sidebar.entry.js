@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host, g as getElement } from './index-f18c5ad1.js';
+import { r as registerInstance, h, H as Host, g as getElement } from './index-5cd176b3.js';
 import { a as anime } from './anime.es-a5520566.js';
 import { A as Animation } from './animation-4a73b1c3.js';
 
@@ -31,7 +31,7 @@ const ApplicationSidebar = class {
         anime(animation);
     }
     render() {
-        return (h(Host, { key: '1e853788170278477ab1cce920f87bd2f3727c91', slot: "application-sidebar", class: {
+        return (h(Host, { key: 'f91894976e33362b3d92be367a22d8be0c8a6c1f', slot: "application-sidebar", class: {
                 visible: this.visible,
             } }, this.visible ? h("slot", null) : null));
     }

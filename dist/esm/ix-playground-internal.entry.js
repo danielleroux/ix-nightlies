@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host } from './index-f18c5ad1.js';
+import { r as registerInstance, h, H as Host } from './index-5cd176b3.js';
 
 const playgroundCss = ".sc-ix-playground-internal-h{display:block;position:relative;width:100vw;height:100vh;padding:0rem 0rem 0rem 0rem}";
 const IxPlaygroundInternalStyle0 = playgroundCss;
@@ -8,7 +8,7 @@ const PlaygroundInternal = class {
         registerInstance(this, hostRef);
     }
     render() {
-        return h(Host, { key: 'd1a5b02febd62dcc43ea13c0a531990ec5fe2156' });
+        return h(Host, { key: '2c7023915b61491ec4626431974c787778741459' });
     }
 };
 PlaygroundInternal.style = IxPlaygroundInternalStyle0;

@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 
 const menuSettingsItemCss = ":host{display:block}";
 const IxMenuSettingsItemStyle0 = menuSettingsItemCss;
@@ -21,7 +21,7 @@ const MenuSettingsItem = class {
         });
     }
     render() {
-        return (index.h(index.Host, { key: 'af7b6698864d0f6c2e893843787b07450f586259' }, index.h("slot", { key: '5ced9613e2513330bd9d8152656dedb7320bdd74' })));
+        return (index.h(index.Host, { key: '0de6c5999b525136525b9319c4c77b609637e589' }, index.h("slot", { key: 'c9fb0334e733956a9d93d5599e8f13c84feed30a' })));
     }
     static get watchers() { return {
         "label": ["watchLabel"]

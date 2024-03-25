@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const anime_es = require('./anime.es-e2814360.js');
 const animation = require('./animation-99234008.js');
 
@@ -35,7 +35,7 @@ const ApplicationSidebar = class {
         anime_es.anime(animation$1);
     }
     render() {
-        return (index.h(index.Host, { key: '1e853788170278477ab1cce920f87bd2f3727c91', slot: "application-sidebar", class: {
+        return (index.h(index.Host, { key: 'f91894976e33362b3d92be367a22d8be0c8a6c1f', slot: "application-sidebar", class: {
                 visible: this.visible,
             } }, this.visible ? index.h("slot", null) : null));
     }

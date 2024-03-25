@@ -2,11 +2,11 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const appGlobals = require('./app-globals-041ef1ab.js');
 
 /*
- Stencil Client Patch Browser v4.13.0 | MIT Licensed | https://stenciljs.com
+ Stencil Client Patch Browser v4.12.3 | MIT Licensed | https://stenciljs.com
  */
 const patchBrowser = () => {
     const importMeta = (typeof document === 'undefined' ? new (require('u' + 'rl').URL)('file:' + __filename).href : (document.currentScript && document.currentScript.src || new URL('siemens-ix.cjs.js', document.baseURI).href));

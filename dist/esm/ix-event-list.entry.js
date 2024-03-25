@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host, g as getElement } from './index-f18c5ad1.js';
+import { r as registerInstance, h, H as Host, g as getElement } from './index-5cd176b3.js';
 import { c as createMutationObserver } from './mutation-observer-db8757e6.js';
 import { a as convertToRemString } from './rwd.util-d8e00a88.js';
 
@@ -101,11 +101,11 @@ const EventList = class {
         });
     }
     render() {
-        return (h(Host, { key: '36041c28cb17cd7fab8d1e852108ce622246f452', class: {
+        return (h(Host, { key: '89be0fbb595cea7d39e50feedb367108c2a206bb', class: {
                 'item-size-s': this.itemHeight === 'S',
                 'item-size-l': this.itemHeight === 'L',
                 compact: this.compact,
-            } }, h("ul", { key: 'e0ba67a1ac883e29b4c526c855185b9fdde07e88' }, h("slot", { key: '69386323a68e089c805c36cb001c25dba2996e4b' }))));
+            } }, h("ul", { key: '1e14d4602a221795448e7216c0952b29af06c522' }, h("slot", { key: '5c55793caf21fb2f76f7019b7813a75b9746b180' }))));
     }
     get hostElement() { return getElement(this); }
     static get watchers() { return {

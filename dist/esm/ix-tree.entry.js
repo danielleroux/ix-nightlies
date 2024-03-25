@@ -1,4 +1,4 @@
-import { r as registerInstance, c as createEvent, h, H as Host, g as getElement } from './index-f18c5ad1.js';
+import { r as registerInstance, c as createEvent, h, H as Host, g as getElement } from './index-5cd176b3.js';
 import { c as commonjsRequire, g as getDefaultExportFromCjs } from './_commonjsHelpers-e557d4a5.js';
 import { r as renderDefaultItem } from './default-tree-item-25091766.js';
 

@@ -53,7 +53,7 @@ const SelectItem = /*@__PURE__*/ proxyCustomElement(class SelectItem extends HTM
         }));
     }
     render() {
-        return (h(Host, { key: 'a45d19640efdebd696aa093cc723c5a9e2b2b40f' }, h("ix-dropdown-item", { key: 'db1c54dda8b6664abbd84057b05b91514e3854d7', class: {
+        return (h(Host, { key: '3d43f9c4cc86b5820ebe0fe15c3ccd2a6a4f0f95' }, h("ix-dropdown-item", { key: 'a169c7bf3533f5203ad557b6ef52edd6ddf9c547', class: {
                 'select-item-checked': this.selected,
             }, checked: this.selected, label: this.label ? this.label : this.value, onItemClick: (e) => this.onItemClick(e) })));
     }

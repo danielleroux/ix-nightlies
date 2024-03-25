@@ -10,7 +10,7 @@ import { h, Host } from "@stencil/core";
 /** @internal */
 export class PlaygroundInternal {
     render() {
-        return h(Host, { key: 'd1a5b02febd62dcc43ea13c0a531990ec5fe2156' });
+        return h(Host, { key: '2c7023915b61491ec4626431974c787778741459' });
     }
     static get is() { return "ix-playground-internal"; }
     static get encapsulation() { return "scoped"; }

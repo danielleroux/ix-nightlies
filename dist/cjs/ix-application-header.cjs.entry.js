@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const index$1 = require('./index-c4629a8d.js');
 const service = require('./service-a42add5f.js');
 const context = require('./context-98f4a0b3.js');
@@ -96,12 +96,12 @@ const ApplicationHeader = class {
     }
     render() {
         var _a;
-        return (index.h(index.Host, { key: '11fe4da5b20f95626a57b5c101946be0204ff8e8', class: { [`breakpoint-${this.breakpoint}`]: true }, slot: "application-header" }, this.breakpoint === 'sm' && this.suppressResponsive === false && (index.h("ix-burger-menu", { onClick: () => this.onMenuClick(), expanded: this.menuExpanded })), ((_a = this.applicationLayoutContext) === null || _a === void 0 ? void 0 : _a.appSwitchConfig) &&
+        return (index.h(index.Host, { key: '5434362f681c6d6d67b1eaf5e5ebc993e578f8e9', class: { [`breakpoint-${this.breakpoint}`]: true }, slot: "application-header" }, this.breakpoint === 'sm' && this.suppressResponsive === false && (index.h("ix-burger-menu", { onClick: () => this.onMenuClick(), expanded: this.menuExpanded })), ((_a = this.applicationLayoutContext) === null || _a === void 0 ? void 0 : _a.appSwitchConfig) &&
             this.breakpoint !== 'sm' &&
-            this.suppressResponsive === false && (index.h("ix-icon-button", { onClick: () => this.showAppSwitch(), icon: "apps", ghost: true, class: "app-switch" })), index.h("div", { key: 'c7089fcb0db6964339cf52a3cffec6dc683693b7', class: "logo" }, index.h("slot", { key: 'ca77339363ce8dcbc29af795761cc5a7998a60af', name: "logo" })), index.h("div", { key: 'cf65b627df7f691e5ebb7913c44d7e2d07bcd8d9', class: "name" }, this.name), index.h("div", { key: '9ff3171ee0cce4c98e7e17d391826c32117dbbb1', class: "content" }, this.breakpoint === 'sm' ? (index.h(index.Fragment, null, index.h("ix-icon-button", { class: {
+            this.suppressResponsive === false && (index.h("ix-icon-button", { onClick: () => this.showAppSwitch(), icon: "apps", ghost: true, class: "app-switch" })), index.h("div", { key: '2a40f871e8359d2ad378546773c8ec1b583d1684', class: "logo" }, index.h("slot", { key: 'd53fb161f6accdbdd92c7455e0a81faab242054d', name: "logo" })), index.h("div", { key: '1244da8ee7ddbec82df90f6204948939dc67079c', class: "name" }, this.name), index.h("div", { key: '7a1256fba0480dba4e42da20f55c268b88422a99', class: "content" }, this.breakpoint === 'sm' ? (index.h(index.Fragment, null, index.h("ix-icon-button", { class: {
                 ['context-menu']: true,
                 ['context-menu-visible']: this.hasSlottedElements,
-            }, "data-context-menu": true, icon: "more-menu", ghost: true }), index.h("ix-dropdown", { "data-overflow-dropdown": true, class: "dropdown", discoverAllSubmenus: true, trigger: this.resolveContextMenuButton() }, index.h("div", { class: "dropdown-content" }, index.h("slot", { onSlotchange: () => this.updateIsSlottedContent() }))))) : (index.h("slot", { onSlotchange: () => this.updateIsSlottedContent() })), index.h("slot", { key: '8550b24328610d5669b8289ecbc2102499b1f4d7', name: "ix-application-header-avatar" }))));
+            }, "data-context-menu": true, icon: "more-menu", ghost: true }), index.h("ix-dropdown", { "data-overflow-dropdown": true, class: "dropdown", discoverAllSubmenus: true, trigger: this.resolveContextMenuButton() }, index.h("div", { class: "dropdown-content" }, index.h("slot", { onSlotchange: () => this.updateIsSlottedContent() }))))) : (index.h("slot", { onSlotchange: () => this.updateIsSlottedContent() })), index.h("slot", { key: '6732e9899c977bdd6301b75efce7687ca5a0bf4c', name: "ix-application-header-avatar" }))));
     }
     get hostElement() { return index.getElement(this); }
 };

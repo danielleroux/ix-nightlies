@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const menuTabsFc = require('./menu-tabs-fc-194c3ba9.js');
-require('./index-c6f0ac73.js');
+const menuTabsFc = require('./menu-tabs-fc-192aff59.js');
+require('./index-59fe9b91.js');
 
 
 
