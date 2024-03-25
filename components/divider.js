@@ -10,7 +10,7 @@ const Divider = /*@__PURE__*/ proxyCustomElement(class Divider extends HTMLEleme
         this.__attachShadow();
     }
     render() {
-        return h(Host, { key: '77aba5256230ceae62d44788f8b3c5e882fe5e80' });
+        return h(Host, { key: '5ca2d1162db2f50bdb967d2742ddca29cac13553' });
     }
     static get style() { return IxDividerStyle0; }
 }, [1, "ix-divider"]);

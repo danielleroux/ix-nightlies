@@ -44,7 +44,7 @@ const MessageBar = /*@__PURE__*/ proxyCustomElement(class MessageBar extends HTM
         this.closedChange.emit();
     }
     render() {
-        return (h(Host, { key: 'e1350add30f2d87705fc16b1e6f7a6ea2b603dd5' }, h("div", { key: 'b77fe18adb2fafc06747cde826ddd9a0d3cc2272', class: { 'message-container': true, [this.type]: true }, role: "alert", ref: (el) => (this.divElement = el) }, h("ix-icon", { key: 'df61bfb940d43f774189a42d52816dcbd6f0531a', color: this.color, name: this.icon }), h("div", { key: '20e182ace70357fe23c3d2c2f55244549293ecdd', class: "message-content" }, h("slot", { key: 'cf2149772aa7be336a3c53b956a992b9ceffcc58' })), this.dismissible ? (h("ix-icon-button", { icon: 'close', size: "24", ghost: true, onClick: () => {
+        return (h(Host, { key: '610b30afda9530351f18514757fa02bb463f14fd' }, h("div", { key: 'f087c80eabe66fdc962c565fe3dd0130d5e80189', class: { 'message-container': true, [this.type]: true }, role: "alert", ref: (el) => (this.divElement = el) }, h("ix-icon", { key: '875022604fb5bb38cac7d8e46ca718e45ef9f686', color: this.color, name: this.icon }), h("div", { key: 'bca551cd194acac092778d7c3f86f46f6e6178ea', class: "message-content" }, h("slot", { key: '18051ca8aa62cb9fa4a4ca5e84fa8f06510f323d' })), this.dismissible ? (h("ix-icon-button", { icon: 'close', size: "24", ghost: true, onClick: () => {
                 this.closeAlert(this.divElement);
             }, "data-testid": "close-btn" })) : (''))));
     }

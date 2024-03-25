@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 const anime_es = require('./anime.es-e2814360.js');
 const animation = require('./animation-99234008.js');
 const service = require('./service-a42add5f.js');
@@ -407,7 +407,7 @@ const Pane = class {
         }
     }
     render() {
-        return (index.h(index.Host, { key: '1704a13dbb106afcd4f84ce82b9511bf3ef3de20', class: {
+        return (index.h(index.Host, { key: '64708a95cd9ab661211a6ea1ed696eafe2904627', class: {
                 'inline-color': !this.floating,
                 'mobile-overlay': this.expanded && this.isMobile,
                 'top-expanded': this.expanded && this.isMobileTop && this.isMobile,
@@ -432,28 +432,28 @@ const Pane = class {
                 'box-shadow': this.floating,
                 'aria-expanded': this.expanded,
                 'not-visible': this.hideOnCollapse && !this.expanded,
-            } }, index.h("aside", { key: '936922a6c519bf2fbf7f5584fbb01e50c82c9422', class: {
+            } }, index.h("aside", { key: '6985605b745db5acedace6039bf709c586474d3a', class: {
                 'top-bottom-pane': this.isBottomTopPane && !this.isMobile,
                 'left-right-pane': this.isLeftRightPane && !this.isMobile,
                 'mobile-pane': this.isMobile,
                 expanded: this.expanded,
-            } }, index.h("div", { key: '5064e26b9c5b3770c6c5e4d37c9fc7cc0e166821', id: "title-div", class: {
+            } }, index.h("div", { key: '6c4fe6cf539de045dc22abb27693fdc94dc25fbf', id: "title-div", class: {
                 title: !this.isMobile && !this.hideOnCollapse && !this.showContent,
                 'title-finished': !this.isMobile && !this.hideOnCollapse && this.showContent,
                 'title-expanded': !this.isMobile && !this.hideOnCollapse && this.expanded,
                 'title-hide-on-collapse': !this.isMobile && this.hideOnCollapse,
                 'title-mobile': this.isMobile,
                 'header-gap': !this.isMobile && !this.hideOnCollapse,
-            } }, index.h("ix-icon-button", { key: '7ccba907c951d00bada385fc264d251e1adb402b', class: "title-icon", size: "24", icon: this.expanded
+            } }, index.h("ix-icon-button", { key: 'e9e308ae81e48e90e2636f050112c757b58bc16d', class: "title-icon", size: "24", icon: this.expanded
                 ? this.isMobile || this.hideOnCollapse
                     ? 'close'
                     : this.expandIcon
                 : this.minimizeIcon, ghost: true, onClick: () => {
                 this.expanded = !this.expanded;
-            }, "aria-controls": this.composition + 'ToggleButton' }), index.h("span", { key: '5b4406bf16ddd92d8888d49c4a18b1d857ea8f61', class: {
+            }, "aria-controls": this.composition + 'ToggleButton' }), index.h("span", { key: '7c4c9a086e6e9c1434ded33ac11b6ed9033c4def', class: {
                 'title-text': true,
                 rotate: !this.expanded && !this.isMobile && this.isLeftRightPane,
-            } }, this.icon ? (index.h("ix-icon", { size: "24", name: this.icon })) : null, index.h("div", { key: 'daefc0b1860d28ce81e52eeb884eec679416a54f', class: "title-text-overflow" }, index.h("ix-typography", { key: '8a4deef3b02fbef4b918f98dd8d12fac4f29ee29', format: "h4" }, this.heading)))), index.h("div", { key: '7188486819256d46e21b298f898661e91fce44de', class: "side-pane-content", hidden: !this.showContent }, index.h("slot", { key: '45eb450896e2b6ec2833913a52094cc4cd3a1a41' })))));
+            } }, this.icon ? (index.h("ix-icon", { size: "24", name: this.icon })) : null, index.h("div", { key: 'fb0aea90f3af3e436712dcd540247925b8ad96b0', class: "title-text-overflow" }, index.h("ix-typography", { key: 'f1c18efa4e71b8387d83c357cf88f9ab89aea10a', format: "h4" }, this.heading)))), index.h("div", { key: 'dec09cef0a083a2ac6b3cefc2bf1f771e1351b3b', class: "side-pane-content", hidden: !this.showContent }, index.h("slot", { key: '367170c015420dd84e75cad3f4cfa31fcad58d57' })))));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {

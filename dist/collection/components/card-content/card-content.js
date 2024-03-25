@@ -4,7 +4,7 @@ import { h, Host } from "@stencil/core";
  */
 export class CardContent {
     render() {
-        return (h(Host, { key: '7351d9d0c2ac7e3bb3ff04f7327876f3c118eede' }, h("slot", { key: 'ae6747bb0d3204fcb78bb26d763a04a090424fc5' })));
+        return (h(Host, { key: 'a611190d0d726a61cfb6f83cd05eb8dd3eacf29e' }, h("slot", { key: '1ff8bcb3d1982793f02ad427af6e19dad8438681' })));
     }
     static get is() { return "ix-card-content"; }
     static get encapsulation() { return "shadow"; }

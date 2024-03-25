@@ -25,13 +25,13 @@ const Pill = /*@__PURE__*/ proxyCustomElement(class Pill extends HTMLElement {
                 [this.outline ? 'borderColor' : 'backgroundColor']: this.background,
             };
         }
-        return (h(Host, { key: '564411b5f68232e91613cd49b790f8ccff034868', style: this.variant === 'custom'
+        return (h(Host, { key: 'a16d4165f6412fa48a0bb642b0ba1980ef2e9775', style: this.variant === 'custom'
                 ? {
                     '--ix-icon-button-color': (_b = this.pillColor) !== null && _b !== void 0 ? _b : this.color,
                 }
                 : {}, title: this.el.textContent, class: {
                 'align-left': this.alignLeft,
-            } }, h("div", { key: '249644ab34859bf451ed47e64fc51e7858a0ab06', style: Object.assign({}, customStyle), class: {
+            } }, h("div", { key: 'f700d598c5f02e2e8090798337bf47ec10abda39', style: Object.assign({}, customStyle), class: {
                 container: true,
                 outline: this.outline,
                 inactive: false,
@@ -45,10 +45,10 @@ const Pill = /*@__PURE__*/ proxyCustomElement(class Pill extends HTMLElement {
                 custom: this.variant === 'custom',
                 closable: false,
                 icon: !!this.icon,
-            } }, h("ix-icon", { key: 'f5eeee5bc7b218055775ac7f3dbae95cf697d810', class: {
+            } }, h("ix-icon", { key: '599c7381a83a567637f0f2584596d2ba8745df82', class: {
                 'with-icon': true,
                 hidden: this.icon === undefined || this.icon === '',
-            }, name: this.icon, size: '16' }), h("span", { key: '14644dee7a8aae4b0f9fd3dd0a6fe51dc8586da6', class: "slot-container" }, h("slot", { key: '33553ee2ba967003bad9f7c52e78d2c383df1c08' })))));
+            }, name: this.icon, size: '16' }), h("span", { key: '65760423d94f21f1d3286f80fba0139338bd10ba', class: "slot-container" }, h("slot", { key: 'f7c2b9dec75d1042a1d98168d3be90a509b7b0d3' })))));
     }
     get el() { return this; }
     static get style() { return IxPillStyle0; }

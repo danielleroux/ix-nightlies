@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 const floatingUi_dom_esm = require('./floating-ui.dom.esm-94b4d17c.js');
 
 /*
@@ -380,7 +380,7 @@ const Dropdown = class {
         this.applyDropdownPosition();
     }
     render() {
-        return (index.h(index.Host, { key: '238292e4c3d58cb76a31d55701e12768e6dac3e7', "data-ix-dropdown": this.localUId, ref: (ref) => (this.dropdownRef = ref), class: {
+        return (index.h(index.Host, { key: 'a72e104c2163c165114bbd25c0f164ec80ec674e', "data-ix-dropdown": this.localUId, ref: (ref) => (this.dropdownRef = ref), class: {
                 'dropdown-menu': true,
                 show: this.show,
                 overflow: true,
@@ -388,7 +388,7 @@ const Dropdown = class {
                 margin: '0',
                 minWidth: '0px',
                 position: this.positioningStrategy,
-            }, role: "list", onClick: (event) => this.onDropdownClick(event) }, index.h("div", { key: 'c7ae3b8f704c5b80742920d9375267f77813330f', style: { display: 'contents' } }, this.header && index.h("div", { class: "dropdown-header" }, this.header), index.h("slot", { key: '982197ccab46e37c8651eb6937f93b6441880fe2' }))));
+            }, role: "list", onClick: (event) => this.onDropdownClick(event) }, index.h("div", { key: '94e18aff3074cefc793effb7e8042cef9731251f', style: { display: 'contents' } }, this.header && index.h("div", { class: "dropdown-header" }, this.header), index.h("slot", { key: '2465d02e843559d941e89113f428c542e2ba5b0a' }))));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {

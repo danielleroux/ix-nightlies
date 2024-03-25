@@ -12,7 +12,7 @@ import { h, Host } from "@stencil/core";
  */
 export class DropdownQuickActions {
     render() {
-        return (h(Host, { key: '4276b052d998fa436597a67bc7df4b5f4dac79e7' }, h("slot", { key: 'fe99c816c933c10d45fdb93acfadf23938ffa1ae' })));
+        return (h(Host, { key: '63bf90e05df3c09c34592ed8760d4447ec3c7f4f' }, h("slot", { key: '2a078f550498c8e1a62f880f1079d445d131a26a' })));
     }
     static get is() { return "ix-dropdown-quick-actions"; }
     static get encapsulation() { return "shadow"; }

@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host } from './index-5cd176b3.js';
+import { r as registerInstance, h, H as Host } from './index-f18c5ad1.js';
 import { T as TypedEvent } from './typed-event-ad6484c5.js';
 
 const toastContainerCss = ":host{}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}#toast-container>:not(:last-child){margin-block-end:1rem}.toast-container{display:block;position:fixed}.toast-container--top-right{right:1rem;top:2rem}.toast-container--bottom-right{right:1rem;bottom:2rem}";
@@ -74,7 +74,7 @@ const ToastContainer = class {
         };
     }
     render() {
-        return (h(Host, { key: '2f5cc3b256ff81ebb2dadd0c774f89ddc59caffb', class: {
+        return (h(Host, { key: '889eef24751e252c90241c5398f94dcd1c875751', class: {
                 'toast-container--bottom-right': this.position === 'bottom-right',
                 'toast-container--top-right': this.position === 'top-right',
             } }));
