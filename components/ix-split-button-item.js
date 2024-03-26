@@ -20,7 +20,7 @@ const SplitButtonItem = /*@__PURE__*/ proxyCustomElement(class SplitButtonItem e
         return this.wrapperRef.waitForCurrent();
     }
     render() {
-        return (h(Host, { key: 'b7360859acb51da295ef29d514e8d4dbef347931' }, h("ix-dropdown-item", { key: '1c47e6937a8a686da1bb0b028daa0fef1b711f4e', ref: this.wrapperRef, suppressChecked: true, icon: this.icon, label: this.label, onItemClick: (e) => {
+        return (h(Host, { key: '2857acae0de3f6e738276080924f3e1b937546c6' }, h("ix-dropdown-item", { key: 'ca37a4f42b3a673bb80890e43229711a45b378b9', ref: this.wrapperRef, suppressChecked: true, icon: this.icon, label: this.label, onItemClick: (e) => {
                 e.preventDefault();
                 e.stopPropagation();
             }, onClick: (e) => this.itemClick.emit(e) })));

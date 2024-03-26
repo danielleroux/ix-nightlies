@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 
 const filterChipCss = ":host{display:inline-flex;align-items:center;justify-content:space-between;height:1.5rem;padding-left:0.5rem;border:var(--theme-focus--border-thickness) solid var(--theme-chip-primary-outline--border-color);border-radius:2rem;background-color:var(--theme-color-ghost);color:var(--theme-chip-primary-outline--color)}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .slot-container{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}:host .slot-container :host-context(.disabled){background-color:var(--theme-color-ghost);border-color:var(--theme-color-component-4);color:var(--theme-color-weak-text)}:host ix-icon-button{height:1.5rem;margin-left:0.25rem}:host ix-icon-button:not(.disabled):not(:disabled):focus-visible{outline:none}:host(.disabled){border:var(--theme-focus--border-thickness) solid var(--theme-color-component-4);color:var(--theme-color-weak-text);padding-right:0.5rem;cursor:default}:host(.readonly){padding-right:0.5rem}:host(:not(.disabled):not(:disabled)){cursor:pointer}:host(:hover:not(.disabled):not(:disabled)){background-color:var(--theme-color-ghost-primary--hover);border-color:var(--theme-chip-primary-outline--border-color--hover);color:var(--theme-chip-primary-outline--color--hover)}:host(:not(.disabled):not(:disabled)){cursor:pointer}:host(:active:not(.disabled):not(:disabled)){background-color:var(--theme-color-ghost-primary--active);border-color:var(--theme-chip-primary-outline--border-color--active);color:var(--theme-chip-primary-outline--color--active)}:host(:focus-visible:not(.disabled):not(:disabled)){outline:var(--theme-color-focus-bdr) solid var(--theme-focus--border-thickness);outline-offset:-0.125rem}";
 const IxFilterChipStyle0 = filterChipCss;
@@ -20,7 +20,7 @@ const FilterChip = class {
         this.closeClick.emit();
     }
     render() {
-        return (index.h(index.Host, { key: '50cdd8903b5c6f343850e5cb870736119518b18d', class: { disabled: this.disabled, readonly: this.readonly }, title: this.el.textContent }, index.h("div", { key: 'e5c805edfd793d26a59d0cd5fdc94ba9a619450a', class: "slot-container" }, index.h("slot", { key: '5b0557d7c943044a89e0dbf1770621dd5af1a577' })), !this.disabled && !this.readonly ? (index.h("ix-icon-button", { ghost: true, oval: true, icon: 'close-small', size: "16", tabindex: this.disabled ? -1 : 0, variant: "primary", disabled: this.disabled, onClick: (e) => this.onCloseClick(e) })) : null));
+        return (index.h(index.Host, { key: '10df51e34656ed3b7b18e9f2a07a59c18784a3d1', class: { disabled: this.disabled, readonly: this.readonly }, title: this.el.textContent }, index.h("div", { key: '5a94912e2c22cbddb984b28ba0126f31c1e20165', class: "slot-container" }, index.h("slot", { key: '0fdc94729908b9c3a040667318dcc18d300e4176' })), !this.disabled && !this.readonly ? (index.h("ix-icon-button", { ghost: true, oval: true, icon: 'close-small', size: "16", tabindex: this.disabled ? -1 : 0, variant: "primary", disabled: this.disabled, onClick: (e) => this.onCloseClick(e) })) : null));
     }
     get el() { return index.getElement(this); }
 };
@@ -76,7 +76,7 @@ const SelectItem = class {
         }));
     }
     render() {
-        return (index.h(index.Host, { key: 'a45d19640efdebd696aa093cc723c5a9e2b2b40f' }, index.h("ix-dropdown-item", { key: 'db1c54dda8b6664abbd84057b05b91514e3854d7', class: {
+        return (index.h(index.Host, { key: '3d43f9c4cc86b5820ebe0fe15c3ccd2a6a4f0f95' }, index.h("ix-dropdown-item", { key: 'a169c7bf3533f5203ad557b6ef52edd6ddf9c547', class: {
                 'select-item-checked': this.selected,
             }, checked: this.selected, label: this.label ? this.label : this.value, onItemClick: (e) => this.onItemClick(e) })));
     }

@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const anime_es = require('./anime.es-e2814360.js');
 const a11y = require('./a11y-d3ce56d1.js');
 
@@ -71,17 +71,17 @@ const Blind = class {
         });
     }
     render() {
-        return (index.h(index.Host, { key: '5ec247be84e5612134ffec1e53730f61a214cd0b', class: {
+        return (index.h(index.Host, { key: 'fa737e290302d9121790574a4a88738a0be492a6', class: {
                 [`blind-${this.variant}`]: true,
-            } }, index.h("div", { key: 'abe3273f7a820cd6481d7f75a174e3c6c332b438', class: 'blind-header-wrapper' }, index.h("button", { key: '12a572e7145c435451a8a9cc89f66c50d58d3cca', class: {
+            } }, index.h("div", { key: 'a30152172426864588f8482a8f94f437948c74a4', class: 'blind-header-wrapper' }, index.h("button", { key: '2d4c31d29ae45a44cb4da28d4671eec4e4293ffe', class: {
                 'blind-header': true,
                 [`blind-${this.variant}`]: true,
                 closed: this.collapsed,
-            }, type: "button", "aria-labelledby": `ix-blind-header-title-${this.blindId}`, "aria-controls": `ix-blind-content-section-${this.blindId}`, "aria-expanded": a11y.a11yBoolean(!this.collapsed), onClick: () => this.onHeaderClick() }, index.h("slot", { key: '11a9cc78537fac060310eeba7f57a147907e2a14', name: "custom-header" })), index.h("div", { key: '08abe64452f9841fc50951708ffdbb13f594e80b', class: 'blind-header-content' }, index.h("ix-icon", { key: '67a41dada571459470153b03247bc7f175c206de', class: "collapse-icon", name: 'chevron-right-small', color: this.variant === 'insight' || this.variant === 'outline'
+            }, type: "button", "aria-labelledby": `ix-blind-header-title-${this.blindId}`, "aria-controls": `ix-blind-content-section-${this.blindId}`, "aria-expanded": a11y.a11yBoolean(!this.collapsed), onClick: () => this.onHeaderClick() }, index.h("slot", { key: '6b43c8e46273edbe85478df6417d0e4814bb96d8', name: "custom-header" })), index.h("div", { key: 'a8365629f6a68d360959bd5d12cbb56989c1584a', class: 'blind-header-content' }, index.h("ix-icon", { key: '3f326906e7318a857ca360c3cdbc1e05d7f10d3d', class: "collapse-icon", name: 'chevron-right-small', color: this.variant === 'insight' || this.variant === 'outline'
                 ? 'color-primary'
-                : `color-${this.variant}--contrast`, ref: (ref) => (this.chevronRef = ref) }), index.h("div", { key: '6a898defd05378868577745464956fd8ecc67472', class: "blind-header-title", id: `ix-blind-header-title-${this.blindId}` }, this.label !== undefined ? (index.h(index.Fragment, null, this.icon && (index.h("ix-icon", { class: "blind-header-title-icon", name: this.icon, color: this.variant === 'insight' || this.variant === 'outline'
+                : `color-${this.variant}--contrast`, ref: (ref) => (this.chevronRef = ref) }), index.h("div", { key: '3fd27a4637f4ce37a0d430b2c7b0a0f12fa12539', class: "blind-header-title", id: `ix-blind-header-title-${this.blindId}` }, this.label !== undefined ? (index.h(index.Fragment, null, this.icon && (index.h("ix-icon", { class: "blind-header-title-icon", name: this.icon, color: this.variant === 'insight' || this.variant === 'outline'
                 ? 'color-std-text'
-                : `color-${this.variant}--contrast` })), index.h("div", { class: 'blind-header-title-row' }, index.h("div", { class: "blind-header-title-col" }, index.h("ix-typography", { title: this.label, format: "label-lg", bold: true }, index.h("div", { class: "blind-header-title-label", title: this.label }, this.label))), this.sublabel && (index.h("div", { class: "blind-header-title-col" }, index.h("ix-typography", { title: this.sublabel }, index.h("div", { class: "blind-header-title-sublabel" }, this.sublabel))))), index.h("div", { class: "header-actions" }, index.h("slot", { name: "header-actions" })))) : null))), index.h("section", { key: '909fdaeec7732c55c81833e6f0212cea5b2174b0', id: `ix-blind-content-section-${this.blindId}`, "aria-labelledby": `ix-blind-header-title-${this.blindId}` }, index.h("div", { key: 'ace2f5a2269acc3d0c2c79a0cf31df6283038bec', class: {
+                : `color-${this.variant}--contrast` })), index.h("div", { class: 'blind-header-title-row' }, index.h("div", { class: "blind-header-title-col" }, index.h("ix-typography", { title: this.label, format: "label-lg", bold: true }, index.h("div", { class: "blind-header-title-label", title: this.label }, this.label))), this.sublabel && (index.h("div", { class: "blind-header-title-col" }, index.h("ix-typography", { title: this.sublabel }, index.h("div", { class: "blind-header-title-sublabel" }, this.sublabel))))), index.h("div", { class: "header-actions" }, index.h("slot", { name: "header-actions" })))) : null))), index.h("section", { key: '8702342c9b1a0c7bf81e753cdc9b88b76addacb3', id: `ix-blind-content-section-${this.blindId}`, "aria-labelledby": `ix-blind-header-title-${this.blindId}` }, index.h("div", { key: 'a362c9a6be61160391054fa0cbcb558c0e275a7f', class: {
                 'blind-content': true,
                 hide: this.collapsed,
             } }, !this.collapsed ? index.h("slot", null) : null))));

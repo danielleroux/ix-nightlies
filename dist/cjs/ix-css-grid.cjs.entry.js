@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 
 /*
  * SPDX-FileCopyrightText: 2023 Siemens AG
@@ -87,7 +87,7 @@ const CssGrid = class {
         if (((_a = this.currentTemplate) === null || _a === void 0 ? void 0 : _a.length) !== 0) {
             style['grid-template-areas'] = templateBuilder(this.currentTemplate);
         }
-        return (index.h(index.Host, { key: '31dbf56817566809d11389e2ee8eae5184ca31f4', style: style }, index.h("slot", { key: '4573979348fcaac389e59014eb566ad0b7e4c005' })));
+        return (index.h(index.Host, { key: '8f1477e0ca42a62ce26698bde9843b7634c6956e', style: style }, index.h("slot", { key: '5af8072e074124a51fedb02eb5538490ab91e22a' })));
     }
 };
 CssGrid.style = IxCssGridStyle0;

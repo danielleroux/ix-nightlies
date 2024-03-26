@@ -197,13 +197,13 @@ export class Tabs {
         });
     }
     render() {
-        return (h(Host, { key: '134654adbcf4c3492c3a20162ad48c21f3ffa3dc' }, h("div", { key: 'eecd05941c8a8decc31f6647deb48ab2e279966b', class: "arrow", "data-arrow-left": true, onClick: () => this.move(this.scrollAmount, true) }, h("ix-icon", { key: '45448aa96b97f0bce6d37fec9700a2ac2fd591ad', name: 'chevron-left-small' })), h("div", { key: '705552c2894e0a655c27d855cb55a46e75a1fcf7', class: {
+        return (h(Host, { key: 'f98d2ee11257c6e5879f25404379e8be5a535d31' }, h("div", { key: 'a1230a4cac929390e9415fcfe25362c029a0e22a', class: "arrow", "data-arrow-left": true, onClick: () => this.move(this.scrollAmount, true) }, h("ix-icon", { key: 'f34a2391bd3bd96c11251df77b379958be1411bf', name: 'chevron-left-small' })), h("div", { key: '66ce38113880297fac297678a05d6abf3d01a28e', class: {
                 'tab-items': true,
                 'overflow-shadow': true,
                 'shadow-left': this.showPreviousArrow(),
                 'shadow-right': this.showNextArrow(),
                 'shadow-both': this.showNextArrow() && this.showPreviousArrow(),
-            } }, h("div", { key: '7f23535c4a4926e2162067024b0e37c13a8149f2', class: "items-content" }, h("slot", { key: 'e1e727370413ea4338f4eda6999eb6803228311c' }))), h("div", { key: '0cd120d1127015dcd779be2cee9292eef6ace6a6', class: "arrow right", "data-arrow-right": true, onClick: () => this.move(-this.scrollAmount, true) }, h("ix-icon", { key: '5f9c9a088f2929b64f3eca33bb5800b7a32b7397', name: 'chevron-right-small' }))));
+            } }, h("div", { key: '7f11e3d666b5a80a7faef2a0bf80b6a00e14c3e8', class: "items-content" }, h("slot", { key: '5e5d4c50d3c0fa30527f02a32dab998ad2d7aa5b' }))), h("div", { key: 'fbcfce76ec9d1fb48beb35ba7e62a7cc4cac7946', class: "arrow right", "data-arrow-right": true, onClick: () => this.move(-this.scrollAmount, true) }, h("ix-icon", { key: '7f7a80642127bff14a1c182468bec101152218ae', name: 'chevron-right-small' }))));
     }
     static get is() { return "ix-tabs"; }
     static get encapsulation() { return "shadow"; }

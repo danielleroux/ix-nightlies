@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 
 const flipTileContentCss = ":host{display:block}";
 const IxFlipTileContentStyle0 = flipTileContentCss;
@@ -13,7 +13,7 @@ const FlipTileContent = class {
         this.contentVisible = false;
     }
     render() {
-        return index.h(index.Host, { key: '73bbcf0a6ae4c5e285d289f23d4d07025d4b5051' }, this.contentVisible ? index.h("slot", null) : null);
+        return index.h(index.Host, { key: 'e92abcbb8b1cfdeb739ee4933f6ed66a6c2a7dc5' }, this.contentVisible ? index.h("slot", null) : null);
     }
 };
 FlipTileContent.style = IxFlipTileContentStyle0;

@@ -17,7 +17,7 @@ export class CssGridItem {
     render() {
         const style = {};
         style['grid-area'] = this.itemName;
-        return (h(Host, { key: '062f950b23bd5e5e943008f95b654cf629532a90', style: style }, h("slot", { key: '1b0e07eeda37b949637dddcf53510a9760ff2ede' })));
+        return (h(Host, { key: 'e5f4a0cda7624d07672ff6892f55ab8d7d8faf8d', style: style }, h("slot", { key: '962c12dd575e9f5d81b51259ad973616ae200515' })));
     }
     static get is() { return "ix-css-grid-item"; }
     static get encapsulation() { return "shadow"; }

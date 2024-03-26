@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const mutationObserver = require('./mutation-observer-babb20a5.js');
 
 const cardListCss = ":host{display:flex;position:relative;flex-direction:column;align-items:flex-start;margin:0.5rem}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .CardList_Title{display:flex;position:relative;height:1.5rem;align-items:center;width:100%;margin-bottom:0.5rem}:host .CardList__Title__Button{margin-right:1rem;transition:var(--theme-default-time) transform ease-in-out}:host .CardList__Title__Button__Collapsed{transform:rotate(-90deg)}:host .CardList__Title__Show__All{align-self:center;margin-left:auto;margin-right:0px}:host .CardList__Content{display:flex;position:relative;height:calc(100% - 1.5rem);width:100%;gap:1.5rem;transition:var(--theme-default-time) ease-in-out;overflow:auto}:host .CardList__Content__Collapsed{min-height:0px;max-height:0px;overflow:hidden;opacity:0}:host .CardList__Style__Flexbox__Scroll{flex-wrap:wrap}:host .CardList__Style__Infinite__Scroll{flex-wrap:nowrap;-ms-overflow-style:none;scrollbar-width:none}:host .CardList__Style__Infinite__Scroll::-webkit-scrollbar{display:none}:host .CardList__Overflow{display:block;position:relative;height:100%;width:100%;pointer-events:all;-webkit-mask-image:var(--ix-card-list-overflow, none);mask-image:var(--ix-card-list-overflow, none)}:host .Show__All__Card{display:flex;position:relative;align-self:flex-start;justify-self:center;max-width:11.25rem;min-width:11.25rem;width:11.25rem;min-height:11.25rem;max-height:11.25rem;height:11.25rem;--ix-card-border-color:var(--theme-color-primary);color:var(--theme-color-primary)}:host .CardList__Style__Infinite__Scroll .Show__All__Card{margin-top:2.375rem}:host .CardList__Style__Flexbox__Scroll .Show__All__Card{margin-bottom:2.375rem}:host .Show__All__Card:hover{background-color:var(--theme-color-ghost--hover)}:host .Show__All__Card:active{background-color:var(--theme-color-ghost--active)}:host .Show__All__Card__Content{display:flex;justify-content:center;align-items:center}:host .Show__All__Card__Icon{display:flex;position:absolute;height:4rem;width:4rem;justify-content:center;align-items:center}:host .Show__All__Card__Text{margin-bottom:0px;margin-top:auto}";
@@ -141,16 +141,16 @@ const CardList = class {
         }
     }
     render() {
-        return (index.h(index.Host, { key: '5ddadae664ea2558afd7a22f0d1c1d3257438c2d' }, index.h(CardListTitle, { key: '7b58e1d1e17600153733e0e6a1760e63bcfbf7de', isCollapsed: this.collapse, label: this.label, showAllLabel: this.i18nShowAll, showAllCounter: this.showAllCount === undefined
+        return (index.h(index.Host, { key: 'f64f7bbef5fef7491fd79ff4a8925d30d69fc452' }, index.h(CardListTitle, { key: '7e0d6992d039649ed38115d0434f1192231c6ee5', isCollapsed: this.collapse, label: this.label, showAllLabel: this.i18nShowAll, showAllCounter: this.showAllCount === undefined
                 ? this.numberOfAllChildElements
-                : this.showAllCount, onClick: () => this.onCardListVisibilityToggle(), onShowAllClick: (e) => this.onShowAllClick(e) }), index.h("div", { key: '2385821efb57ef5c903231fc91dec14c0f16f53b', class: {
+                : this.showAllCount, onClick: () => this.onCardListVisibilityToggle(), onShowAllClick: (e) => this.onShowAllClick(e) }), index.h("div", { key: '3e586bcc0ce83077ca1f63a999d0c34580eb66c9', class: {
                 CardList__Overflow: true,
-            }, style: this.computeMaskLayer() }, index.h("div", { key: '1f0638df5f2855a0becb3d526b47048b4576f29c', class: {
+            }, style: this.computeMaskLayer() }, index.h("div", { key: '2575c1d6679112d96e48e8c120b2d62c24cc8629', class: {
                 CardList__Content: true,
                 CardList__Content__Collapsed: this.collapse,
                 CardList__Style__Flexbox__Scroll: this.listStyle === 'stack',
                 CardList__Style__Infinite__Scroll: this.listStyle === 'scroll',
-            }, onScroll: () => this.onCardListScroll() }, index.h("slot", { key: 'ec20fe5ea7546693a59c4531b7909801e9f23fde', onSlotchange: () => this.changeVisibilityOfSlotChildren() }), this.isShowMoreCardVisible() ? (index.h("ix-card", { class: {
+            }, onScroll: () => this.onCardListScroll() }, index.h("slot", { key: '55f3065336c58ee56dbe24e959f81406173a6589', onSlotchange: () => this.changeVisibilityOfSlotChildren() }), this.isShowMoreCardVisible() ? (index.h("ix-card", { class: {
                 Show__All__Card: true,
             }, onClick: (event) => this.showMoreCardClick.emit({
                 nativeEvent: event,

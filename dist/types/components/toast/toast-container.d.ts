@@ -1,9 +1,5 @@
 import { TypedEvent } from '../utils/typed-event';
 import { ToastConfig } from './toast-utils';
-export type ShowToastResult = {
-    onClose: TypedEvent<any | undefined>;
-    close: (result?: any) => void;
-};
 export declare class ToastContainer {
     /**
      */
@@ -22,6 +18,9 @@ export declare class ToastContainer {
      * Display a toast message
      * @param config
      */
-    showToast(config: ToastConfig): Promise<ShowToastResult>;
+    showToast(config: ToastConfig): Promise<{
+        onClose: TypedEvent<any>;
+        close: (result?: any) => void;
+    }>;
     render(): any;
 }

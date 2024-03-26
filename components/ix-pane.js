@@ -407,7 +407,7 @@ const Pane = /*@__PURE__*/ proxyCustomElement(class Pane extends HTMLElement {
         }
     }
     render() {
-        return (h(Host, { key: '64708a95cd9ab661211a6ea1ed696eafe2904627', class: {
+        return (h(Host, { key: '1704a13dbb106afcd4f84ce82b9511bf3ef3de20', class: {
                 'inline-color': !this.floating,
                 'mobile-overlay': this.expanded && this.isMobile,
                 'top-expanded': this.expanded && this.isMobileTop && this.isMobile,
@@ -432,28 +432,28 @@ const Pane = /*@__PURE__*/ proxyCustomElement(class Pane extends HTMLElement {
                 'box-shadow': this.floating,
                 'aria-expanded': this.expanded,
                 'not-visible': this.hideOnCollapse && !this.expanded,
-            } }, h("aside", { key: '6985605b745db5acedace6039bf709c586474d3a', class: {
+            } }, h("aside", { key: '936922a6c519bf2fbf7f5584fbb01e50c82c9422', class: {
                 'top-bottom-pane': this.isBottomTopPane && !this.isMobile,
                 'left-right-pane': this.isLeftRightPane && !this.isMobile,
                 'mobile-pane': this.isMobile,
                 expanded: this.expanded,
-            } }, h("div", { key: '6c4fe6cf539de045dc22abb27693fdc94dc25fbf', id: "title-div", class: {
+            } }, h("div", { key: '5064e26b9c5b3770c6c5e4d37c9fc7cc0e166821', id: "title-div", class: {
                 title: !this.isMobile && !this.hideOnCollapse && !this.showContent,
                 'title-finished': !this.isMobile && !this.hideOnCollapse && this.showContent,
                 'title-expanded': !this.isMobile && !this.hideOnCollapse && this.expanded,
                 'title-hide-on-collapse': !this.isMobile && this.hideOnCollapse,
                 'title-mobile': this.isMobile,
                 'header-gap': !this.isMobile && !this.hideOnCollapse,
-            } }, h("ix-icon-button", { key: 'e9e308ae81e48e90e2636f050112c757b58bc16d', class: "title-icon", size: "24", icon: this.expanded
+            } }, h("ix-icon-button", { key: '7ccba907c951d00bada385fc264d251e1adb402b', class: "title-icon", size: "24", icon: this.expanded
                 ? this.isMobile || this.hideOnCollapse
                     ? 'close'
                     : this.expandIcon
                 : this.minimizeIcon, ghost: true, onClick: () => {
                 this.expanded = !this.expanded;
-            }, "aria-controls": this.composition + 'ToggleButton' }), h("span", { key: '7c4c9a086e6e9c1434ded33ac11b6ed9033c4def', class: {
+            }, "aria-controls": this.composition + 'ToggleButton' }), h("span", { key: '5b4406bf16ddd92d8888d49c4a18b1d857ea8f61', class: {
                 'title-text': true,
                 rotate: !this.expanded && !this.isMobile && this.isLeftRightPane,
-            } }, this.icon ? (h("ix-icon", { size: "24", name: this.icon })) : null, h("div", { key: 'fb0aea90f3af3e436712dcd540247925b8ad96b0', class: "title-text-overflow" }, h("ix-typography", { key: 'f1c18efa4e71b8387d83c357cf88f9ab89aea10a', format: "h4" }, this.heading)))), h("div", { key: 'dec09cef0a083a2ac6b3cefc2bf1f771e1351b3b', class: "side-pane-content", hidden: !this.showContent }, h("slot", { key: '367170c015420dd84e75cad3f4cfa31fcad58d57' })))));
+            } }, this.icon ? (h("ix-icon", { size: "24", name: this.icon })) : null, h("div", { key: 'daefc0b1860d28ce81e52eeb884eec679416a54f', class: "title-text-overflow" }, h("ix-typography", { key: '8a4deef3b02fbef4b918f98dd8d12fac4f29ee29', format: "h4" }, this.heading)))), h("div", { key: '7188486819256d46e21b298f898661e91fce44de', class: "side-pane-content", hidden: !this.showContent }, h("slot", { key: '45eb450896e2b6ec2833913a52094cc4cd3a1a41' })))));
     }
     get hostElement() { return this; }
     static get watchers() { return {

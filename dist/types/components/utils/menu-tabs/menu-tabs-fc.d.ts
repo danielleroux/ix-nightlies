@@ -1,6 +1,6 @@
 import { FunctionalComponent } from '../../../stencil-public-runtime';
-import { MenuAbout } from '../../menu-about/menu-about';
-import { MenuSettings } from '../../menu-settings/menu-settings';
+import { MenuAbout } from "../../menu-about/menu-about";
+import { MenuSettings } from "../../menu-settings/menu-settings";
 interface MenuTabsProps {
     context: MenuSettings | MenuAbout;
 }

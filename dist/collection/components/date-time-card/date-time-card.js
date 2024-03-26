@@ -28,7 +28,7 @@ export class DateTimeCard {
         };
     }
     render() {
-        return (h(Host, { key: '40541d8514911fcfec7620c3542774eb189d1687' }, h("div", { key: 'd07d67a70360f31c67e3f220446e92f0266a5fbe', class: this.cardClasses() }, h("div", { key: '60681672b69bf55d3106eec4cf2a1d811c0cf637', class: "header" }, h("slot", { key: '5042ffc5ea4e264baa793dddd8fc071800f3eeaa', name: "header" })), h("div", { key: '68371c4b3fb5f66f291482dd44e738ba64813fb4', class: "separator" }), h("div", { key: 'a6dbde0e6f11d298bd78dfbaec884b1272e564c4', class: "content" }, h("slot", { key: '5537b6cca4feb31830e9d654785bc9c8258455ba' })))));
+        return (h(Host, { key: 'f8ed1e43427e1723f5015a550c2cc9a110bee2b2' }, h("div", { key: 'f29905676e209d12e851fb8991e60d28cf7153bb', class: this.cardClasses() }, h("div", { key: '4e34b58cb52dddd372fda6713bdd41d612612f96', class: "header" }, h("slot", { key: 'c31d602a45866159181c20a3674cd18c5679052f', name: "header" })), h("div", { key: '5d86be7a1b70d75246bf07cda2898bc3ee768ca5', class: "separator" }), h("div", { key: '3d3e38bff5d56f06e88ef654e6f621ee3ffc8b9c', class: "content" }, h("slot", { key: 'c8a3b2a6ef2f7260ee0a8a16f5ee8c5eda1d9db6' })))));
     }
     static get is() { return "ix-date-time-card"; }
     static get encapsulation() { return "shadow"; }
