@@ -32,7 +32,7 @@ test('initial padding start', async ({ mount, page }) => {
     const group = page.locator('ix-input-group');
     await expect(group).toHaveClass(/hydrated/);
     const input = group.locator('input');
-    await expect(input).toHaveCSS('padding-left', '31px');
+    await expect(input).toHaveCSS('padding-left', '27px');
     await expect(input).toHaveCSS('padding-right', '15px');
 });
 test('initial padding end', async ({ mount, page }) => {
@@ -50,7 +50,7 @@ test('initial padding end', async ({ mount, page }) => {
     const group = page.locator('ix-input-group');
     await expect(group).toHaveClass(/hydrated/);
     const input = group.locator('input');
-    await expect(input).toHaveCSS('padding-left', '31px');
+    await expect(input).toHaveCSS('padding-left', '27px');
     await expect(input).toHaveCSS('padding-right', '31px');
 });
 test('update padding end', async ({ mount, page }) => {
@@ -71,7 +71,7 @@ test('update padding end', async ({ mount, page }) => {
         startElement.slot = 'input-start';
         group.appendChild(startElement);
     });
-    await expect(input).toHaveCSS('padding-left', '55px');
+    await expect(input).toHaveCSS('padding-left', '51px');
     await expect(input).toHaveCSS('padding-right', '15px');
     await group.evaluate((group) => {
         const endElement = document.createElement('DIV');
@@ -80,7 +80,7 @@ test('update padding end', async ({ mount, page }) => {
         endElement.slot = 'input-end';
         group.appendChild(endElement);
     });
-    await expect(input).toHaveCSS('padding-left', '55px');
+    await expect(input).toHaveCSS('padding-left', '51px');
     await expect(input).toHaveCSS('padding-right', '65px');
 });
 test('validation padding', async ({ mount, page }) => {
@@ -103,7 +103,7 @@ test('validation padding', async ({ mount, page }) => {
     const input = group.locator('input');
     const button = page.locator('ix-button');
     await button.click();
-    await expect(input).toHaveCSS('background-position-x', '8px');
+    await expect(input).toHaveCSS('background-position-x', '7px');
 });
 test('validation padding with input-start slot', async ({ mount, page }) => {
     await mount(`
@@ -126,8 +126,8 @@ test('validation padding with input-start slot', async ({ mount, page }) => {
     const input = group.locator('input');
     const button = page.locator('ix-button');
     await button.click();
-    await expect(input).toHaveCSS('background-position-x', '27px');
-    await expect(input).toHaveCSS('padding-left', '59px');
+    await expect(input).toHaveCSS('background-position-x', '23px');
+    await expect(input).toHaveCSS('padding-left', '49px');
 });
 test('validation with class padding with input-start slot', async ({ mount, page, }) => {
     await mount(`
@@ -146,7 +146,7 @@ test('validation with class padding with input-start slot', async ({ mount, page
     const group = page.locator('ix-input-group');
     await expect(group).toHaveClass(/hydrated/);
     const input = group.locator('input');
-    await expect(input).toHaveCSS('background-position-x', '27px');
-    await expect(input).toHaveCSS('padding-left', '59px');
+    await expect(input).toHaveCSS('background-position-x', '23px');
+    await expect(input).toHaveCSS('padding-left', '49px');
 });
 //# sourceMappingURL=input-group.ct.js.map

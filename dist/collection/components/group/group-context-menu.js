@@ -37,7 +37,7 @@ export class GroupContextMenu {
         this.configureDropdown(dropdownElement, triggerElement);
     }
     render() {
-        return (h(Host, { key: 'f709297153c95aae9ae99750d6eef9bb93b6e93b' }, h("ix-icon-button", { key: 'da299782cd2d0fbf3da4ffebedbd69f3a5f24bf9', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: '8557ba5e78f8098a9defdf3f966e83046522c2ae', onSlotchange: () => this.onSlotChange() })));
+        return (h(Host, { key: 'dc1b2419f5ef0f8ed2fe053c2f823fe68c38910b' }, h("ix-icon-button", { key: '24cb23952528b5b6d52f5f4eb8492bb48a70585e', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: 'cad27920fe22f17b37f03754e6136ba55cc4cab4', onSlotchange: () => this.onSlotChange() })));
     }
     static get is() { return "ix-group-context-menu"; }
     static get encapsulation() { return "shadow"; }

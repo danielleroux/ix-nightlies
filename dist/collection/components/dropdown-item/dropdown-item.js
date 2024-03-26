@@ -33,15 +33,15 @@ export class DropdownItem {
             this.icon !== undefined);
     }
     render() {
-        return (h(Host, { key: '3882c42ff856b85402ec8fbcd366832993a2d50b', class: {
+        return (h(Host, { key: 'd34bb3c1947e4d807fde7bc99674d1d90bffdace', class: {
                 hover: this.hover,
                 'icon-only': this.isIconOnly(),
                 disabled: this.disabled,
                 submenu: this.isSubMenu,
-            }, role: "listitem" }, h("button", { key: '18957e0107f55aed30e6cecfa6bfbe02c456a850', type: "button", tabIndex: 0, class: {
+            }, role: "listitem" }, h("button", { key: 'e1d2d336b9dec9f056ad93fc62f2a9573a16aa94', type: "button", tabIndex: 0, class: {
                 'dropdown-item': true,
                 'no-checked-field': this.suppressChecked,
-            }, onClick: () => this.emitItemClick() }, !this.suppressChecked ? (h("div", { class: "dropdown-item-checked" }, this.checked ? (h("ix-icon", { class: "checkmark", name: 'single-check', size: "16" })) : null)) : null, this.icon ? (h("ix-icon", { class: "dropdown-item-icon", name: this.icon })) : null, h("div", { key: '94d506721e5e4b776e447bdfc678bce32811081c', class: "dropdown-item-text" }, this.label, h("slot", { key: 'ca6d981217740a41bce4bf024ed1f4c1bed2d915' })), this.isSubMenu ? (h("ix-icon", { name: 'chevron-right-small', class: 'submenu-icon' })) : null)));
+            }, onClick: () => this.emitItemClick() }, !this.suppressChecked ? (h("div", { class: "dropdown-item-checked" }, this.checked ? (h("ix-icon", { class: "checkmark", name: 'single-check', size: "16" })) : null)) : null, this.icon ? (h("ix-icon", { class: "dropdown-item-icon", name: this.icon })) : null, h("div", { key: '0544f71c5fb18304695eee5b80913866f6f59267', class: "dropdown-item-text" }, this.label, h("slot", { key: '01da7753d2151db1095dfcd1f9a3155611d8f2b6' })), this.isSubMenu ? (h("ix-icon", { name: 'chevron-right-small', class: 'submenu-icon' })) : null)));
     }
     static get is() { return "ix-dropdown-item"; }
     static get encapsulation() { return "shadow"; }

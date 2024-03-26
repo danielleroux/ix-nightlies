@@ -72,10 +72,10 @@ export class BasicNavigation {
         (_a = this.modeDisposable) === null || _a === void 0 ? void 0 : _a.dispose();
     }
     render() {
-        return (h(Host, { key: '35083d5a514a69bc03be9de1a1c2641d9ed187ad', "data-role": "", class: {
+        return (h(Host, { key: '21cad02c3caf60f881d8baf67e05d817619df6ec', "data-role": "", class: {
                 'hide-header': this.hideHeader,
                 [`breakpoint-${this.breakpoint}`]: true,
-            } }, !this.hideHeader ? (h("ix-application-header", { name: this.applicationName }, h("slot", { name: "logo", slot: "logo" }))) : null, h("div", { key: 'e9ff6a0ea8655afccc66259da206632e035b52a2', class: "navigation-content" }, h("slot", { key: '0809719c5650e73c7d801dbd588dacfe4e24e8cb', name: "menu" }), h("div", { key: '3a56100cd7300c1b7b6e8076b7f5dd5f2c5ae3f4', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: '8b14107e0aeee94534cfdf6cd1cf971f1dadb814' })))));
+            } }, !this.hideHeader ? (h("ix-application-header", { name: this.applicationName }, h("slot", { name: "logo", slot: "logo" }))) : null, h("div", { key: '2a0bfb2e408fc28692225c97b2849bf00cdb669f', class: "navigation-content" }, h("slot", { key: 'ded9a0abd626e3d93d91d2914b0e192003ea724a', name: "menu" }), h("div", { key: '4cc27443f9eab9f2347895e4b0b7d87fc9a95d9c', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: '322d7046c54181898aca7bbe4104a8c4eb976d8f' })))));
     }
     static get is() { return "ix-basic-navigation"; }
     static get encapsulation() { return "shadow"; }

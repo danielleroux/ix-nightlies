@@ -7,8 +7,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 import { h, Host } from "@stencil/core";
-import { MenuSettings } from "../../menu-settings/menu-settings";
 import { setTab } from "./menu-tabs-utils";
+import { MenuSettings } from "../../menu-settings/menu-settings";
 const getTabItems = (context) => {
     return context.items.map(({ label }) => {
         return (h("ix-tab-item", { selected: label === context.activeTabLabel, onClick: () => setTab(context, label) }, label));

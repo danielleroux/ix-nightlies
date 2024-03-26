@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 const anime_es = require('./anime.es-e2814360.js');
 const index$1 = require('./index-c4629a8d.js');
 const context = require('./context-98f4a0b3.js');
@@ -405,46 +405,46 @@ const Menu = class {
     }
     render() {
         var _a;
-        return (index.h(index.Host, { key: 'e3390dbde8a79b02db176cd53cfc9b6a6eb0ccbd', class: {
+        return (index.h(index.Host, { key: '6bbe3534c429ff115d26a2d87a97e978c24b8d26', class: {
                 expanded: this.expand,
                 [`breakpoint-${this.breakpoint}`]: true,
-            }, slot: "menu" }, index.h("aside", { key: '3252deae90210285f9e1d39afbc7c31ad31bd936', class: {
+            }, slot: "menu" }, index.h("aside", { key: 'b85b49de3f33933ca7c750f817ca4c79653c9c11', class: {
                 menu: true,
                 expanded: this.expand,
             }, onClick: () => {
                 this.resetActiveTab();
-            } }, index.h("div", { key: '279144a3230c31acf10e28ed1616900577ab735a', class: { 'menu-buttons': this.breakpoint != 'sm' } }, index.h("ix-burger-menu", { key: '5755b29d522d54989ccae911645be889569b3281', onClick: async () => this.toggleMenu(), expanded: this.expand, ixAriaLabel: this.i18nExpandSidebar, pinned: this.showPinned, class: {
+            } }, index.h("div", { key: 'c2ca6439d31df735b39a4d395647144931bcc4da', class: { 'menu-buttons': this.breakpoint != 'sm' } }, index.h("ix-burger-menu", { key: '819540e8418bd625c6a0fd00d740bcb3a89ba35f', onClick: async () => this.toggleMenu(), expanded: this.expand, ixAriaLabel: this.i18nExpandSidebar, pinned: this.showPinned, class: {
                 'burger-menu': true,
             } }), this.breakpoint === 'sm' &&
-            this.applicationLayoutContext.appSwitchConfig && (index.h("ix-icon-button", { onClick: () => index$1.showAppSwitch(this.applicationLayoutContext.appSwitchConfig), icon: "apps", ghost: true, class: "app-switch" }))), index.h("div", { key: '14ef64bc805a19192c6004c77130b734ebd90809', id: "menu-tabs", style: {
+            this.applicationLayoutContext.appSwitchConfig && (index.h("ix-icon-button", { onClick: () => index$1.showAppSwitch(this.applicationLayoutContext.appSwitchConfig), icon: "apps", ghost: true, class: "app-switch" }))), index.h("div", { key: '85fec10a6bf7bf7c9de2b3128ac24b1ac33094e0', id: "menu-tabs", style: {
                 display: 'contents',
-            }, onClick: (e) => this.onMenuItemsClick(e) }, index.h("div", { key: '924354b6cf64fe8a8c687aa2e724a6a9188a49ad', class: "tabs-shadow-container" }, index.h("div", { key: 'c9335df438902140716736331c3c903b956c5e48', class: {
+            }, onClick: (e) => this.onMenuItemsClick(e) }, index.h("div", { key: '94e641a1c107d9441252b018ef46125d3df90d78', class: "tabs-shadow-container" }, index.h("div", { key: '177354c52ce892e4b1de1f4f8a0d85a640b5bc3f', class: {
                 'tabs--shadow': true,
                 'tabs--shadow-top': true,
                 'tabs--shadow--show': this.itemsScrollShadowTop,
-            } }), index.h("div", { key: '5ac87d48659bad904d98e08410653d2a41bcb5bc', class: {
+            } }), index.h("div", { key: '2e94b7b0486d81144fad8be92d1f5b75cab1e069', class: {
                 tabs: true,
                 'show-scrollbar': this.expand,
-            }, onScroll: () => this.handleOverflowIndicator() }, index.h("div", { key: 'dac993f433c3b8830b2566bb2f8d38d2adf2c9cd', class: "menu-avatar" }, index.h("slot", { key: '3964b31e2bf4d2ccc79dbe5cfd78252452867349', name: "ix-menu-avatar" })), index.h("slot", { key: '7a8ccbd26621fc9de3e9740b5b8dd7470276664d', name: "home" }), this.breakpoint !== 'sm' || !this.isHiddenFromViewport() ? (index.h("slot", null)) : null), index.h("div", { key: 'bcda1ddcc660dbf739dd9117f343bddf55711435', class: {
+            }, onScroll: () => this.handleOverflowIndicator() }, index.h("div", { key: '117a20c0f22f7847bfe1b67ae5e09b6adcfbc95e', class: "menu-avatar" }, index.h("slot", { key: 'd556d078eec85c5f337d9618a99b390b8f12cee2', name: "ix-menu-avatar" })), index.h("slot", { key: 'f4f42bd6794a47befd452b55c95ef3f2e3d5cab8', name: "home" }), this.breakpoint !== 'sm' || !this.isHiddenFromViewport() ? (index.h("slot", null)) : null), index.h("div", { key: 'abeb3e30bc2f3d635c268df2c174683a3556ebdc', class: {
                 'tabs--shadow': true,
                 'tabs--shadow-bottom': true,
                 'tabs--shadow--show': this.itemsScrollShadowBottom,
-            } }))), index.h("div", { key: '5584b89bf6007576ab6de1333343194668383d51', class: "bottom-tab-divider" }), this.settings ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "settings", class: {
+            } }))), index.h("div", { key: 'b4bcff0a79472046db3076697de119830fdbb04c', class: "bottom-tab-divider" }), this.settings ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "settings", class: {
                 'internal-tab': true,
                 'bottom-tab': true,
                 active: this.showSettings,
-            }, icon: 'cogwheel', onClick: async () => this.toggleSettings(!this.showSettings) }, this.i18nSettings)) : null, index.h("div", { key: '94f0772dc8a1be3556e0f326e5628ce8db9f6bb9', onClick: (e) => this.onMenuItemsClick(e) }, index.h("slot", { key: '7a2f19ebc72ab15dfd0c952d79b2cc69aa910727', name: "bottom" })), index.h("div", { key: '9472bdf5399ec2bee3db4805b58801c0fce97959', id: "popover-area" }), this.about ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "aboutAndLegal", class: {
+            }, icon: 'cogwheel', onClick: async () => this.toggleSettings(!this.showSettings) }, this.i18nSettings)) : null, index.h("div", { key: 'e130173a85315d316a83f68d3743948565e9f9d9', onClick: (e) => this.onMenuItemsClick(e) }, index.h("slot", { key: '5880ef09aed860a1d48e4c27f09e30ef0c1191dd', name: "bottom" })), index.h("div", { key: 'ed947911deed31140db9e5600929b215ecacc48c', id: "popover-area" }), this.about ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "aboutAndLegal", class: {
                 'internal-tab': true,
                 'bottom-tab': true,
                 active: this.showAbout,
-            }, icon: 'info', onClick: async () => this.toggleAbout(!this.showAbout) }, this.i18nLegal)) : null, this.enableToggleTheme ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "toggleTheme", onClick: () => themeSwitcher.themeSwitcher.toggleMode(), class: "internal-tab bottom-tab", icon: 'light-dark' }, this.i18nToggleTheme)) : null, this.enableMapExpand || ((_a = this.applicationLayoutContext) === null || _a === void 0 ? void 0 : _a.sidebar) ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "menu-collapse", onClick: () => this.sidebarToggle(), class: "internal-tab bottom-tab", icon: `${this.getCollapseIcon()}` }, this.getCollapseText())) : null), index.h("div", { key: '8d45ec496515fa07e7712a938e3af2c9cd342217', class: {
+            }, icon: 'info', onClick: async () => this.toggleAbout(!this.showAbout) }, this.i18nLegal)) : null, this.enableToggleTheme ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "toggleTheme", onClick: () => themeSwitcher.themeSwitcher.toggleMode(), class: "internal-tab bottom-tab", icon: 'light-dark' }, this.i18nToggleTheme)) : null, this.enableMapExpand || ((_a = this.applicationLayoutContext) === null || _a === void 0 ? void 0 : _a.sidebar) ? (index.h("ix-menu-item", { disabled: this.isHiddenFromViewport(), id: "menu-collapse", onClick: () => this.sidebarToggle(), class: "internal-tab bottom-tab", icon: `${this.getCollapseIcon()}` }, this.getCollapseText())) : null), index.h("div", { key: '099b13a33e86103b32ffc1c01a17bd063cce26e8', class: {
                 'menu-overlay': true,
                 visible: this.isOverlayVisible(),
                 expanded: this.expand,
             }, onTransitionEnd: () => {
                 this.isTransitionDisabled = true;
                 this.checkTransition();
-            } }, index.h("div", { key: 'a05f175986d54b8c5d75b3a87da4607351cb97a0', class: 'menu-overlay-container' }, this.showSettings ? index.h("slot", { name: "ix-menu-settings" }) : null), index.h("div", { key: '588ae93a2ce717e71086e689c8f09e8c988fa570', class: 'menu-overlay-container' }, this.showAbout ? index.h("slot", { name: "ix-menu-about" }) : null))));
+            } }, index.h("div", { key: '5f7f9b19ecec0233ff58b44a7e55bac28934593b', class: 'menu-overlay-container' }, this.showSettings ? index.h("slot", { name: "ix-menu-settings" }) : null), index.h("div", { key: '6a44cd72bb8c6e010dba5c26b81c8c6adbcaca48', class: 'menu-overlay-container' }, this.showAbout ? index.h("slot", { name: "ix-menu-about" }) : null))));
     }
     get hostElement() { return index.getElement(this); }
     static get watchers() { return {

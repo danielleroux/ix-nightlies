@@ -54,7 +54,7 @@ const IxTypography = /*@__PURE__*/ proxyCustomElement(class IxTypography extends
                 color: `var(--theme-color-${this.textColor}-text)`,
             };
         }
-        return (h(Host, { key: 'e39b379997d1e278e600c69fcfcce98e80d5cb2c', class: typographyClass, style: style }, h("slot", { key: '25d5d4bdd1bc16158a7bea5ee137bac6e3ce3882' })));
+        return (h(Host, { key: '7f9f0d6a880e474c2ef6b0c6e44d2ecab0407830', class: typographyClass, style: style }, h("slot", { key: 'b0d97d5203b81f8c30ccf584d04b5fb00d3fc7db' })));
     }
     static get style() { return IxTypographyStyle0; }
 }, [1, "ix-typography", {

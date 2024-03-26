@@ -24,5 +24,6 @@ export declare class IxActionCard {
      * Card selection
      */
     selected: boolean;
+    private getSubheadingColor;
     render(): any;
 }

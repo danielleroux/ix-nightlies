@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 const service = require('./service-a42add5f.js');
 const breakpoints = require('./breakpoints-5d1583fb.js');
 require('./typed-event-8032c0c0.js');
@@ -229,7 +229,7 @@ const Panes = class {
         return pane ? pane.floating : false;
     }
     render() {
-        return (index.h(index.Host, { key: 'a912976c2f78c0b4e7d88c52d543e1474e53e802' }, !this.isMobile ? (this.layout == 'full-vertical' ? (index.h("div", { class: "side-panes-wrapper" }, index.h("div", { class: {
+        return (index.h(index.Host, { key: '90da4f25bcad07a3a2a4bfc551a129deac824d84' }, !this.isMobile ? (this.layout == 'full-vertical' ? (index.h("div", { class: "side-panes-wrapper" }, index.h("div", { class: {
                 row: true,
                 'padding-left': this.hasPadding('left'),
                 'padding-right': this.hasPadding('right'),

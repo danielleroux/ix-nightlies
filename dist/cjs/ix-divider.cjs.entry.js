@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 
 const dividerCss = ":host{display:block;position:relative;width:100%;border-bottom:0.0625rem solid var(--theme-color-x-weak-bdr);margin:0.25rem 0px}";
 const IxDividerStyle0 = dividerCss;
@@ -12,7 +12,7 @@ const Divider = class {
         index.registerInstance(this, hostRef);
     }
     render() {
-        return index.h(index.Host, { key: '77aba5256230ceae62d44788f8b3c5e882fe5e80' });
+        return index.h(index.Host, { key: '5ca2d1162db2f50bdb967d2742ddca29cac13553' });
     }
 };
 Divider.style = IxDividerStyle0;

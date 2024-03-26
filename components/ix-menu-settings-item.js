@@ -19,7 +19,7 @@ const MenuSettingsItem = /*@__PURE__*/ proxyCustomElement(class MenuSettingsItem
         });
     }
     render() {
-        return (h(Host, { key: '0de6c5999b525136525b9319c4c77b609637e589' }, h("slot", { key: 'c9fb0334e733956a9d93d5599e8f13c84feed30a' })));
+        return (h(Host, { key: 'af7b6698864d0f6c2e893843787b07450f586259' }, h("slot", { key: '5ced9613e2513330bd9d8152656dedb7320bdd74' })));
     }
     static get watchers() { return {
         "label": ["watchLabel"]

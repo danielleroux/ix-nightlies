@@ -15,7 +15,7 @@ export class DropdownHeader {
         this.label = undefined;
     }
     render() {
-        return (h(Host, { key: 'fa3daed3c42026d56472617e8011daf26a6a0143' }, h("ix-typography", { key: 'd5b713244e69d78221498344e435c0fe08c06b26', class: 'category-text', variant: 'default-title' }, this.label)));
+        return (h(Host, { key: '230bfe17b21343034c269c4f89f0d0b1e1edfb9a' }, h("ix-typography", { key: 'b9a822893ba122ae7efbe3ec600fb57f7fcd0475', class: 'category-text', variant: 'default-title' }, this.label)));
     }
     static get is() { return "ix-dropdown-header"; }
     static get encapsulation() { return "shadow"; }

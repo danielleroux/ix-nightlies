@@ -1,6 +1,7 @@
 {
   "entries": [
     "components/card/card.js",
+    "components/typography/typography.js",
     "components/action-card/action-card.js",
     "components/blind/blind.js",
     "components/button/button.js",
@@ -20,12 +21,12 @@
     "components/menu-about/menu-about.js",
     "components/modal/modal.js",
     "components/pane/pane.js",
-    "components/typography/typography.js",
     "components/push-card/push-card.js",
     "components/slider/slider.js",
     "components/split-button/split-button.js",
     "components/tab-item/tab-item.js",
     "components/time-picker/time-picker.js",
+    "components/toast/toast-container.js",
     "components/application/application.js",
     "components/application-header/application-header.js",
     "components/application-header/application-switch-modal/application-switch-modal.js",
@@ -91,7 +92,6 @@
     "components/split-button-item/split-button-item.js",
     "components/tabs/tabs.js",
     "components/tile/tile.js",
-    "components/toast/toast-container.js",
     "components/toast/toast.js",
     "components/toggle/toggle.js",
     "components/toggle-button/toggle-button.js",
@@ -105,8 +105,8 @@
   ],
   "compiler": {
     "name": "@stencil/core",
-    "version": "4.12.3",
-    "typescriptVersion": "5.3.3"
+    "version": "4.13.0",
+    "typescriptVersion": "5.4.2"
   },
   "collections": [],
   "bundles": [],

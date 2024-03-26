@@ -1,6 +1,6 @@
-import { r as registerInstance, h, H as Host, g as getElement } from './index-5cd176b3.js';
+import { r as registerInstance, h, H as Host, g as getElement } from './index-f18c5ad1.js';
 import { a as autoUpdate, c as computePosition, s as shift, o as offset, b as arrow, f as flip } from './floating-ui.dom.esm-6e7c098f.js';
-import { O as OnListener } from './listener-79f22b5b.js';
+import { O as OnListener } from './listener-b87c1f3d.js';
 
 const tooltipCss = ":host{display:inline-block;position:fixed;left:0px;top:0px;z-index:var(--theme-z-index-tooltip);max-width:18.25rem;opacity:0;visibility:collapse !important;overflow-wrap:break-word;border-radius:0.25rem;background-color:var(--theme-tootlip--background);padding:0.375rem 0.75rem 0.375rem 0.875rem;box-shadow:var(--theme-shadow-4)}:host .tooltip-title{display:flex;align-items:center}:host .tooltip-title ::slotted(ix-icon){margin-right:0.35rem}:host(.visible){opacity:1;visibility:visible !important}:host(.visible) .arrow,:host(.visible) .arrow::before{position:absolute;width:8px;height:8px;background:inherit}:host(.visible) .arrow{visibility:hidden}:host(.visible) .arrow::before{visibility:visible;content:\"\";transform:rotate(45deg);background-color:var(--theme-tootlip--background)}";
 const IxTooltipStyle0 = tooltipCss;

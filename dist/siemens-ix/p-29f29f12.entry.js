@@ -1,0 +1,2 @@
+import{r as e,h as s,H as t}from"./p-26e9d40e.js";const o=":host{display:block;position:relative}:host ::slotted(*){height:100%;width:100%}";const d=o;const i=class{constructor(s){e(this,s);this.itemName=undefined}render(){const e={};e["grid-area"]=this.itemName;return s(t,{key:"062f950b23bd5e5e943008f95b654cf629532a90",style:e},s("slot",{key:"1b0e07eeda37b949637dddcf53510a9760ff2ede"}))}};i.style=d;export{i as ix_css_grid_item};
+//# sourceMappingURL=p-29f29f12.entry.js.map
