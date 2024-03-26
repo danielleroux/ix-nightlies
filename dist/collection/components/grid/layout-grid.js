@@ -17,12 +17,12 @@ export class LayoutGrid {
         this.columns = 12;
     }
     render() {
-        return (h(Host, { key: 'd3f673eeface55a4cd571acda477794c8735c5e4', class: {
+        return (h(Host, { key: '8301fd495bb79e5a2350d18d324bf381250fb801', class: {
                 'no-margin': this.noMargin,
             }, style: {
                 '--ix-layout-grid-columns': `${this.columns}`,
                 '--ix-layout-grid-gutter': `${this.gap}px`,
-            } }, h("slot", { key: 'e70ea397035d14b0eefc589150d1106983599cec' })));
+            } }, h("slot", { key: '618fc9cad0e01b5bd7ec657a22da1df1450e721c' })));
     }
     static get is() { return "ix-layout-grid"; }
     static get encapsulation() { return "shadow"; }

@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host } from './index-5cd176b3.js';
+import { r as registerInstance, h, H as Host } from './index-f18c5ad1.js';
 
 const pushCardCss = ":host{display:block;position:relative}:host .icon{transform:scale(1.25)}:host .notification{font-size:40px}:host ix-card-content{height:11rem}";
 const IxPushCardStyle0 = pushCardCss;

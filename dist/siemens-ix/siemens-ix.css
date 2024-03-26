@@ -10900,6 +10900,7 @@ textarea.form-control-lg {
   --theme-color-x-weak-bdr: #8e9da533;
   --theme-color-focus-bdr: #199fff;
   --theme-color-contrast-bdr: #ffffff;
+  --theme-color-hard-bdr: #7b8c94;
   --theme-color-alarm: #ff2453;
   --theme-color-alarm--hover: #ff577b;
   --theme-color-alarm--active: #ff335f;
@@ -10948,6 +10949,7 @@ textarea.form-control-lg {
   --theme-color-backdrop: #000000d9;
   --theme-color-backdrop-3: #37464dd9;
   --theme-color-logo: #ffffff;
+  --theme-color-logo-login: #ffffff;
   --theme-chart-1: #00ebd5;
   --theme-chart-1-40: #00ebd566;
   --theme-chart-2: #009e78;
@@ -11176,7 +11178,7 @@ textarea.form-control-lg {
   --theme-nav-item-secondary-icon--color--disabled: var(--theme-color-weak-text);
   --theme-avatar--background: var(--theme-color-component-3);
   --theme-input--border-color: var(--theme-color-std-bdr);
-  --theme-input--border-color--autofill: var(--theme-color-std-bdr);
+  --theme-input--border-color--autofill: var(--theme-color-hard-bdr);
   --theme-input--background: var(--theme-color-component-8);
   --theme-input--background--autofill: var(--theme-color-component-info);
   --theme-input-hint--color: var(--theme-color-soft-text);
@@ -11751,19 +11753,19 @@ textarea.form-control-lg {
   --theme-label-sm: var(--theme-font-weight-normal) var(--theme-ms--1)/var(--theme-line-height-sm) var(--theme-font-sans);
   --theme-label-xs: var(--theme-font-weight-normal) var(--theme-ms--2)/var(--theme-line-height-sm) var(--theme-font-sans);
   --theme-body: var(--theme-font-weight-normal) var(--theme-ms-0)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-body-xs: var(--theme-font-weight-normal) var(--theme-ms--2)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-body-sm: var(--theme-font-weight-normal) var(--theme-ms--1)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-body-lg: var(--theme-font-weight-normal) var(--theme-ms-1)/var(--theme-line-height-md) var(--theme-font-sans);
+  --theme-body-xs: var(--theme-font-weight-normal) var(--theme-ms--2)/var(--theme-line-height-lg) var(--theme-font-sans);
+  --theme-body-sm: var(--theme-font-weight-normal) var(--theme-ms--1)/var(--theme-line-height-lg) var(--theme-font-sans);
+  --theme-body-lg: var(--theme-font-weight-normal) var(--theme-ms-1)/var(--theme-line-height-lg) var(--theme-font-sans);
   --theme-display: var(--theme-font-weight-normal) var(--theme-ms-3)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-xs: var(--theme-font-weight-normal) var(--theme-ms-1)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-sm: var(--theme-font-weight-normal) var(--theme-ms-2)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-lg: var(--theme-font-weight-normal) var(--theme-ms-4)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-xl: var(--theme-font-weight-bold) var(--theme-ms-5)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-xxl: var(--theme-font-weight-bold) var(--theme-ms-6)/var(--theme-line-height-xs) var(--theme-font-sans);
-  --theme-h6: var(--theme-font-weight-bold) var(--theme-ms--1)/var(--theme-line-height-md) var(--theme-font-sans);
+  --theme-h6: var(--theme-font-weight-bold) var(--theme-ms--1)/var(--theme-line-height-lg) var(--theme-font-sans);
   --theme-h5: var(--theme-font-weight-bold) var(--theme-ms-0)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-h4: var(--theme-font-weight-bold) var(--theme-ms-1)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-h3: var(--theme-font-weight-bold) var(--theme-ms-2)/var(--theme-line-height-md) var(--theme-font-sans);
+  --theme-h4: var(--theme-font-weight-bold) var(--theme-ms-1)/var(--theme-line-height-lg) var(--theme-font-sans);
+  --theme-h3: var(--theme-font-weight-bold) var(--theme-ms-2)/var(--theme-line-height-lg) var(--theme-font-sans);
   --theme-h2: var(--theme-font-weight-bold) var(--theme-ms-3)/var(--theme-line-height-md) var(--theme-font-sans);
   --theme-h1: var(--theme-font-weight-bold) var(--theme-ms-4)/var(--theme-line-height-sm) var(--theme-font-sans);
   --theme-code: var(--theme-font-weight-normal) var(--theme-ms-0)/var(--theme-line-height-lg) var(--theme-font-code);
@@ -11786,7 +11788,7 @@ textarea.form-control-lg {
   --theme-kpi--border-radius: var(--theme-default-border-radius);
   --theme-input--border-radius: var(--theme-small-border-radius);
   --theme-menu--border-radius: var(--theme-default-border-radius);
-  --theme-message-bar--border-radius: var(--theme-min-border-radius);
+  --theme-message-bar--border-radius: var(--theme-default-border-radius);
   --theme-tile--border-radius: var(--theme-default-border-radius);
   --theme-toast--border-radus: var(--theme-default-border-radius);
   --theme-flip-tile--border-radius: var(--theme-default-border-radius);
@@ -11911,7 +11913,7 @@ textarea.form-control-lg {
   --theme-radiobtn--border-thickness: 0.0625rem;
   --theme-input--border-thickness: 0.0625rem;
   --theme-menu--border-thickness: 0rem;
-  --theme-message-bar--border-thickness: 0.0625rem;
+  --theme-message-bar--border-thickness: 0.125rem;
   --theme-modal--border-thickness: 0.0625rem;
   --theme-toast--border-thickness: 0rem;
 }
@@ -12042,6 +12044,7 @@ textarea.form-control-lg {
   --theme-color-x-weak-bdr: #aeb5bd33;
   --theme-color-focus-bdr: #199fff;
   --theme-color-contrast-bdr: #000000;
+  --theme-color-hard-bdr: #b2b8be;
   --theme-color-alarm: #d72332;
   --theme-color-alarm--hover: #c11f2d;
   --theme-color-alarm--active: #b41d2a;
@@ -12090,6 +12093,7 @@ textarea.form-control-lg {
   --theme-color-backdrop: #ffffffd9;
   --theme-color-backdrop-3: #e3e5e8d9;
   --theme-color-logo: #000000;
+  --theme-color-logo-login: #000000;
   --theme-chart-1: #00b8a6;
   --theme-chart-1-40: #00b8a666;
   --theme-chart-2: #007362;
@@ -12318,7 +12322,7 @@ textarea.form-control-lg {
   --theme-nav-item-secondary-icon--color--disabled: var(--theme-color-weak-text);
   --theme-avatar--background: var(--theme-color-component-3);
   --theme-input--border-color: var(--theme-color-std-bdr);
-  --theme-input--border-color--autofill: var(--theme-color-std-bdr);
+  --theme-input--border-color--autofill: var(--theme-color-hard-bdr);
   --theme-input--background: var(--theme-color-component-8);
   --theme-input--background--autofill: var(--theme-color-component-info);
   --theme-input-hint--color: var(--theme-color-soft-text);
@@ -12893,19 +12897,19 @@ textarea.form-control-lg {
   --theme-label-sm: var(--theme-font-weight-normal) var(--theme-ms--1)/var(--theme-line-height-sm) var(--theme-font-sans);
   --theme-label-xs: var(--theme-font-weight-normal) var(--theme-ms--2)/var(--theme-line-height-sm) var(--theme-font-sans);
   --theme-body: var(--theme-font-weight-normal) var(--theme-ms-0)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-body-xs: var(--theme-font-weight-normal) var(--theme-ms--2)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-body-sm: var(--theme-font-weight-normal) var(--theme-ms--1)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-body-lg: var(--theme-font-weight-normal) var(--theme-ms-1)/var(--theme-line-height-md) var(--theme-font-sans);
+  --theme-body-xs: var(--theme-font-weight-normal) var(--theme-ms--2)/var(--theme-line-height-lg) var(--theme-font-sans);
+  --theme-body-sm: var(--theme-font-weight-normal) var(--theme-ms--1)/var(--theme-line-height-lg) var(--theme-font-sans);
+  --theme-body-lg: var(--theme-font-weight-normal) var(--theme-ms-1)/var(--theme-line-height-lg) var(--theme-font-sans);
   --theme-display: var(--theme-font-weight-normal) var(--theme-ms-3)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-xs: var(--theme-font-weight-normal) var(--theme-ms-1)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-sm: var(--theme-font-weight-normal) var(--theme-ms-2)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-lg: var(--theme-font-weight-normal) var(--theme-ms-4)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-xl: var(--theme-font-weight-bold) var(--theme-ms-5)/var(--theme-line-height-xs) var(--theme-font-sans);
   --theme-display-xxl: var(--theme-font-weight-bold) var(--theme-ms-6)/var(--theme-line-height-xs) var(--theme-font-sans);
-  --theme-h6: var(--theme-font-weight-bold) var(--theme-ms--1)/var(--theme-line-height-md) var(--theme-font-sans);
+  --theme-h6: var(--theme-font-weight-bold) var(--theme-ms--1)/var(--theme-line-height-lg) var(--theme-font-sans);
   --theme-h5: var(--theme-font-weight-bold) var(--theme-ms-0)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-h4: var(--theme-font-weight-bold) var(--theme-ms-1)/var(--theme-line-height-md) var(--theme-font-sans);
-  --theme-h3: var(--theme-font-weight-bold) var(--theme-ms-2)/var(--theme-line-height-md) var(--theme-font-sans);
+  --theme-h4: var(--theme-font-weight-bold) var(--theme-ms-1)/var(--theme-line-height-lg) var(--theme-font-sans);
+  --theme-h3: var(--theme-font-weight-bold) var(--theme-ms-2)/var(--theme-line-height-lg) var(--theme-font-sans);
   --theme-h2: var(--theme-font-weight-bold) var(--theme-ms-3)/var(--theme-line-height-md) var(--theme-font-sans);
   --theme-h1: var(--theme-font-weight-bold) var(--theme-ms-4)/var(--theme-line-height-sm) var(--theme-font-sans);
   --theme-code: var(--theme-font-weight-normal) var(--theme-ms-0)/var(--theme-line-height-lg) var(--theme-font-code);
@@ -12928,7 +12932,7 @@ textarea.form-control-lg {
   --theme-kpi--border-radius: var(--theme-default-border-radius);
   --theme-input--border-radius: var(--theme-small-border-radius);
   --theme-menu--border-radius: var(--theme-default-border-radius);
-  --theme-message-bar--border-radius: var(--theme-min-border-radius);
+  --theme-message-bar--border-radius: var(--theme-default-border-radius);
   --theme-tile--border-radius: var(--theme-default-border-radius);
   --theme-toast--border-radus: var(--theme-default-border-radius);
   --theme-flip-tile--border-radius: var(--theme-default-border-radius);
@@ -13053,7 +13057,7 @@ textarea.form-control-lg {
   --theme-radiobtn--border-thickness: 0.0625rem;
   --theme-input--border-thickness: 0.0625rem;
   --theme-menu--border-thickness: 0rem;
-  --theme-message-bar--border-thickness: 0.0625rem;
+  --theme-message-bar--border-thickness: 0.125rem;
   --theme-modal--border-thickness: 0.0625rem;
   --theme-toast--border-thickness: 0rem;
 }

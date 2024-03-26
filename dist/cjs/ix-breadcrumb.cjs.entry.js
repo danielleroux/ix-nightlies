@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 const a11y = require('./a11y-d3ce56d1.js');
 const mutationObserver = require('./mutation-observer-babb20a5.js');
 
@@ -72,7 +72,7 @@ const Breadcrumb = class {
     render() {
         var _a, _b, _c, _d;
         const a11y$1 = a11y.a11yHostAttributes(this.hostElement);
-        return (index.h(index.Host, { key: 'd4a7d70b996b0e613a05a53896aedcaf786cb05b' }, index.h("ix-dropdown", { key: '545dd5b645297725ef8b58c2619ebff9cdc0b0c1', id: this.previousDropdownId, "aria-label": this.ariaLabelPreviousButton, trigger: ((_a = this.items) === null || _a === void 0 ? void 0 : _a.length) > this.visibleItemCount
+        return (index.h(index.Host, { key: 'd279435b432d5f89479de4b7720fa52a46f9da1a' }, index.h("ix-dropdown", { key: '02dfdb76892315ce2f2aa62da5a0e0579906bc6d', id: this.previousDropdownId, "aria-label": this.ariaLabelPreviousButton, trigger: ((_a = this.items) === null || _a === void 0 ? void 0 : _a.length) > this.visibleItemCount
                 ? this.previousButtonRef
                 : null, onShowChanged: ({ detail }) => {
                 this.isPreviousDropdownExpanded = detail;
@@ -89,7 +89,7 @@ const Breadcrumb = class {
             return (index.h("ix-dropdown-item", { label: label, onClick: () => {
                     this.onItemClick(label);
                 }, onItemClick: (event) => event.stopPropagation() }));
-        })), ((_b = this.items) === null || _b === void 0 ? void 0 : _b.length) > this.visibleItemCount ? (index.h("ix-breadcrumb-item", { id: this.previousButtonId, ref: (ref) => (this.previousButtonRef = ref), label: "...", tabIndex: 1, onItemClick: (event) => event.stopPropagation(), "aria-describedby": this.previousDropdownId, "aria-controls": this.previousDropdownId, "aria-expanded": a11y.a11yBoolean(this.isPreviousDropdownExpanded), class: 'previous-button' })) : null, index.h("nav", { key: 'e3e3162f385bd64ddde0671c3bb6fe084ca32714', class: "crumb-items", "aria-label": (_c = a11y$1['aria-label']) !== null && _c !== void 0 ? _c : 'breadcrumbs' }, index.h("ol", { key: 'ba7a37c3a9124efa24ea6ac3ddfe5a146d6cc5a1' }, index.h("slot", { key: 'b4b30cf5e41c4583ea6fbbdb372f79d167f859c9' }))), index.h("ix-dropdown", { key: 'aa20745609c9110ebed70439c26bf214f3386710', trigger: this.nextButtonRef }, (_d = this.nextItems) === null || _d === void 0 ? void 0 : _d.map((item) => (index.h("ix-dropdown-item", { label: item, onClick: (e) => {
+        })), ((_b = this.items) === null || _b === void 0 ? void 0 : _b.length) > this.visibleItemCount ? (index.h("ix-breadcrumb-item", { id: this.previousButtonId, ref: (ref) => (this.previousButtonRef = ref), label: "...", tabIndex: 1, onItemClick: (event) => event.stopPropagation(), "aria-describedby": this.previousDropdownId, "aria-controls": this.previousDropdownId, "aria-expanded": a11y.a11yBoolean(this.isPreviousDropdownExpanded), class: 'previous-button' })) : null, index.h("nav", { key: '24c73d0d895f503c6353ba3293e71dc9a4b0d63f', class: "crumb-items", "aria-label": (_c = a11y$1['aria-label']) !== null && _c !== void 0 ? _c : 'breadcrumbs' }, index.h("ol", { key: '9b453bc2b42e6cbcd3db7558973fb1fe73ec70b2' }, index.h("slot", { key: 'd250a49e049e0266a7ec36e19f585147e6b50ee6' }))), index.h("ix-dropdown", { key: '9415febe928cff163976271806eae59265bc62ee', trigger: this.nextButtonRef }, (_d = this.nextItems) === null || _d === void 0 ? void 0 : _d.map((item) => (index.h("ix-dropdown-item", { label: item, onClick: (e) => {
                 this.nextClick.emit({
                     event: e,
                     item,

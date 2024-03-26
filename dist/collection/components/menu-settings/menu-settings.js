@@ -26,7 +26,7 @@ export class MenuSettings {
         forceUpdate(this.el);
     }
     render() {
-        return h(MenuTabs, { key: '81cb8883f4cdcf08c1d6005c634cfe9d44fde8e2', context: this });
+        return h(MenuTabs, { key: '6ea4bb42c9f8da5416ba88e72ce537fed3c7949a', context: this });
     }
     static get is() { return "ix-menu-settings"; }
     static get encapsulation() { return "shadow"; }

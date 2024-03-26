@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host } from './index-5cd176b3.js';
+import { r as registerInstance, h, H as Host } from './index-f18c5ad1.js';
 
 /*
  * SPDX-FileCopyrightText: 2023 Siemens AG
@@ -83,7 +83,7 @@ const CssGrid = class {
         if (((_a = this.currentTemplate) === null || _a === void 0 ? void 0 : _a.length) !== 0) {
             style['grid-template-areas'] = templateBuilder(this.currentTemplate);
         }
-        return (h(Host, { key: '8f1477e0ca42a62ce26698bde9843b7634c6956e', style: style }, h("slot", { key: '5af8072e074124a51fedb02eb5538490ab91e22a' })));
+        return (h(Host, { key: '31dbf56817566809d11389e2ee8eae5184ca31f4', style: style }, h("slot", { key: '4573979348fcaac389e59014eb566ad0b7e4c005' })));
     }
 };
 CssGrid.style = IxCssGridStyle0;

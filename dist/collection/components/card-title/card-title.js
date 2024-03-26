@@ -6,7 +6,7 @@ import { h, Host } from "@stencil/core";
  */
 export class CardHeader {
     render() {
-        return (h(Host, { key: 'becda7afe606335391887cbf616a679a79ca23f8' }, h("slot", { key: '81d4200983e9288ae910d6e9bbf4ec8f107ed4b9' }), h("div", { key: 'e5894f17b9fdc84e70631bd03751d613f8e9ecf0', class: "title-actions" }, h("slot", { key: '30b969a1a99f9b411f6bfcee4ea5fcfc4c1f73b7', name: "title-actions" }))));
+        return (h(Host, { key: '481b7160e94af19ad4601024adfb1a18e3d74cc2' }, h("slot", { key: '5f8f8cd064f0c4d260edfdb10585a76b89b1e99f' }), h("div", { key: 'b6c56de2266fab7639edf607e550bd57589c86a3', class: "title-actions" }, h("slot", { key: '32dc2df2451bade00e79483db8594cecaceaf0b9', name: "title-actions" }))));
     }
     static get is() { return "ix-card-title"; }
     static get encapsulation() { return "shadow"; }

@@ -1,2 +1,0 @@
-import{r,h as e,H as t}from"./p-3b388d55.js";const n=".sc-ix-playground-internal-h{display:block;position:relative;width:100vw;height:100vh;padding:0rem 0rem 0rem 0rem}";const s=n;const i=class{constructor(e){r(this,e)}render(){return e(t,{key:"2c7023915b61491ec4626431974c787778741459"})}};i.style=s;export{i as ix_playground_internal};
-//# sourceMappingURL=p-76dc1b15.entry.js.map
