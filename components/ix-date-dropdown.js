@@ -132,16 +132,16 @@ const DateDropdown = /*@__PURE__*/ proxyCustomElement(class DateDropdown extends
     }
     render() {
         var _a, _b, _c;
-        return (h(Host, { key: '82d41dba654f8cce0d813c449bcf20cf3b5ab4df' }, h("ix-button", { key: '4994fc5cc205677a85bccb0daa780beb283bbde9', "data-date-dropdown-trigger": true, variant: "primary", icon: "history", ref: (ref) => (this.triggerRef = ref) }, this.getButtonLabel()), h("ix-dropdown", { key: '4b31d1440aaf7caf6b5f6c21ace5c020f96e3db1', "data-date-dropdown": true, class: "min-width max-height", trigger: this.triggerRef, "close-behavior": "outside", placement: "bottom-start", onShowChanged: ({ detail: show }) => {
+        return (h(Host, { key: '587a80ff64848ac3072ae04a27573f83e1e11fd8' }, h("ix-button", { key: '54dce5bf9e30572642386c16c7f18e69e55f3fd1', "data-date-dropdown-trigger": true, variant: "primary", icon: "history", ref: (ref) => (this.triggerRef = ref) }, this.getButtonLabel()), h("ix-dropdown", { key: '4292a46172362908d80a49874b0e4a62ae0461e9', "data-date-dropdown": true, class: "min-width max-height", trigger: this.triggerRef, "close-behavior": "outside", placement: "bottom-start", onShowChanged: ({ detail: show }) => {
                 if (!show &&
                     this.selectedDateRangeId === 'custom' &&
                     this.datePickerTouched) {
                     this.onDateSelect(this.currentRangeValue);
                 }
-            } }, h("ix-layout-grid", { key: 'c9f5fa0e097e955b7b6b339bdbb1510d824acadd', "no-margin": "true" }, h("ix-row", { key: '80287b590a48cc999f4e321009f5f929ad9c9e3f' }, ((_a = this.dateRangeOptions) === null || _a === void 0 ? void 0 : _a.length) > 1 && (h("ix-col", { class: {
+            } }, h("ix-layout-grid", { key: '9d92b3fd14fb2546fe9f6b588e048ad9048ed99e', "no-margin": "true" }, h("ix-row", { key: 'ea35e1f9c8df2f1bed99dff82ffcf57206864d47' }, ((_a = this.dateRangeOptions) === null || _a === void 0 ? void 0 : _a.length) > 1 && (h("ix-col", { class: {
                 'no-margin': true,
                 'border-right': this.selectedDateRangeId === 'custom',
-            } }, this.dateRangeOptions.map((dateRangeOption) => (h("ix-dropdown-item", { label: dateRangeOption.label, onClick: () => this.onRangeListSelect(dateRangeOption.id), checked: this.selectedDateRangeId === dateRangeOption.id }))), h("div", { hidden: !this.customRangeAllowed }, h("ix-dropdown-item", { label: this.i18nCustomItem, checked: this.selectedDateRangeId === 'custom', onClick: () => this.onRangeListSelect('custom') })))), h("ix-col", { key: '38e33c000feb6a040a243766bb9f2a27b412078b', class: "no-margin" }, this.selectedDateRangeId === 'custom' && (h(Fragment, null, h("ix-date-picker", { standaloneAppearance: false, onDateChange: (e) => {
+            } }, this.dateRangeOptions.map((dateRangeOption) => (h("ix-dropdown-item", { label: dateRangeOption.label, onClick: () => this.onRangeListSelect(dateRangeOption.id), checked: this.selectedDateRangeId === dateRangeOption.id }))), h("div", { hidden: !this.customRangeAllowed }, h("ix-dropdown-item", { label: this.i18nCustomItem, checked: this.selectedDateRangeId === 'custom', onClick: () => this.onRangeListSelect('custom') })))), h("ix-col", { key: '39d788b4f948826461facbf8f0510d871416a2a3', class: "no-margin" }, this.selectedDateRangeId === 'custom' && (h(Fragment, null, h("ix-date-picker", { standaloneAppearance: false, onDateChange: (e) => {
                 e.stopPropagation();
                 this.currentRangeValue = Object.assign(Object.assign({}, e.detail), { id: 'custom' });
                 this.datePickerTouched = true;

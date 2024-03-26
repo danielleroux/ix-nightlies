@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 
 const menuAboutItemCss = ":host{display:block}";
 const IxMenuAboutItemStyle0 = menuAboutItemCss;
@@ -21,7 +21,7 @@ const MenuAboutItem = class {
         });
     }
     render() {
-        return (index.h(index.Host, { key: '963b59afed12d8bba0b4107da846b433bc451b1f' }, index.h("slot", { key: 'fbea143350cd9850db1526e19363f7d8632035af' })));
+        return (index.h(index.Host, { key: '77050563a1570aa964f9e1d3c09508ad02959919' }, index.h("slot", { key: '8172f676de5753a6d27f5c4a7087da3566216c48' })));
     }
     static get watchers() { return {
         "label": ["watchLabel"]

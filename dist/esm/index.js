@@ -20,6 +20,14 @@ import './typed-event-ad6484c5.js';
 class FilterState {
 }
 
+/*
+ * SPDX-FileCopyrightText: 2023 Siemens AG
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 function getToastContainer() {
     const containerList = Array.from(document.querySelectorAll('ix-toast-container'));
     const [container] = containerList;
@@ -39,7 +47,8 @@ function setToastPosition(position) {
 }
 async function toast(config) {
     const context = getToastContainer();
-    return context.showToast(config);
+    const toast = await context.showToast(config);
+    return toast;
 }
 toast.info = (config) => {
     return toast(Object.assign(Object.assign({}, config), { type: 'info' }));

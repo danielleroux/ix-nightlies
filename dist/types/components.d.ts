@@ -40,7 +40,7 @@ import { SplitButtonVariant } from "./components/split-button/split-button";
 import { TabClickDetail } from "./components/tab-item/tab-item";
 import { TimePickerCorners } from "./components/time-picker/time-picker";
 import { ToastConfig, ToastType } from "./components/toast/toast-utils";
-import { ShowToastResult } from "./components/toast/toast-container";
+import { TypedEvent } from "./components/utils/typed-event";
 import { TreeContext, TreeItemContext, TreeModel, UpdateCallback } from "./components/tree/tree-model";
 import { TextDecoration, TypographyColors, TypographyFormat, TypographyVariants } from "./components/typography/typography";
 import { UploadFileState } from "./components/upload/upload-file-state";
@@ -79,7 +79,7 @@ export { SplitButtonVariant } from "./components/split-button/split-button";
 export { TabClickDetail } from "./components/tab-item/tab-item";
 export { TimePickerCorners } from "./components/time-picker/time-picker";
 export { ToastConfig, ToastType } from "./components/toast/toast-utils";
-export { ShowToastResult } from "./components/toast/toast-container";
+export { TypedEvent } from "./components/utils/typed-event";
 export { TreeContext, TreeItemContext, TreeModel, UpdateCallback } from "./components/tree/tree-model";
 export { TextDecoration, TypographyColors, TypographyFormat, TypographyVariants } from "./components/typography/typography";
 export { UploadFileState } from "./components/upload/upload-file-state";
@@ -2140,7 +2140,7 @@ export namespace Components {
           * Display a toast message
           * @param config
          */
-        "showToast": (config: ToastConfig) => Promise<ShowToastResult>;
+        "showToast": (config: ToastConfig) => Promise<{ onClose: TypedEvent<any>; close: (result?: any) => void; }>;
     }
     interface IxToggle {
         /**

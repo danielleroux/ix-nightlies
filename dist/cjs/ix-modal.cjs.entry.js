@@ -2,11 +2,11 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const anime_es = require('./anime.es-e2814360.js');
 const a11y = require('./a11y-d3ce56d1.js');
 const animation = require('./animation-99234008.js');
-const listener = require('./listener-d27acb41.js');
+const listener = require('./listener-8ba20080.js');
 
 /*
  * SPDX-FileCopyrightText: 2024 Siemens AG
@@ -168,17 +168,17 @@ const Modal = class {
         this.ariaAttributes = a11y.a11yHostAttributes(this.hostElement);
     }
     render() {
-        return (index.h(index.Host, { key: '567694260986bea7c1ba8b63f00f5035b03b8961', class: {
+        return (index.h(index.Host, { key: '6ea977c2709606682fe0faf8ef50cbba4479ba5b', class: {
                 visible: this.modalVisible,
                 'no-backdrop': this.backdrop === false,
                 'align-center': this.centered,
-            } }, index.h("div", { key: '8a6149cbd64c7007e0492df375242d6fc8e54f0b', class: "dialog-backdrop" }, index.h("dialog", { key: '4ef88c174fc5066d2075929aa770fe17f68a5bec', "aria-modal": a11y.a11yBoolean(true), "aria-describedby": this.ariaAttributes['aria-describedby'], "aria-labelledby": this.ariaAttributes['aria-labelledby'], class: {
+            } }, index.h("div", { key: 'e8dfd773a94149ec9ab2706ce66a5a319c327342', class: "dialog-backdrop" }, index.h("dialog", { key: '25b8bc33d33a72b7e90701c16014b9ba85c4c275', "aria-modal": a11y.a11yBoolean(true), "aria-describedby": this.ariaAttributes['aria-describedby'], "aria-labelledby": this.ariaAttributes['aria-labelledby'], class: {
                 modal: true,
                 [`modal-size-${this.size}`]: true,
             }, onClose: () => this.dismissModal(), onClick: (event) => this.onModalClick(event), onCancel: (e) => {
                 e.preventDefault();
                 this.dismissModal();
-            } }, index.h("slot", { key: '08d753b7ec1679b13fa4052a302d873efbdf381c' })))));
+            } }, index.h("slot", { key: '3c576f2a30af4cc916bfa7e91eeb0c3aae5abfdf' })))));
     }
     get hostElement() { return index.getElement(this); }
 };

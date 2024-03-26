@@ -48,13 +48,13 @@ const CardAccordion = /*@__PURE__*/ proxyCustomElement(class CardAccordion exten
         this.onInitialExpandChange();
     }
     render() {
-        return (h(Host, { key: 'bc39054c9b50f4a1de3ebb720553d667f30e7420', slot: "card-accordion" }, h("button", { key: '39a8f4b977ca5d4f797a12f4d06a09e7a2909e80', tabIndex: 0, class: { 'expand-action': true, show: this.expandContent }, onClick: (event) => this.onExpandActionClick(event), role: "button", type: "button", "aria-expanded": this.expandContent, "aria-controls": getAriaControlsId() }, h("ix-icon", { key: '2d75d5fc08d4d79e1d70fef36440dba4ee5b62c9', name: 'chevron-right-small', class: {
+        return (h(Host, { key: '4e4415039fe113164586e8620b2ba46671b1f9e9', slot: "card-accordion" }, h("button", { key: 'a99c3feec1c46a12f863260786bc14f924c5ebb8', tabIndex: 0, class: { 'expand-action': true, show: this.expandContent }, onClick: (event) => this.onExpandActionClick(event), role: "button", type: "button", "aria-expanded": this.expandContent, "aria-controls": getAriaControlsId() }, h("ix-icon", { key: '765b773718f44c6d20df0c2c4341322725f92144', name: 'chevron-right-small', class: {
                 'expand-icon': true,
                 show: this.expandContent,
-            } })), h("div", { key: 'd2b662f006a69d90e2353922e377a1e83830de70', class: {
+            } })), h("div", { key: '3f2584f144a95f302ab429a30cf81581c81c459b', class: {
                 'expand-content': true,
                 show: this.expandContent,
-            } }, h("div", { key: '7cedf82588afb804a626b1ba1c1cb9147c76306a', class: "expand-content-inner" }, h("div", { key: '04b85a19f6354fd725b634748e7ff7a5c58dd7cb', class: "expand-content-body" }, h("slot", { key: '732c33dbaa591432e14f74eb305b7e7c526d4e49' })), h("div", { key: '83291f55a13f8a8bebddb4d24c81cfc1a090f1f4', class: "expand-content-footer" })))));
+            } }, h("div", { key: '0966471b4a55de828c847eb1d4f5262f3d7fc426', class: "expand-content-inner" }, h("div", { key: '65c0f7b5fb40e6bf035f728ee2c1535bf43cb4c1', class: "expand-content-body" }, h("slot", { key: '30a679ed712e09f6a338a780374ee9c10f853870' })), h("div", { key: 'ab1bcd363d8af33052084ee7a998feacb7e8fa57', class: "expand-content-footer" })))));
     }
     get hostElement() { return this; }
     static get watchers() { return {
