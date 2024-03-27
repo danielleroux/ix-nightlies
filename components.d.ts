@@ -624,7 +624,7 @@ export declare class IxMenu {
     protected el: HTMLElement;
     constructor(c: ChangeDetectorRef, r: ElementRef, z: NgZone);
     static ɵfac: i0.ɵɵFactoryDeclaration<IxMenu, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<IxMenu, "ix-menu", never, { "applicationDescription": "applicationDescription"; "applicationName": "applicationName"; "enableMapExpand": "enableMapExpand"; "enableSettings": "enableSettings"; "enableToggleTheme": "enableToggleTheme"; "expand": "expand"; "i18nCollapse": "i18nCollapse"; "i18nExpand": "i18nExpand"; "i18nExpandSidebar": "i18nExpandSidebar"; "i18nLegal": "i18nLegal"; "i18nSettings": "i18nSettings"; "i18nToggleTheme": "i18nToggleTheme"; "maxVisibleMenuItems": "maxVisibleMenuItems"; "pinned": "pinned"; "showAbout": "showAbout"; "showSettings": "showSettings"; }, {}, never, ["*"]>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<IxMenu, "ix-menu", never, { "applicationDescription": "applicationDescription"; "applicationName": "applicationName"; "enableMapExpand": "enableMapExpand"; "enableSettings": "enableSettings"; "enableToggleTheme": "enableToggleTheme"; "expand": "expand"; "i18nCollapse": "i18nCollapse"; "i18nExpand": "i18nExpand"; "i18nExpandSidebar": "i18nExpandSidebar"; "i18nLegal": "i18nLegal"; "i18nSettings": "i18nSettings"; "i18nToggleTheme": "i18nToggleTheme"; "maxVisibleMenuItems": "maxVisibleMenuItems"; "pinned": "pinned"; "showAbout": "showAbout"; "showSettings": "showSettings"; "startExpanded": "startExpanded"; }, {}, never, ["*"]>;
 }
 export declare interface IxMenu extends Components.IxMenu {
     /**

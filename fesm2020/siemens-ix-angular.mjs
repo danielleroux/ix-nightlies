@@ -1357,10 +1357,10 @@ let IxMenu = class IxMenu {
     }
 };
 /** @nocollapse */ IxMenu.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.4.0", ngImport: i0, type: IxMenu, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
-/** @nocollapse */ IxMenu.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.4.0", type: IxMenu, selector: "ix-menu", inputs: { applicationDescription: "applicationDescription", applicationName: "applicationName", enableMapExpand: "enableMapExpand", enableSettings: "enableSettings", enableToggleTheme: "enableToggleTheme", expand: "expand", i18nCollapse: "i18nCollapse", i18nExpand: "i18nExpand", i18nExpandSidebar: "i18nExpandSidebar", i18nLegal: "i18nLegal", i18nSettings: "i18nSettings", i18nToggleTheme: "i18nToggleTheme", maxVisibleMenuItems: "maxVisibleMenuItems", pinned: "pinned", showAbout: "showAbout", showSettings: "showSettings" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+/** @nocollapse */ IxMenu.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.4.0", type: IxMenu, selector: "ix-menu", inputs: { applicationDescription: "applicationDescription", applicationName: "applicationName", enableMapExpand: "enableMapExpand", enableSettings: "enableSettings", enableToggleTheme: "enableToggleTheme", expand: "expand", i18nCollapse: "i18nCollapse", i18nExpand: "i18nExpand", i18nExpandSidebar: "i18nExpandSidebar", i18nLegal: "i18nLegal", i18nSettings: "i18nSettings", i18nToggleTheme: "i18nToggleTheme", maxVisibleMenuItems: "maxVisibleMenuItems", pinned: "pinned", showAbout: "showAbout", showSettings: "showSettings", startExpanded: "startExpanded" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 IxMenu = __decorate([
     ProxyCmp({
-        inputs: ['applicationDescription', 'applicationName', 'enableMapExpand', 'enableSettings', 'enableToggleTheme', 'expand', 'i18nCollapse', 'i18nExpand', 'i18nExpandSidebar', 'i18nLegal', 'i18nSettings', 'i18nToggleTheme', 'maxVisibleMenuItems', 'pinned', 'showAbout', 'showSettings'],
+        inputs: ['applicationDescription', 'applicationName', 'enableMapExpand', 'enableSettings', 'enableToggleTheme', 'expand', 'i18nCollapse', 'i18nExpand', 'i18nExpandSidebar', 'i18nLegal', 'i18nSettings', 'i18nToggleTheme', 'maxVisibleMenuItems', 'pinned', 'showAbout', 'showSettings', 'startExpanded'],
         methods: ['toggleMapExpand', 'toggleMenu', 'toggleSettings', 'toggleAbout']
     })
 ], IxMenu);
@@ -1371,7 +1371,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.4.0", ngImpor
                     changeDetection: ChangeDetectionStrategy.OnPush,
                     template: '<ng-content></ng-content>',
                     // eslint-disable-next-line @angular-eslint/no-inputs-metadata-property
-                    inputs: ['applicationDescription', 'applicationName', 'enableMapExpand', 'enableSettings', 'enableToggleTheme', 'expand', 'i18nCollapse', 'i18nExpand', 'i18nExpandSidebar', 'i18nLegal', 'i18nSettings', 'i18nToggleTheme', 'maxVisibleMenuItems', 'pinned', 'showAbout', 'showSettings'],
+                    inputs: ['applicationDescription', 'applicationName', 'enableMapExpand', 'enableSettings', 'enableToggleTheme', 'expand', 'i18nCollapse', 'i18nExpand', 'i18nExpandSidebar', 'i18nLegal', 'i18nSettings', 'i18nToggleTheme', 'maxVisibleMenuItems', 'pinned', 'showAbout', 'showSettings', 'startExpanded'],
                 }]
         }], ctorParameters: function () { return [{ type: i0.ChangeDetectorRef }, { type: i0.ElementRef }, { type: i0.NgZone }]; } });
 let IxMenuAbout = class IxMenuAbout {
