@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
-const listener = require('./listener-8ba20080.js');
+const index = require('./index-c6f0ac73.js');
+const listener = require('./listener-d27acb41.js');
 
 const selectCss = ":host{display:inline-block;position:relative;min-height:2rem;height:auto;border-radius:var(--theme-input--border-radius)}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .d-none{display:none}:host .select{position:relative;display:flex;align-items:center;background-color:var(--theme-input--background);border:var(--theme-input--border-thickness) solid var(--theme-input--border-color);border-radius:var(--theme-input--border-radius);padding:0 0 0 0.5rem;box-shadow:var(--theme-inset-shadow-1) !important}:host .select:not(.disabled):not(:disabled){cursor:pointer}:host .select:not(.disabled):not(:disabled):hover{background-color:var(--theme-input--background--hover);border-color:var(--theme-input--border-color--hover)}:host .select:focus-within{background-color:var(--theme-input--background--focus);border-color:var(--theme-input--border-color--focus);outline:1px solid #119fff;outline-offset:var(--theme-input--focus--outline-offset)}:host .select.readonly{box-shadow:none !important;border:none;border-radius:0px;border-bottom:var(--theme-input--border-thickness) solid var(--theme-color-weak-bdr)}:host .select.readonly,:host .select.readonly:hover,:host .select.readonly:active{background-color:transparent !important}:host .select.readonly:focus,:host .select.readonly:focus-within,:host .select.readonly:focus-visible{outline:none}:host .select.readonly input{color:var(--theme-color-weak-text)}:host .select.readonly input:focus,:host .select.readonly input:focus-visible{outline:none}:host .hidden{display:none !important}:host .trigger{display:flex;align-items:center;flex-grow:1;height:100%}:host .input-container{display:flex;position:relative;align-items:flex-start;width:100%;height:100%}:host .input-container .chips{position:relative;display:flex;align-items:center;flex-wrap:wrap;height:100%;max-height:3.5rem;flex-grow:1;overflow-y:auto}:host .input-container .chips>ix-filter-chip{margin:0.1rem}:host .input-container input{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;-webkit-font-smoothing:antialiased;-moz-osx-font-smooting:grayscale;font-family:Siemens Sans, sans-serif;font-size:0.875rem;font-weight:400;line-height:1.429em;color:var(--theme-color-std-text);background:transparent;height:1.75rem;width:100%}:host .input-container input,:host .input-container input:hover,:host .input-container input:focus-visible{border:none;outline:none}:host .input-container input::-moz-placeholder{color:var(--theme-input-select-icon--color)}:host .input-container input::placeholder{color:var(--theme-input-select-icon--color)}:host .input-container input.hide-placeholder::-moz-placeholder{opacity:0}:host .input-container input.hide-placeholder::placeholder{opacity:0}:host .dropdown-visible{--ix-icon-button-color:var(--theme-color-dynamic--hover)}:host .add-item{display:flex;justify-content:flex-start;align-items:center;position:relative;width:100%}:host .select-list-header{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;height:2rem;color:var(--theme-select-list-item-hint--color);margin:0 0.5rem 0 1rem}";
 const IxSelectStyle0 = selectCss;
@@ -130,7 +130,9 @@ const Select = class {
             ids = Array.isArray(this.value) ? [...this.value] : [this.value];
         }
         this.items.forEach((item) => {
-            item.selected = ids.some((i) => i === item.value);
+            item.selected = ids.some(
+            // Check can be removed if value is type of string in future releases
+            (i) => i === (item.value ? item.value.toString() : ''));
         });
         this.selectedLabels = this.selectedItems.map((item) => item.label);
         if (this.isSingleMode) {
@@ -309,7 +311,7 @@ const Select = class {
     }
     render() {
         var _a, _b, _c;
-        return (index.h(index.Host, { key: 'a1ff9238e7bd384371924fc1a6c84dbf2c2b2026' }, index.h("div", { key: '4f022e97659a4ccd2787ba5b753b53e15ef9da6b', class: {
+        return (index.h(index.Host, { key: '0fc926abc501ee03ef30437a7f727f81e9bec80d' }, index.h("div", { key: '20959745335d4d0a9ed101c25de2c225981ecc50', class: {
                 select: true,
                 disabled: this.disabled,
                 readonly: this.readonly,
@@ -317,13 +319,13 @@ const Select = class {
                 this.dropdownAnchor = ref;
                 if (!this.editable)
                     this.dropdownWrapperRef = ref;
-            } }, index.h("div", { key: '68fd990dca31dcd85ce40c7976d1e6841f6916c3', class: "input-container" }, index.h("div", { key: '7ca63a0aeb267e042bf0699d51316af5ad9f87c5', class: "chips" }, this.isMultipleMode
+            } }, index.h("div", { key: '4177f3645edb69e527101f21d1af47407d3e1f8e', class: "input-container" }, index.h("div", { key: '834d0f8dce560d09a05667014123886ae7b67732', class: "chips" }, this.isMultipleMode
             ? (_a = this.selectedItems) === null || _a === void 0 ? void 0 : _a.map((item) => (index.h("ix-filter-chip", { disabled: this.disabled || this.readonly, key: item.value, onCloseClick: (e) => {
                     e.preventDefault();
                     e.stopPropagation();
                     this.itemClick(item.value);
                 } }, item.label)))
-            : '', index.h("div", { key: '0ff312e92b3235e17daac6e861a6dac456f96bfd', class: "trigger" }, index.h("input", { key: '0f56fd65161c8b08a937d936e674cdbde529205f', autocomplete: "off", "data-testid": "input", disabled: this.disabled, readOnly: this.readonly, type: "text", class: {
+            : '', index.h("div", { key: 'f34ec19796e97f25e94a3c9835dc5208c8389392', class: "trigger" }, index.h("input", { key: 'db62b1328a0879b3faaf76c4bc04fbbb8ffad540', autocomplete: "off", "data-testid": "input", disabled: this.disabled, readOnly: this.readonly, type: "text", class: {
                 'allow-clear': this.allowClear && !!((_b = this.selectedLabels) === null || _b === void 0 ? void 0 : _b.length),
             }, placeholder: this.placeholderValue(), value: this.inputValue, ref: (ref) => (this.inputRef = ref), onBlur: (e) => this.onInputBlur(e), onFocus: () => {
                 this.navigationItem = undefined;
@@ -335,16 +337,16 @@ const Select = class {
             } })) : null, this.disabled || this.readonly ? null : (index.h("ix-icon-button", { "data-select-dropdown": true, class: { 'dropdown-visible': this.dropdownShow }, icon: "chevron-down-small", ghost: true, ref: (ref) => {
                 if (this.editable)
                     this.dropdownWrapperRef = ref;
-            } })))))), index.h("ix-dropdown", { key: '64f52cfed09c28955ea648b7a409a921c8601401', ref: (ref) => (this.dropdownRef = ref), show: this.dropdownShow, closeBehavior: this.isMultipleMode ? 'outside' : 'both', class: {
+            } })))))), index.h("ix-dropdown", { key: '92fa7a1b1ac9768262fad9e22bb99e282607ca13', ref: (ref) => (this.dropdownRef = ref), show: this.dropdownShow, closeBehavior: this.isMultipleMode ? 'outside' : 'both', class: {
                 'd-none': this.disabled || this.readonly,
             }, anchor: this.dropdownAnchor, trigger: this.dropdownWrapperRef, onShowChanged: (e) => this.dropdownVisibilityChanged(e), placement: "bottom-start", overwriteDropdownStyle: async () => {
                 return {
                     minWidth: `${this.hostElement.clientWidth}px`,
                 };
-            } }, index.h("div", { key: 'b66559fa7650a544ff8d02dd18881c7a5c83bc7a', class: {
+            } }, index.h("div", { key: '285e1dc8dbf439e6ad7d070c28e8ee544c6adb33', class: {
                 'select-list-header': true,
                 hidden: this.hideListHeader || this.isDropdownEmpty,
-            }, title: this.i18nSelectListHeader }, this.i18nSelectListHeader), index.h("slot", { key: 'c0a36530172388d4785fbfff89555435a9af94d0' }), index.h("div", { key: 'a7bdc5c18377a6359c0665b986429a96fb88aab2', ref: (ref) => (this.addItemRef = ref), class: "d-contents" }), this.isAddItemVisible() ? (index.h("ix-dropdown-item", { "data-testid": "add-item", icon: 'plus', class: {
+            }, title: this.i18nSelectListHeader }, this.i18nSelectListHeader), index.h("slot", { key: 'f2fdde64538440e79c8e2ee90579e2f5603e3753' }), index.h("div", { key: 'bcd9e61223e0c764f087cc6c72ce342d671baa4c', ref: (ref) => (this.addItemRef = ref), class: "d-contents" }), this.isAddItemVisible() ? (index.h("ix-dropdown-item", { "data-testid": "add-item", icon: 'plus', class: {
                 'add-item': true,
             }, label: this.inputFilterText, onItemClick: (e) => {
                 e.preventDefault();

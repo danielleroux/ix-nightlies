@@ -10,6 +10,7 @@ import { h, Host } from "@stencil/core";
 import { getSlottedElements } from "../utils/shadow-dom";
 export class InputGroup {
     constructor() {
+        this.disabled = false;
         this.inputPaddingLeft = 0;
         this.inputPaddingRight = 0;
     }
@@ -33,6 +34,7 @@ export class InputGroup {
         });
         valid ? this.onValidInput() : this.onInvalidInput();
         this.observer = new MutationObserver(() => {
+            this.slotChanged();
             this.startSlotChanged();
             this.endSlotChanged();
         });
@@ -72,13 +74,17 @@ export class InputGroup {
             console.warn('You used the ix-input-group without an input tag, e.g. <input class="form-control" />');
         }
     }
+    slotChanged() {
+        var _a;
+        this.disabled = (_a = this.inputElement) === null || _a === void 0 ? void 0 : _a.disabled;
+    }
     startSlotChanged() {
         const slot = this.hostElement.shadowRoot.querySelector('slot[name="input-start"]');
         setTimeout(() => {
             var _a, _b;
             const startPadding = this.getChildrenWidth(slot);
             if (startPadding !== 0) {
-                this.inputPaddingLeft = 15 + startPadding;
+                this.inputPaddingLeft = 11 + startPadding;
             }
             else {
                 this.inputPaddingLeft = 0;
@@ -91,9 +97,9 @@ export class InputGroup {
             const formWasValidated = ((_a = this.inputElement.form) === null || _a === void 0 ? void 0 : _a.classList.contains('was-validated')) ||
                 ((_b = this.inputElement.form) === null || _b === void 0 ? void 0 : _b.noValidate) === false;
             if (formWasValidated && isInputInvalid) {
-                const left = this.inputPaddingLeft !== 0 ? this.inputPaddingLeft : 8;
+                const left = this.inputPaddingLeft !== 0 ? this.inputPaddingLeft : 7;
                 this.inputElement.style.backgroundPosition = `left ${left}px center`;
-                this.inputPaddingLeft += 32;
+                this.inputPaddingLeft += 26;
             }
         });
     }
@@ -118,7 +124,7 @@ export class InputGroup {
         return width;
     }
     render() {
-        return (h(Host, { key: '6c305a387eab52c23cff873efb217835cb6552fa' }, h("div", { key: 'db0c738d7a46099408b419a27bc00b8417d3c365', class: "group group-start" }, h("slot", { key: '63c34ce0364cb706b008d50ccf0f56e6fd79dd98', name: "input-start" })), h("slot", { key: '1aac71bae49371f2974dac8f2e9b88df12fd57cb' }), h("div", { key: '552f38ecce4f5db61b108f3a1f8badc52fe546ea', class: "group group-end" }, h("slot", { key: 'e4074cd35b74ec82b7413f11e2c21a8896def99e', name: "input-end" }))));
+        return (h(Host, { key: '094ec7eabecee10f21d44641ae5f31c7fce65443', class: { disabled: this.disabled } }, h("div", { key: '9ddb51dcc940e30fe6dbd1ff6b49c183fcefef74', class: "group group-start" }, h("slot", { key: '8269f91cac4b0401ac21f718d41f03c3b85760cc', name: "input-start" })), h("slot", { key: '6990cc9488e246a6e2d6666add1c4d57585a3262' }), h("div", { key: '8a804a2249ac74c7338ac0afb015a2278a83d7e5', class: "group group-end" }, h("slot", { key: 'b6defa490be1007a5f6b0f64e5e263dc12662af6', name: "input-end" }))));
     }
     static get is() { return "ix-input-group"; }
     static get encapsulation() { return "shadow"; }
@@ -134,6 +140,7 @@ export class InputGroup {
     }
     static get states() {
         return {
+            "disabled": {},
             "inputPaddingLeft": {},
             "inputPaddingRight": {}
         };

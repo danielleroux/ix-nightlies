@@ -51,9 +51,9 @@ export class Button {
             type: this.type,
             alignment: this.alignment,
         };
-        return (h(Host, { key: 'e4eef14d9c62b35f4b5893a894560ea5eeed658b', class: {
+        return (h(Host, { key: 'dd15becc6804d274e5f1ba6a9b219dd09a277e71', class: {
                 disabled: this.disabled || this.loading,
-            } }, h(BaseButton, Object.assign({ key: '6be43142d36a01f1303fed566d834cf163564dea' }, baseButtonProps), h("slot", { key: 'fc9b6d2d0bdaacfef05599cd5c5bc0e35380bb50' }))));
+            } }, h(BaseButton, Object.assign({ key: 'b5a3ddaeeb9e72c1d0067d34d2d0d835db621503' }, baseButtonProps), h("slot", { key: '01ba2401ab6b414ee88b8757c83f2c37e478b54f' }))));
     }
     static get is() { return "ix-button"; }
     static get encapsulation() { return "shadow"; }

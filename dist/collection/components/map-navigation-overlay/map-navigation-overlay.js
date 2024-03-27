@@ -44,14 +44,14 @@ export class MapNavigationOverlay {
     }
     render() {
         var _a, _b, _c;
-        return (h(Host, { key: 'e032148cd238a6e03703b12098550b0af3d59116' }, h("div", { key: '99a192f95c70611b60bdb0dc6ea2626e77c04603', class: "overlay-header" }, h("div", { key: '805208183f5c68841625778424618609a681bb2d', class: {
+        return (h(Host, { key: 'd9a05885c16a9b6984950e07ff9ebf7d404804dc' }, h("div", { key: '23dc9da17d089ef38584cfed2280c0b094a7863a', class: "overlay-header" }, h("div", { key: '1215b123fa471e5a608e3104e240b01583e2ed29', class: {
                 'color-indicator': true,
                 'd-none': ((_a = this.iconColor) !== null && _a !== void 0 ? _a : this.color) === undefined,
             }, style: {
                 'background-color': ((_b = this.iconColor) !== null && _b !== void 0 ? _b : this.color)
                     ? `var(--theme-${(_c = this.iconColor) !== null && _c !== void 0 ? _c : this.color})`
                     : '',
-            } }), h("div", { key: '657730e6f7ee8de1dc6f81832e203dc08ff4fc4c', class: "overlay-header-content" }, h("ix-icon", { key: 'aa4b879448b68d7a98c663c1a1687886ec1ff319', size: "32", name: this.icon }), h("span", { key: '54c28bb988123955edb26f656af30a808b75e5d3', class: "overlay-header-title", title: this.name }, this.name)), h("ix-icon-button", { key: '86975e3e49b5f691c05631fa6b0726987cd136d4', class: "overlay-close", ghost: true, icon: 'close', size: "24", onClick: () => this.closeOverlay() })), h("slot", { key: 'fa0eb00b9acfe52af042b580c69b8cd444b35acc' })));
+            } }), h("div", { key: '5ba269e62e9271623bbe65666148f9430129bc42', class: "overlay-header-content" }, h("ix-icon", { key: '318b2696266aca2ff67de725add75f52c8773f06', size: "32", name: this.icon }), h("span", { key: 'a2a81b0c87b555101eabe1e4737bca7dfb4d28ef', class: "overlay-header-title", title: this.name }, this.name)), h("ix-icon-button", { key: '9e5e0f6c335888e5fcc8ee11a296e539b5143018', class: "overlay-close", ghost: true, icon: 'close', size: "24", onClick: () => this.closeOverlay() })), h("slot", { key: 'c50ecafcc691ac3245fb5baefba097eb40788342' })));
     }
     static get is() { return "ix-map-navigation-overlay"; }
     static get encapsulation() { return "shadow"; }

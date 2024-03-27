@@ -206,30 +206,39 @@
 :host(.selected) {
   --ix-card-border-color: var(--theme-color-dynamic);
 }
-:host(.selected).card-insight {
+
+:host(.selected.card-insight) {
   --ix-card-background: var(--theme-color-ghost--selected);
 }
-:host(.selected).card-notification {
+
+:host(.selected.card-notification) {
   --ix-card-background: var(--theme-color-ghost--selected);
 }
-:host(.selected).card-alarm {
+
+:host(.selected.card-alarm) {
   --ix-card-background: var(--theme-color-alarm--active);
 }
-:host(.selected).card-critical {
+
+:host(.selected.card-critical) {
   --ix-card-background: var(--theme-color-critical--active);
 }
-:host(.selected).card-warning {
+
+:host(.selected.card-warning) {
   --ix-card-background: var(--theme-color-warning--active);
 }
-:host(.selected).card-success {
+
+:host(.selected.card-success) {
   --ix-card-background: var(--theme-color-success--active);
 }
-:host(.selected).card-info {
+
+:host(.selected.card-info) {
   --ix-card-background: var(--theme-color-info--active);
 }
-:host(.selected).card-neutral {
+
+:host(.selected.card-neutral) {
   --ix-card-background: var(--theme-color-neutral--active);
 }
-:host(.selected).card-primary {
+
+:host(.selected.card-primary) {
   --ix-card-background: var(--theme-color-primary--active);
 }

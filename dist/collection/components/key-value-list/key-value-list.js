@@ -15,7 +15,7 @@ export class KeyValueList {
         this.striped = undefined;
     }
     render() {
-        return (h(Host, { key: '8d21b4ebf885e1ca21fddb7c6dc94b7d46940f95', class: { keyValueList: true, 'keyValueList--striped': this.striped } }, h("slot", { key: '782c4a007ea866740087f022bf7c6661aa8eea5a' })));
+        return (h(Host, { key: '3b211fbd897af85b1ef38544d1177bd13e88d1e6', class: { keyValueList: true, 'keyValueList--striped': this.striped } }, h("slot", { key: '4fa83986fc2d859f2c600347a7e1afc13f5a1113' })));
     }
     static get is() { return "ix-key-value-list"; }
     static get encapsulation() { return "shadow"; }

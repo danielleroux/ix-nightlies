@@ -44,8 +44,13 @@ export declare class Menu {
      */
     i18nExpandSidebar: string;
     /**
+     *  Toggle the expand state of the menu
      */
     expand: boolean;
+    /**
+     *  If set the menu will be expanded initially. This will only take effect at the breakpoint 'lg'.
+     */
+    startExpanded: boolean;
     /**
      * Menu stays pinned to the left
      */

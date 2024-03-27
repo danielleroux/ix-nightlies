@@ -13,7 +13,7 @@ const Spinner = /*@__PURE__*/ proxyCustomElement(class Spinner extends HTMLEleme
         this.hideTrack = false;
     }
     render() {
-        return (h(Host, { key: 'fce135db438427cf948004c96dcee4c044cd1a98', class: {
+        return (h(Host, { key: 'ae03c01022d0144ced3c631a78d947934fdef0cf', class: {
                 primary: this.variant === 'primary',
                 'xx-small': this.size === 'xx-small',
                 'x-small': this.size === 'x-small',

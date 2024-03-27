@@ -17,7 +17,7 @@ const BurgerMenu = /*@__PURE__*/ proxyCustomElement(class BurgerMenu extends HTM
         this.pinned = false;
     }
     render() {
-        return (h(Host, { key: 'abeece1a04e139ac724db7f84642d98e04184997', class: {
+        return (h(Host, { key: '1b9774444f1b29fd4e63bd44952b14fcad4088dc', class: {
                 expanded: this.expanded,
             } }, this.pinned ? (h("ix-icon-button", { icon: `double-chevron-${this.expanded ? 'left' : 'right'}`, ghost: true })) : (h("button", { class: Object.assign(Object.assign({}, getButtonClasses('secondary', false, true, true, false, false, false)), { 'burger-menu-button': true }), type: "button", "aria-label": this.ixAriaLabel ? this.ixAriaLabel : null, "aria-pressed": a11yBoolean(this.expanded) }, h("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: "24", height: "24" }, h("rect", { class: "line line-1", x: "2", y: "5", width: "20", height: "2" }), h("rect", { class: "line line-2", x: "2", y: "11", width: "13", height: "2" }), h("rect", { class: "line line-3", x: "2", y: "17", width: "20", height: "2" }))))));
     }

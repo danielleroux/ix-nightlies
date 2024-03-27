@@ -6,11 +6,14 @@ export declare class SelectItem {
      */
     label: string;
     /**
-     * Item value
+     * The value of the item.
+     * Important: The select component uses string values to handle selection and will call toString() on this value.
+     * Therefor a string should be passed to value to prevent unexpected behavior.
+     * @deprecated will be changed to type string with next major release (3.0.0)
      */
     value: any;
     /**
-     * Whether the item is selected.
+     * Flag indicating whether the item is selected
      */
     selected: boolean;
     /**

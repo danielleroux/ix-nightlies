@@ -13,6 +13,8 @@ regressionTest.describe('basic navigation large', () => {
         await page.goto('basic-navigation/basic');
         await page.setViewportSize(viewPorts.lg);
         await page.waitForTimeout(500);
+        await page.locator('ix-menu ix-burger-menu').click();
+        await page.waitForSelector('ix-menu ix-burger-menu.expanded');
         await page.waitForTimeout(1000);
         expect(await page.screenshot({ fullPage: true, animations: 'disabled' })).toMatchSnapshot();
     });
@@ -20,6 +22,8 @@ regressionTest.describe('basic navigation large', () => {
         await page.goto('basic-navigation/content-width');
         await page.setViewportSize(viewPorts.lg);
         await page.waitForTimeout(500);
+        await page.locator('ix-menu ix-burger-menu').click();
+        await page.waitForSelector('ix-menu ix-burger-menu.expanded');
         await expect(page.getByText('Example content')).toBeVisible();
         await page.waitForTimeout(1000);
         expect(await page.screenshot({ fullPage: true, animations: 'disabled' })).toMatchSnapshot();
@@ -29,7 +33,6 @@ regressionTest.describe('basic navigation', () => {
     regressionTest('basic', async ({ page }) => {
         await page.goto('basic-navigation/basic');
         await page.setViewportSize(viewPorts.md);
-        await page.waitForTimeout(500);
         await page.waitForTimeout(1000);
         expect(await page.screenshot({ fullPage: true, animations: 'disabled' })).toMatchSnapshot();
     });
@@ -56,7 +59,6 @@ regressionTest.describe('basic navigation mobile', () => {
     regressionTest('mobile', async ({ page }) => {
         await page.goto('basic-navigation/mobile');
         await page.setViewportSize(viewPorts.sm);
-        await page.waitForTimeout(500);
         await page.waitForTimeout(1000);
         expect(await page.screenshot({ fullPage: true, animations: 'disabled' })).toMatchSnapshot();
     });

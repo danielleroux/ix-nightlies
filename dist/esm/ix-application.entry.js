@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host, g as getElement } from './index-5cd176b3.js';
+import { r as registerInstance, h, H as Host, g as getElement } from './index-f18c5ad1.js';
 import { u as useContextProvider, A as ApplicationLayoutContext } from './context-c9078420.js';
 import { a as applicationLayoutService } from './service-02cc9011.js';
 import { m as menuController } from './menu-service-0a72c2d0.js';
@@ -88,12 +88,12 @@ const Application = class {
         });
     }
     render() {
-        return (h(Host, { key: 'c617c1c5634cc4e151ad45bfec3be602619df7bb', "data-role": "", class: {
+        return (h(Host, { key: 'f45b2c2247fe718f44c5e11e9acae2634188b414', "data-role": "", class: {
                 [`breakpoint-${this.breakpoint}`]: true,
-            } }, h("slot", { key: '7dd298629e5d825957cc5caf15be3726e0487374', name: "application-header" }), h("div", { key: '41da1f0707c6f6723e33a50f4c45cda28bed9e77', class: "application" }, h("slot", { key: '7d2b838c6193af2fc357befb1c15cd6870d85841', name: "menu" }), h("aside", { key: '73ce757bc32176170b51cf95013b13f5594c0eb2', class: {
+            } }, h("slot", { key: 'fcfc89b0bd0e7291513022307aca11f9c899b1ad', name: "application-header" }), h("div", { key: 'b3d98c273fb4544d8c8881510c6a62b487e3fc1a', class: "application" }, h("slot", { key: '971162431f68521d41f0ed7b0e5cf196155906a9', name: "menu" }), h("aside", { key: '19e66651825dc579c23cf800f2de37c6a0f98024', class: {
                 'application-sidebar': true,
                 slotted: this.applicationSidebarSlotted,
-            }, onClick: () => this.onContentClick() }, h("slot", { key: '8361978e6d5cdccae60544290253175e27e00b54', name: "application-sidebar", onSlotchange: () => (this.applicationSidebarSlotted = hasSlottedElements(this.applicationSidebarSlot)) })), h("main", { key: 'cbce05cd33d05f8f6a4e7cf7e7f8582e560da0d6', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: 'd3a7f19add2a6cf2f976c9be1b8688fa5e997e48' })))));
+            }, onClick: () => this.onContentClick() }, h("slot", { key: '8388140b31403568b29ecb395a82e07957bb8d02', name: "application-sidebar", onSlotchange: () => (this.applicationSidebarSlotted = hasSlottedElements(this.applicationSidebarSlot)) })), h("main", { key: '43c7333469f50a46983332da603769d2c261faff', class: "content", onClick: () => this.onContentClick() }, h("slot", { key: '46cb342f9f3904bf0a30567edb0c6e9d2b86afee' })))));
     }
     get hostElement() { return getElement(this); }
     static get watchers() { return {

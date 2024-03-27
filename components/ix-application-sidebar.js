@@ -33,7 +33,7 @@ const ApplicationSidebar = /*@__PURE__*/ proxyCustomElement(class ApplicationSid
         anime(animation);
     }
     render() {
-        return (h(Host, { key: 'f91894976e33362b3d92be367a22d8be0c8a6c1f', slot: "application-sidebar", class: {
+        return (h(Host, { key: '1e853788170278477ab1cce920f87bd2f3727c91', slot: "application-sidebar", class: {
                 visible: this.visible,
             } }, this.visible ? h("slot", null) : null));
     }

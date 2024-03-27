@@ -1,5 +1,5 @@
-import { r as registerInstance, a as readTask, h, F as Fragment, H as Host, g as getElement, c as createEvent } from './index-5cd176b3.js';
-import { B as BaseButton } from './base-button-77c8e195.js';
+import { r as registerInstance, a as readTask, h, F as Fragment, H as Host, g as getElement, c as createEvent } from './index-f18c5ad1.js';
+import { B as BaseButton } from './base-button-37b915d6.js';
 import { c as closestElement, h as hasSlottedElements } from './shadow-dom-60e9243d.js';
 import { m as makeRef } from './make-ref-c80046bf.js';
 
@@ -67,7 +67,7 @@ const MenuAvatarItem = class {
         return this.dropdownItemRef.waitForCurrent();
     }
     render() {
-        return (h("ix-dropdown-item", { key: '9670762c1c6ac88327938f82d59042fe0b8da824', ref: this.dropdownItemRef, icon: this.icon, label: this.label, onClick: (e) => this.itemClick.emit(e) }));
+        return (h("ix-dropdown-item", { key: '29fc32af98771990e67a0f31197db8d20151d3d0', ref: this.dropdownItemRef, icon: this.icon, label: this.label, onClick: (e) => this.itemClick.emit(e) }));
     }
     get hostElement() { return getElement(this); }
 };

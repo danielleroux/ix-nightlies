@@ -79,7 +79,7 @@ const ToastContainer = /*@__PURE__*/ proxyCustomElement(class ToastContainer ext
         };
     }
     render() {
-        return (h(Host, { key: '2f5cc3b256ff81ebb2dadd0c774f89ddc59caffb', class: {
+        return (h(Host, { key: '889eef24751e252c90241c5398f94dcd1c875751', class: {
                 'toast-container--bottom-right': this.position === 'bottom-right',
                 'toast-container--top-right': this.position === 'top-right',
             } }));
