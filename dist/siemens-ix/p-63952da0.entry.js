@@ -1,0 +1,2 @@
+import{r as a,c as e,h as t,H as s}from"./p-3b388d55.js";const c=":host{display:block}";const n=c;const o=class{constructor(t){a(this,t);this.labelChange=e(this,"labelChange",7);this.label=undefined}watchLabel(a,e){this.labelChange.emit({name:"ix-menu-about-item",oldLabel:e,newLabel:a})}render(){return t(s,{key:"77050563a1570aa964f9e1d3c09508ad02959919"},t("slot",{key:"8172f676de5753a6d27f5c4a7087da3566216c48"}))}static get watchers(){return{label:["watchLabel"]}}};o.style=n;export{o as ix_menu_about_item};
+//# sourceMappingURL=p-63952da0.entry.js.map

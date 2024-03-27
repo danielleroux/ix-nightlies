@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host } from './index-f18c5ad1.js';
+import { r as registerInstance, h, H as Host } from './index-5cd176b3.js';
 
 const flipTileContentCss = ":host{display:block}";
 const IxFlipTileContentStyle0 = flipTileContentCss;
@@ -9,7 +9,7 @@ const FlipTileContent = class {
         this.contentVisible = false;
     }
     render() {
-        return h(Host, { key: '73bbcf0a6ae4c5e285d289f23d4d07025d4b5051' }, this.contentVisible ? h("slot", null) : null);
+        return h(Host, { key: 'e92abcbb8b1cfdeb739ee4933f6ed66a6c2a7dc5' }, this.contentVisible ? h("slot", null) : null);
     }
 };
 FlipTileContent.style = IxFlipTileContentStyle0;

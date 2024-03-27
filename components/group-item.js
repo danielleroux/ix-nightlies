@@ -24,10 +24,10 @@ const GroupItem = /*@__PURE__*/ proxyCustomElement(class GroupItem extends HTMLE
         this.selectedChanged.emit(this.hostElement);
     }
     render() {
-        return (h(Host, { key: 'd34d93eacfe3b691edaaae00dfd48145351b1c66', class: {
+        return (h(Host, { key: '510249c40eb513c0cad7ad186f94311e86b99c1c', class: {
                 selected: this.selected && !this.suppressSelection,
                 'suppress-selection': this.suppressSelection,
-            } }, h("button", { key: '6349d249c55d735f07ecacf6c847b01394174070', tabindex: this.focusable ? 0 : -1 }, h("div", { key: '7780212fd05fa6a924024b95804bb136adb985b4', class: "group-entry-selection-indicator" }), this.icon ? h("ix-icon", { size: "16", name: this.icon }) : null, this.text ? (h("span", { class: "group-entry-text" }, h("span", { title: this.text }, this.text))) : null, this.secondaryText ? (h("span", { class: "group-entry-text-secondary" }, h("span", { title: this.secondaryText }, this.secondaryText))) : null, h("slot", { key: 'be3950473d0bef61eecf2fcd21e42f37277b30fc' }))));
+            } }, h("button", { key: '58314b961969fc828b490a251eb3fc991b332356', tabindex: this.focusable ? 0 : -1 }, h("div", { key: '3b643550562e7368c87e4b6443a51902f63da7d5', class: "group-entry-selection-indicator" }), this.icon ? h("ix-icon", { size: "16", name: this.icon }) : null, this.text ? (h("span", { class: "group-entry-text" }, h("span", { title: this.text }, this.text))) : null, this.secondaryText ? (h("span", { class: "group-entry-text-secondary" }, h("span", { title: this.secondaryText }, this.secondaryText))) : null, h("slot", { key: '1314f12170969fd85675165af10b1bff1048f8a5' }))));
     }
     get hostElement() { return this; }
     static get style() { return IxGroupItemStyle0; }

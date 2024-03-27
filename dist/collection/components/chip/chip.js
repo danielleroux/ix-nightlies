@@ -37,11 +37,11 @@ export class Chip {
                 [this.outline ? 'borderColor' : 'backgroundColor']: this.background,
             };
         }
-        return (h(Host, { key: '8ae6eb4b779cdc29105cd9da63a94889c2d21639', tabIndex: "-1", title: this.el.textContent, style: this.variant === 'custom'
+        return (h(Host, { key: '04ad48738af21d85310e4b6e81b509ff748740fe', tabIndex: "-1", title: this.el.textContent, style: this.variant === 'custom'
                 ? {
                     '--ix-icon-button-color': (_b = this.chipColor) !== null && _b !== void 0 ? _b : this.color,
                 }
-                : {} }, h("div", { key: '928b47d71774dc895d31f04547a5b8f2b775b81f', style: Object.assign({}, customStyle), class: {
+                : {} }, h("div", { key: 'fcb2c6a534fee6a075505632524db05ea6214611', style: Object.assign({}, customStyle), class: {
                 container: true,
                 outline: this.outline,
                 inactive: isInactive,
@@ -55,10 +55,10 @@ export class Chip {
                 custom: this.variant === 'custom',
                 closable: this.closable,
                 icon: !!this.icon,
-            } }, h("ix-icon", { key: '9ecf7660356b9cf472b1784a53e39e2033d4e8c4', class: {
+            } }, h("ix-icon", { key: '8177db5d16f03117e3397a99c4f364bff48b063b', class: {
                 'with-icon': true,
                 hidden: !this.icon,
-            }, name: this.icon, size: '24' }), h("span", { key: '1f614a5b6c02022178f6f3114107d5681fe6a2c0', class: "slot-container" }, h("slot", { key: '57aae81b52234f66602661c5f9268219327ce537' })), isInactive === false && this.closable ? this.getCloseButton() : null)));
+            }, name: this.icon, size: '24' }), h("span", { key: 'f1f0f6b22b92951ce0b1b5c81b1071ad4a3c6165', class: "slot-container" }, h("slot", { key: '59087cf16d54288ef6dc324520f0f43b84108166' })), isInactive === false && this.closable ? this.getCloseButton() : null)));
     }
     static get is() { return "ix-chip"; }
     static get encapsulation() { return "shadow"; }

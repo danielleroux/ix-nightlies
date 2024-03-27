@@ -1,4 +1,3 @@
-import { ShowToastResult } from './toast-container';
 export type ToastType = 'info' | 'success' | 'error' | 'warning';
 export type ToastPosition = 'bottom-right' | 'top-right';
 export interface ToastConfig {
@@ -12,11 +11,26 @@ export interface ToastConfig {
 }
 export declare function getToastContainer(): HTMLIxToastContainerElement;
 export declare function setToastPosition(position: ToastPosition): void;
-declare function toast(config: ToastConfig): Promise<ShowToastResult>;
+declare function toast(config: ToastConfig): Promise<{
+    onClose: import("../utils/typed-event").TypedEvent<any>;
+    close: (result?: any) => void;
+}>;
 declare namespace toast {
-    var info: (config: ToastConfig) => Promise<ShowToastResult>;
-    var error: (config: ToastConfig) => Promise<ShowToastResult>;
-    var success: (config: ToastConfig) => Promise<ShowToastResult>;
-    var warning: (config: ToastConfig) => Promise<ShowToastResult>;
+    var info: (config: ToastConfig) => Promise<{
+        onClose: import("../utils/typed-event").TypedEvent<any>;
+        close: (result?: any) => void;
+    }>;
+    var error: (config: ToastConfig) => Promise<{
+        onClose: import("../utils/typed-event").TypedEvent<any>;
+        close: (result?: any) => void;
+    }>;
+    var success: (config: ToastConfig) => Promise<{
+        onClose: import("../utils/typed-event").TypedEvent<any>;
+        close: (result?: any) => void;
+    }>;
+    var warning: (config: ToastConfig) => Promise<{
+        onClose: import("../utils/typed-event").TypedEvent<any>;
+        close: (result?: any) => void;
+    }>;
 }
 export { toast };

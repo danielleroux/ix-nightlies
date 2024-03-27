@@ -22,14 +22,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-/*
- * SPDX-FileCopyrightText: 2023 Siemens AG
- *
- * SPDX-License-Identifier: MIT
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 :host {
   /* width */
   /* Track */
@@ -85,17 +77,9 @@
 :host .group-end {
   right: 0px;
   height: 2rem;
-  margin-right: 0.5rem;
+  margin-right: 0.375rem;
   color: var(--theme-color-soft-text);
 }
 :host ::slotted(*) {
   display: flex;
-}
-
-:host(.disabled) {
-  pointer-events: none;
-}
-:host(.disabled) .group-start ::slotted(*),
-:host(.disabled) .group-end ::slotted(*) {
-  opacity: 0.4 !important;
 }
