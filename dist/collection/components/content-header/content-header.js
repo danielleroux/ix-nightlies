@@ -15,7 +15,7 @@ export class ContentHeader {
         this.hasBackButton = false;
     }
     render() {
-        return (h(Host, { key: 'eae27014039b16c023892b60cc904609e55b89ad' }, this.hasBackButton ? (h("ix-icon-button", { class: 'backButton', variant: "primary", icon: 'arrow-left', ghost: true, onClick: () => this.backButtonClick.emit() })) : null, h("div", { key: '397be2503715bb15d260bcfada2260a8eb72e33b', class: "titleGroup" }, h("ix-typography", { key: '5d08e001eb5178aaf4b089a4faa15bc759a43b6b', variant: this.variant === 'secondary' ? 'large-single' : 'h2' }, this.headerTitle), this.headerSubtitle !== undefined ? (h("ix-typography", { variant: 'caption', color: 'soft', class: "subtitle" }, this.headerSubtitle)) : null), h("div", { key: '6c6cc165c96307a6ee2c2bec59a80d6cd62a02cf', class: "buttons" }, h("slot", { key: '0ac3730bb5ec852b127554e8dbdd73970204e275' }))));
+        return (h(Host, { key: '9376b89cd7ea2f1a169e0b2fce2e2a7aa8e5f46a' }, this.hasBackButton ? (h("ix-icon-button", { class: 'backButton', variant: "primary", icon: 'arrow-left', ghost: true, onClick: () => this.backButtonClick.emit() })) : null, h("div", { key: '6141d3d548f39bff6176fcefd6149fe044792626', class: "titleGroup" }, h("ix-typography", { key: '5f97d37172b511b47b7c803beea7e99c15203757', variant: this.variant === 'secondary' ? 'large-single' : 'h2' }, this.headerTitle), this.headerSubtitle !== undefined ? (h("ix-typography", { variant: 'caption', color: 'soft', class: "subtitle" }, this.headerSubtitle)) : null), h("div", { key: '38152287e955d5b149ac6c4bd5df99d4920ca587', class: "buttons" }, h("slot", { key: '1d1bcc39278e91ff5da85460149ed76399ccbb1c' }))));
     }
     static get is() { return "ix-content-header"; }
     static get encapsulation() { return "shadow"; }

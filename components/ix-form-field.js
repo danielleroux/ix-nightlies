@@ -15,7 +15,7 @@ const FormField = /*@__PURE__*/ proxyCustomElement(class FormField extends HTMLE
     }
     componentWillLoad() { }
     render() {
-        return (h(Host, { key: '05443028ebcb0e6c1017a76cf65f14897e98069a' }, this.label ? (h("label", { htmlFor: this.inputElement.id }, this.label)) : null, h("slot", { key: 'c9b49204ab6a371d021c407fb5ccb3cf3ba31291' })));
+        return (h(Host, { key: '84f5465600ed945caa31926c700957a4e1b7e43e' }, this.label ? (h("label", { htmlFor: this.inputElement.id }, this.label)) : null, h("slot", { key: 'c57485ac6285e411275e9e7fafeb6aa3b3e96ee3' })));
     }
     get hostElement() { return this; }
     static get style() { return IxFormFieldStyle0; }

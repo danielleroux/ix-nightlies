@@ -1,2 +1,0 @@
-import{r,h as o,H as e}from"./p-26e9d40e.js";const t=":host{display:block;position:relative;width:100%;border-bottom:0.0625rem solid var(--theme-color-x-weak-bdr);margin:0.25rem 0px}";const d=t;const s=class{constructor(o){r(this,o)}render(){return o(e,{key:"5ca2d1162db2f50bdb967d2742ddca29cac13553"})}};s.style=d;export{s as ix_divider};
-//# sourceMappingURL=p-9d858ae5.entry.js.map

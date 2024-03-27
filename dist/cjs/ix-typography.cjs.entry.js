@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 
 const VariantsMapping = {
     'x-small': 'text-xs',
@@ -56,7 +56,7 @@ const IxTypography = class {
                 color: `var(--theme-color-${this.textColor}-text)`,
             };
         }
-        return (index.h(index.Host, { key: '7f9f0d6a880e474c2ef6b0c6e44d2ecab0407830', class: typographyClass, style: style }, index.h("slot", { key: 'b0d97d5203b81f8c30ccf584d04b5fb00d3fc7db' })));
+        return (index.h(index.Host, { key: 'e39b379997d1e278e600c69fcfcce98e80d5cb2c', class: typographyClass, style: style }, index.h("slot", { key: '25d5d4bdd1bc16158a7bea5ee137bac6e3ce3882' })));
     }
 };
 IxTypography.style = IxTypographyStyle0;

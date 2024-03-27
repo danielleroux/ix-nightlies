@@ -124,16 +124,16 @@ const MenuCategory = /*@__PURE__*/ proxyCustomElement(class MenuCategory extends
         }
     }
     render() {
-        return (h(Host, { key: 'e5d0012ebfcbad05b8fd97415b37f768ed472b32', class: {
+        return (h(Host, { key: '7dcf0a3ab61e12650f3236d2d01905088dd46476', class: {
                 expanded: this.showItems,
-            } }, h("ix-menu-item", { key: '6cf450c6e737d701133c843b46905d4290d2a69a', class: 'category-parent', active: this.isNestedItemActive(), notifications: this.notifications, icon: this.icon, onClick: (e) => this.onCategoryClicked(e) }, h("div", { key: '9ed4e1c23de133e0c82e5719ed218a3711f67ace', class: "category" }, h("div", { key: '607c1fc1147dab5a043d4b0ff1ff86fb157d5fac', class: "category-text" }, this.label), h("ix-icon", { key: '6c21f0bb18a0f6e2b540fa3ad77cb85d3b68b72a', name: 'chevron-down-small', class: {
+            } }, h("ix-menu-item", { key: 'd7525b4d1577beddef2a9bc46102c5c27056f7a8', class: 'category-parent', active: this.isNestedItemActive(), notifications: this.notifications, icon: this.icon, onClick: (e) => this.onCategoryClicked(e) }, h("div", { key: '45f42d78aea804389d18b71aa497d595d0d28d2f', class: "category" }, h("div", { key: '328e734eff35051e741d5f300cef62d89b2d8357', class: "category-text" }, this.label), h("ix-icon", { key: 'a020ca032255c4e0cab6eaf21a999f778d44f89e', name: 'chevron-down-small', class: {
                 'category-chevron': true,
                 'category-chevron--open': this.showItems,
-            } }))), h("div", { key: 'c49036fdb5ef37ce7e434cc1ee49831fde9b1492', ref: (ref) => (this.menuItemsContainer = ref), class: {
+            } }))), h("div", { key: 'cb9f873594624636c51f5cdb88117c8609ca0660', ref: (ref) => (this.menuItemsContainer = ref), class: {
                 'menu-items': true,
                 'menu-items--expanded': this.showItems,
                 'menu-items--collapsed': !this.showItems,
-            } }, this.showItems ? h("slot", null) : null), h("ix-dropdown", { key: 'f102b3bb889ff43904c7874f76d551d1ef9e355f', closeBehavior: 'both', show: this.showDropdown, onShowChanged: ({ detail: dropdownShown }) => {
+            } }, this.showItems ? h("slot", null) : null), h("ix-dropdown", { key: '44e23c289ee58d8e6a64c4eae043b5d21e7acccf', closeBehavior: 'both', show: this.showDropdown, onShowChanged: ({ detail: dropdownShown }) => {
                 this.showDropdown = dropdownShown;
             }, class: 'category-dropdown', anchor: this.hostElement, placement: "right-start", offset: {
                 mainAxis: 3,
@@ -143,7 +143,7 @@ const MenuCategory = /*@__PURE__*/ proxyCustomElement(class MenuCategory extends
                         this.showDropdown = false;
                     }
                 }
-            } }, h("ix-dropdown-item", { key: '1311ec0e1e678384a3400f781f2c96324b602dc9', class: 'category-dropdown-header' }, h("ix-typography", { key: 'b9a84d2bc89077d8aca2b1d954e3bb884054b0ae', variant: "default-title-single", color: "std" }, this.label)), h("ix-divider", { key: '8ddf2f7d39169b5e9d0b4107874ef3eba4fd6c86' }), h("slot", { key: '7e9b11a1503f87503efab9173dc14d644a1d033b' }))));
+            } }, h("ix-dropdown-item", { key: 'a991462ed69a30c6c9d8535d88a0642203663c9a', class: 'category-dropdown-header' }, h("ix-typography", { key: 'a9947afa5cfb6c9415a3eae5c0daf762fd91843a', variant: "default-title-single", color: "std" }, this.label)), h("ix-divider", { key: '2ff0ae7813b7ff6a32e0b6aae13b2bb3dca95d77' }), h("slot", { key: '4c9f7e1cac69cbd8e0c305eb9f60ea9a64e69b0d' }))));
     }
     get hostElement() { return this; }
     static get style() { return IxMenuCategoryStyle0; }

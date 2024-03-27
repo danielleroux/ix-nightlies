@@ -1281,7 +1281,7 @@ form:not(.was-validated) .valid-feedback {
   display: flex;
   height: auto;
   max-height: 3.75rem;
-  padding: 1px 1.5rem 1px 1.75rem !important;
+  padding: 1px 1.5rem 1px 2rem !important;
 }
 :host .input-container:not(.readonly):not(.disabled), :host .input-container:not(.readonly):not(.disabled):-webkit-autofill {
   font-feature-settings: "clig" off, "liga" off;
@@ -1469,7 +1469,7 @@ form:not(.was-validated) .valid-feedback {
   left: 0.5rem;
 }
 :host ix-filter-chip {
-  margin-right: 0.25rem;
+  margin-right: 0.5rem;
 }
 :host .category-preview {
   display: flex;
@@ -1486,7 +1486,6 @@ form:not(.was-validated) .valid-feedback {
 }
 :host ul > li,
 :host input {
-  padding-inline-start: 0;
   padding-top: 2px;
   padding-bottom: 2px;
 }

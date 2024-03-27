@@ -10,6 +10,5 @@
 @mixin host-disabled {
   :host(.disabled) {
     pointer-events: none;
-    @content;
   }
 }

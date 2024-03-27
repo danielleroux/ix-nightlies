@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
-const baseButton = require('./base-button-2f74b19d.js');
+const index = require('./index-59fe9b91.js');
+const baseButton = require('./base-button-03d587f5.js');
 const shadowDom = require('./shadow-dom-73f9d553.js');
 const makeRef = require('./make-ref-c25629b7.js');
 
@@ -71,7 +71,7 @@ const MenuAvatarItem = class {
         return this.dropdownItemRef.waitForCurrent();
     }
     render() {
-        return (index.h("ix-dropdown-item", { key: '29fc32af98771990e67a0f31197db8d20151d3d0', ref: this.dropdownItemRef, icon: this.icon, label: this.label, onClick: (e) => this.itemClick.emit(e) }));
+        return (index.h("ix-dropdown-item", { key: '9670762c1c6ac88327938f82d59042fe0b8da824', ref: this.dropdownItemRef, icon: this.icon, label: this.label, onClick: (e) => this.itemClick.emit(e) }));
     }
     get hostElement() { return index.getElement(this); }
 };

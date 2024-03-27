@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host } from './index-f18c5ad1.js';
+import { r as registerInstance, h, H as Host } from './index-5cd176b3.js';
 
 const dropdownQuickActionsCss = ":host{display:flex;justify-content:center;align-items:center;margin-inline-start:1.5rem;margin-inline-end:1.5rem;margin-block-end:0.25rem}:host slot::slotted(*){display:flex;margin-inline-end:0.625rem}";
 const IxDropdownQuickActionsStyle0 = dropdownQuickActionsCss;
@@ -8,7 +8,7 @@ const DropdownQuickActions = class {
         registerInstance(this, hostRef);
     }
     render() {
-        return (h(Host, { key: '63bf90e05df3c09c34592ed8760d4447ec3c7f4f' }, h("slot", { key: '2a078f550498c8e1a62f880f1079d445d131a26a' })));
+        return (h(Host, { key: '4276b052d998fa436597a67bc7df4b5f4dac79e7' }, h("slot", { key: 'fe99c816c933c10d45fdb93acfadf23938ffa1ae' })));
     }
 };
 DropdownQuickActions.style = IxDropdownQuickActionsStyle0;

@@ -18,7 +18,7 @@ export class FilterChip {
         this.closeClick.emit();
     }
     render() {
-        return (h(Host, { key: '50cdd8903b5c6f343850e5cb870736119518b18d', class: { disabled: this.disabled, readonly: this.readonly }, title: this.el.textContent }, h("div", { key: 'e5c805edfd793d26a59d0cd5fdc94ba9a619450a', class: "slot-container" }, h("slot", { key: '5b0557d7c943044a89e0dbf1770621dd5af1a577' })), !this.disabled && !this.readonly ? (h("ix-icon-button", { ghost: true, oval: true, icon: 'close-small', size: "16", tabindex: this.disabled ? -1 : 0, variant: "primary", disabled: this.disabled, onClick: (e) => this.onCloseClick(e) })) : null));
+        return (h(Host, { key: '10df51e34656ed3b7b18e9f2a07a59c18784a3d1', class: { disabled: this.disabled, readonly: this.readonly }, title: this.el.textContent }, h("div", { key: '5a94912e2c22cbddb984b28ba0126f31c1e20165', class: "slot-container" }, h("slot", { key: '0fdc94729908b9c3a040667318dcc18d300e4176' })), !this.disabled && !this.readonly ? (h("ix-icon-button", { ghost: true, oval: true, icon: 'close-small', size: "16", tabindex: this.disabled ? -1 : 0, variant: "primary", disabled: this.disabled, onClick: (e) => this.onCloseClick(e) })) : null));
     }
     static get is() { return "ix-filter-chip"; }
     static get encapsulation() { return "shadow"; }

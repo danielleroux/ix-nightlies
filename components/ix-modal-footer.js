@@ -10,7 +10,7 @@ const ModalFooter = /*@__PURE__*/ proxyCustomElement(class ModalFooter extends H
         this.__attachShadow();
     }
     render() {
-        return (h(Host, { key: '798888b92e40b6c7fe43eddfc94437d8fc8a49c8' }, h("slot", { key: '2da276a8b43f061d07f85953e1e54e144944267e' })));
+        return (h(Host, { key: '979bb97e3f19345c9fd001574570059a166c6dc0' }, h("slot", { key: 'c7c17474eacc35fc407f38b0ae9d9fac7871e228' })));
     }
     static get style() { return IxModalFooterStyle0; }
 }, [1, "ix-modal-footer"]);

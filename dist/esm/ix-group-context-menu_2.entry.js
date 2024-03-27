@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host, g as getElement, c as createEvent } from './index-f18c5ad1.js';
+import { r as registerInstance, h, H as Host, g as getElement, c as createEvent } from './index-5cd176b3.js';
 import { g as getSlottedElements } from './shadow-dom-60e9243d.js';
 
 const groupContextMenuCss = ":host{display:block;position:relative;height:2rem;width:2rem;margin-block-start:0.3125rem;margin-inline-end:0.3125rem;margin-inline-start:auto}:host .hide{visibility:collapse}";
@@ -34,7 +34,7 @@ const GroupContextMenu = class {
         this.configureDropdown(dropdownElement, triggerElement);
     }
     render() {
-        return (h(Host, { key: 'dc1b2419f5ef0f8ed2fe053c2f823fe68c38910b' }, h("ix-icon-button", { key: '24cb23952528b5b6d52f5f4eb8492bb48a70585e', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: 'cad27920fe22f17b37f03754e6136ba55cc4cab4', onSlotchange: () => this.onSlotChange() })));
+        return (h(Host, { key: 'f709297153c95aae9ae99750d6eef9bb93b6e93b' }, h("ix-icon-button", { key: 'da299782cd2d0fbf3da4ffebedbd69f3a5f24bf9', class: { hide: !this.showContextMenu }, size: "24", ghost: true, icon: 'context-menu' }), h("slot", { key: '8557ba5e78f8098a9defdf3f966e83046522c2ae', onSlotchange: () => this.onSlotChange() })));
     }
     get hostElement() { return getElement(this); }
 };
@@ -62,10 +62,10 @@ const GroupItem = class {
         this.selectedChanged.emit(this.hostElement);
     }
     render() {
-        return (h(Host, { key: 'd34d93eacfe3b691edaaae00dfd48145351b1c66', class: {
+        return (h(Host, { key: '510249c40eb513c0cad7ad186f94311e86b99c1c', class: {
                 selected: this.selected && !this.suppressSelection,
                 'suppress-selection': this.suppressSelection,
-            } }, h("button", { key: '6349d249c55d735f07ecacf6c847b01394174070', tabindex: this.focusable ? 0 : -1 }, h("div", { key: '7780212fd05fa6a924024b95804bb136adb985b4', class: "group-entry-selection-indicator" }), this.icon ? h("ix-icon", { size: "16", name: this.icon }) : null, this.text ? (h("span", { class: "group-entry-text" }, h("span", { title: this.text }, this.text))) : null, this.secondaryText ? (h("span", { class: "group-entry-text-secondary" }, h("span", { title: this.secondaryText }, this.secondaryText))) : null, h("slot", { key: 'be3950473d0bef61eecf2fcd21e42f37277b30fc' }))));
+            } }, h("button", { key: '58314b961969fc828b490a251eb3fc991b332356', tabindex: this.focusable ? 0 : -1 }, h("div", { key: '3b643550562e7368c87e4b6443a51902f63da7d5', class: "group-entry-selection-indicator" }), this.icon ? h("ix-icon", { size: "16", name: this.icon }) : null, this.text ? (h("span", { class: "group-entry-text" }, h("span", { title: this.text }, this.text))) : null, this.secondaryText ? (h("span", { class: "group-entry-text-secondary" }, h("span", { title: this.secondaryText }, this.secondaryText))) : null, h("slot", { key: '1314f12170969fd85675165af10b1bff1048f8a5' }))));
     }
     get hostElement() { return getElement(this); }
 };

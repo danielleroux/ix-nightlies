@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-c6f0ac73.js');
+const index = require('./index-59fe9b91.js');
 const anime_es = require('./anime.es-e2814360.js');
 
 const drawerCss = ":host{top:0;right:0;box-shadow:var(--theme-box-shadow-level-3);visibility:hidden;display:flex;position:absolute;flex-flow:column nowrap;justify-content:flex-start;align-items:center;max-height:100vh;min-height:1.5rem;background-color:var(--theme-color-1);border-radius:0.25rem;transition:all 300ms ease-out}:host *,:host *::after,:host *::before{box-sizing:border-box}:host ::-webkit-scrollbar-button{display:none}:host ::-webkit-scrollbar{width:0.5rem;height:0.5rem}:host ::-webkit-scrollbar-track{border-radius:5px;background:var(--theme-scrollbar-track--background)}:host ::-webkit-scrollbar-track:hover{background:var(--theme-scrollbar-track--background--hover)}:host ::-webkit-scrollbar-thumb{border-radius:5px;background:var(--theme-scrollbar-thumb--background)}:host ::-webkit-scrollbar-thumb:hover{background:var(--theme-scrollbar-thumb--background--hover)}:host ::-webkit-scrollbar-corner{display:none}:host .toggle{z-index:100;visibility:visible}:host .drawer-container.full-height{min-height:100%}:host .header{display:flex;position:relative;align-items:center;justify-content:flex-end;padding:0.5rem;width:100%;order:1}:host .header .header-content{flex-grow:1;margin-right:1rem}:host .content{position:relative;flex:1;flex-grow:1;order:2;height:100%;width:100%;overflow-y:auto}:host(.toggle){visibility:visible}";
@@ -89,7 +89,7 @@ const Drawer = class {
         this.onShowChanged(this.show);
     }
     render() {
-        return (index.h(index.Host, { key: 'b3c7dc1cf3b78a9453ef253d0711d85a946810a0', class: {
+        return (index.h(index.Host, { key: 'e62222323c1b4c58abef1702618873c3856405de', class: {
                 'drawer-container': true,
                 toggle: this.show,
                 'full-height': this.fullHeight,
@@ -98,7 +98,7 @@ const Drawer = class {
                 width: this.width === 'auto' ? this.width : `${this.width}rem`,
                 'min-width': `${this.minWidth}rem`,
                 'max-width': `${this.maxWidth}rem`,
-            }, ref: (el) => (this.divElement = el), "data-testid": "container", id: "div-container" }, index.h("div", { key: '88c9db3e87ac42a357b21c015d83f036847fd6c6', class: "header" }, index.h("div", { key: '0b2f799de0e7462a992772000b87b3196aa1ea93', class: "header-content" }, index.h("slot", { key: '2056724b98d81c47584576726d141055260cde03', name: "header" })), index.h("ix-icon-button", { key: '00d02acb8a3427ccc0a2b99c19b9508226007f5d', class: "close-button", icon: 'close', size: "24", ghost: true, onClick: () => this.onCloseClicked(), "data-testid": "close-button" })), index.h("div", { key: 'deb6ded98e959d27a1d802366a64b8f80cf2187e', class: "content" }, index.h("slot", { key: '30c936d368f1892077409993840424e436a9cc6b' }))));
+            }, ref: (el) => (this.divElement = el), "data-testid": "container", id: "div-container" }, index.h("div", { key: 'add6dc645923e78ea4aab5a5119900ffb77f84e2', class: "header" }, index.h("div", { key: 'e173f66d20de86d73957e68ba58049d9fd5694f2', class: "header-content" }, index.h("slot", { key: '8c3fcccd355f8648ef1bd2367c764d3360805ffb', name: "header" })), index.h("ix-icon-button", { key: '4ca6c7513df414120a6f7f4164cb8cfed84992fe', class: "close-button", icon: 'close', size: "24", ghost: true, onClick: () => this.onCloseClicked(), "data-testid": "close-button" })), index.h("div", { key: '95fb535fc3fe56ff7731d00d849fd4d93b61d31a', class: "content" }, index.h("slot", { key: '44f5d0a2b5d4c876c67c4db047653d63550e5ac2' }))));
     }
     static get watchers() { return {
         "show": ["onShowChanged"]
