@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-59fe9b91.js');
+const index = require('./index-c6f0ac73.js');
 
 const pushCardCss = ":host{display:block;position:relative}:host .icon{transform:scale(1.25)}:host .notification{font-size:40px}:host ix-card-content{height:11rem}";
 const IxPushCardStyle0 = pushCardCss;

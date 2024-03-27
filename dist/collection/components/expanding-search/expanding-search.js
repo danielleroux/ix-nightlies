@@ -52,20 +52,20 @@ export class ExpandingSearch {
         this.valueChange.emit(this.value);
     }
     render() {
-        return (h(Host, { key: '4c4ad028a6843aa48f111eab03289f05093ff0c4', class: {
+        return (h(Host, { key: '9bd67b6447d4ab2aa3d8183b541d5118cfac926f', class: {
                 expanded: this.expanded,
                 'right-position': this.expanded,
                 fullWidth: this.fullWidth,
-            } }, h("ix-icon-button", { key: 'c919f410191cb51957c1d00938cfde61193ebdd5', size: this.expanded ? '16' : '24', icon: this.icon, ghost: true, variant: "primary", "data-testid": "button", onClick: () => this.expandInput(), tabindex: this.expanded ? -1 : 0, color: this.hasFocus ? 'input-search-icon--color--focus' : undefined, class: {
+            } }, h("ix-icon-button", { key: '53147a287683e46d23520c4a8c517ff52454cfcf', size: this.expanded ? '16' : '24', icon: this.icon, ghost: true, variant: "primary", "data-testid": "button", onClick: () => this.expandInput(), tabindex: this.expanded ? -1 : 0, color: this.hasFocus ? 'input-search-icon--color--focus' : undefined, class: {
                 'btn-search': true,
                 'btn-search--expanded': this.expanded,
-            } }), h("div", { key: 'e3c42bb3f8940113d4da24d8d235240fce59fa91', class: {
+            } }), h("div", { key: 'c60d58b106c39f1b3f08f340a13b64cfb7576866', class: {
                 expanded: this.expanded,
                 fullWidth: this.fullWidth,
                 collapsed: !this.expanded,
                 'disable-pointer': !this.expanded,
                 'input-container': true,
-            }, "data-testid": "input-wrapper" }, h("input", { key: 'ec9dabd6711e59f9675b3c961abdae17ea0da703', class: {
+            }, "data-testid": "input-wrapper" }, h("input", { key: 'dfb94002365e9fc5ab3e18ba4e8f30407fceade8', class: {
                 'form-control': true,
                 input: this.expanded,
                 'disable-pointer': !this.expanded,

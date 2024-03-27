@@ -1,5 +1,6 @@
 export declare class InputGroup {
     hostElement: HTMLIxInputGroupElement;
+    disabled: boolean;
     inputPaddingLeft: number;
     inputPaddingRight: number;
     private get inputElement();
@@ -9,6 +10,7 @@ export declare class InputGroup {
     private onValidInput;
     private onInvalidInput;
     private prepareInputElement;
+    private slotChanged;
     private startSlotChanged;
     private endSlotChanged;
     private getChildrenWidth;

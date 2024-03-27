@@ -28,16 +28,16 @@ export class EventListItem {
                 ? `var(${this.color})`
                 : `var(--theme-${this.color})`;
         }
-        return (h(Host, { key: '3e25c77fbee09f5cbd02c5ad5e449ea4eb63ddbb', class: {
+        return (h(Host, { key: '7ff15a330ade789ac7b480301ec299b93fb8de5e', class: {
                 disabled: this.disabled,
-            } }, h("div", { key: 'ef165d8f55102f0c3f308782389e5c2cccae782e', class: {
+            } }, h("div", { key: 'ac0e5fea94ce8e932e978be248d63588c8b96709', class: {
                 'event-list-item': true,
                 selected: this.selected,
                 disabled: this.disabled,
-            } }, h("div", { key: '5a9f0d1af17820bab17fb8d1cefffdcd0ee1b02a', class: `indicator ${!((_c = this.itemColor) !== null && _c !== void 0 ? _c : this.color) ? 'indicator-empty' : ''}`, style: {
+            } }, h("div", { key: '14d0a541a98e0d2f0bb30d212c1c809c2581c4ab', class: `indicator ${!((_c = this.itemColor) !== null && _c !== void 0 ? _c : this.color) ? 'indicator-empty' : ''}`, style: {
                 'background-color': ((_d = this.itemColor) !== null && _d !== void 0 ? _d : this.color) ? color : 'inherit',
                 opacity: `${this.disabled ? 0.4 : 1}`,
-            } }), h("div", { key: '0bc498d396328ac8e7a4543339d1ff6c362fd19e', class: "event-list-item-container" }, h("div", { key: '6f57320d0c1c43222527a455bdea9193b53524fb', class: "event-content" }, h("slot", { key: '15cee1c7afade0bb0fe0112bfba54c7fe70d8e1e' })), this.chevron && (h("ix-icon", { name: 'chevron-right', size: "16", class: "chevron-icon" }))))));
+            } }), h("div", { key: '282b849176585ca66412e826f111ba9bff60e48d', class: "event-list-item-container" }, h("div", { key: '8802f01a6419d92d39c411fb7721659e92ae59fd', class: "event-content" }, h("slot", { key: '64db0fea1610356e0b7ff986f3ba71f801532d55' })), this.chevron && (h("ix-icon", { name: 'chevron-right', size: "16", class: "chevron-icon" }))))));
     }
     static get is() { return "ix-event-list-item"; }
     static get encapsulation() { return "shadow"; }

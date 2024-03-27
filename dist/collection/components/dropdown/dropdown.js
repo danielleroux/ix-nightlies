@@ -256,7 +256,7 @@ export class Dropdown {
         this.applyDropdownPosition();
     }
     render() {
-        return (h(Host, { key: '238292e4c3d58cb76a31d55701e12768e6dac3e7', "data-ix-dropdown": this.localUId, ref: (ref) => (this.dropdownRef = ref), class: {
+        return (h(Host, { key: 'a72e104c2163c165114bbd25c0f164ec80ec674e', "data-ix-dropdown": this.localUId, ref: (ref) => (this.dropdownRef = ref), class: {
                 'dropdown-menu': true,
                 show: this.show,
                 overflow: true,
@@ -264,7 +264,7 @@ export class Dropdown {
                 margin: '0',
                 minWidth: '0px',
                 position: this.positioningStrategy,
-            }, role: "list", onClick: (event) => this.onDropdownClick(event) }, h("div", { key: 'c7ae3b8f704c5b80742920d9375267f77813330f', style: { display: 'contents' } }, this.header && h("div", { class: "dropdown-header" }, this.header), h("slot", { key: '982197ccab46e37c8651eb6937f93b6441880fe2' }))));
+            }, role: "list", onClick: (event) => this.onDropdownClick(event) }, h("div", { key: '94e18aff3074cefc793effb7e8042cef9731251f', style: { display: 'contents' } }, this.header && h("div", { class: "dropdown-header" }, this.header), h("slot", { key: '2465d02e843559d941e89113f428c542e2ba5b0a' }))));
     }
     static get is() { return "ix-dropdown"; }
     static get encapsulation() { return "shadow"; }

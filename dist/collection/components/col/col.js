@@ -69,7 +69,7 @@ export class Col {
         };
     }
     render() {
-        return (h(Host, { key: 'c117230044b3e1de13480314392f64373a49f2dc', style: Object.assign({}, this.getColumnSizeStyling()) }, h("slot", { key: '872b553d86cd17f366150cc579f7caeff8eba9d1' })));
+        return (h(Host, { key: '7cbf750f0768a0a1db65aa2651605c89f82ce604', style: Object.assign({}, this.getColumnSizeStyling()) }, h("slot", { key: 'd83749089de332574097a8299c265d45b1fd8da7' })));
     }
     static get is() { return "ix-col"; }
     static get encapsulation() { return "shadow"; }

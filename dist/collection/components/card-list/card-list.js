@@ -132,16 +132,16 @@ export class CardList {
         }
     }
     render() {
-        return (h(Host, { key: 'f64f7bbef5fef7491fd79ff4a8925d30d69fc452' }, h(CardListTitle, { key: '7e0d6992d039649ed38115d0434f1192231c6ee5', isCollapsed: this.collapse, label: this.label, showAllLabel: this.i18nShowAll, showAllCounter: this.showAllCount === undefined
+        return (h(Host, { key: '5ddadae664ea2558afd7a22f0d1c1d3257438c2d' }, h(CardListTitle, { key: '7b58e1d1e17600153733e0e6a1760e63bcfbf7de', isCollapsed: this.collapse, label: this.label, showAllLabel: this.i18nShowAll, showAllCounter: this.showAllCount === undefined
                 ? this.numberOfAllChildElements
-                : this.showAllCount, onClick: () => this.onCardListVisibilityToggle(), onShowAllClick: (e) => this.onShowAllClick(e) }), h("div", { key: '3e586bcc0ce83077ca1f63a999d0c34580eb66c9', class: {
+                : this.showAllCount, onClick: () => this.onCardListVisibilityToggle(), onShowAllClick: (e) => this.onShowAllClick(e) }), h("div", { key: '2385821efb57ef5c903231fc91dec14c0f16f53b', class: {
                 CardList__Overflow: true,
-            }, style: this.computeMaskLayer() }, h("div", { key: '2575c1d6679112d96e48e8c120b2d62c24cc8629', class: {
+            }, style: this.computeMaskLayer() }, h("div", { key: '1f0638df5f2855a0becb3d526b47048b4576f29c', class: {
                 CardList__Content: true,
                 CardList__Content__Collapsed: this.collapse,
                 CardList__Style__Flexbox__Scroll: this.listStyle === 'stack',
                 CardList__Style__Infinite__Scroll: this.listStyle === 'scroll',
-            }, onScroll: () => this.onCardListScroll() }, h("slot", { key: '55f3065336c58ee56dbe24e959f81406173a6589', onSlotchange: () => this.changeVisibilityOfSlotChildren() }), this.isShowMoreCardVisible() ? (h("ix-card", { class: {
+            }, onScroll: () => this.onCardListScroll() }, h("slot", { key: 'ec20fe5ea7546693a59c4531b7909801e9f23fde', onSlotchange: () => this.changeVisibilityOfSlotChildren() }), this.isShowMoreCardVisible() ? (h("ix-card", { class: {
                 Show__All__Card: true,
             }, onClick: (event) => this.showMoreCardClick.emit({
                 nativeEvent: event,

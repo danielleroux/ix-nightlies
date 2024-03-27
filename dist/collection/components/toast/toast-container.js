@@ -77,7 +77,7 @@ export class ToastContainer {
         };
     }
     render() {
-        return (h(Host, { key: '2f5cc3b256ff81ebb2dadd0c774f89ddc59caffb', class: {
+        return (h(Host, { key: '889eef24751e252c90241c5398f94dcd1c875751', class: {
                 'toast-container--bottom-right': this.position === 'bottom-right',
                 'toast-container--top-right': this.position === 'top-right',
             } }));
@@ -156,7 +156,7 @@ export class ToastContainer {
         return {
             "showToast": {
                 "complexType": {
-                    "signature": "(config: ToastConfig) => Promise<{ onClose: TypedEvent<any>; close: (result?: any) => void; }>",
+                    "signature": "(config: ToastConfig) => Promise<ShowToastResult>",
                     "parameters": [{
                             "name": "config",
                             "type": "ToastConfig",
@@ -167,10 +167,10 @@ export class ToastContainer {
                             "location": "global",
                             "id": "global::Promise"
                         },
-                        "TypedEvent": {
-                            "location": "import",
-                            "path": "../utils/typed-event",
-                            "id": "src/components/utils/typed-event.ts::TypedEvent"
+                        "ShowToastResult": {
+                            "location": "local",
+                            "path": "/home/runner/work/ix/ix/packages/core/src/components/toast/toast-container.tsx",
+                            "id": "src/components/toast/toast-container.tsx::ShowToastResult"
                         },
                         "ToastConfig": {
                             "location": "import",
@@ -182,7 +182,7 @@ export class ToastContainer {
                             "id": "global::CustomEvent"
                         }
                     },
-                    "return": "Promise<{ onClose: TypedEvent<any>; close: (result?: any) => void; }>"
+                    "return": "Promise<ShowToastResult>"
                 },
                 "docs": {
                     "text": "Display a toast message",

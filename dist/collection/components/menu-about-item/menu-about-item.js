@@ -19,7 +19,7 @@ export class MenuAboutItem {
         });
     }
     render() {
-        return (h(Host, { key: '77050563a1570aa964f9e1d3c09508ad02959919' }, h("slot", { key: '8172f676de5753a6d27f5c4a7087da3566216c48' })));
+        return (h(Host, { key: '963b59afed12d8bba0b4107da846b433bc451b1f' }, h("slot", { key: 'fbea143350cd9850db1526e19363f7d8632035af' })));
     }
     static get is() { return "ix-menu-about-item"; }
     static get encapsulation() { return "shadow"; }

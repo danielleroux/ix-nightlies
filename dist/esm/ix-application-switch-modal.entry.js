@@ -1,4 +1,4 @@
-import { r as registerInstance, h, H as Host, g as getElement } from './index-5cd176b3.js';
+import { r as registerInstance, h, H as Host, g as getElement } from './index-f18c5ad1.js';
 import './animation-4a73b1c3.js';
 import { d as dismissModal } from './modal-54740f80.js';
 import './typed-event-ad6484c5.js';
@@ -41,7 +41,7 @@ const ApplicationSwitchModal = class {
     }
     render() {
         var _a, _b, _c, _d;
-        return (h(Host, { key: 'df1550915fff21de5c0a40acdf24a096a5105d2b' }, h("ix-modal-header", { key: '217d8f2bb79e07c411db00b633648beeb72149f0', icon: "apps" }, ((_a = this.config) === null || _a === void 0 ? void 0 : _a.i18nAppSwitch) || 'Switch to application'), h("ix-modal-content", { key: '0f1001891265ff7d9cd5826ba91479cf8a487ef6', class: "content" }, h("div", { key: '47d718ff45970bd5bba3641f8785899df9e26e50', class: "content-apps" }, (!this.config || ((_b = this.config) === null || _b === void 0 ? void 0 : _b.apps.length) === 0) && (h("div", { class: "loading" }, h("ix-spinner", { size: "medium", variant: "primary" }), h("span", null, ((_c = this.config) === null || _c === void 0 ? void 0 : _c.i18nLoadingApps) ||
+        return (h(Host, { key: '449131fc04f221c887a53b9c4b81c35d181c75c3' }, h("ix-modal-header", { key: '3bdd19b3aa7e5cbc3488268e718e75b19cb81356', icon: "apps" }, ((_a = this.config) === null || _a === void 0 ? void 0 : _a.i18nAppSwitch) || 'Switch to application'), h("ix-modal-content", { key: '02496dfb28f0c40666ac6c1fe834238b8f6c2b37', class: "content" }, h("div", { key: '03aec219436201b90b3434def15dd6295c25e82a', class: "content-apps" }, (!this.config || ((_b = this.config) === null || _b === void 0 ? void 0 : _b.apps.length) === 0) && (h("div", { class: "loading" }, h("ix-spinner", { size: "medium", variant: "primary" }), h("span", null, ((_c = this.config) === null || _c === void 0 ? void 0 : _c.i18nLoadingApps) ||
             'Loading available applications...'))), (_d = this.config) === null || _d === void 0 ? void 0 :
             _d.apps.map((appEntry) => {
                 var _a;
